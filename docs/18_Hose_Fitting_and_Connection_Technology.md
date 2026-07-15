@@ -136,31 +136,29 @@ Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 **Linked Master Control Register Items**:
 - Ch7: Quick-connect coupling disconnection risk mitigation
 
-### 18.7.3 Whip Checks and Hose Restraint (Deep Dive)
+### 18.7.3 Whip Checks and Hose Restraint (Fact-Checked Guidance)
 
-**Whip checks** (also called hose restraints or safety cables) are **mandatory** across all high-pressure hose connections. Their purpose is to restrain the hose in the event of a sudden hose or fitting failure, preventing dangerous whipping.
+**Whip checks** (hose restraints / safety cables) are **mandatory** across all high-pressure hose connections. Their purpose is to restrain the hose in the event of a sudden hose or fitting failure, preventing dangerous whipping.
 
-### Critical Finding: Metal Wire Rope Whip Checks
+**Fact-Check on Red Dog and Metal Wire Rope Whip Checks**
 
-Many traditional **metal wire rope** whip checks (commonly called "Red Dog" style or general industrial whip checks) are **not suitable** for high-pressure water jetting service.
+- **Red Dog** whip checks are a recognized brand/line used in high-pressure applications. Some Red Dog products **are rated** and can be used in HPWJ when they meet the required working load limit for the specific pressure and hose size.
+- However, **not all metal wire rope whip checks** are suitable for high-pressure water jetting. Many general-purpose industrial wire rope restraints were designed for lower-pressure pneumatic or hydraulic systems and may not have sufficient strength or energy absorption for the sudden, high-force release that occurs during a HPWJ hose failure at 10,000–20,000+ psi.
+- Industry best practice and guidance from major manufacturers (including NLB) emphasize using **whip checks that are specifically rated and suitable for high-pressure water jetting service**.
 
-**Why Metal Wire Rope Whip Checks Are Often Inadequate**:
-- They are typically designed for lower-pressure pneumatic or hydraulic systems.
-- They lack the required strength and energy absorption for the sudden, high-force release that occurs when a HPWJ hose fails at 10,000–20,000+ psi.
-- Several major manufacturers (including NLB) and industry reviews have highlighted that standard wire rope whip checks can fail or provide insufficient restraint under HPWJ conditions.
-
-**Recommended Practice**:
-- Use **high-pressure rated whip checks** specifically designed and tested for water jetting service.
-- Preferred types are often **synthetic** (high-strength fibre) or specially engineered metal assemblies rated for the full system pressure and hose size.
-- Always verify the whip check has a clear working load limit (WLL) or rating suitable for the application.
+**Recommended Requirements**:
+- Use **rated whip checks** that have a clear Working Load Limit (WLL) or rating suitable for the maximum system pressure and hose diameter.
+- Red Dog or other metal wire rope whip checks **can be used** if they are properly rated for the application.
+- Synthetic high-strength whip checks designed for HPWJ are also widely used and accepted.
+- Always verify the whip check rating matches the job requirements.
 
 **SABIC Procedure Alignment**:
-The SABIC HPWJ procedure for the MEA region requires that all high-pressure connections must be fitted with properly rated whip checks / hose restraints. General-purpose wire rope restraints are not considered adequate.
+The SABIC HPWJ procedure requires that all high-pressure connections must be fitted with properly rated whip checks / hose restraints suitable for the service.
 
 **Installation Requirements**:
 - Whip checks must be installed on **both sides** of every high-pressure connection.
 - They must be rated for the maximum working pressure and hose diameter in use.
-- Inspect whip checks before every use for damage, corrosion, fraying (on synthetic), or deformation.
+- Inspect whip checks before every use for damage, corrosion, fraying, or deformation.
 - Never use damaged or corroded whip checks.
 - Do not rely on whip checks as the primary connection method.
 
@@ -198,7 +196,7 @@ Even experienced teams make these recurring errors:
 - Dragging hoses by the coupling instead of supporting the length
 - Poor storage (direct sunlight, tight coiling, on the ground)
 - Missing or incorrect whip check installation
-- Using non-rated (general industrial) whip checks on HPWJ systems
+- Using whip checks that are not rated for the specific HPWJ pressure and hose size
 
 Awareness of these mistakes significantly reduces hose-related incidents.
 
@@ -224,7 +222,7 @@ Awareness of these mistakes significantly reduces hose-related incidents.
 | Colour Coding & Marking      | Visible MAWP and expiration marking                      | Ch7 Hose colour coding rules                 |
 | Pre-Use Inspection           | Full visual inspection before every use                  | Ch7 Pre-use inspection checklist             |
 | Quick-Connects               | Prefer screw/face-seal in high-movement applications     | Ch7 Quick-connect risk mitigation            |
-| Whip Checks                  | Use properly rated HPWJ whip checks (not general wire rope) | Ch7 Hose inspection requirements          |
+| Whip Checks                  | Use properly rated whip checks suitable for HPWJ pressure and hose size | Ch7 Hose inspection requirements          |
 | Bend Radius & Handling       | Support weight, avoid kinking, proper deployment         | Ch7 Hose handling best practices             |
 | Storage                      | Proper racks/reels, UV protection, clear labelling       | Ch7 Hose storage requirements                |
 
@@ -235,7 +233,7 @@ Consistent application of these controls significantly reduces hose-related inci
 **References**:
 - WJTA Orange Book hose and fitting guidance
 - WJA Code of Practice
-- NLB and manufacturer whip check recommendations
+- NLB and major manufacturer whip check recommendations
 - SABIC HPWJ Procedure for MEA Region
 - Master Control Register (linked items)
 - Industry hose life-cycle studies
