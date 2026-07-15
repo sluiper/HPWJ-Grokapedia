@@ -12,6 +12,11 @@ Each failure mode includes a simple risk rating and explicit links to relevant i
 - **Detection (D)**: 1 (Almost certain to detect) to 10 (Undetectable)
 - **Risk Priority Number (RPN)** = S × L × D
 
+**How to Use This FMEA**:
+- High RPN items (>150) should be prioritized for additional engineering controls, training emphasis, or procedure improvements.
+- After implementing controls, re-estimate the residual RPN to assess effectiveness.
+- This document should be reviewed after any significant incident or near miss.
+
 ---
 
 ## 20.1 Purpose and Scope
@@ -59,6 +64,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Reduce pump speed if NPSH margin is marginal
 - Regular fluid analysis and internal inspection during maintenance
 
+**Mitigation Effectiveness & Residual Risk**:
+- Controls are generally effective if consistently applied. Residual risk remains if inlet water temperature is very high or filtration is neglected during peak summer conditions.
+
 **Linked Master Control Register Items**:
 - Ch7: Inlet filtration best practices
 - Ch5/Ch7: Weather and temperature-related stop-work criteria
@@ -95,6 +103,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Maintain spare discs on the unit
 - Tag and record disc installation date and rating
 - Inspect disc condition during every pre-use check
+
+**Mitigation Effectiveness & Residual Risk**:
+- Highly effective when replacement discipline is followed. Main residual risk comes from using incorrect or previously fired discs.
 
 **Linked Master Control Register Items**:
 - Ch7: Rupture disc single-use replacement and spare stock
@@ -133,6 +144,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Ensure proper alignment during installation and after transport
 - Use correct oil grade for ambient temperature
 
+**Mitigation Effectiveness & Residual Risk**:
+- Effective with disciplined maintenance. Residual risk increases during extended high-load operations in high ambient temperatures.
+
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (pump fluids section)
 - Ch11: Maintenance and reliability practices
@@ -168,8 +182,49 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Protection of air intake from dust in desert environments
 - Clear emergency shutdown procedures
 
+**Mitigation Effectiveness & Residual Risk**:
+- Generally effective. Main residual risk comes from fuel quality issues or extreme dust conditions during shamal events.
+
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (engine fluids and filters)
+
+---
+
+### 20.2.5 Inlet Water Quality / Filtration Failure
+
+**Description**: Inadequate filtration leading to abrasive or contaminated water entering the pump.
+
+**Causes**:
+- Dirty or missing inlet filters
+- Poor source water quality
+- Filter bypass or incorrect filter rating
+- Failure to monitor filter differential pressure
+
+**Consequences**:
+- Accelerated wear on plungers, valves, and packing
+- Increased risk of cavitation and internal damage
+- Reduced pump life and performance
+
+**Detection**:
+- Rising filter differential pressure
+- Visible contamination in inlet water
+- Accelerated component wear during maintenance inspections
+
+**Risk Rating**: S=7, L=6, D=4 → **RPN = 168** (High)
+
+**Recommended Controls**:
+- Multi-stage filtration with correct micron rating
+- Regular monitoring of filter differential pressure
+- Use of clean, suitable source water
+- Scheduled filter element replacement
+- Pre-use visual check of inlet water clarity
+
+**Mitigation Effectiveness & Residual Risk**:
+- Highly effective when filtration discipline is maintained. Residual risk increases significantly in dusty environments or when using untreated water sources.
+
+**Linked Master Control Register Items**:
+- Ch7: Inlet filtration best practices
+- Ch7: Pre-use inspection checklist (pump section)
 
 ---
 
@@ -205,6 +260,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Proper hose handling and storage practices
 - Immediate retirement of any hose showing damage or weepage
 
+**Mitigation Effectiveness & Residual Risk**:
+- Very effective when hose management program is strictly followed. Main residual risk comes from mechanical damage during use or missed annual testing.
+
 **Linked Master Control Register Items**:
 - Ch7: Annual third-party hose pressure/proof testing
 - Ch7: Hose expiration and colour coding rules
@@ -239,6 +297,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Inspect quick-connect latches and pins before every connection
 - Never use quick-connects where rotation under pressure is likely
 - Train operators on correct connection technique
+
+**Mitigation Effectiveness & Residual Risk**:
+- Effective when inspection discipline is high. Residual risk remains if operators use damaged couplings or incorrect coupling types under dynamic conditions.
 
 **Linked Master Control Register Items**:
 - Ch7: Quick-connect coupling disconnection risk mitigation
@@ -279,6 +340,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Good inlet filtration
 - Monitor pump performance trends
 
+**Mitigation Effectiveness & Residual Risk**:
+- Effective when replacement intervals are respected. Residual risk increases with poor water quality or when operators run nozzles to failure.
+
 **Linked Master Control Register Items**:
 - Ch7: Nozzle wear life and corrosion pitting rejection criteria
 - Ch7: Pre-use inspection checklist (nozzles section)
@@ -312,6 +376,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Proper training on flex lance operations
 - Good communication between nozzle operator and pump operator
 - Use of appropriate reaction force controls
+
+**Mitigation Effectiveness & Residual Risk**:
+- Highly effective when AWD discipline and training are strong. Residual risk remains if operators bypass AWD or work with excessive reaction force.
 
 **Linked Master Control Register Items**:
 - Ch7: Tool-specific hazard profiles (flex lance + AWD)
@@ -347,6 +414,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Pre-use functional testing of all sensors and safety interlocks
 - Clear zoning and SIMOPS controls when automated systems are in use
 - Emergency stop procedures and backup manual controls
+
+**Mitigation Effectiveness & Residual Risk**:
+- Effective with proper training and testing. Residual risk increases during complex or changing site conditions.
 
 **Linked Master Control Register Items**:
 - Ch8: Robotic/remote operation variant controls
@@ -384,6 +454,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Clear operating procedures for emergency shutdown
 - Backup relief systems where required
 
+**Mitigation Effectiveness & Residual Risk**:
+- Very effective when functional testing discipline is maintained. Main residual risk is from mechanical blockage or electrical faults between tests.
+
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (safety & control systems)
 - Ch6: Pump LOTO and isolation procedures
@@ -416,6 +489,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Never bypass or disable safety modules
 - Regular maintenance and firmware updates per manufacturer
 - Clear procedures prohibiting tampering with safety systems
+
+**Mitigation Effectiveness & Residual Risk**:
+- Effective when testing and maintenance are consistent. Residual risk increases if operators bypass systems or if sensors are damaged between checks.
 
 **Linked Master Control Register Items**:
 - Ch7: Sensor-based auto-shut-off module requirements
@@ -453,6 +529,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Use of mechanical assistance or automation where reaction force is high
 - Good footing and stance discipline
 
+**Mitigation Effectiveness & Residual Risk**:
+- Highly effective when all three controls are applied together. Residual risk remains during fatigue or in difficult access conditions.
+
 **Linked Master Control Register Items**:
 - Ch7: Reaction force management (three additive controls)
 - Ch8: Quantitative fatigue management
@@ -485,6 +564,9 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Training on inspection techniques and acceptance criteria
 - Supervisor spot checks of inspection quality
 - Time allocated for proper inspection before every job
+
+**Mitigation Effectiveness & Residual Risk**:
+- Very effective when checklists and training are strong and time is allocated. Main residual risk comes from production pressure and complacency.
 
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (comprehensive)
@@ -519,9 +601,47 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Specific controls for hot work near jetting operations
 - Strong supervision and communication discipline
 
+**Mitigation Effectiveness & Residual Risk**:
+- Effective when daily coordination and permit discipline are strong. Residual risk increases during rapidly changing turnaround conditions.
+
 **Linked Master Control Register Items**:
 - Ch8: SIMOPS and hot work interface controls
 - Ch5: Site preparation and barricading rules
+
+---
+
+### 20.6.4 Inadequate Team Communication
+
+**Description**: Poor communication between nozzle operator, pump operator, and support team during operations.
+
+**Causes**:
+- No clear communication protocol
+- Language barriers
+- Noise interference
+- Distraction or complacency
+
+**Consequences**:
+- Uncoordinated pressure changes
+- Delayed response to problems
+- Increased risk of incidents during critical phases (nozzle changes, blockages)
+
+**Detection**:
+- Near misses involving miscommunication
+- Post-job debrief findings
+
+**Risk Rating**: S=7, L=5, D=5 → **RPN = 175** (High)
+
+**Recommended Controls**:
+- Clear communication protocols and hand signals
+- Radio communication where noise is high
+- Pre-job briefing on roles and signals
+- Stop-work authority for any communication breakdown
+
+**Mitigation Effectiveness & Residual Risk**:
+- Effective when protocols are trained and followed. Residual risk remains in high-noise or multi-language environments.
+
+**Linked Master Control Register Items**:
+- Ch8: Team composition and communication rules
 
 ---
 
@@ -537,7 +657,9 @@ Common themes across many failure modes include:
 - Clear communication and procedural discipline
 - Strong SIMOPS management
 
-Regular review of this section during toolbox talks and safety meetings is recommended. High RPN items should be prioritized for additional controls or engineering solutions.
+High RPN items (particularly Inadequate Pre-Use Inspection, Flex Lance Back-Out, Poor SIMOPS Coordination, and Hose Burst) should be prioritized for additional focus in training, audits, and procedure reviews.
+
+Regular review of this section during toolbox talks and safety meetings is recommended.
 
 ---
 
