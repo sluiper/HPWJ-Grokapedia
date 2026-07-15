@@ -19,12 +19,26 @@ Key physical concepts that govern HPWJ performance and safety include:
 - Flow regime (laminar vs turbulent)
 - Jet stability and breakup
 - Fluid property variations with temperature and pressure
+- Transient pressure effects (water hammer)
 
 Understanding these principles helps explain why reaction force limits exist, why NPSH matters, why nozzle size affects pressure and flow, and why certain operational practices are mandatory.
 
 ---
 
-## 16.2 Bernoulli's Equation and Its Application
+## 16.2 Key Constants and Units
+
+For quick reference:
+
+- Water density (ρ) ≈ 1000 kg/m³ at 20°C
+- 1 bar ≈ 14.5 psi
+- 1 MPa ≈ 145 psi
+- 1 HP ≈ 0.746 kW
+
+All equations in this section use SI units unless otherwise noted.
+
+---
+
+## 16.3 Bernoulli's Equation and Its Application
 
 Bernoulli's principle is one of the most important concepts in HPWJ. It states that in a flowing fluid, an increase in speed occurs simultaneously with a decrease in pressure or potential energy.
 
@@ -61,7 +75,7 @@ The drop in pressure at Point 2 is what allows the jet to penetrate and remove m
 
 ---
 
-## 16.3 Orifice Flow and Jet Velocity
+## 16.4 Orifice Flow and Jet Velocity
 
 The theoretical velocity of a jet exiting an orifice is derived from Bernoulli:
 
@@ -103,7 +117,7 @@ These velocities are extremely high and explain both the cleaning power and the 
 
 ---
 
-## 16.4 Reynolds Number and Flow Regime
+## 16.5 Reynolds Number and Flow Regime
 
 The Reynolds number (Re) is a dimensionless quantity that indicates whether flow is laminar or turbulent.
 
@@ -140,7 +154,7 @@ This confirms that flow in typical HPWJ hoses is turbulent, which affects fricti
 
 ---
 
-## 16.5 Reaction Force Physics
+## 16.6 Reaction Force Physics
 
 When high-pressure water exits the nozzle at high velocity, it produces an equal and opposite reaction force on the tool and operator (Newton’s Third Law of Motion).
 
@@ -186,7 +200,7 @@ All three should be satisfied for safe handheld operation.
 
 ---
 
-## 16.6 Jet Coherence, Breakup Distance, and Impact
+## 16.7 Jet Coherence, Breakup Distance, and Impact
 
 High-pressure jets do not remain perfectly coherent forever. They eventually break up due to aerodynamic forces and internal instabilities.
 
@@ -214,7 +228,7 @@ At long distance: Jet breaks into droplets/spray with greatly reduced impact.
 
 ---
 
-## 16.7 Jet Impact Pressure on Surfaces
+## 16.8 Jet Impact Pressure on Surfaces
 
 When a high-velocity jet strikes a surface, its kinetic energy is converted into pressure (stagnation pressure).
 
@@ -232,7 +246,30 @@ This explains why HPWJ is effective at removing hard scale, coatings, and even c
 
 ---
 
-## 16.8 Pressure, Flow, and Power Relationships
+## 16.9 Water Hammer and Pressure Surge
+
+Water hammer (pressure surge) occurs when a moving column of water is suddenly stopped or its velocity changes rapidly. The kinetic energy of the moving water is converted into a pressure wave that can damage equipment and create dangerous conditions.
+
+**Physics**:
+When flow is suddenly stopped (e.g., rapid valve closure), the pressure wave travels back through the hose at the speed of sound in water. The pressure spike can be several times the normal operating pressure.
+
+**Common Causes in HPWJ**:
+- Sudden closure of high-pressure valves
+- Rapid pump startup or shutdown
+- Hose whip or sudden movement
+- Blockage in the line
+
+**Practical Controls**:
+- Open and close valves slowly and in the correct sequence.
+- Follow proper pump startup and shutdown procedures (never slam valves).
+- Maintain good hose condition and whip checks.
+- Be especially cautious during nozzle changes or when clearing blockages.
+
+Water hammer is a transient effect but can cause serious equipment damage or sudden hose movement if not managed.
+
+---
+
+## 16.10 Pressure, Flow, and Power Relationships
 
 Hydraulic power delivered by the system is:
 
@@ -260,7 +297,7 @@ This shows why very high-pressure + high-flow combinations require large, powerf
 
 ---
 
-## 16.9 Water Compressibility at Ultra-High Pressures
+## 16.11 Water Compressibility at Ultra-High Pressures
 
 At pressures above approximately 30,000–40,000 psi, water becomes slightly compressible. While the effect is small compared to gases, it becomes relevant in ultra-high pressure applications.
 
@@ -273,7 +310,7 @@ For the majority of Anabeeb operations, compressibility effects can be neglected
 
 ---
 
-## 16.10 Temperature Effects on Water Properties
+## 16.12 Temperature Effects on Water Properties
 
 Water properties change with temperature, which has practical implications in hot climates like KSA:
 
@@ -286,7 +323,7 @@ In summer conditions, inlet water can be significantly warmer than in temperate 
 
 ---
 
-## 16.11 Cavitation from a Physics Perspective
+## 16.13 Cavitation from a Physics Perspective
 
 Cavitation occurs when local static pressure in the liquid drops below the vapour pressure, causing vapour bubbles to form and then collapse violently.
 
@@ -303,7 +340,7 @@ Maintaining adequate Net Positive Suction Head (NPSH) is the primary defence. Th
 
 ---
 
-## 16.12 Energy Losses and Efficiency
+## 16.14 Energy Losses and Efficiency
 
 Not all input power reaches the jet as useful kinetic energy. Losses occur in:
 - Pump internal leakage and friction
@@ -319,7 +356,20 @@ Maintaining clean filters, good hoses, and proper nozzle condition directly impr
 
 ---
 
-## 16.13 Practical Implications and Rules of Thumb
+## 16.15 Physics and Injury Mechanisms (Safety Link)
+
+Understanding fluid dynamics helps explain why HPWJ injuries can be so severe:
+
+- **High jet velocity + small cross-section** allows the jet to penetrate skin and tissue easily (water-cut / injection injuries).
+- Once inside the body, the jet can travel along tissue planes, causing extensive internal damage far from the entry point.
+- **Reaction force + loss of control** can cause the operator to swing the jet across their own body or a colleague, leading to severe lacerations or struck-by trauma.
+- **Exsanguination risk** is high because a high-pressure jet can sever or damage major blood vessels quickly.
+
+These physical realities are why strict controls on reaction force, proper training, Medical Alert Cards, and immediate medical response are mandatory — not just administrative requirements.
+
+---
+
+## 16.16 Practical Implications and Rules of Thumb
 
 | Physical Principle                  | Practical Rule / Implication                              | Why It Matters                              |
 |-------------------------------------|-----------------------------------------------------------|---------------------------------------------|
@@ -328,6 +378,7 @@ Maintaining clean filters, good hoses, and proper nozzle condition directly impr
 | Reynolds Number & Turbulence        | Flow in hoses and jets is highly turbulent                | Affects friction losses and jet behaviour   |
 | Jet Coherence & Breakup             | Maintain optimal standoff distance; replace worn nozzles  | Maximises cleaning effectiveness            |
 | Jet Impact Pressure                 | Effective cleaning distance is limited                    | Guides optimal working distance             |
+| Water Hammer / Pressure Surge       | Operate valves and pumps smoothly; follow sequencing      | Prevents equipment damage and sudden movement |
 | NPSH & Cavitation                   | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
 | Water Temperature Effects           | Consider warmer inlet water in hot climates               | Important for KSA operations                |
 | Power Relationship                  | Pressure × Flow = Power                                 | Guides correct pump selection               |
