@@ -19,6 +19,35 @@ Each failure mode includes a simple risk rating and explicit links to relevant i
 
 ---
 
+## Risk Matrix Interpretation
+
+| Likelihood \ Severity | 1-3 (Low)     | 4-6 (Medium)   | 7-8 (High)     | 9-10 (Very High) |
+|------------------------|---------------|----------------|----------------|------------------|
+| **1-3 (Low)**          | Low           | Low            | Medium         | High             |
+| **4-6 (Medium)**       | Low           | Medium         | High           | Very High        |
+| **7-10 (High)**        | Medium        | High           | Very High      | Very High        |
+
+**Interpretation Guidance**:
+- **RPN < 100**: Monitor and maintain existing controls.
+- **RPN 100–150**: Review and strengthen controls where possible.
+- **RPN > 150**: High priority – consider additional engineering or procedural controls.
+
+---
+
+## Top Priority Failure Modes (RPN > 180)
+
+The following modes currently carry the highest risk and should receive focused attention in training, audits, and procedure reviews:
+
+1. **Inadequate Pre-Use Inspection** (RPN 210)
+2. **Flex Lance Back-Out / Loss of Control** (RPN 200)
+3. **Poor SIMOPS Coordination** (RPN 200)
+4. **Quick-Connect Disconnection Under Pressure** (RPN 180)
+5. **Loss of Control Due to Excessive Reaction Force** (RPN 180)
+
+These five modes represent the greatest potential for serious injury or fatality based on current assessment.
+
+---
+
 ## 20.1 Purpose and Scope
 
 The goal of this FMEA is to:
@@ -649,6 +678,14 @@ This analysis draws from industry incident data, manufacturer experience, and op
 
 This FMEA is a living document. It should be reviewed and updated after any significant incident, near miss, or major equipment change. Key lessons should be fed back into procedures, training, and the Master Control Register.
 
+**Highest Priority Items (RPN > 180)**:
+These modes represent the greatest current risk and should receive focused attention:
+- Inadequate Pre-Use Inspection
+- Flex Lance Back-Out / Loss of Control
+- Poor SIMOPS Coordination
+- Quick-Connect Disconnection Under Pressure
+- Loss of Control Due to Excessive Reaction Force
+
 Common themes across many failure modes include:
 - Importance of pre-use inspection discipline
 - Correct equipment selection and matching
@@ -657,9 +694,7 @@ Common themes across many failure modes include:
 - Clear communication and procedural discipline
 - Strong SIMOPS management
 
-High RPN items (particularly Inadequate Pre-Use Inspection, Flex Lance Back-Out, Poor SIMOPS Coordination, and Hose Burst) should be prioritized for additional focus in training, audits, and procedure reviews.
-
-Regular review of this section during toolbox talks and safety meetings is recommended.
+Regular review of this section during toolbox talks and safety meetings is recommended. High RPN items should be prioritized for additional controls or engineering solutions.
 
 ---
 
