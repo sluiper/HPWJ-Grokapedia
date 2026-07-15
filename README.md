@@ -1,6 +1,6 @@
 # Anabeeb World Best HPWJ Encyclopedia (Grokapedia)
 
-**Version:** v7.0  
+**Version:** v7.5  
 **Status:** Active Development  
 **Last Updated:** 15 July 2026
 
@@ -17,14 +17,26 @@ It combines:
 - Regulatory comparisons
 - Environmental and human factors considerations
 
+## Current Status (as of 15 July 2026)
+
+**Completed / 10/10:**
+- Chapter 7: Equipment, Pumps, Tools, Nozzles & Pre-Use Inspection (fully refined)
+- Section 16: Physics & Hydraulics Reference (completed at high depth)
+- Section 20: Failure Modes & Effects Analysis (completed with risk ranking and Master Register links)
+- All Manufacturer Reference Folders (NLB, StoneAge, Hammelmann, WOMA, Peinemann, Sugino, Kamat, Uraca, Interpump, Jetstream) — populated and enhanced
+
+**In Progress:**
+- Section 18: Hose, Fitting & Connection Technology (initial draft complete)
+
+**Foundation Documents:**
+- Master Control Register (living single source of truth)
+- Comprehensive FMEA with risk scoring
+
 ## How to Use This Repository
 - **Master Control Register** is the single source of truth for every rule, threshold, and procedural requirement.
 - Main content lives in `/docs/`.
 - References and manufacturer summaries are in `/references/`.
-- Reusable templates (checklists, Medical Alert Cards, etc.) are in `/templates/`.
-
-## Current Version
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+- Reusable templates are in `/templates/`.
 
 ## Contribution & Update Process
 All changes go through controlled commits with clear messages. The Master Control Register must be updated whenever new gaps, sources, or requirements are identified.
