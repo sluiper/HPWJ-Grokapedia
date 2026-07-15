@@ -237,41 +237,34 @@ These examples illustrate that **no single pump size fits all applications**. Se
 
 ---
 
-## 7.5 Global Manufacturer Overview & Variations
+## 7.5 Global Manufacturer Overview & Variations (Corrected for Accuracy)
 
-### NLB Corp (USA)
-- Very strong in diesel triplex units for oil & gas.
-- Emphasis on pre-operational fluid checks (engine oil, pump oil, coolant, fuel, DEF), rupture disc inspection, and area/other-end-of-unit checks.
-- Clear "do not leave unit running unattended" rule.
+It is important to distinguish between **pump manufacturers** (companies that design and build the high-pressure pumps) and **tooling & automation specialists** (companies that focus on nozzles, lances, automated systems, and safety accessories).
 
-### StoneAge Tools (USA / Gardner Denver)
-- Leader in rotating nozzles and flex lance systems.
-- Specific guidance on wear life (typically 20–60 hours depending on water quality and pressure).
-- Corrosion pitting named as a common precursor to cracking and tool failure.
-- Reaction force guidance includes body weight ratio and barrel length geometry.
+### Major High-Pressure Pump Manufacturers (OEMs)
 
-### Hammelmann (Germany)
-- Strong in robotic and automated systems (JETMASTER).
-- xPRO sensor-based automatic shut-off module for irregular movement detection.
-- PIPEMASTER rotary hose reel feeder systems (distinct entanglement and reel-tension hazards).
+- **NLB Corp (USA)**: Leading diesel triplex pump manufacturer. Strong field support in oil & gas and MEA region. Emphasis on robust pre-use checks and clear safety rules.
+- **WOMA (Germany)**: Major pump and multi-gun system manufacturer. Known for pressureless-at-rest design and ATEX options.
+- **Hammelmann (Germany)**: High-quality triplex pumps with strong focus on robotic and automated integration.
+- **Kamat (Germany)**: Specialist in ultra-high pressure pumps.
+- **Uraca (Germany)**: Long-established European pump manufacturer.
+- **Interpump Group / Hawk (Italy)**: One of the largest global high-pressure pump manufacturers.
+- **Cat Pumps (USA)**: Well-known industrial high-pressure pump brand.
+- **Flowplant / Harben (UK)**: Established UK pump and system manufacturer.
 
-### WOMA (Germany)
-- Pressureless-at-rest / fail-safe circulation design is a core safety principle.
-- Twin-Jet / multi-gun simultaneous operation capability (up to 6 guns).
-- ATEX-certified options for Zone 2 hazardous areas.
+### Tooling & Automation Specialists (Not Primary Pump Makers)
 
-### Peinemann Equipment (Netherlands)
-- Specialist in hands-free and semi-automated tube bundle cleaning systems (up to 40,000 psi).
-- Different hazard profile from manual lance work – focus on automated feed control, entanglement, and remote operation safety.
+- **StoneAge Tools (USA)**: **Does not manufacture high-pressure pumps**. Specialises in high-quality rotating nozzles, flex lances, automated tooling, and safety modules. Often paired with pumps from NLB or other OEMs.
+- **Peinemann Equipment (Netherlands)**: Specialist in hands-free and semi-automated tube bundle cleaning systems. Focuses on automation rather than pump manufacturing.
+- **Sugino Machine (Japan)**: Strong Asian manufacturer specialising in automated tube cleaning and water jetting systems.
 
-### Other Notable Manufacturers
-- **Kamat (Germany)**: Ultra-high pressure focus.
-- **Uraca (Germany)**: Long-established high-pressure systems.
-- **Interpump Group / Hawk (Italy)**: Broad high-pressure pump range.
-- **Sugino Machine (Japan)**: Strong in automated tube cleaning systems.
-- **Jetstream & Flowplant/Harben**: Relevant in their respective markets.
+### Regional / Emerging Manufacturers
 
-**Selection Advice**: Match the pump and tooling to the dominant application. For heavy Anabeeb turnaround work involving both manual and automated tube bundle cleaning, a mixed fleet or versatile triplex units with good automated tooling interfaces are common.
+- **Pinaman**: Appears to be a regional (likely Chinese or Asian) supplier of water jetting equipment and tooling, particularly for tank and vessel cleaning. Less information is available compared to established Western and European brands. Treat as a lower-tier or regional option with appropriate due diligence on quality and support.
+
+**Asia Water Jetting Note**: The strongest established Asian player in high-pressure water jetting tooling and automated systems is **Sugino Machine (Japan)**. There are numerous Chinese manufacturers, but quality and support levels vary significantly. For critical oil & gas work, preference is generally given to established Western/European pump OEMs paired with proven tooling from StoneAge, Peinemann, or Sugino.
+
+**Selection Advice**: For most Anabeeb work, the most reliable and supportable combinations are proven pump OEMs (NLB, WOMA, Hammelmann, etc.) paired with high-quality tooling from StoneAge, Peinemann, or Sugino. Regional options like Pinaman can be considered for lower-criticality or cost-sensitive applications after proper evaluation.
 
 ---
 
@@ -282,11 +275,10 @@ These examples illustrate that **no single pump size fits all applications**. Se
 | Manufacturer     | Common Pump Types     | Typical Max Pressure | Typical Flow Range     | Notable Strengths                          | Hazardous Area Options |
 |------------------|-----------------------|----------------------|------------------------|--------------------------------------------|------------------------|
 | NLB (USA)        | Triplex (diesel)      | 40,000+ psi         | Medium                 | Robust field units, good support in MEA    | Limited                |
-| StoneAge         | Triplex + tooling     | 40,000 psi          | Medium                 | Excellent rotating/flex tooling            | Standard               |
+| WOMA (Germany)   | Triplex + Multi-gun   | 40,000+ psi         | Medium-High            | Multi-gun capability, pressureless-at-rest | Excellent (ATEX)       |
 | Hammelmann       | Triplex + Robotic     | 40,000+ psi         | Medium-High            | Robotic systems, sensor safety modules     | Good (ATEX options)    |
-| WOMA             | Triplex + Multi-gun   | 40,000+ psi         | Medium-High            | Multi-gun capability, pressureless-at-rest | Excellent (ATEX)       |
+| Kamat (Germany)  | Ultra-high pressure   | 50,000+ psi         | Lower                  | Very high pressure capability              | Good                   |
 | Peinemann        | Automated systems     | 40,000 psi          | High                   | Hands-free tube bundle cleaning            | Good                   |
-| Kamat            | Ultra-high pressure   | 50,000+ psi         | Lower                  | Very high pressure capability              | Good                   |
 
 ### Tooling & Automation Comparison
 
@@ -296,9 +288,9 @@ These examples illustrate that **no single pump size fits all applications**. Se
 | Hammelmann       | Good             | Good               | Good                      | Excellent       | Excellent (xPRO)     | Irregular movement detection    |
 | WOMA             | Good             | Good               | Good                      | Limited         | Good                 | Pressureless-at-rest design     |
 | Peinemann        | Good             | Good               | Excellent                 | Limited         | Good                 | Hands-free focus                |
-| NLB              | Good             | Good               | Limited                   | Limited         | Limited              | Strong pre-use checklist        |
+| Sugino (Japan)   | Good             | Good               | Excellent                 | Limited         | Good                 | Strong automated tube cleaning  |
 
-These tables help when selecting equipment for specific Anabeeb jobs. For heavy tube bundle work, Peinemann or similar automated systems combined with a good triplex pump unit often provide the best productivity and safety balance.
+These tables help when selecting equipment for specific Anabeeb jobs. For heavy tube bundle work, Peinemann or Sugino automated systems combined with a proven pump from NLB, WOMA, or Hammelmann often provide the best balance.
 
 ---
 
@@ -324,7 +316,7 @@ These tables help when selecting equipment for specific Anabeeb jobs. For heavy 
 - **Fan tips**: Lower impact, wider coverage.
 - **Rotating nozzles**: Good balance of impact and coverage; reduce operator fatigue.
 - **3D / self-propelled tank cleaning heads**: For vessel and tank work.
-- **Automated / hands-free systems** (Peinemann-style): For high-volume tube bundle work.
+- **Automated / hands-free systems** (Peinemann and Sugino style): For high-volume tube bundle work.
 
 ### Nozzle Inspection & Wear Life
 - Inspect threads, sealing surfaces, and orifices before every use.
@@ -475,4 +467,4 @@ All safety systems should be tested as part of the pre-use inspection.
 - Never leave the pump unit running unattended.
 - Never start the system if potentially frozen without proper winterization.
 
-**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, and relevant hose life-cycle studies.
+**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, and relevant hose life-cycle studies.
