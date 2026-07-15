@@ -47,13 +47,11 @@ Approximate relationship:
 Where efficiency is typically 80–90% for modern triplex pumps.
 
 **Example**
-To achieve 20,000 psi (1,379 bar) at 40 L/min:
-- Required power is significantly higher than the same flow at 10,000 psi.
-- Plunger size must be reduced to reach higher pressure on the same power unit.
+To achieve 20,000 psi (1,379 bar) at 40 L/min requires significantly more power than the same flow at 10,000 psi. Plunger size must be reduced to reach higher pressure on the same power unit.
 
 **Plunger Size Effect**
-Smaller plunger diameter = higher pressure, lower flow (for same RPM and power).
-Larger plunger diameter = higher flow, lower pressure.
+- Smaller plunger diameter = higher pressure, lower flow (for same RPM and power).
+- Larger plunger diameter = higher flow, lower pressure.
 
 ---
 
@@ -73,15 +71,16 @@ Additional manufacturer guidance (StoneAge for rotary tools):
 - Thrust should not exceed **1/3 of the operator’s body weight**.
 - Barrel length must be long enough that the operator cannot pass the jet over their own feet or legs.
 
-**Three Additive Controls** (all must be satisfied):
+**Three Additive Controls** (all three must be satisfied):
 1. Absolute limit ≤ 250 N
-2. Body weight ratio (≤ 1/3)
-3. Barrel geometry (cannot pass jet over feet/legs)
+2. Body weight ratio (≤ 1/3 of operator body weight)
+3. Barrel geometry (operator must not be able to pass the jet over their own feet or legs)
 
 ### 7.3.3 NPSH and Cavitation Prevention
 Adequate Net Positive Suction Head (NPSH) is critical.
 - Low NPSH causes cavitation, which damages plungers, valves, and pump components rapidly.
 - Always ensure clean, cool inlet water with adequate supply pressure and minimal suction line restrictions.
+- Monitor for early signs: unusual noise, vibration, or sudden loss of performance.
 
 ### 7.3.4 Pressure Relief & Safety Systems
 Every system must have reliable pressure relief that the nozzle operator controls.
@@ -95,7 +94,31 @@ Common systems:
 
 ---
 
-## 7.4 Global Manufacturer Overview & Variations
+## 7.4 Worked Pump Selection Examples
+
+### Example 1: Surface Preparation (High Pressure, Moderate Flow)
+- Application: Coating removal on vessel external surfaces
+- Target: 20,000 psi (1,379 bar) at ~30–40 L/min
+- Recommended: Triplex unit with smaller plungers
+- Key considerations: High reaction force management, good barricading, experienced operators
+
+### Example 2: Tube Bundle Cleaning (Higher Flow Priority)
+- Application: Internal cleaning of heat exchanger tubes during turnaround
+- Target: 10,000–15,000 psi at 60–100+ L/min
+- Recommended: Larger triplex or quintuplex unit
+- Key considerations: Automated or flex lance tooling, higher flow for productivity, good AWD use, vacuum truck integration
+
+### Example 3: Line Moleing / Pipe Descaling
+- Application: Descaling long pipe runs
+- Target: Balanced pressure and flow (typically 15,000–20,000 psi)
+- Recommended: Triplex unit with good reaction force control and appropriate mole/nozzle selection
+- Key considerations: Careful monitoring of back pressure, proper mole thrust direction, communication between teams
+
+These examples illustrate that **no single pump size fits all applications**. Selection must be driven by the dominant cleaning requirement and reaction force constraints.
+
+---
+
+## 7.5 Global Manufacturer Overview & Variations
 
 ### NLB Corp (USA)
 - Very strong in diesel triplex units for oil & gas.
@@ -133,11 +156,11 @@ Common systems:
 
 ---
 
-## 7.5 Hoses, Fittings & Connections
+## 7.6 Hoses, Fittings & Connections
 
 ### Hose Life & Inspection
 - **Expiration**: 2 years for flex lances and shotgun whip hoses; 4 years for all other high-pressure hoses (from date of manufacture or receipt).
-- **Annual third-party pressure/proof testing** by a competent authority is required in addition to visual inspection (WJTA-referenced hose life-cycle data shows ~7% of hoses that pass visual inspection can still fail pressure testing).
+- **Annual third-party pressure/proof testing** by a competent authority is required **in addition to** visual inspection (WJTA-referenced hose life-cycle data shows approximately 7% of hoses that pass visual inspection can still fail pressure testing).
 - Permanent colour coding visible from 2 ft, matched to the maximum working pressure of the pump.
 
 ### Fittings & Adapters
@@ -148,7 +171,7 @@ Common systems:
 
 ---
 
-## 7.6 Nozzles & Tooling
+## 7.7 Nozzles & Tooling
 
 ### Nozzle Types & Selection
 - **Straight jet**: Highest impact, lowest coverage.
@@ -174,7 +197,7 @@ Common systems:
 
 ---
 
-## 7.7 Pre-Use Inspection Checklist (Comprehensive)
+## 7.8 Pre-Use Inspection Checklist (Comprehensive)
 
 The high-pressure pump and all associated equipment must be inspected **prior to each use**.
 
@@ -194,7 +217,7 @@ The high-pressure pump and all associated equipment must be inspected **prior to
 - Within expiration life
 - Annual third-party pressure test records current
 - Whip checks correctly installed across all connections (exceptions noted for rotating hoses and feed-through applications)
-- Quick-connect latches/pins in good condition (or screw-type/face-seal preferred)
+- Quick-connect latches/pins in good condition (or screw-type/face-seal preferred where movement risk exists)
 
 **Nozzles & Tooling**
 - Rated for hose size and pump pressure
@@ -210,7 +233,20 @@ The high-pressure pump and all associated equipment must be inspected **prior to
 
 ---
 
-## 7.8 Maintenance & Reliability Notes
+## 7.9 Common Pump & Hose Related Failure Modes (Bridge to FMEA)
+
+- Cavitation damage from inadequate NPSH or dirty/cold inlet water
+- Hose failure from exceeded bend radius, age, or missed annual pressure testing
+- Rupture disc activation due to overpressure or blocked nozzle (must be replaced before restart)
+- Quick-connect disconnection during hose movement
+- Nozzle clog leading to sudden pressure spike
+- Sensor module or auto-shut-off failure on advanced tooling
+
+These modes are addressed in more detail in the dedicated Failure Modes & Effects section (Part 2).
+
+---
+
+## 7.10 Maintenance & Reliability Notes
 
 - Follow manufacturer maintenance schedules strictly.
 - Keep records of annual third-party inspections and pressure testing.
@@ -219,11 +255,11 @@ The high-pressure pump and all associated equipment must be inspected **prior to
 
 ---
 
-## 7.9 Summary of Key Never Rules (Equipment-Related)
+## 7.11 Summary of Key Never Rules (Equipment-Related)
 
 - Never reuse or bypass a fired rupture disc.
-- Never operate without annual hose pressure test records current.
-- Never use quick-connect couplings in high-movement applications without verifying latch/pin condition.
+- Never operate without current annual hose pressure test records.
+- Never use quick-connect couplings in high-movement applications without verifying latch/pin condition (prefer screw-type/face-seal where appropriate).
 - Never leave the pump unit running unattended.
 - Never start the system if potentially frozen without proper winterization.
 
