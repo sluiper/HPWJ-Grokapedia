@@ -53,6 +53,44 @@ To achieve 20,000 psi (1,379 bar) at 40 L/min requires significantly more power 
 - Smaller plunger diameter = higher pressure, lower flow (for same RPM and power).
 - Larger plunger diameter = higher flow, lower pressure.
 
+### Pump Conversions and Plunger Changes – Flow and Pressure Calculations
+
+Changing plunger diameter is one of the most common ways to reconfigure a pump for different pressure/flow requirements.
+
+**Basic Relationship**
+For a given pump (fixed RPM and power), flow is proportional to the cross-sectional area of the plunger.
+
+**Flow ∝ (Plunger Diameter)²**
+
+Pressure capability increases as flow decreases (because the same power is applied to a smaller volume of water).
+
+**Practical Calculation Method**
+When changing plungers, use the following approximate relationships (assuming constant power and RPM):
+
+- New Flow = Old Flow × (New Diameter / Old Diameter)²
+- New Pressure ≈ Old Pressure × (Old Flow / New Flow)
+
+**Important Notes**
+- Always verify that the new pressure does not exceed the rated pressure of hoses, fittings, and other components.
+- Some pumps have limits on minimum and maximum plunger sizes.
+- After changing plungers, re-verify the rupture disc rating and relief settings.
+
+**Worked Example 1: Increasing Pressure**
+Current setup: 15 mm plungers delivering 10,000 psi at 80 L/min.
+Change to 12 mm plungers.
+
+New Flow ≈ 80 × (12/15)² = 80 × 0.64 = **51.2 L/min**
+New Pressure ≈ 10,000 × (80 / 51.2) ≈ **15,625 psi**
+
+**Worked Example 2: Increasing Flow**
+Current setup: 12 mm plungers delivering 15,000 psi at 50 L/min.
+Change to 14 mm plungers.
+
+New Flow ≈ 50 × (14/12)² = 50 × 1.36 ≈ **68 L/min**
+New Pressure ≈ 15,000 × (50 / 68) ≈ **11,030 psi**
+
+These calculations are approximate. Always cross-check with the pump manufacturer’s performance data or software for the specific model.
+
 ### Understanding Pump Performance Curves
 
 Pump manufacturers provide **performance curves** that show the relationship between:
