@@ -25,33 +25,42 @@ Understanding these principles helps explain why reaction force limits exist, wh
 
 Bernoulli's principle is one of the most important concepts in HPWJ. It states that in a flowing fluid, an increase in speed occurs simultaneously with a decrease in pressure or potential energy.
 
-**Bernoulli's Equation (simplified, incompressible flow):**
+**Bernoulli's Equation (incompressible, steady flow along a streamline):**
 
 $$
-P + \frac{1}{2}\rho v^2 + \rho g h = \text{constant}
+P_1 + \frac{1}{2}\rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2
 $$
 
 Where:
-- $P$ = Static pressure
-- $\rho$ = Fluid density
-- $v$ = Flow velocity
-- $g$ = Gravitational acceleration
-- $h$ = Elevation head
+- $P$ = Static pressure (Pa)
+- $\rho$ = Fluid density (kg/m³)
+- $v$ = Flow velocity (m/s)
+- $g$ = Gravitational acceleration (9.81 m/s²)
+- $h$ = Elevation head (m)
+
+**Simplified Form (constant elevation and density):**
+
+$$
+P + \frac{1}{2}\rho v^2 = \text{constant}
+$$
 
 **Application in HPWJ**:
-- At the pump, pressure is relatively low and velocity is moderate.
-- As water passes through the small nozzle orifice, velocity increases dramatically.
-- According to Bernoulli, this increase in velocity causes a corresponding drop in pressure *inside* the jet (which is why the jet can cut or clean effectively).
-- The high velocity of the jet is what gives it cleaning and cutting power.
+- At the pump discharge, pressure is high and velocity is relatively low.
+- As water accelerates through the small nozzle orifice, velocity increases dramatically.
+- Per Bernoulli, static pressure inside the fast-moving jet drops significantly.
+- This high-velocity, low-pressure jet is what gives HPWJ its cleaning and cutting ability.
 
-**Practical Implication**:
-The smaller the orifice, the higher the exit velocity (for a given pressure), which is why nozzle size is critical for performance.
+**Diagram Description – Bernoulli Effect in a Nozzle**:
+Imagine a horizontal tube that narrows suddenly (like a nozzle). Pressure is measured at two points:
+- Point 1 (wide section): High pressure, low velocity.
+- Point 2 (narrow orifice): Low pressure, very high velocity.
+The drop in pressure at Point 2 is what allows the jet to penetrate and remove material.
 
 ---
 
 ## 16.3 Orifice Flow and Jet Velocity
 
-The flow through a nozzle orifice can be described using the orifice flow equation.
+The theoretical velocity of a jet exiting an orifice is derived from Bernoulli:
 
 **Theoretical Jet Velocity**:
 
@@ -60,131 +69,170 @@ v = \sqrt{\frac{2 \Delta P}{\rho}}
 $$
 
 Where:
-- $v$ = Jet exit velocity
-- $\Delta P$ = Pressure drop across the orifice
-- $\rho$ = Water density (approximately 1000 kg/m³)
+- $v$ = Exit velocity (m/s)
+- $\Delta P$ = Pressure difference across the orifice (Pa)
+- $\rho$ = Water density (≈ 1000 kg/m³ at 20°C)
 
-**Real-World Discharge Coefficient**:
-In practice, nozzles are not perfectly efficient. A discharge coefficient ($C_d$) is applied:
+**Real Orifice Flow Equation (with Discharge Coefficient)**:
 
 $$
 Q = C_d \cdot A \cdot \sqrt{\frac{2 \Delta P}{\rho}}
 $$
 
 Where:
-- $Q$ = Volumetric flow rate
-- $A$ = Orifice cross-sectional area
+- $Q$ = Volumetric flow rate (m³/s)
+- $A$ = Orifice area (m²)
+- $C_d$ = Discharge coefficient (typically 0.65 – 0.95 for HPWJ nozzles)
 
-**Typical Values**:
-- $C_d$ for well-designed HPWJ nozzles is usually between 0.6 and 0.95, depending on nozzle design and condition.
+**Worked Example – Jet Velocity at Different Pressures**
 
-**Practical Example**:
+At 10,000 psi (68.95 MPa):
+- $\Delta P$ = 68.95 × 10⁶ Pa
+- Theoretical velocity ≈ $\sqrt{2 \times 68.95 \times 10^6 / 1000}$ ≈ **117.5 m/s**
+
 At 20,000 psi (137.9 MPa):
-- Theoretical jet velocity ≈ 200 m/s (very high speed)
-- This high velocity is what allows the jet to remove scale, coatings, and concrete.
+- Theoretical velocity ≈ **166 m/s**
+
+At 40,000 psi (275.8 MPa):
+- Theoretical velocity ≈ **235 m/s**
+
+These velocities are extremely high and explain both the cleaning power and the danger of the jet.
 
 ---
 
 ## 16.4 Reaction Force Physics
 
-When a high-pressure jet exits the nozzle, it produces an equal and opposite reaction force on the tool and operator (Newton's Third Law).
+When high-pressure water exits the nozzle at high velocity, it produces an equal and opposite reaction force on the tool and operator (Newton’s Third Law of Motion).
 
-**Basic Reaction Force Formula**:
+**Basic Reaction Force (Momentum Change)**:
 
 $$
 F_r = \dot{m} \cdot v
 $$
 
 Where:
-- $F_r$ = Reaction force
-- $\dot{m}$ = Mass flow rate
-- $v$ = Jet exit velocity
+- $F_r$ = Reaction force (N)
+- $\dot{m}$ = Mass flow rate (kg/s)
+- $v$ = Jet exit velocity (m/s)
 
-A more practical form used in the industry:
+**Practical Industry Formula (Imperial Units)**:
 
 $$
-F_r \approx 0.052 \times Q \times \sqrt{P}
+F_r \ (\text{lbf}) \approx 0.052 \times Q \ (\text{GPM}) \times \sqrt{P \ (\text{psi})}
 $$
 
-(Where $Q$ is in GPM and $P$ is in psi, giving force in lbf. Metric versions exist with appropriate constants.)
+**Practical Industry Formula (Metric Units)**:
 
-**Why the 250 N Limit Exists**:
-The 250 N (approximately 56 lbf) limit is a practical threshold based on human factors. Forces above this level become difficult for an operator to control safely over extended periods, especially when combined with fatigue, awkward positions, or slippery conditions.
+$$
+F_r \ (\text{N}) \approx 0.745 \times Q \ (\text{L/min}) \times \sqrt{P \ (\text{bar})}
+$$
 
-**Additional Manufacturer Guidance (StoneAge)**:
-- Reaction force should not exceed **1/3 of the operator's body weight**.
-- Barrel length must be sufficient so the operator cannot accidentally pass the jet over their own feet or legs.
+**Worked Example – Reaction Force Calculation**
 
-These are **three additive controls** — all should be satisfied.
+Nozzle: 0.040" orifice at 15,000 psi, flow ≈ 12 GPM
+
+$$
+F_r \approx 0.052 \times 12 \times \sqrt{15000} \approx 0.052 \times 12 \times 122.5 \approx 76.4 \text{ lbf} \ (\approx 340 \text{ N})
+$$
+
+This exceeds the typical 250 N handheld limit, so this combination would require mechanical assistance, a different nozzle, or automation.
+
+**Three Additive Controls (Industry Best Practice)**:
+1. Absolute reaction force ≤ 250 N (or site-specific limit)
+2. Reaction force ≤ 1/3 of operator body weight
+3. Barrel length sufficient so operator cannot pass jet over own feet/legs
+
+All three should be satisfied for safe handheld operation.
 
 ---
 
 ## 16.5 Pressure, Flow, and Power Relationships
 
-The hydraulic power delivered by the pump is given by:
+Hydraulic power delivered by the system is:
+
+**SI Units**:
 
 $$
-Power = \Delta P \times Q
+Power \ (\text{W}) = \Delta P \ (\text{Pa}) \times Q \ (\text{m}^3/\text{s})
 $$
 
-(With appropriate unit conversions. In SI units: Power (W) = Pressure (Pa) × Flow (m³/s).)
+**Imperial Units**:
 
-**Key Relationships**:
-- Increasing pressure while keeping flow constant requires more power.
-- Increasing flow while keeping pressure constant also requires more power.
-- Changing plunger size on a pump changes the pressure/flow balance for a given power input.
+$$
+Power \ (\text{HP}) \approx \frac{P \ (\text{psi}) \times Q \ (\text{GPM})}{1714}
+$$
 
-**Practical Implication**:
-There is always a trade-off. A pump cannot deliver both very high pressure *and* very high flow on a limited power unit. Selection must be matched to the job requirements.
+**Worked Example – Power Requirement**
+
+Target: 20,000 psi at 40 GPM
+
+$$
+Power \ (\text{HP}) \approx \frac{20000 \times 40}{1714} \approx 466 \text{ HP}
+$$
+
+This shows why very high-pressure + high-flow combinations require large, powerful units.
 
 ---
 
 ## 16.6 Cavitation from a Physics Perspective
 
-Cavitation occurs when the local pressure in the fluid drops below the vapour pressure of the water, causing vapour bubbles to form. These bubbles collapse violently when they move into higher pressure regions, creating shock waves that damage pump components.
+Cavitation occurs when local static pressure in the liquid drops below the vapour pressure, causing vapour bubbles to form and then collapse violently.
 
-**Key Physical Conditions for Cavitation**:
-- Low inlet pressure (inadequate NPSH)
-- High fluid velocity (which lowers local pressure per Bernoulli)
-- High water temperature (increases vapour pressure)
-- Restricted or poorly designed suction lines
+**Key Conditions**:
+- Low pressure regions (high velocity per Bernoulli)
+- High water temperature (higher vapour pressure)
+- Poor inlet conditions (low NPSH)
+
+**Physics of Damage**:
+When vapour bubbles collapse, they generate very high localized pressures and temperatures (micro-jets and shock waves), which erode metal surfaces rapidly — especially on plungers and valve seats.
 
 **Prevention**:
-Maintaining adequate Net Positive Suction Head (NPSH) is the primary defence against cavitation. This is why inlet filtration, short suction lines, and flooded suction are emphasized in pre-use checks.
+Maintaining adequate Net Positive Suction Head (NPSH) is the primary defence. This is why inlet condition, filtration, and suction line design are critical.
 
 ---
 
 ## 16.7 Energy Losses and Efficiency
 
-Not all the power put into the pump is delivered as useful jet energy. Losses occur due to:
-- Friction in hoses and fittings
-- Minor losses at bends and restrictions
-- Nozzle inefficiency (discharge coefficient < 1.0)
-- Heat generation
-- Internal leakage in the pump
+Not all input power reaches the jet as useful kinetic energy. Losses occur in:
+- Pump internal leakage and friction
+- Hose friction losses
+- Minor losses at fittings and bends
+- Nozzle inefficiency ($C_d < 1$)
 
-**Typical Overall System Efficiency**:
-Modern well-maintained HPWJ systems often operate in the 70–85% efficiency range from pump input power to jet kinetic energy.
+**Typical Overall Efficiency**:
+Well-maintained modern HPWJ systems usually achieve 70–85% overall efficiency from pump shaft power to jet kinetic energy.
 
-Understanding losses helps explain why maintaining equipment in good condition (clean filters, good hoses, proper nozzle condition) directly improves cleaning performance.
+Maintaining clean filters, good hoses, and proper nozzle condition directly improves real-world cleaning performance.
 
 ---
 
-## 16.8 Practical Implications and Rules of Thumb
+## 16.8 Jet Impact and Coherence
 
-| Physical Principle       | Practical Rule / Implication                          | Why It Matters                          |
-|--------------------------|-------------------------------------------------------|-----------------------------------------|
-| Bernoulli & Orifice Flow | Smaller nozzle = higher velocity (for same pressure) | Determines cleaning power and coverage  |
-| Reaction Force           | Limit to 250 N + body weight rule + barrel geometry   | Prevents loss of control and injury     |
-| NPSH & Cavitation        | Maintain good inlet conditions and filtration         | Prevents rapid pump damage              |
-| Power Relationship       | Pressure × Flow = Power                             | Guides pump selection for the job       |
-| Energy Losses            | Keep system clean and well-maintained                 | Maximises cleaning performance          |
+**Impact Pressure on a Surface**:
+The pressure exerted by the jet on a surface is related to the jet’s velocity and the stand-off distance. At very close range, impact pressure can approach the pump pressure. As distance increases, the jet begins to break up (atomize), reducing effective impact.
 
-These physical principles are the foundation for many of the safety rules and operational practices covered elsewhere in this Encyclopedia.
+**Jet Coherence**:
+High-quality nozzles maintain a coherent jet for longer distances. Poor nozzles or worn orifices cause the jet to break up quickly, reducing cleaning effectiveness.
+
+---
+
+## 16.9 Practical Implications and Rules of Thumb
+
+| Physical Principle          | Practical Rule / Implication                              | Why It Matters                              |
+|-----------------------------|-----------------------------------------------------------|---------------------------------------------|
+| Bernoulli & Orifice Flow    | Smaller nozzle = higher velocity for same pressure        | Determines cleaning power vs coverage       |
+| Reaction Force              | Limit to 250 N + body weight + barrel geometry            | Prevents loss of control and serious injury |
+| NPSH & Cavitation           | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
+| Power Relationship          | Pressure × Flow = Power                                 | Guides correct pump selection               |
+| Energy Losses               | Keep system clean and well-maintained                     | Maximises actual cleaning performance       |
+| Jet Coherence               | Use quality nozzles and replace when worn                 | Maintains effective cleaning distance       |
+
+These physical principles underpin many of the safety rules, equipment selection guidelines, and operational practices found throughout this Encyclopedia.
 
 ---
 
 **References**:
-- Fluid mechanics textbooks (Bernoulli, orifice flow)
-- WJTA and manufacturer technical guidance
-- Practical field experience from major HPWJ contractors
+- Fluid mechanics and hydraulics textbooks
+- WJTA Orange Book and technical papers
+- Manufacturer technical documentation (NLB, StoneAge, WOMA, Hammelmann)
+- Practical field experience from major HPWJ operations
