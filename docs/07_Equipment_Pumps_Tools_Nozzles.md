@@ -53,6 +53,30 @@ To achieve 20,000 psi (1,379 bar) at 40 L/min requires significantly more power 
 - Smaller plunger diameter = higher pressure, lower flow (for same RPM and power).
 - Larger plunger diameter = higher flow, lower pressure.
 
+### Understanding Pump Performance Curves
+
+Pump manufacturers provide **performance curves** that show the relationship between:
+- Pressure vs Flow
+- Power consumption
+- Efficiency
+
+**How to Read a Typical HPWJ Pump Curve**
+- X-axis: Flow (L/min or GPM)
+- Y-axis (left): Pressure (psi or bar)
+- Y-axis (right): Power (kW or HP) and Efficiency (%)
+
+**Key Insights from Curves**
+- At higher pressure, flow decreases (for a fixed power unit).
+- There is usually an optimal operating range where efficiency is highest.
+- Running at the extreme right or left of the curve can lead to inefficiency, overheating, or cavitation.
+
+**Practical Example**
+A 250 kW triplex unit might deliver:
+- 15,000 psi at ~80 L/min (high pressure, moderate flow)
+- 10,000 psi at ~120 L/min (medium pressure, high flow)
+
+Selecting the correct plunger size and RPM allows the operator to operate near the peak efficiency area of the curve for the required job.
+
 ---
 
 ## 7.3 Key Selection Factors
@@ -103,15 +127,18 @@ NPSHa = Atmospheric Pressure + Static Head − Vapour Pressure − Suction Line 
 - Cold water (lower vapour pressure) improves NPSHa.
 - Dirty or aerated water reduces effective NPSHa.
 
-**Example Calculation**
-Conditions:
-- Site elevation: Sea level (Atmospheric pressure ≈ 1.013 bar)
-- Suction line: 3 m vertical lift + 2 m horizontal with minor losses
-- Water temperature: 25°C (Vapour pressure ≈ 0.032 bar)
+**NPSH Scenario 1: Sea Level, Flooded Suction, Cool Water**
+- Good margin usually exists. Low risk if suction line is short and clean.
 
-Approximate NPSHa ≈ 1.013 + 0 (if flooded suction) − 0.032 − 0.15 (line losses) ≈ **0.83 bar**
+**NPSH Scenario 2: Elevated Site (~500 m), Long Suction Line**
+- Lower atmospheric pressure reduces NPSHa.
+- Long suction line increases losses.
+- Mitigation: Use larger diameter suction hose, minimise vertical lift, or use a booster pump if needed.
 
-If the pump manufacturer states NPSHr = 0.6 bar at the operating speed, there is a reasonable margin. If NPSHr = 1.0 bar, cavitation risk is high — corrective action (larger suction line, flooded suction, or cooler water) is required.
+**NPSH Scenario 3: Hot Water or High Ambient Temperature**
+- Higher water temperature increases vapour pressure, reducing NPSHa.
+- In KSA summer conditions, this can become critical.
+- Mitigation: Use cooler water source if possible, or reduce pump speed slightly to lower NPSHr.
 
 **Cavitation Prevention Measures**
 - Use shortest possible suction line with minimal bends
@@ -307,12 +334,39 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.11 Maintenance & Reliability Notes
+## 7.11 Maintenance & Reliability (Expanded for Maximum Information)
 
-- Follow manufacturer maintenance schedules strictly.
-- Keep records of annual third-party inspections and pressure testing.
-- Monitor for early signs of cavitation (unusual noise, vibration, loss of performance).
-- Maintain critical spares (rupture discs, seals, nozzles) on-site during major turnarounds.
+### Preventive vs Predictive Maintenance
+- **Preventive**: Time-based (e.g., oil changes every X hours, annual inspections).
+- **Predictive**: Condition-based using vibration analysis, temperature monitoring, and performance trending.
+
+### Key Components to Monitor
+- **Plungers and packing**: Most common wear items. Look for scoring, leakage, or reduced performance.
+- **Valves and seats**: Check for pitting, erosion, or improper seating.
+- **Rupture discs**: Must be replaced after activation. Maintain spares on unit.
+- **Hoses**: Age, visual condition, and annual pressure test records.
+- **Bearings and power end**: Vibration and temperature trends.
+
+### Recommended Practices for Major Turnarounds
+- Pre-turnaround pump inspection and fluid analysis.
+- Maintain a critical spares kit (plungers, packing, valves, rupture discs, nozzles).
+- Assign dedicated pump technicians during high-activity periods.
+- Keep detailed maintenance logs linked to specific units.
+
+### Common Signs of Deterioration
+- Increased vibration or unusual noise
+- Gradual loss of pressure or flow
+- Higher than normal power consumption
+- Frequent relief valve or rupture disc activation
+
+### Diesel vs Electric Drive Considerations (KSA Context)
+- Diesel units: More mobile, require fuel, DEF, and regular engine maintenance. Good for remote or changing locations.
+- Electric units: Cleaner, quieter, lower operating cost where power is available. Require proper grounding and cable management.
+
+### Spare Parts Strategy
+- Identify high-wear, long-lead-time items in advance.
+- For major turnarounds, stage critical spares on-site or at nearby warehouse.
+- Consider consignment stock agreements with key suppliers for high-usage items.
 
 ---
 
