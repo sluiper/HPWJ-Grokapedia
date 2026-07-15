@@ -33,7 +33,24 @@ High-pressure water jetting hoses are typically multi-layer constructions consis
 
 ---
 
-## 18.3 Hose Life Management and Testing
+## 18.3 Hose Selection and Pressure Rating
+
+Selecting the correct hose is essential for safety and performance.
+
+**Key Selection Criteria**:
+- Working pressure must be at least 1.5× the maximum system pressure (recommended safety factor)
+- Hose ID must be matched to required flow rate (larger ID = lower pressure drop)
+- Minimum bend radius must suit the deployment method
+- Outer cover must suit the environment (abrasion, UV, chemicals)
+
+**Derating Considerations**:
+- High ambient temperatures can reduce hose life and performance
+- Age and previous use reduce remaining service life
+- UV exposure (common in KSA) accelerates outer cover degradation
+
+---
+
+## 18.4 Hose Life Management and Testing
 
 **Expiration Rules (Mandatory)**:
 - **Flex lances and shotgun whip hoses**: Maximum **2 years** from date of manufacture or receipt
@@ -55,7 +72,7 @@ High-pressure water jetting hoses are typically multi-layer constructions consis
 
 ---
 
-## 18.4 Hose Inspection Criteria
+## 18.5 Hose Inspection Criteria
 
 **Reject Immediately (Do Not Use)**:
 - Exposed steel wire braid or reinforcement
@@ -77,7 +94,7 @@ High-pressure water jetting hoses are typically multi-layer constructions consis
 
 ---
 
-## 18.5 Hose Bend Radius and Handling
+## 18.6 Hose Bend Radius and Handling
 
 Exceeding the minimum bend radius is one of the most common causes of premature hose failure.
 
@@ -88,15 +105,15 @@ Exceeding the minimum bend radius is one of the most common causes of premature 
 - Avoid twisting the hose during deployment or retrieval
 
 **KSA-Specific Considerations**:
-- High ambient temperatures can make hoses more flexible (risk of kinking)
+- High ambient temperatures can make hoses more flexible (increased risk of kinking)
 - UV exposure accelerates outer cover degradation — store hoses out of direct sunlight when not in use
 - Dust and sand can cause abrasion damage — protect hoses during transport and storage
 
 ---
 
-## 18.6 Fitting and Connection Technology
+## 18.7 Fitting and Connection Technology
 
-### 18.6.1 Type M Connections
+### 18.7.1 Type M Connections
 
 Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 
@@ -105,7 +122,7 @@ Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 - Inspect cone and seat surfaces for damage, scoring, or debris before connection
 - Check weep holes for leakage during operation
 
-### 18.6.2 Quick-Connect Couplings
+### 18.7.2 Quick-Connect Couplings
 
 **Risks**:
 - Accidental disconnection under pressure due to latch/pin wear or hose rotation
@@ -119,7 +136,7 @@ Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 **Linked Master Control Register Items**:
 - Ch7: Quick-connect coupling disconnection risk mitigation
 
-### 18.6.3 Whip Checks and Hose Restraint
+### 18.7.3 Whip Checks and Hose Restraint
 
 Whip checks (safety cables/chains) are **mandatory** across all high-pressure connections.
 
@@ -134,7 +151,7 @@ Whip checks (safety cables/chains) are **mandatory** across all high-pressure co
 
 ---
 
-## 18.7 Hose Handling, Deployment, and Storage
+## 18.8 Hose Handling, Deployment, and Storage
 
 **Handling Best Practices**:
 - Always support the weight of the hose along its length
@@ -151,7 +168,23 @@ Whip checks (safety cables/chains) are **mandatory** across all high-pressure co
 
 ---
 
-## 18.8 Common Hose and Fitting Failure Modes (Linked to FMEA)
+## 18.9 Common Mistakes in Hose Management
+
+Even experienced teams make these recurring errors:
+
+- Running hoses beyond recommended expiration or operating hours
+- Skipping or rushing pre-use visual inspections
+- Using quick-connect couplings in high-movement applications
+- Exceeding minimum bend radius during deployment
+- Dragging hoses by the coupling instead of supporting the length
+- Poor storage (direct sunlight, tight coiling, on the ground)
+- Missing or incorrect whip check installation
+
+Awareness of these mistakes significantly reduces hose-related incidents.
+
+---
+
+## 18.10 Common Hose and Fitting Failure Modes (Linked to FMEA)
 
 | Failure Mode                        | Common Causes                              | Key Prevention Controls                              | Linked to Section 20 FMEA |
 |-------------------------------------|--------------------------------------------|-------------------------------------------------------|---------------------------|
@@ -162,7 +195,7 @@ Whip checks (safety cables/chains) are **mandatory** across all high-pressure co
 
 ---
 
-## 18.9 Summary of Key Controls
+## 18.11 Summary of Key Controls
 
 | Topic                        | Key Control                                              | Linked Master Control Register Item          |
 |------------------------------|----------------------------------------------------------|----------------------------------------------|
