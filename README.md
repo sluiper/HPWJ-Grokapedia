@@ -24,6 +24,7 @@ It combines:
 - Section 16: Physics & Hydraulics Reference (maximum technical depth — formulas, worked examples, injury mechanisms)
 - Section 18: Hose, Fitting & Connection Technology (strong coverage of life management, whip checks, quick-connect risks)
 - Section 20: Failure Modes & Effects Analysis (FMEA-style with RPN ranking, top priority modes, and Master Control Register linkages)
+- **Chapter 10: Emergency Response, Medical Management & Trauma First-Aid** (newly added v7.6 — highest operational priority)
 - All 10 Manufacturer Reference Folders (NLB, StoneAge, Hammelmann, WOMA, Peinemann, Sugino, Kamat, Uraca, Interpump, Jetstream) — consistent and practical
 
 **Major Update v7.6:**
@@ -31,6 +32,7 @@ It combines:
 - Master Control Register significantly expanded into a living single-source table (30+ concrete rules/thresholds with sourcing and FMEA links)
 - Version consistency standardized to v7.6
 - Strong alignment confirmed with WJTA, WJA, and manufacturer guidance; no major factual errors found
+- **Medical Alert Card template** added to /templates/medical_alert/ for immediate printing and use by all HPWJ personnel
 - Specific recommendations added for 40k psi creeping hose / NLB UHP tube bundle applications
 
 **In Progress:**
@@ -41,10 +43,9 @@ It combines:
 - Comprehensive FMEA with risk scoring
 
 **Large Gaps Remaining (Prioritized Roadmap):**
-- Most of Part 1 operational chapters (Ch1–6, 8–9, 11–15)
-- Emergency Response / Medical / Trauma (Ch10 — highest operational priority)
-- Competency Framework & Training (Ch13 — direct input to Anabeeb ATC 3-day course)
-- Templates (checklists, Medical Alert Cards)
+- Most of Part 1 operational chapters (Ch1–6, 8–9, 11–15) — Chapter 10 now complete
+- Competency Framework & Training (Ch13 — direct input needed for Anabeeb ATC 3-day course)
+- Templates (expanded checklists)
 - Regulatory matrix, incident case studies, visuals/diagrams
 
 ## How to Use This Repository
