@@ -92,6 +92,34 @@ Common systems:
 
 **Pressureless-at-Rest Design (WOMA principle)**: The system should be pressureless when the high-pressure gun is not activated. Verify this feature during equipment selection and pre-use inspection.
 
+### 7.3.5 NPSH and Cavitation – Detailed Guidance & Calculations
+
+**NPSH Available (NPSHa) Formula** (simplified for field use):
+
+NPSHa = Atmospheric Pressure + Static Head − Vapour Pressure − Suction Line Losses
+
+**Practical Targets for HPWJ Pumps**
+- NPSHa should exceed NPSH Required (NPSHr) by the manufacturer by at least **0.5 – 1.0 bar** margin.
+- Cold water (lower vapour pressure) improves NPSHa.
+- Dirty or aerated water reduces effective NPSHa.
+
+**Example Calculation**
+Conditions:
+- Site elevation: Sea level (Atmospheric pressure ≈ 1.013 bar)
+- Suction line: 3 m vertical lift + 2 m horizontal with minor losses
+- Water temperature: 25°C (Vapour pressure ≈ 0.032 bar)
+
+Approximate NPSHa ≈ 1.013 + 0 (if flooded suction) − 0.032 − 0.15 (line losses) ≈ **0.83 bar**
+
+If the pump manufacturer states NPSHr = 0.6 bar at the operating speed, there is a reasonable margin. If NPSHr = 1.0 bar, cavitation risk is high — corrective action (larger suction line, flooded suction, or cooler water) is required.
+
+**Cavitation Prevention Measures**
+- Use shortest possible suction line with minimal bends
+- Ensure flooded suction where possible
+- Maintain clean inlet water (good filtration)
+- Avoid running the pump at very high speeds with marginal NPSH
+- Monitor for characteristic "gravel" or "marbles" noise
+
 ---
 
 ## 7.4 Worked Pump Selection Examples
@@ -114,7 +142,13 @@ Common systems:
 - Recommended: Triplex unit with good reaction force control and appropriate mole/nozzle selection
 - Key considerations: Careful monitoring of back pressure, proper mole thrust direction, communication between teams
 
-These examples illustrate that **no single pump size fits all applications**. Selection must be driven by the dominant cleaning requirement and reaction force constraints.
+### Example 4: Combined Manual + Automated Vessel Cleaning
+- Application: Large vessel turnaround requiring both manual lance work on accessible areas and automated 3D heads for internal surfaces
+- Target: 15,000 psi at mixed flow rates
+- Recommended: Versatile triplex unit capable of supporting both handheld guns and automated tooling interfaces
+- Key considerations: Strong SIMOPS controls, clear zoning between manual and automated areas, vacuum truck coordination, and robust barricading
+
+These examples illustrate that **no single pump size fits all applications**. Selection must be driven by the dominant cleaning requirement, reaction force constraints, and whether automated tooling will be used.
 
 ---
 
@@ -156,7 +190,34 @@ These examples illustrate that **no single pump size fits all applications**. Se
 
 ---
 
-## 7.6 Hoses, Fittings & Connections
+## 7.6 Manufacturer Comparison Tables
+
+### Pump Capability Comparison (Typical Ranges)
+
+| Manufacturer     | Common Pump Types     | Typical Max Pressure | Typical Flow Range     | Notable Strengths                          | Hazardous Area Options |
+|------------------|-----------------------|----------------------|------------------------|--------------------------------------------|------------------------|
+| NLB (USA)        | Triplex (diesel)      | 40,000+ psi         | Medium                 | Robust field units, good support in MEA    | Limited                |
+| StoneAge         | Triplex + tooling     | 40,000 psi          | Medium                 | Excellent rotating/flex tooling            | Standard               |
+| Hammelmann       | Triplex + Robotic     | 40,000+ psi         | Medium-High            | Robotic systems, sensor safety modules     | Good (ATEX options)    |
+| WOMA             | Triplex + Multi-gun   | 40,000+ psi         | Medium-High            | Multi-gun capability, pressureless-at-rest | Excellent (ATEX)       |
+| Peinemann        | Automated systems     | 40,000 psi          | High                   | Hands-free tube bundle cleaning            | Good                   |
+| Kamat            | Ultra-high pressure   | 50,000+ psi         | Lower                  | Very high pressure capability              | Good                   |
+
+### Tooling & Automation Comparison
+
+| Manufacturer     | Rotating Nozzles | Flex Lance Systems | Automated Bundle Cleaning | Robotic Systems | Sensor Auto-Shut-off | Notable Safety Feature          |
+|------------------|------------------|--------------------|---------------------------|-----------------|----------------------|---------------------------------|
+| StoneAge         | Excellent        | Excellent          | Good                      | Limited         | Limited              | Wear life guidance + geometry   |
+| Hammelmann       | Good             | Good               | Good                      | Excellent       | Excellent (xPRO)     | Irregular movement detection    |
+| WOMA             | Good             | Good               | Good                      | Limited         | Good                 | Pressureless-at-rest design     |
+| Peinemann        | Good             | Good               | Excellent                 | Limited         | Good                 | Hands-free focus                |
+| NLB              | Good             | Good               | Limited                   | Limited         | Limited              | Strong pre-use checklist        |
+
+These tables help when selecting equipment for specific Anabeeb jobs. For heavy tube bundle work, Peinemann or similar automated systems combined with a good triplex pump unit often provide the best productivity and safety balance.
+
+---
+
+## 7.7 Hoses, Fittings & Connections
 
 ### Hose Life & Inspection
 - **Expiration**: 2 years for flex lances and shotgun whip hoses; 4 years for all other high-pressure hoses (from date of manufacture or receipt).
@@ -171,7 +232,7 @@ These examples illustrate that **no single pump size fits all applications**. Se
 
 ---
 
-## 7.7 Nozzles & Tooling
+## 7.8 Nozzles & Tooling
 
 ### Nozzle Types & Selection
 - **Straight jet**: Highest impact, lowest coverage.
@@ -197,7 +258,7 @@ These examples illustrate that **no single pump size fits all applications**. Se
 
 ---
 
-## 7.8 Pre-Use Inspection Checklist (Comprehensive)
+## 7.9 Pre-Use Inspection Checklist (Comprehensive)
 
 The high-pressure pump and all associated equipment must be inspected **prior to each use**.
 
@@ -233,7 +294,7 @@ The high-pressure pump and all associated equipment must be inspected **prior to
 
 ---
 
-## 7.9 Common Pump & Hose Related Failure Modes (Bridge to FMEA)
+## 7.10 Common Pump & Hose Related Failure Modes (Bridge to FMEA)
 
 - Cavitation damage from inadequate NPSH or dirty/cold inlet water
 - Hose failure from exceeded bend radius, age, or missed annual pressure testing
@@ -246,7 +307,7 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.10 Maintenance & Reliability Notes
+## 7.11 Maintenance & Reliability Notes
 
 - Follow manufacturer maintenance schedules strictly.
 - Keep records of annual third-party inspections and pressure testing.
@@ -255,7 +316,7 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.11 Summary of Key Never Rules (Equipment-Related)
+## 7.12 Summary of Key Never Rules (Equipment-Related)
 
 - Never reuse or bypass a fired rupture disc.
 - Never operate without current annual hose pressure test records.
