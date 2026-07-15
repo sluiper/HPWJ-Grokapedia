@@ -18,6 +18,7 @@ Key physical concepts that govern HPWJ performance and safety include:
 - Energy losses in the system
 - Flow regime (laminar vs turbulent)
 - Jet stability and breakup
+- Fluid property variations with temperature and pressure
 
 Understanding these principles helps explain why reaction force limits exist, why NPSH matters, why nozzle size affects pressure and flow, and why certain operational practices are mandatory.
 
@@ -213,7 +214,25 @@ At long distance: Jet breaks into droplets/spray with greatly reduced impact.
 
 ---
 
-## 16.7 Pressure, Flow, and Power Relationships
+## 16.7 Jet Impact Pressure on Surfaces
+
+When a high-velocity jet strikes a surface, its kinetic energy is converted into pressure (stagnation pressure).
+
+**Approximate Impact Pressure**:
+At very close standoff distances, the impact pressure on a solid surface can approach the pump discharge pressure. As standoff distance increases and the jet begins to break up, effective impact pressure drops rapidly.
+
+**Physics of Material Removal**:
+The jet removes material through a combination of:
+- Direct impact pressure
+- Shear forces from turbulent fluctuations
+- Cavitation effects near the surface (in some cases)
+- Fatigue from repeated high-frequency impacts
+
+This explains why HPWJ is effective at removing hard scale, coatings, and even concrete, while also highlighting why direct contact with the jet is extremely dangerous to human tissue.
+
+---
+
+## 16.8 Pressure, Flow, and Power Relationships
 
 Hydraulic power delivered by the system is:
 
@@ -241,7 +260,33 @@ This shows why very high-pressure + high-flow combinations require large, powerf
 
 ---
 
-## 16.8 Cavitation from a Physics Perspective
+## 16.9 Water Compressibility at Ultra-High Pressures
+
+At pressures above approximately 30,000–40,000 psi, water becomes slightly compressible. While the effect is small compared to gases, it becomes relevant in ultra-high pressure applications.
+
+**Implications**:
+- Actual jet velocity and impact pressure may differ slightly from incompressible calculations.
+- Component stress and fatigue life calculations become more complex.
+- Most standard HPWJ work (up to 20,000–25,000 psi) can safely use incompressible assumptions.
+
+For the majority of Anabeeb operations, compressibility effects can be neglected, but they should be considered when working at the extreme upper end of pressure capability.
+
+---
+
+## 16.10 Temperature Effects on Water Properties
+
+Water properties change with temperature, which has practical implications in hot climates like KSA:
+
+- **Density** decreases slightly with temperature.
+- **Viscosity** decreases significantly with temperature (affects Reynolds number and friction losses).
+- **Vapour pressure** increases with temperature (reduces NPSHa and increases cavitation risk).
+
+**KSA Relevance**:
+In summer conditions, inlet water can be significantly warmer than in temperate climates. This reduces the safety margin on NPSH and can increase cavitation risk if not managed through good inlet design and possibly cooler water sources.
+
+---
+
+## 16.11 Cavitation from a Physics Perspective
 
 Cavitation occurs when local static pressure in the liquid drops below the vapour pressure, causing vapour bubbles to form and then collapse violently.
 
@@ -258,7 +303,7 @@ Maintaining adequate Net Positive Suction Head (NPSH) is the primary defence. Th
 
 ---
 
-## 16.9 Energy Losses and Efficiency
+## 16.12 Energy Losses and Efficiency
 
 Not all input power reaches the jet as useful kinetic energy. Losses occur in:
 - Pump internal leakage and friction
@@ -274,17 +319,19 @@ Maintaining clean filters, good hoses, and proper nozzle condition directly impr
 
 ---
 
-## 16.10 Practical Implications and Rules of Thumb
+## 16.13 Practical Implications and Rules of Thumb
 
-| Physical Principle             | Practical Rule / Implication                              | Why It Matters                              |
-|--------------------------------|-----------------------------------------------------------|---------------------------------------------|
-| Bernoulli & Orifice Flow       | Smaller nozzle = higher velocity for same pressure        | Determines cleaning power vs coverage       |
-| Reaction Force                 | Limit to 250 N + body weight + barrel geometry            | Prevents loss of control and serious injury |
-| Reynolds Number & Turbulence   | Flow in hoses and jets is highly turbulent                | Affects friction losses and jet behaviour   |
-| Jet Coherence & Breakup        | Maintain optimal standoff distance; replace worn nozzles  | Maximises cleaning effectiveness            |
-| NPSH & Cavitation              | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
-| Power Relationship             | Pressure × Flow = Power                                 | Guides correct pump selection               |
-| Energy Losses                  | Keep system clean and well-maintained                     | Maximises actual cleaning performance       |
+| Physical Principle                  | Practical Rule / Implication                              | Why It Matters                              |
+|-------------------------------------|-----------------------------------------------------------|---------------------------------------------|
+| Bernoulli & Orifice Flow            | Smaller nozzle = higher velocity for same pressure        | Determines cleaning power vs coverage       |
+| Reaction Force                      | Limit to 250 N + body weight + barrel geometry            | Prevents loss of control and serious injury |
+| Reynolds Number & Turbulence        | Flow in hoses and jets is highly turbulent                | Affects friction losses and jet behaviour   |
+| Jet Coherence & Breakup             | Maintain optimal standoff distance; replace worn nozzles  | Maximises cleaning effectiveness            |
+| Jet Impact Pressure                 | Effective cleaning distance is limited                    | Guides optimal working distance             |
+| NPSH & Cavitation                   | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
+| Water Temperature Effects           | Consider warmer inlet water in hot climates               | Important for KSA operations                |
+| Power Relationship                  | Pressure × Flow = Power                                 | Guides correct pump selection               |
+| Energy Losses                       | Keep system clean and well-maintained                     | Maximises actual cleaning performance       |
 
 These physical principles underpin many of the safety rules, equipment selection guidelines, and operational practices found throughout this Encyclopedia.
 
