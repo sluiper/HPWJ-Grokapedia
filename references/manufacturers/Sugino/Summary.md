@@ -30,5 +30,9 @@ Sugino Machine is a respected Japanese manufacturer specializing in automated an
 - Less dominant in general surface preparation or manual lance work compared to StoneAge or European brands.
 - Best used for tube/pipe cleaning applications.
 
+## Official Documentation & Resources
+- Sugino Machine official website: https://www.sugino.com
+- Refer to technical documentation for automated tube cleaning systems.
+
 ## Relevant Never Rules
 - Never operate Sugino automated systems without proper training and competency.

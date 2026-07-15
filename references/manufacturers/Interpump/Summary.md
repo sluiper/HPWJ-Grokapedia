@@ -29,5 +29,9 @@ Interpump Group (including the Hawk brand) is one of the largest global manufact
 - Less prominent in the most demanding oil & gas or ultra-high pressure segments compared to NLB, WOMA, or Kamat.
 - Not as frequently referenced in specialized HPWJ safety literature as some competitors.
 
+## Official Documentation & Resources
+- Interpump Group official website: https://www.interpumpgroup.it
+- Hawk pumps documentation available via official channels.
+
 ## Relevant Never Rules
 - Follow standard high-pressure water jetting safety practices (no unique rules beyond general best practice).

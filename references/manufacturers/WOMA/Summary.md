@@ -30,6 +30,10 @@ WOMA is a major German manufacturer of high-pressure water jetting pumps and sys
 ## Limitations / Notes
 - Multi-gun operations require additional team coordination and training.
 
+## Official Documentation & Resources
+- WOMA official website: https://www.woma-group.com
+- Refer to EcoMaster and Twin-Jet technical documentation.
+
 ## Relevant Never Rules
 - Never operate WOMA units without confirming pressureless-at-rest functionality (where applicable).
 - Never start multi-gun operations without agreed coordination procedures.

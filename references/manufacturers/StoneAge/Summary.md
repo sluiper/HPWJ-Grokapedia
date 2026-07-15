@@ -33,5 +33,9 @@ StoneAge is a leading specialist in high-pressure water jetting **tooling**, not
 - **Does not manufacture pumps** — always paired with pumps from NLB, WOMA, or similar.
 - Best used as part of a complete system rather than standalone.
 
+## Official Documentation & Resources
+- StoneAge official website: https://www.stoneagetools.com
+- Refer to StoneAge operating manuals for specific tooling models.
+
 ## Relevant Never Rules
 - Never use worn or corroded nozzles beyond recommended life.

@@ -30,5 +30,9 @@ Kamat is a German manufacturer specializing in ultra-high pressure water jetting
 - Over-specified for many standard Anabeeb applications.
 - Best used when the job genuinely requires ultra-high pressure.
 
+## Official Documentation & Resources
+- Kamat official website: https://www.kamat.de
+- Refer to technical documentation for ultra-high pressure systems.
+
 ## Relevant Never Rules
 - Never operate ultra-high pressure systems without appropriate training, PPE, and safety controls.

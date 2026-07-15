@@ -31,6 +31,10 @@ Peinemann is a specialist Dutch company focused on hands-free and semi-automated
 - Best suited for repetitive, high-volume tube bundle work rather than general surface cleaning.
 - Requires good maintenance and trained operators.
 
+## Official Documentation & Resources
+- Peinemann official website: https://www.peinemann.nl
+- Refer to technical documentation for automated tube bundle systems.
+
 ## Relevant Never Rules
 - Never operate automated Peinemann-style systems without proper training and competency verification.
 - Never bypass entanglement prevention or feed control safety features.

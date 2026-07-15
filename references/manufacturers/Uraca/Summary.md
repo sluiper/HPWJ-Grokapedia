@@ -17,7 +17,7 @@ Uraca is a long-established German manufacturer of high-pressure pumps and syste
 
 ## Specific Guidance Relevant to Anabeeb
 - Solid, reliable option for general high-pressure water jetting work.
-- Less specialized in advanced automation or ultra-high pressure compared to some competitors.
+- Less specialized in ultra-high pressure or advanced automation compared to some competitors.
 - Good European alternative when seeking proven pump technology.
 
 ## Strengths
@@ -29,5 +29,9 @@ Uraca is a long-established German manufacturer of high-pressure pumps and syste
 - Less prominent in the most advanced robotic/automated segments compared to Hammelmann or Peinemann.
 - Not as widely referenced in some global HPWJ safety literature as NLB, WOMA, or StoneAge.
 
+## Official Documentation & Resources
+- Uraca official website: https://www.uraca.de
+- Refer to technical documentation for high-pressure pump systems.
+
 ## Relevant Never Rules
-- Follow standard high-pressure water jetting safety rules (no specific unique rules highlighted beyond general best practice).
+- Follow standard high-pressure water jetting safety practices (no specific unique rules highlighted beyond general best practice).

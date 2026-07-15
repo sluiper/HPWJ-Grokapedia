@@ -20,6 +20,7 @@ NLB is one of the leading manufacturers of diesel-powered high-pressure water je
 - Pre-use inspection should include engine oil, pump oil, coolant, fuel, and DEF (where fitted).
 - Area/other-end-of-unit checks are important before starting.
 - Annual third-party inspections are expected.
+- Strong focus on hose condition and whip check installation.
 
 ## Strengths
 - Reliable field performance
@@ -28,6 +29,10 @@ NLB is one of the leading manufacturers of diesel-powered high-pressure water je
 
 ## Limitations / Notes
 - More focused on traditional triplex pump units than advanced robotic/automated systems (compared to Hammelmann or Peinemann).
+
+## Official Documentation & Resources
+- NLB official website: https://www.nlbcorp.com
+- Check NLB operation and maintenance manuals for the specific model in use.
 
 ## Relevant Never Rules
 - Never leave the pump unit running unattended.

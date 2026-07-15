@@ -31,5 +31,9 @@ Hammelmann is a premium German manufacturer of high-pressure pumps and advanced 
 - Higher cost compared to basic triplex units.
 - Best suited for applications where automation and advanced safety features deliver clear value.
 
+## Official Documentation & Resources
+- Hammelmann official website: https://www.hammelmann.com
+- Refer to technical documentation for JETMASTER, xPRO, and PIPEMASTER systems.
+
 ## Relevant Never Rules
 - Never bypass or disable sensor-based safety modules.

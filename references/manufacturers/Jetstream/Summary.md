@@ -28,5 +28,8 @@ Jetstream is a well-known American manufacturer of high-pressure water jetting p
 - Less dominant in the MEA region compared to NLB.
 - Limited specific safety innovations highlighted compared to European brands with advanced modules (e.g., Hammelmann xPRO).
 
+## Official Documentation & Resources
+- Jetstream official website: Check current manufacturer channels for latest documentation.
+
 ## Relevant Never Rules
 - Follow standard high-pressure water jetting safety rules (no unique rules beyond general best practice).
