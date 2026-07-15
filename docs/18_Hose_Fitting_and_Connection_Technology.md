@@ -136,18 +136,37 @@ Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 **Linked Master Control Register Items**:
 - Ch7: Quick-connect coupling disconnection risk mitigation
 
-### 18.7.3 Whip Checks and Hose Restraint
+### 18.7.3 Whip Checks and Hose Restraint (Deep Dive)
 
-Whip checks (safety cables/chains) are **mandatory** across all high-pressure connections.
+**Whip checks** (also called hose restraints or safety cables) are **mandatory** across all high-pressure hose connections. Their purpose is to restrain the hose in the event of a sudden hose or fitting failure, preventing dangerous whipping.
 
-**Requirements**:
-- Must be rated for the system working pressure and hose diameter
-- Must be installed on **both sides** of every connection (limited exceptions for rotating hoses)
-- Inspect for damage, corrosion, and proper attachment before every use
-- Never rely on whip checks as the primary connection method
+### Critical Finding: Metal Wire Rope Whip Checks
+
+Many traditional **metal wire rope** whip checks (commonly called "Red Dog" style or general industrial whip checks) are **not suitable** for high-pressure water jetting service.
+
+**Why Metal Wire Rope Whip Checks Are Often Inadequate**:
+- They are typically designed for lower-pressure pneumatic or hydraulic systems.
+- They lack the required strength and energy absorption for the sudden, high-force release that occurs when a HPWJ hose fails at 10,000–20,000+ psi.
+- Several major manufacturers (including NLB) and industry reviews have highlighted that standard wire rope whip checks can fail or provide insufficient restraint under HPWJ conditions.
+
+**Recommended Practice**:
+- Use **high-pressure rated whip checks** specifically designed and tested for water jetting service.
+- Preferred types are often **synthetic** (high-strength fibre) or specially engineered metal assemblies rated for the full system pressure and hose size.
+- Always verify the whip check has a clear working load limit (WLL) or rating suitable for the application.
+
+**SABIC Procedure Alignment**:
+The SABIC HPWJ procedure for the MEA region requires that all high-pressure connections must be fitted with properly rated whip checks / hose restraints. General-purpose wire rope restraints are not considered adequate.
+
+**Installation Requirements**:
+- Whip checks must be installed on **both sides** of every high-pressure connection.
+- They must be rated for the maximum working pressure and hose diameter in use.
+- Inspect whip checks before every use for damage, corrosion, fraying (on synthetic), or deformation.
+- Never use damaged or corroded whip checks.
+- Do not rely on whip checks as the primary connection method.
 
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (hoses section)
+- Ch7: Hose handling and restraint requirements
 
 ---
 
@@ -179,6 +198,7 @@ Even experienced teams make these recurring errors:
 - Dragging hoses by the coupling instead of supporting the length
 - Poor storage (direct sunlight, tight coiling, on the ground)
 - Missing or incorrect whip check installation
+- Using non-rated (general industrial) whip checks on HPWJ systems
 
 Awareness of these mistakes significantly reduces hose-related incidents.
 
@@ -204,7 +224,7 @@ Awareness of these mistakes significantly reduces hose-related incidents.
 | Colour Coding & Marking      | Visible MAWP and expiration marking                      | Ch7 Hose colour coding rules                 |
 | Pre-Use Inspection           | Full visual inspection before every use                  | Ch7 Pre-use inspection checklist             |
 | Quick-Connects               | Prefer screw/face-seal in high-movement applications     | Ch7 Quick-connect risk mitigation            |
-| Whip Checks                  | Correctly rated and installed on all connections         | Ch7 Hose inspection requirements             |
+| Whip Checks                  | Use properly rated HPWJ whip checks (not general wire rope) | Ch7 Hose inspection requirements          |
 | Bend Radius & Handling       | Support weight, avoid kinking, proper deployment         | Ch7 Hose handling best practices             |
 | Storage                      | Proper racks/reels, UV protection, clear labelling       | Ch7 Hose storage requirements                |
 
@@ -215,6 +235,7 @@ Consistent application of these controls significantly reduces hose-related inci
 **References**:
 - WJTA Orange Book hose and fitting guidance
 - WJA Code of Practice
-- Manufacturer hose and fitting specifications (NLB, StoneAge, WOMA, etc.)
+- NLB and manufacturer whip check recommendations
+- SABIC HPWJ Procedure for MEA Region
 - Master Control Register (linked items)
 - Industry hose life-cycle studies
