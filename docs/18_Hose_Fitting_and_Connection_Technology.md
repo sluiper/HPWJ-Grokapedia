@@ -140,36 +140,34 @@ Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
 
 **Whip checks** (hose restraints / safety cables) are **mandatory** across all high-pressure hose connections. Their purpose is to restrain the hose in the event of a sudden hose or fitting failure, preventing dangerous whipping.
 
-### Fact-Check on Red Dog and Rated Whip Checks
+**Fact-Check on Red Dog and Rated Whip Checks**
 
-- **Red Dog** whip checks are a recognized product line. Some Red Dog whip checks **are rated** and can be used in high-pressure water jetting **when properly selected** for the application.
+- **Red Dog** whip checks are produced/supplied by companies such as DERC Salotech. Some Red Dog products **are rated** and can be used in high-pressure water jetting **when properly selected** for the application.
 - The critical point is **not the brand**, but whether the specific whip check has a suitable **Working Load Limit (WLL)** for the force generated during a HPWJ hose failure.
 - Many general-purpose metal wire rope whip checks are **not adequate** for HPWJ because they were designed for lower-pressure systems.
 
-### How to Select the Right Whip Check (Force vs Pressure)
+**How to Select the Right Whip Check (Force vs Pressure)**
 
-This is a common point of confusion:
-
-**Whip checks are rated in force (Working Load Limit in lbs or kN), not in pressure (PSI).**
+Whip checks are rated in **force** (Working Load Limit in lbs or kN), **not in pressure (PSI)**.
 
 So how do you know if a whip check is strong enough for a specific hose size, flow, and pressure?
 
 **Practical Guidance**:
 
-1. **There is no simple universal formula** that directly converts PSI + GPM into the exact force on a whip check during failure. The force depends on pressure, hose internal diameter, flow rate, and how suddenly the failure occurs.
+1. There is **no simple universal formula** that directly converts PSI + GPM into the exact force on a whip check during failure. The force depends on pressure, hose internal diameter, flow rate, and how suddenly the failure occurs.
 
 2. **Best Practice in Industry**:
-   - Use whip checks that are **specifically recommended or rated by the pump manufacturer or tooling manufacturer** (e.g., NLB, StoneAge, WOMA) for the hose size and pressure being used.
+   - Use whip checks that are **specifically recommended or rated by the pump manufacturer or tooling manufacturer** (e.g. NLB, StoneAge, WOMA, DERC Salotech) for the hose size and pressure being used.
    - Many companies apply a **conservative safety factor** and select whip checks with a Working Load Limit significantly higher than the theoretical maximum force.
    - When in doubt, use whip checks rated for the **next higher hose size or pressure class**.
 
 3. **Red Dog / Metal Wire Rope Whip Checks**:
-   - Can be used **if they have a clear, suitable Working Load Limit** for the application.
+   - Can be used **if they have a clear, suitable Working Load Limit** for the application (e.g. from DERC Salotech or other rated suppliers).
    - Always verify the manufacturer’s rating matches or exceeds the expected force for your hose and pressure.
 
 4. **Recommended Approach for Anabeeb**:
    - Prefer whip checks that are **explicitly marketed and rated for high-pressure water jetting service**.
-   - Follow the specific recommendations from the equipment manufacturer (pump or tooling).
+   - Follow the specific recommendations from the equipment manufacturer.
    - When manufacturer guidance is not available, use whip checks with a high Working Load Limit and apply a conservative safety factor.
 
 **SABIC Procedure Alignment**:
@@ -242,7 +240,7 @@ Awareness of these mistakes significantly reduces hose-related incidents.
 | Colour Coding & Marking      | Visible MAWP and expiration marking                      | Ch7 Hose colour coding rules                 |
 | Pre-Use Inspection           | Full visual inspection before every use                  | Ch7 Pre-use inspection checklist             |
 | Quick-Connects               | Prefer screw/face-seal in high-movement applications     | Ch7 Quick-connect risk mitigation            |
-| Whip Checks                  | Use properly rated whip checks suitable for HPWJ pressure and hose size (follow manufacturer guidance) | Ch7 Hose inspection requirements          |
+| Whip Checks                  | Use properly rated whip checks suitable for HPWJ pressure and hose size (follow manufacturer guidance, e.g. DERC Salotech / Red Dog when rated) | Ch7 Hose inspection requirements          |
 | Bend Radius & Handling       | Support weight, avoid kinking, proper deployment         | Ch7 Hose handling best practices             |
 | Storage                      | Proper racks/reels, UV protection, clear labelling       | Ch7 Hose storage requirements                |
 
@@ -254,6 +252,7 @@ Consistent application of these controls significantly reduces hose-related inci
 - WJTA Orange Book hose and fitting guidance
 - WJA Code of Practice
 - NLB and major manufacturer whip check recommendations
+- DERC Salotech Catalog (2025)
 - SABIC HPWJ Procedure for MEA Region
 - Master Control Register (linked items)
 - Industry hose life-cycle studies
