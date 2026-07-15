@@ -459,7 +459,23 @@ All safety systems should be tested as part of the pre-use inspection.
 
 ---
 
-## 7.15 Summary of Key Never Rules (Equipment-Related)
+## 7.15 Common Operator Errors to Avoid
+
+Even with good equipment, many incidents occur due to avoidable operational mistakes:
+
+- Failing to perform full pre-use inspection (especially rupture disc and hose condition).
+- Changing plungers without verifying component pressure ratings and relief settings.
+- Ignoring early signs of cavitation (unusual noise/vibration).
+- Using quick-connect couplings in high-movement applications without proper latch inspection.
+- Leaving the pump running unattended.
+- Poor inlet water quality / inadequate filtration.
+- Incorrect stance or barrel positioning leading to reaction force incidents.
+
+Awareness of these common errors significantly reduces risk.
+
+---
+
+## 7.16 Summary of Key Never Rules (Equipment-Related)
 
 - Never reuse or bypass a fired rupture disc.
 - Never operate without current annual hose pressure test records.
