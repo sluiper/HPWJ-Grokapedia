@@ -16,6 +16,8 @@ Key physical concepts that govern HPWJ performance and safety include:
 - Momentum and reaction force
 - Cavitation
 - Energy losses in the system
+- Flow regime (laminar vs turbulent)
+- Jet stability and breakup
 
 Understanding these principles helps explain why reaction force limits exist, why NPSH matters, why nozzle size affects pressure and flow, and why certain operational practices are mandatory.
 
@@ -100,7 +102,44 @@ These velocities are extremely high and explain both the cleaning power and the 
 
 ---
 
-## 16.4 Reaction Force Physics
+## 16.4 Reynolds Number and Flow Regime
+
+The Reynolds number (Re) is a dimensionless quantity that indicates whether flow is laminar or turbulent.
+
+**Reynolds Number Formula**:
+
+$$
+Re = \frac{\rho v D}{\mu}
+$$
+
+Where:
+- $\rho$ = Fluid density
+- $v$ = Characteristic velocity
+- $D$ = Characteristic length (e.g., nozzle diameter or hose ID)
+- $\mu$ = Dynamic viscosity of the fluid
+
+**Interpretation**:
+- Re < 2,000 → Laminar flow (smooth, layered)
+- Re > 4,000 → Turbulent flow (chaotic, eddying)
+- 2,000 < Re < 4,000 → Transitional
+
+**Application in HPWJ**:
+- Flow inside hoses and pumps is almost always highly turbulent (Re often > 100,000).
+- The jet exiting the nozzle is also highly turbulent.
+- Turbulent jets have better cleaning action due to fluctuating impact forces but break up faster over distance.
+- Very high viscosity fluids (e.g., cold or dirty water) can lower Re and affect jet performance.
+
+**Worked Example – Reynolds Number in a Hose**
+
+Conditions: 1" ID hose, 80 L/min flow, water at 20°C
+- Velocity ≈ 2.65 m/s
+- Re ≈ (1000 × 2.65 × 0.0254) / 0.001 ≈ **66,500** (highly turbulent)
+
+This confirms that flow in typical HPWJ hoses is turbulent, which affects friction losses and mixing.
+
+---
+
+## 16.5 Reaction Force Physics
 
 When high-pressure water exits the nozzle at high velocity, it produces an equal and opposite reaction force on the tool and operator (Newton’s Third Law of Motion).
 
@@ -146,7 +185,35 @@ All three should be satisfied for safe handheld operation.
 
 ---
 
-## 16.5 Pressure, Flow, and Power Relationships
+## 16.6 Jet Coherence, Breakup Distance, and Impact
+
+High-pressure jets do not remain perfectly coherent forever. They eventually break up due to aerodynamic forces and internal instabilities.
+
+**Physics of Jet Breakup**:
+- The jet is initially a high-speed liquid column.
+- Aerodynamic drag and surface tension cause instabilities (Rayleigh-Plateau instability).
+- At high speeds, aerodynamic forces dominate and cause the jet to atomize (break into droplets).
+
+**Factors Affecting Breakup Distance**:
+- Nozzle quality and condition (sharp, well-designed orifices maintain coherence longer)
+- Jet velocity (higher velocity jets break up faster in air)
+- Ambient conditions (wind, dust)
+- Additives in the water (surfactants can affect surface tension)
+
+**Practical Implications**:
+- Effective cleaning distance is limited by jet coherence.
+- Beyond a certain standoff distance, the jet turns into a spray with much lower impact pressure.
+- Operators should keep the nozzle at an optimal distance (typically 100–300 mm depending on nozzle and pressure) for best results.
+- Worn or poor-quality nozzles cause premature jet breakup and reduced cleaning effectiveness.
+
+**Diagram Description – Jet Coherence vs Distance**:
+Close to the nozzle: Jet is a tight, high-energy column.
+At moderate distance: Jet begins to spread and lose coherence.
+At long distance: Jet breaks into droplets/spray with greatly reduced impact.
+
+---
+
+## 16.7 Pressure, Flow, and Power Relationships
 
 Hydraulic power delivered by the system is:
 
@@ -174,7 +241,7 @@ This shows why very high-pressure + high-flow combinations require large, powerf
 
 ---
 
-## 16.6 Cavitation from a Physics Perspective
+## 16.8 Cavitation from a Physics Perspective
 
 Cavitation occurs when local static pressure in the liquid drops below the vapour pressure, causing vapour bubbles to form and then collapse violently.
 
@@ -191,13 +258,14 @@ Maintaining adequate Net Positive Suction Head (NPSH) is the primary defence. Th
 
 ---
 
-## 16.7 Energy Losses and Efficiency
+## 16.9 Energy Losses and Efficiency
 
 Not all input power reaches the jet as useful kinetic energy. Losses occur in:
 - Pump internal leakage and friction
 - Hose friction losses
 - Minor losses at fittings and bends
 - Nozzle inefficiency ($C_d < 1$)
+- Heat generation
 
 **Typical Overall Efficiency**:
 Well-maintained modern HPWJ systems usually achieve 70–85% overall efficiency from pump shaft power to jet kinetic energy.
@@ -206,26 +274,17 @@ Maintaining clean filters, good hoses, and proper nozzle condition directly impr
 
 ---
 
-## 16.8 Jet Impact and Coherence
+## 16.10 Practical Implications and Rules of Thumb
 
-**Impact Pressure on a Surface**:
-The pressure exerted by the jet on a surface is related to the jet’s velocity and the stand-off distance. At very close range, impact pressure can approach the pump pressure. As distance increases, the jet begins to break up (atomize), reducing effective impact.
-
-**Jet Coherence**:
-High-quality nozzles maintain a coherent jet for longer distances. Poor nozzles or worn orifices cause the jet to break up quickly, reducing cleaning effectiveness.
-
----
-
-## 16.9 Practical Implications and Rules of Thumb
-
-| Physical Principle          | Practical Rule / Implication                              | Why It Matters                              |
-|-----------------------------|-----------------------------------------------------------|---------------------------------------------|
-| Bernoulli & Orifice Flow    | Smaller nozzle = higher velocity for same pressure        | Determines cleaning power vs coverage       |
-| Reaction Force              | Limit to 250 N + body weight + barrel geometry            | Prevents loss of control and serious injury |
-| NPSH & Cavitation           | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
-| Power Relationship          | Pressure × Flow = Power                                 | Guides correct pump selection               |
-| Energy Losses               | Keep system clean and well-maintained                     | Maximises actual cleaning performance       |
-| Jet Coherence               | Use quality nozzles and replace when worn                 | Maintains effective cleaning distance       |
+| Physical Principle             | Practical Rule / Implication                              | Why It Matters                              |
+|--------------------------------|-----------------------------------------------------------|---------------------------------------------|
+| Bernoulli & Orifice Flow       | Smaller nozzle = higher velocity for same pressure        | Determines cleaning power vs coverage       |
+| Reaction Force                 | Limit to 250 N + body weight + barrel geometry            | Prevents loss of control and serious injury |
+| Reynolds Number & Turbulence   | Flow in hoses and jets is highly turbulent                | Affects friction losses and jet behaviour   |
+| Jet Coherence & Breakup        | Maintain optimal standoff distance; replace worn nozzles  | Maximises cleaning effectiveness            |
+| NPSH & Cavitation              | Good inlet conditions and filtration are mandatory        | Prevents rapid, expensive pump damage       |
+| Power Relationship             | Pressure × Flow = Power                                 | Guides correct pump selection               |
+| Energy Losses                  | Keep system clean and well-maintained                     | Maximises actual cleaning performance       |
 
 These physical principles underpin many of the safety rules, equipment selection guidelines, and operational practices found throughout this Encyclopedia.
 
