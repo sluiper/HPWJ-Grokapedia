@@ -8,43 +8,46 @@ This section provides detailed guidance on high-pressure hoses, fittings, connec
 
 ## 18.1 Purpose and Scope
 
-Proper selection, inspection, and management of hoses and fittings is critical to preventing high-pressure releases, hose whip incidents, and injection injuries. This section consolidates requirements from WJTA, WJA, manufacturer guidance, and operational best practice.
+Proper selection, inspection, and management of hoses and fittings is critical to preventing high-pressure releases, hose whip incidents, and injection injuries. This section consolidates requirements from WJTA, WJA, manufacturer guidance, and operational best practice for Anabeeb operations in KSA.
 
 ---
 
-## 18.2 Hose Types and Specifications
+## 18.2 Hose Construction and Specifications
 
-High-pressure water jetting hoses are typically constructed with multiple layers of high-tensile steel wire braid or spiral reinforcement over an inner tube, with an outer cover for protection.
+High-pressure water jetting hoses are typically multi-layer constructions consisting of:
 
-**Common Hose Categories in HPWJ**:
-- **Standard high-pressure hoses**: Used for most pump-to-tool connections.
-- **Flex lances / whip hoses**: Smaller diameter, more flexible hoses used inside tubes and pipes.
-- **Shotgun / hand lance hoses**: Short, highly flexible hoses used with handheld guns.
+- **Inner tube**: Smooth bore, oil and chemical resistant synthetic rubber
+- **Reinforcement**: Multiple layers of high-tensile steel wire braid or spiral wrap
+- **Outer cover**: Abrasion, oil, and weather-resistant synthetic rubber
 
-**Key Specifications**:
-- Must be rated for the maximum working pressure of the pump/system.
-- Inner tube material must be compatible with the fluid (usually water, sometimes with additives).
-- Outer cover should resist abrasion, oil, and weathering.
+**Key Performance Specifications**:
+- Working Pressure: Must exceed the maximum pump/system pressure by a suitable safety margin
+- Minimum Bend Radius: Critical — exceeding this causes permanent damage and reduced life
+- Temperature Range: Must suit KSA ambient and water temperatures
+- Compatibility: Inner tube must be compatible with the fluid being pumped
+
+**Common Hose Categories**:
+- **Standard HP Hoses**: Main pump discharge lines
+- **Flex Lances**: Smaller diameter, high flexibility for tube cleaning
+- **Shotgun / Hand Lance Hoses**: Short, highly flexible hoses for handheld guns
 
 ---
 
 ## 18.3 Hose Life Management and Testing
 
-Hoses have a finite service life and must be managed rigorously.
-
-**Expiration Rules**:
-- **Flex lances and shotgun whip hoses**: Maximum 2 years from date of manufacture or receipt.
-- **All other high-pressure hoses**: Maximum 4 years from date of manufacture or receipt.
+**Expiration Rules (Mandatory)**:
+- **Flex lances and shotgun whip hoses**: Maximum **2 years** from date of manufacture or receipt
+- **All other high-pressure hoses**: Maximum **4 years** from date of manufacture or receipt
 
 **Annual Third-Party Pressure/Proof Testing**:
-- All high-pressure hoses must undergo annual pressure/proof testing by a competent authority, in addition to visual inspection.
-- Testing records must be retained.
-- Hoses that pass visual inspection can still fail pressure testing (industry data shows approximately 7% failure rate).
+- All high-pressure hoses **must** undergo annual pressure/proof testing by a competent authority
+- Visual inspection alone is insufficient (industry data shows ~7% of visually acceptable hoses fail pressure testing)
+- Records must be retained and available for audit
 
-**Colour Coding and Marking**:
-- Hoses must be permanently marked with Maximum Allowable Working Pressure (MAWP).
-- Colour coding must be visible from at least 2 feet (0.6 m) and matched to the pump/system pressure rating.
-- Expiration date should be clearly visible.
+**Colour Coding and Permanent Marking**:
+- Hoses must be permanently marked with Maximum Allowable Working Pressure (MAWP)
+- Colour coding must be visible from at least 2 feet (0.6 m)
+- Expiration date should be clearly visible and legible
 
 **Linked Master Control Register Items**:
 - Ch7: Annual third-party hose pressure/proof testing
@@ -54,97 +57,112 @@ Hoses have a finite service life and must be managed rigorously.
 
 ## 18.4 Hose Inspection Criteria
 
-All hoses must be inspected before every use and during routine maintenance.
-
-**Reject Criteria (Immediate Retirement)**:
-- Exposed wire braid or reinforcement
+**Reject Immediately (Do Not Use)**:
+- Exposed steel wire braid or reinforcement
 - Bulging, blistering, or bubbling of the outer cover
-- Cuts, gouges, or abrasion that exposes reinforcement
+- Cuts, gouges, or abrasion reaching the reinforcement
 - Kinks, twists, or permanent deformation
-- Weepage or leakage from the outer cover
-- Damaged or corroded end fittings
-- Exceeded service life or missing expiration marking
+- Weepage or leakage from any part of the hose
+- Damaged, corroded, or loose end fittings
+- Exceeded service life or missing/illegible expiration marking
 
-**Pre-Use Visual Checks**:
-- Inspect entire length for damage
-- Check bend radius compliance (never exceed minimum bend radius)
-- Verify colour coding and expiration marking are visible
-- Confirm whip checks are correctly installed
+**Pre-Use Visual Inspection**:
+- Full length visual check for damage
+- Verify minimum bend radius compliance
+- Confirm colour coding and expiration marking visible
+- Check whip check condition and installation
 
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (hoses section)
 
 ---
 
-## 18.5 Fitting and Connection Types
+## 18.5 Hose Bend Radius and Handling
 
-### 18.5.1 Type M Connections
+Exceeding the minimum bend radius is one of the most common causes of premature hose failure.
 
-Common at higher pressures. Require correct cone/seat mating and proper thread engagement (typically 3.5–5 threads).
+**Key Rules**:
+- Never force a hose into a tighter bend than the manufacturer’s specified minimum bend radius
+- Use hose reels or rollers when changing direction over long distances
+- Support the hose along its length during movement — never drag by the coupling
+- Avoid twisting the hose during deployment or retrieval
 
-**Key Requirements**:
-- Inspect cone and seat surfaces for damage or debris before connection.
-- Ensure correct thread engagement.
-- Check weep holes for signs of leakage.
+**KSA-Specific Considerations**:
+- High ambient temperatures can make hoses more flexible (risk of kinking)
+- UV exposure accelerates outer cover degradation — store hoses out of direct sunlight when not in use
+- Dust and sand can cause abrasion damage — protect hoses during transport and storage
 
-### 18.5.2 Quick-Connect Couplings
+---
 
-Convenient but carry specific risks.
+## 18.6 Fitting and Connection Technology
+
+### 18.6.1 Type M Connections
+
+Common at higher pressures. Require precise cone-to-cone or cone-to-seat mating.
+
+**Requirements**:
+- Minimum 3.5–5 full threads of engagement
+- Inspect cone and seat surfaces for damage, scoring, or debris before connection
+- Check weep holes for leakage during operation
+
+### 18.6.2 Quick-Connect Couplings
 
 **Risks**:
-- Accidental disconnection under pressure due to wear, rotation, or incomplete engagement.
-- Latch/pin damage or misalignment.
+- Accidental disconnection under pressure due to latch/pin wear or hose rotation
+- Incomplete engagement
 
 **Best Practice**:
-- Prefer screw-type or face-seal couplings for high-movement or high-vibration applications.
-- Inspect latches and pins before every connection.
-- Never use quick-connects where hose rotation under pressure is likely.
+- Prefer **screw-type or face-seal couplings** for high-movement, high-vibration, or critical applications
+- Inspect latches and pins before every connection
+- Never use quick-connects where hose rotation under pressure is likely
 
 **Linked Master Control Register Items**:
 - Ch7: Quick-connect coupling disconnection risk mitigation
 
-### 18.5.3 Screw-Type and Face-Seal Couplings
+### 18.6.3 Whip Checks and Hose Restraint
 
-Preferred for high-movement or critical applications.
+Whip checks (safety cables/chains) are **mandatory** across all high-pressure connections.
 
-**Advantages**:
-- More secure under dynamic conditions.
-- Lower risk of accidental disconnection.
-- Better suited for high-pressure, high-vibration environments.
-
----
-
-## 18.6 Whip Checks and Hose Restraint Systems
-
-Whip checks (safety cables or chains) must be installed across all high-pressure connections to restrain the hose in the event of a fitting or hose failure.
-
-**Key Requirements**:
-- Whip checks must be rated for the system pressure and hose size.
-- Must be installed on both sides of every connection (exceptions noted for rotating hoses and certain feed-through applications).
-- Inspect whip checks for damage, corrosion, or wear before every use.
-- Never rely on whip checks as the primary connection method.
+**Requirements**:
+- Must be rated for the system working pressure and hose diameter
+- Must be installed on **both sides** of every connection (limited exceptions for rotating hoses)
+- Inspect for damage, corrosion, and proper attachment before every use
+- Never rely on whip checks as the primary connection method
 
 **Linked Master Control Register Items**:
 - Ch7: Pre-use inspection checklist (hoses section)
 
 ---
 
-## 18.7 Hose Handling, Storage, and Protection
+## 18.7 Hose Handling, Deployment, and Storage
 
 **Handling Best Practices**:
-- Support the weight of the hose along its length — never drag by the coupling or end fitting.
-- Avoid kinking or twisting during movement.
-- Protect hoses from sharp edges, vehicle traffic, and falling objects.
+- Always support the weight of the hose along its length
+- Use hose reels or rollers for long runs
+- Protect hoses from sharp edges, vehicle traffic, and falling objects
+- Avoid dragging hoses across rough or abrasive surfaces
 
 **Storage Best Practices**:
-- Store hoses off the ground on racks or reels.
-- Avoid tight bends or coiling below the minimum bend radius.
-- Protect from direct sunlight, chemicals, and extreme temperatures when not in use.
-- Clearly label stored hoses with pressure rating and expiration date.
+- Store off the ground on proper racks or reels
+- Maintain natural coil radius — do not force into tight bends
+- Protect from direct sunlight, chemicals, and extreme temperatures
+- Clearly label stored hoses with pressure rating and expiration date
+- Inspect stored hoses periodically for degradation
 
 ---
 
-## 18.8 Summary of Key Controls
+## 18.8 Common Hose and Fitting Failure Modes (Linked to FMEA)
+
+| Failure Mode                        | Common Causes                              | Key Prevention Controls                              | Linked to Section 20 FMEA |
+|-------------------------------------|--------------------------------------------|-------------------------------------------------------|---------------------------|
+| Hose Burst / Rupture                | Age, damage, missed testing, kinking       | Life management, annual testing, proper handling      | Yes (RPN 160)            |
+| Quick-Connect Disconnection         | Worn latches, rotation, poor engagement    | Prefer screw/face-seal, pre-use latch inspection      | Yes (RPN 180)            |
+| Premature Hose Degradation          | UV, heat, abrasion, poor storage           | Proper storage, UV protection, careful handling       | Linked                   |
+| Fitting Leak / Blow-out             | Incorrect engagement, damaged seats        | Proper engagement check, surface inspection           | Linked                   |
+
+---
+
+## 18.9 Summary of Key Controls
 
 | Topic                        | Key Control                                              | Linked Master Control Register Item          |
 |------------------------------|----------------------------------------------------------|----------------------------------------------|
@@ -154,9 +172,10 @@ Whip checks (safety cables or chains) must be installed across all high-pressure
 | Pre-Use Inspection           | Full visual inspection before every use                  | Ch7 Pre-use inspection checklist             |
 | Quick-Connects               | Prefer screw/face-seal in high-movement applications     | Ch7 Quick-connect risk mitigation            |
 | Whip Checks                  | Correctly rated and installed on all connections         | Ch7 Hose inspection requirements             |
-| Handling & Storage           | Support weight, avoid kinking, proper storage            | Ch7 Hose handling best practices             |
+| Bend Radius & Handling       | Support weight, avoid kinking, proper deployment         | Ch7 Hose handling best practices             |
+| Storage                      | Proper racks/reels, UV protection, clear labelling       | Ch7 Hose storage requirements                |
 
-These controls, when consistently applied, significantly reduce the risk of hose-related failures and associated injuries.
+Consistent application of these controls significantly reduces hose-related incidents.
 
 ---
 
