@@ -26,6 +26,15 @@ The nozzle operator must always maintain control of the method of pressure relie
 | Footprint & weight       | Smaller / lighter                | Larger / heavier                    | Triplex more common on mobile units    |
 | Efficiency at high pressure | Generally good                | Slightly better at very high flow   | Application dependent                  |
 
+### Power End vs Fluid End
+
+A high-pressure pump consists of two main sections:
+
+- **Power End**: The mechanical section (crankshaft, connecting rods, crossheads, bearings). It converts rotary motion into reciprocating motion. This section requires regular lubrication and is sensitive to vibration and misalignment.
+- **Fluid End**: The hydraulic section (cylinders, plungers, valves, packing, manifold). This is where water is pressurised. It is exposed to high pressure, abrasion, and corrosion.
+
+Understanding the difference helps with troubleshooting and maintenance planning. Most failures in the fluid end are related to water quality and pressure, while power end issues are usually lubrication or alignment related.
+
 ---
 
 ## 7.2 Flow vs Pressure – How to Select a Pump
@@ -114,6 +123,17 @@ A 250 kW triplex unit might deliver:
 - 10,000 psi at ~120 L/min (medium pressure, high flow)
 
 Selecting the correct plunger size and RPM allows the operator to operate near the peak efficiency area of the curve for the required job.
+
+### Variable Speed / RPM Effects
+
+Changing engine or motor speed (RPM) has a significant effect on pump performance:
+
+- Flow is roughly proportional to RPM.
+- Pressure capability is less directly affected but can change with flow.
+- Lower RPM generally reduces wear and can help with marginal NPSH situations.
+- Higher RPM increases flow but also increases power demand and can raise cavitation risk.
+
+Many modern units use electronic governors or variable frequency drives (VFDs) on electric motors to fine-tune performance.
 
 ---
 
@@ -323,7 +343,22 @@ These tables help when selecting equipment for specific Anabeeb jobs. For heavy 
 
 ---
 
-## 7.9 Pre-Use Inspection Checklist (Comprehensive)
+## 7.9 Inlet Filtration Best Practices
+
+Clean inlet water is critical for pump life and performance.
+
+**Recommended Practices**
+- Use multi-stage filtration (coarse strainer + fine filter).
+- Typical final filtration: 10–50 microns depending on pump manufacturer recommendations.
+- Monitor pressure drop across filters and change elements when differential pressure increases.
+- In dusty KSA environments, protect inlet from airborne contamination.
+- Consider automated back-flush filters for high-duty applications.
+
+Poor filtration is one of the fastest ways to damage plungers, valves, and packing.
+
+---
+
+## 7.10 Pre-Use Inspection Checklist (Comprehensive)
 
 The high-pressure pump and all associated equipment must be inspected **prior to each use**.
 
@@ -359,7 +394,7 @@ The high-pressure pump and all associated equipment must be inspected **prior to
 
 ---
 
-## 7.10 Common Pump & Hose Related Failure Modes (Bridge to FMEA)
+## 7.11 Common Pump & Hose Related Failure Modes (Bridge to FMEA)
 
 - Cavitation damage from inadequate NPSH or dirty/cold inlet water
 - Hose failure from exceeded bend radius, age, or missed annual pressure testing
@@ -372,7 +407,7 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.11 Maintenance & Reliability (Expanded for Maximum Information)
+## 7.12 Maintenance & Reliability (Expanded for Maximum Information)
 
 ### Preventive vs Predictive Maintenance
 - **Preventive**: Time-based (e.g., oil changes every X hours, annual inspections).
@@ -408,7 +443,31 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.12 Summary of Key Never Rules (Equipment-Related)
+## 7.13 Transport, Mounting & Site Setup Considerations
+
+- Units should be mounted on stable skids or trailers with adequate vibration isolation.
+- Ensure proper tie-down points for transport.
+- On site, the unit must be level and chocked.
+- Consider noise and exhaust direction relative to work areas and accommodation.
+- Provide spill containment bunding where required.
+- Ensure adequate ventilation and access for maintenance.
+
+---
+
+## 7.14 Enhanced Safety Systems Beyond Rupture Disc
+
+In addition to rupture discs, many modern systems include:
+- Pressure relief valves (adjustable or fixed)
+- High-pressure and low-pressure shutdown interlocks
+- Engine overspeed and low oil pressure shutdowns
+- Remote emergency stop buttons
+- Sensor-based auto-shut-off on advanced tooling (e.g., Hammelmann xPRO)
+
+All safety systems should be tested as part of the pre-use inspection.
+
+---
+
+## 7.15 Summary of Key Never Rules (Equipment-Related)
 
 - Never reuse or bypass a fired rupture disc.
 - Never operate without current annual hose pressure test records.
