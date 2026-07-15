@@ -4,6 +4,14 @@
 
 This section provides a structured Failure Modes and Effects Analysis (FMEA-style) for High Pressure Water Jetting systems. It identifies common failure modes, their causes, potential consequences, and recommended preventive/detective controls. It is designed to support risk assessments, training, and continuous improvement.
 
+Each failure mode includes a simple risk rating and explicit links to relevant items in the **Master Control Register**.
+
+**Risk Rating Legend**:
+- **Severity (S)**: 1 (Minor) to 10 (Catastrophic)
+- **Likelihood (L)**: 1 (Remote) to 10 (Almost certain)
+- **Detection (D)**: 1 (Almost certain to detect) to 10 (Undetectable)
+- **Risk Priority Number (RPN)** = S × L × D
+
 ---
 
 ## 20.1 Purpose and Scope
@@ -12,6 +20,7 @@ The goal of this FMEA is to:
 - Identify credible failure modes in HPWJ equipment and operations
 - Understand the potential effects on people, equipment, and operations
 - Define practical controls to prevent or mitigate each failure
+- Link controls directly to the Master Control Register
 - Support the development of robust procedures, training, and maintenance strategies
 
 This analysis draws from industry incident data, manufacturer experience, and operational lessons from major oil & gas contractors.
@@ -41,12 +50,19 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Gradual loss of pressure/flow
 - Higher than normal power consumption
 
+**Risk Rating**: S=8, L=6, D=4 → **RPN = 192** (High)
+
 **Recommended Controls**:
 - Maintain clean, short suction lines with adequate diameter
 - Monitor inlet pressure and filter differential pressure
 - Use cooler inlet water where possible in hot climates
 - Reduce pump speed if NPSH margin is marginal
 - Regular fluid analysis and internal inspection during maintenance
+
+**Linked Master Control Register Items**:
+- Ch7: Inlet filtration best practices
+- Ch5/Ch7: Weather and temperature-related stop-work criteria
+- Ch7: Pre-use inspection checklist (pump section)
 
 ---
 
@@ -71,12 +87,18 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Sudden pressure drop and water discharge
 - Activation of secondary relief systems
 
+**Risk Rating**: S=9, L=5, D=3 → **RPN = 135** (High)
+
 **Recommended Controls**:
 - Always use correctly rated discs matched to pump and system
 - Replace disc after every activation (never reuse)
 - Maintain spare discs on the unit
 - Tag and record disc installation date and rating
 - Inspect disc condition during every pre-use check
+
+**Linked Master Control Register Items**:
+- Ch7: Rupture disc single-use replacement and spare stock
+- Ch7: Pre-use inspection checklist (rupture disc section)
 
 ---
 
@@ -102,12 +124,52 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Low oil pressure alarm (if fitted)
 - Visible oil leaks or discoloration
 
+**Risk Rating**: S=8, L=4, D=5 → **RPN = 160** (High)
+
 **Recommended Controls**:
 - Daily oil level and condition checks
 - Follow manufacturer oil change intervals strictly
 - Monitor oil temperature during operation
 - Ensure proper alignment during installation and after transport
 - Use correct oil grade for ambient temperature
+
+**Linked Master Control Register Items**:
+- Ch7: Pre-use inspection checklist (pump fluids section)
+- Ch11: Maintenance and reliability practices
+
+---
+
+### 20.2.4 Diesel Engine / Drive Failure
+
+**Description**: Failure of the diesel engine or drive system powering the pump.
+
+**Causes**:
+- Fuel contamination or exhaustion
+- Overheating
+- Low oil pressure
+- Air intake restriction (dust in KSA environment)
+- Electrical or sensor faults
+
+**Consequences**:
+- Sudden loss of pumping capability mid-job
+- Uncontrolled shutdown
+- Potential safety issues if pressure cannot be maintained or relieved properly
+
+**Detection**:
+- Engine alarms and gauges
+- Unusual engine noise or performance
+- Visible smoke or fluid leaks
+
+**Risk Rating**: S=6, L=5, D=3 → **RPN = 90** (Medium-High)
+
+**Recommended Controls**:
+- Pre-use engine checks (oil, coolant, fuel, air filter, DEF)
+- Regular maintenance per manufacturer schedule
+- Protection of air intake from dust in desert environments
+- Clear emergency shutdown procedures
+
+**Linked Master Control Register Items**:
+- Ch7: Pre-use inspection checklist (engine fluids and filters)
 
 ---
 
@@ -134,12 +196,19 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Weepage from outer cover
 - Annual third-party pressure test failure
 
+**Risk Rating**: S=10, L=4, D=4 → **RPN = 160** (High)
+
 **Recommended Controls**:
 - Strict hose life management (2 years for flex lances/whip hoses, 4 years for others)
 - Mandatory annual third-party pressure testing
 - Colour coding and visible expiration marking
 - Proper hose handling and storage practices
 - Immediate retirement of any hose showing damage or weepage
+
+**Linked Master Control Register Items**:
+- Ch7: Annual third-party hose pressure/proof testing
+- Ch7: Hose expiration and colour coding rules
+- Ch7: Pre-use inspection checklist (hoses section)
 
 ---
 
@@ -163,11 +232,17 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Audible click or feel during connection
 - Regular function testing of couplings
 
+**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High)
+
 **Recommended Controls**:
 - Prefer screw-type or face-seal couplings in high-movement applications
 - Inspect quick-connect latches and pins before every connection
 - Never use quick-connects where rotation under pressure is likely
 - Train operators on correct connection technique
+
+**Linked Master Control Register Items**:
+- Ch7: Quick-connect coupling disconnection risk mitigation
+- Ch7: Pre-use inspection checklist (fittings section)
 
 ---
 
@@ -195,12 +270,18 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Change in pump pressure and flow readings
 - Reduced cleaning performance
 
+**Risk Rating**: S=6, L=7, D=3 → **RPN = 126** (Medium-High)
+
 **Recommended Controls**:
 - Scheduled nozzle replacement based on wear life (typically 20–60 hours)
 - Regular pin gauge inspection
 - Use of corrosion-resistant nozzles where appropriate
 - Good inlet filtration
 - Monitor pump performance trends
+
+**Linked Master Control Register Items**:
+- Ch7: Nozzle wear life and corrosion pitting rejection criteria
+- Ch7: Pre-use inspection checklist (nozzles section)
 
 ---
 
@@ -224,11 +305,52 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Loss of cleaning progress
 - Operator reports of unusual resistance or movement
 
+**Risk Rating**: S=10, L=4, D=5 → **RPN = 200** (Very High)
+
 **Recommended Controls**:
 - Mandatory use and correct installation of Anti-Withdrawal Devices
 - Proper training on flex lance operations
 - Good communication between nozzle operator and pump operator
 - Use of appropriate reaction force controls
+
+**Linked Master Control Register Items**:
+- Ch7: Tool-specific hazard profiles (flex lance + AWD)
+- Ch8: Team composition and communication rules
+
+---
+
+### 20.4.3 Automated / Robotic System Failure (e.g., Peinemann, Hammelmann JETMASTER)
+
+**Description**: Failure or loss of control of automated or robotic tube cleaning or jetting systems.
+
+**Causes**:
+- Sensor or control system fault
+- Mechanical jam or entanglement
+- Loss of communication or power
+- Operator error in programming or supervision
+
+**Consequences**:
+- Uncontrolled high-pressure jet movement
+- Damage to tubes or equipment
+- Injury to personnel in the area
+- Major production delay
+
+**Detection**:
+- System alarms and fault codes
+- Unusual behaviour or position of tooling
+- Loss of expected cleaning progress
+
+**Risk Rating**: S=8, L=4, D=4 → **RPN = 128** (High)
+
+**Recommended Controls**:
+- Specific competency training for automated system operators
+- Pre-use functional testing of all sensors and safety interlocks
+- Clear zoning and SIMOPS controls when automated systems are in use
+- Emergency stop procedures and backup manual controls
+
+**Linked Master Control Register Items**:
+- Ch8: Robotic/remote operation variant controls
+- Ch7: Sensor-based auto-shut-off module requirements
 
 ---
 
@@ -254,11 +376,17 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Alarms or indicators (if fitted)
 - Operator reports of slow or incomplete pressure relief
 
+**Risk Rating**: S=9, L=4, D=3 → **RPN = 108** (High)
+
 **Recommended Controls**:
 - Mandatory functional test of pressure relief system before every job
 - Regular maintenance and inspection of dump valves
 - Clear operating procedures for emergency shutdown
 - Backup relief systems where required
+
+**Linked Master Control Register Items**:
+- Ch7: Pre-use inspection checklist (safety & control systems)
+- Ch6: Pump LOTO and isolation procedures
 
 ---
 
@@ -281,11 +409,17 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Alarm or fault indication
 - Regular calibration and maintenance checks
 
+**Risk Rating**: S=8, L=3, D=5 → **RPN = 120** (High)
+
 **Recommended Controls**:
 - Mandatory pre-use functional test of all safety sensors
 - Never bypass or disable safety modules
 - Regular maintenance and firmware updates per manufacturer
 - Clear procedures prohibiting tampering with safety systems
+
+**Linked Master Control Register Items**:
+- Ch7: Sensor-based auto-shut-off module requirements
+- Ch8: Robotic/remote operation variant controls
 
 ---
 
@@ -311,11 +445,17 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Visible struggle or loss of stance
 - Sudden change in jet direction
 
+**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High)
+
 **Recommended Controls**:
 - Strict adherence to the three additive reaction force controls
 - Proper training and competency assessment
 - Use of mechanical assistance or automation where reaction force is high
 - Good footing and stance discipline
+
+**Linked Master Control Register Items**:
+- Ch7: Reaction force management (three additive controls)
+- Ch8: Quantitative fatigue management
 
 ---
 
@@ -338,11 +478,50 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Post-incident investigation often reveals missed defects
 - Audit findings on inspection quality
 
+**Risk Rating**: S=7, L=6, D=5 → **RPN = 210** (Very High)
+
 **Recommended Controls**:
 - Clear, comprehensive pre-use checklists
 - Training on inspection techniques and acceptance criteria
 - Supervisor spot checks of inspection quality
 - Time allocated for proper inspection before every job
+
+**Linked Master Control Register Items**:
+- Ch7: Pre-use inspection checklist (comprehensive)
+- Ch5: Site preparation and inspection requirements
+
+---
+
+### 20.6.3 Poor SIMOPS Coordination
+
+**Description**: Failure to properly coordinate HPWJ work with other simultaneous operations (e.g., hot work, lifting, scaffolding, vacuum trucks).
+
+**Causes**:
+- Inadequate planning or communication
+- Unclear responsibilities
+- Production pressure overriding safety controls
+- Changing work scope without re-assessment
+
+**Consequences**:
+- Ignition of flammable materials from jet spray/mist near hot work
+- Struck-by incidents from moving equipment
+- Conflicts between work parties
+
+**Detection**:
+- Near misses or incidents during SIMOPS
+- Audit findings on permit and coordination quality
+
+**Risk Rating**: S=8, L=5, D=5 → **RPN = 200** (Very High)
+
+**Recommended Controls**:
+- Robust SIMOPS planning and daily coordination meetings
+- Clear permit-to-work interfaces
+- Specific controls for hot work near jetting operations
+- Strong supervision and communication discipline
+
+**Linked Master Control Register Items**:
+- Ch8: SIMOPS and hot work interface controls
+- Ch5: Site preparation and barricading rules
 
 ---
 
@@ -356,8 +535,9 @@ Common themes across many failure modes include:
 - Adherence to maintenance and life management intervals
 - Training and competency
 - Clear communication and procedural discipline
+- Strong SIMOPS management
 
-Regular review of this section during toolbox talks and safety meetings is recommended.
+Regular review of this section during toolbox talks and safety meetings is recommended. High RPN items should be prioritized for additional controls or engineering solutions.
 
 ---
 
@@ -366,3 +546,4 @@ Regular review of this section during toolbox talks and safety meetings is recom
 - Manufacturer failure mode data
 - WJTA and WJA safety guidance
 - Operational experience from major HPWJ contractors
+- Master Control Register (linked items)
