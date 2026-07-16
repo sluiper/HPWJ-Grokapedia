@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v8.6.3 – 16 July 2026 (Housekeeping after full truth audit)
+
+### Housekeeping
+- README updated to accurately reflect v8.6.2 state, the three-instance formula fix, the living truth audit, and current gaps.
+- No changes to calculated content.
+
 ## v8.6.2 – 16 July 2026 (Third Instance of Metric Formula Bug Fixed)
 
 ### Critical Correction
@@ -9,8 +15,21 @@
 - Worked example in the template was already correct (computed via imperial path). Only the stated metric formula line was wrong.
 - Lesson locked: any fix at the canonical source (MCR) must be followed by a systematic search for every independent restatement of the same formula.
 
-### Previous
-- v8.6.1: Section 16 content drift fixed + dormant-number audit of MCR-031/050/012
-- v8.6: Full field toolkit merged after four clean verification cycles
+## v8.6.1 – 16 July 2026 (Truth Audit – Content Drift Fixed + Dormant Number Review)
+
+### Critical Content Drift Fixed
+- **Section 16** still contained the old incorrect metric reaction force formula (0.745). Fixed to match corrected MCR-017.
+
+### Dormant Number Audit Findings
+- MCR-031, MCR-050, MCR-012 classified as industry/procedural ranges – no arithmetic defects.
+
+## v8.6 – 16 July 2026 (Major Field Toolkit Merge)
+
+### Content
+- Merged the complete high-value Appendices field toolkit after four consecutive clean Claude Verification Reports (zero P0/P1).
+- All content pure synthesis of already-verified MCR rows.
+
+### Process Win
+Four consecutive clean verification cycles with zero P0/P1 findings.
 
 **This changelog prioritises truth over presentation.**
