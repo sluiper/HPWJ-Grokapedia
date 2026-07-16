@@ -1,36 +1,37 @@
 # Anabeeb World Best HPWJ Encyclopedia (Grokapedia)
 
 **Version:** v7.6  
-**Status:** Active Development  
+**Status:** Active Development – Tier 1 Complete  
 **Last Updated:** 16 July 2026
 
 ## Purpose
-This is the single most complete, maximum-depth reference for High Pressure Water Jetting (HPWJ / Hydroblasting) operations, safety, equipment, training, and global best practices.
+The single most complete, maximum-depth reference for High Pressure Water Jetting (HPWJ / Hydroblasting) operations, safety, equipment, training, and global best practices.
 
-## Current Status (as of 16 July 2026)
+## Current Status – Full Tier 1 Delivered (16 July 2026)
 
-**Completed / World-Class:**
-- Chapter 7: Equipment, Pumps, Tools, Nozzles & Pre-Use Inspection
-- Section 16: Physics & Hydraulics Reference
-- Section 18: Hose, Fitting & Connection Technology
-- Section 20: Failure Modes & Effects Analysis
-- Chapter 10: Emergency Response, Medical Management & Trauma First-Aid
-- **Chapter 13: Competency Framework, Training & Assessment — elevated to true 10/10 world-class standard** (best-in-world hybrid of WJTA + WJA + AS/NZS 4233 + SIR, full 3-day ATC course design, detailed practical checklists, comparison matrices, implementation roadmap)
+**World-Class Completed Content:**
 - Master Control Register (30+ rules)
+- Chapter 7: Equipment + **new major 7.17 UHP Creeping Hose / 40k psi / NLB Tube Bundle section**
+- Chapter 6: Work Process, JSA, Permits, LOTO, Isolation & SIMOPS (**new**)
+- Chapter 10: Emergency Response & Trauma
+- Chapter 13: Competency Framework (true 10/10 best-in-world)
+- Section 16: Physics & Hydraulics
+- Section 18: Hose & Fittings
+- Section 20: FMEA
+- Full Pre-Use Inspection Checklist (templates/checklists/) – fully MCR-mapped, field-ready
 - Medical Alert Card template
-- Full global standards deep dive in `/references/standards/`
+- Global standards deep dive (WJTA, WJA, AS/NZS 4233, etc.)
+- 10 Manufacturer summaries
 
-**This Chapter 13 is now the most complete HPWJ competency framework available anywhere.**
-
-**Next Priorities:**
-- UHP Creeping Hose / NLB Tube Bundle subsection (Ch7)
-- Full Pre-Use Inspection Checklist template
-- Chapters 5 & 6 (Site Prep + Work Process)
+**This repository now has the strongest technical + operational + training core of any HPWJ knowledge base in existence.**
 
 ## How to Use
-- Master Control Register = single source of truth
-- `/docs/` = main content
+- **Master Control Register** = single source of truth
+- `/docs/` = main chapters
+- `/templates/checklists/` = ready-to-print Pre-Use Inspection Checklist
+- `/templates/medical_alert/` = Medical Alert Card
 - `/references/standards/` = global standards deep dives
-- `/templates/` = ready-to-use cards and checklists
 
 **Private repository for Anabeeb use.**
+
+Next: Tier 2 (Chapter 5, Chapter 9, more templates) or further refinement as directed.
