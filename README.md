@@ -1,7 +1,7 @@
 # Anabeeb HPWJ Encyclopedia (Grokapedia)
 
-**Version:** v8.0  
-**Status:** Full operational core complete; technical sections substantially expanded; metadata synchronised with filesystem  
+**Version:** v8.3-prep  
+**Status:** Full operational core complete; technical sections substantially expanded; dual-model workflow and schema now live; Section 23 Research Package ready for drafting  
 **Last Updated:** 16 July 2026
 
 ## Purpose
@@ -39,16 +39,17 @@ A practical, high-depth, single-source reference for High Pressure Water Jetting
 - Section 28 – Environmental Controls & Sustainability
 
 ### Supporting Assets
-- **Master Control Register** – 38 rows, living single source of truth
+- **Master Control Register** – **52 rows**, living single source of truth
 - Practical templates: Pre-Use Inspection Checklist, Whip Check & Hose Inspection Card, Reaction Force Quick Reference, Medical Alert Card
 - Global standards summaries + Regulatory & Client Matrix
-- **11 manufacturer reference summaries** (NLB, Hammelmann, StoneAge, Peinemann, WOMA, Kamat, Uraca, Interpump, Jetstream, Sugino, DERC Salotech)
+- **11 manufacturer reference summaries** (NLB, Hammelmann, StoneAge, Peinemann, WOMA, Kamat, Uraca, Interpump, Jetstream, Sugino, DERC Salotech + Safetech)
+- **AGENTS.md** + **WORKFLOW.md** — permanent dual-model (Grok research + Claude draft) operating system
 
 ### Critical Correction History
 Section 16.4 jet velocity worked examples were previously understated by a factor of ≈√10 due to a unit conversion error. Values recalculated from first principles (now 371 m/s at 10k psi, 525 m/s at 20k psi, 743 m/s at 40k psi). Reaction-force worked example also revised for consistency. Later silent content loss in Sections 16 and 20 was detected and fully restored.
 
 ## Remaining Gaps (Honest Assessment)
-- Section 23 – Marine / Offshore / IMCA-specific content
+- Section 23 – Marine / Offshore / IMCA-specific content (**Research Package complete — ready for Claude draft**)
 - Section 27 – Lessons Learned (will grow with real Anabeeb incidents)
 - Section 29 – Future Technology
 - Full set of appendices (currently placeholder only)
@@ -62,6 +63,7 @@ Self-grading language (“world best”, “10/10”, “no material errors”) 
 - `/docs/` = main content (Chapters 1–15 + technical sections)
 - `/templates/` = printable field documents
 - `/references/standards/` = standards deep dives and regulatory matrix
-- `/references/manufacturers/` = OEM summaries (11 files)
+- `/references/manufacturers/` = OEM summaries
+- **AGENTS.md** + **WORKFLOW.md** = how Grok + Claude work together on this repo
 
 This is now a solid, usable, internally consistent operational and technical reference. Further independent verification of any new numeric claims and the still-flagged Aramco gap remain recommended before high-stakes client-facing or audit use.
