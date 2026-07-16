@@ -1,7 +1,6 @@
 # Chapter 12: Supervisor & Team Leader Responsibilities
 
-**Maximum Accountability Depth**  
-**Version 7.6 – 10/10**
+**Version 8.0**
 
 The Supervisor / Team Leader is the critical link between the Master Control Register, the competency system, and real-world execution. This chapter defines non-negotiable accountabilities.
 
@@ -53,10 +52,12 @@ The Supervisor is personally accountable for:
 
 ## 12.5 Never Rules for Supervisors
 - Never allow an untrained or expired person to operate.
-- Never sign off a incomplete Pre-Use Checklist.
+- Never sign off an incomplete Pre-Use Checklist.
 - Never ignore a stop-work call.
 - Never prioritise schedule over the Master Control Register.
 
 ---
 
-**This chapter is the accountability backbone for Anabeeb HPWJ leadership and is core content for Level 4 ATC training.**
+**Depth note:** Accountability backbone for Level 4 training. Further expansion (worked examples of SIMOPS decision-making, sample toolbox scripts, competency observation forms) is future work.
+
+**References:** Master Control Register, Chapters 5–6, 9–11, 13, Section 15, Section 26.
