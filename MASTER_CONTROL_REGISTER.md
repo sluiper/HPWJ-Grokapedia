@@ -1,12 +1,10 @@
-# MASTER CONTROL REGISTER (Living Document) — v7.6 Expanded
+# MASTER CONTROL REGISTER (Living Document) — v7.6 Fully Expanded
 
 **This is the single source of truth for the entire Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-When drafting any chapter or section, filter this register and ensure every relevant item is explicitly addressed with the correct detail and source attribution.
-
-**v7.6 Update:** This register has been significantly expanded with concrete, actionable entries extracted from Chapter 7, Section 16, Section 18, and Section 20. It now serves as the authoritative living reference for all future content development, training design, and procedure writing.
+**Latest Update (16 July 2026):** Expanded with new controls from Chapters 5, 6, 9, 11, 12 and the UHP Creeping Hose section (7.17). Now 38 rules covering the full operational lifecycle.
 
 ## How to Use
 - Add new rows immediately when a gap, new manufacturer requirement, clinical lesson, or incident learning is identified.
@@ -21,8 +19,6 @@ When drafting any chapter or section, filter this register and ensure every rele
 - **Priority** = High RPN item from FMEA requiring focused attention
 
 ## High-Priority Controls (FMEA RPN > 150 — Immediate Focus)
-These represent the greatest current risk and must be emphasized in training, audits, pre-job briefs, and procedure development:
-
 - Inadequate Pre-Use Inspection (RPN 210) — MCR-023
 - Flex Lance Back-Out / Loss of Control (RPN 200) — MCR-020
 - Poor SIMOPS Coordination (RPN 200) — MCR-028
@@ -33,24 +29,45 @@ These represent the greatest current risk and must be emphasized in training, au
 
 | ID | Topic | Rule / Number / Threshold | Source(s) | Status | Notes / FMEA Link |
 |----|-------|---------------------------|-----------|--------|-------------------|
-| MCR-001 | Hose Life Management | Flex lances and shotgun whip hoses: maximum 2 years from date of manufacture or receipt. All other high-pressure hoses: maximum 4 years from date of manufacture or receipt. | Sec18; WJTA-aligned hose life-cycle guidance | Visible | Mandatory retirement regardless of visual appearance. Record date of manufacture/receipt clearly. |
-| MCR-002 | Hose Testing | All high-pressure hoses must undergo annual third-party pressure/proof testing by a competent authority, in addition to daily visual inspection. | Sec18; WJTA; industry hose studies | Visible | Visual inspection alone is insufficient (~7% of visually acceptable hoses fail pressure testing). Records must be available for audit. |
-| MCR-003 | Hose Colour Coding & Marking | Hoses must be permanently marked with Maximum Allowable Working Pressure (MAWP). Colour coding must be visible from at least 2 feet (0.6 m) and matched to the pump/system maximum pressure. Expiration date must be legible. | Sec18; Ch7 | Visible | Critical for rapid field verification. |
-| MCR-004 | Hose Pre-Use Inspection — Reject Criteria | Reject immediately if any of: exposed steel wire braid/reinforcement, bulging/blistering/bubbling of outer cover, cuts/gouges reaching reinforcement, kinks/twists/permanent deformation, weepage/leakage, damaged/corroded/loose end fittings, exceeded service life, or missing/illegible marking. | Sec18; Ch7 | Visible | Do not use — retire or repair per procedure. |
-| MCR-005 | Hose Bend Radius & Handling | Never exceed manufacturer minimum bend radius. Support hose weight along its length; never drag by coupling. Use reels/rollers for direction changes. Avoid twisting. | Sec18; Ch7 | Visible | Exceeding bend radius is a leading cause of premature failure. KSA high temperature increases flexibility risk. |
-| MCR-006 | Whip Checks (Hose Restraints) | Mandatory on **both sides** of every high-pressure connection. Must have suitable Working Load Limit (WLL) rated for the specific hose size, flow, and pressure (follow manufacturer recommendation, e.g. NLB, StoneAge, DERC Salotech). Inspect before every use for damage, corrosion, fraying, or deformation. | Sec18; Ch7; manufacturer guidance | Visible | Not all general-purpose whip checks are adequate for HPWJ forces. Prefer explicitly HPWJ-rated items. |
-| MCR-007 | Quick-Connect Couplings | Prefer screw-type or face-seal couplings in high-movement, high-vibration, or critical applications. Inspect latches/pins before every connection. Never use quick-connects where hose rotation under pressure is likely. | Sec18; Ch7; WJTA safety alerts | Visible | High RPN item (180). Major cause of sudden high-pressure release and whip. |n| MCR-008 | Type M Connections | Minimum 3.5–5 full threads of engagement. Inspect cone and seat surfaces for damage, scoring, or debris before connection. Check weep holes for leakage during operation. | Sec18 | Visible | Common at higher pressures; precise mating required. |
-| MCR-009 | Rupture Disc — Core Rule | Must be correctly rated for the pump and system operating pressure. **Single-use only** — replace immediately after activation. Maintain spare stock on the unit. Tag with installation date and rating. | Ch7; Sec20 | Visible | High RPN relevance. Never reuse a fired disc. |n| MCR-010 | Pressure Relief / Dump System | Every system must have a reliable pressure relief/dump system that the nozzle operator directly controls. Must be functionally tested as part of every pre-use inspection. | Ch7; Sec20 | Visible | Operator must always maintain control of pressure relief — non-negotiable. |
-| MCR-011 | Pump — Never Unattended | Never leave the pump unit running unattended. | Ch7; manufacturer guidance (NLB etc.) | Visible | Fundamental safety rule across major OEMs. |
-| MCR-012 | NPSH Margin | NPSHa must exceed manufacturer NPSHr by a minimum of 0.5 – 1.0 bar. Monitor inlet conditions, especially in high ambient temperatures (KSA summer). | Ch7; Sec16 | Visible | Critical to prevent cavitation damage. Use cooler water source or reduce speed if margin is marginal. |
-| MCR-013 | Inlet Filtration | Multi-stage filtration (coarse strainer + fine filter). Typical final filtration 10–50 microns per manufacturer recommendation. Monitor differential pressure across filters and change elements when it rises. | Ch7 | Visible | Poor filtration is one of the fastest ways to damage plungers, valves, and packing. |
-| MCR-014 | Pump Pre-Use — Foundational Checks | Unit level and wheels chocked. Properly grounded to valid earth. All protective guards in place. Engine and HP gauges functional and within calibration. All fluids checked (engine oil, pump oil, coolant, fuel, DEF where fitted). Fire extinguisher accessible and tagged. | Ch7 | Visible | Baseline for safe operation. |
-| MCR-015 | Plunger / Configuration Changes | After any plunger size change, always verify that the new pressure does not exceed the rated pressure of hoses, fittings, and relief devices. Re-verify and replace rupture disc if required. | Ch7 | Visible | Pressure capability increases as flow decreases with smaller plungers. |
-| MCR-016 | Handheld Reaction Force — Three Additive Controls | All three must be satisfied for safe handheld operation: 1. Absolute reaction force ≤ 250 N; 2. Reaction force ≤ 1/3 of operator body weight; 3. Barrel length/geometry such that operator cannot pass the jet over their own feet or legs. | Ch7; Sec16 | Visible | Highest priority human-factor control. Loss of control is a top FMEA mode (RPN 180). |n| MCR-017 | Reaction Force Calculation Reference | Use industry formulas for planning: Imperial F_r (lbf) ≈ 0.052 × Q (GPM) × √ P (psi); Metric F_r (N) ≈ 0.745 × Q (L/min) × √ P (bar). | Sec16 | Visible | Supports MCR-016 compliance during job planning and nozzle selection. |
-| MCR-018 | Nozzle Wear Life & Inspection | Scheduled replacement typically 20–60 hours depending on water quality and operating pressure. Inspect threads, sealing surfaces, and orifices before every use. Use pin gauges (~0.2 mm undersize) for small orifices. Reject on corrosion pitting. | Ch7 | Visible | Worn nozzles cause premature jet breakup and reduced effectiveness. |
-| MCR-019 | Flex Lance — Anti-Withdrawal Device (AWD) | Mandatory use and correct installation of Anti-Withdrawal Device (AWD) for all flex lance tube cleaning operations. | Ch7; Sec20 | Visible | Directly addresses top FMEA mode: Flex Lance Back-Out (RPN 200). |n| MCR-020 | Flex Lance Back-Out Prevention | In addition to AWD, maintain good communication between nozzle operator and pump operator. Use appropriate reaction force controls. Never bypass AWD. | Sec20 | Visible | Highest RPN item (200). Requires both engineering control (AWD) and procedural discipline. |
-| MCR-021 | Automated / Robotic Tooling Safety | Pre-use functional testing of all sensors, interlocks, and auto-shut-off modules (e.g. Hammelmann xPRO). Clear zoning and SIMOPS controls when automated systems are in use. Never bypass safety modules. | Ch7; Sec20 | Visible | Addresses automated system failure mode. |n| MCR-022 | Nozzle / Tooling — Thrust Direction | Orifices must produce correct forward thrust direction for tube/pipe cleaning applications. Verify before insertion. | Ch7 | Visible | Incorrect thrust can cause loss of control or ineffective cleaning. |
-| MCR-023 | Pre-Use Inspection — Mandatory & Comprehensive | Full pre-use inspection of pump, hoses, connections, nozzles, relief systems, and safety devices must be completed and documented before every use. Time must be allocated; production pressure is not an excuse. | Ch7; Sec20 | Visible | Highest current RPN item (210). Inadequate inspection is a leading contributor to preventable incidents. |n| MCR-024 | Pre-Use Inspection — Supervisor Verification | Supervisor spot-checks of inspection quality are required, especially during high-activity periods or with less experienced teams. | Ch7; Sec20 | Added | Strengthens detection of rushed or incomplete inspections. |
-| MCR-025 | Communication Protocol | Clear, trained communication protocols (radio or hand signals) between nozzle operator, pump operator, and support team. Pre-job briefing on roles and signals required. Stop-work authority for any communication breakdown. | Ch8; Sec20 | Visible | Poor communication is a recurring contributing factor in incidents. |n| MCR-026 | Pump LOTO & Isolation | Proper Lock-Out/Tag-Out and isolation verification procedures must be followed before any maintenance, nozzle changes, or entry into danger zones. | Ch6; Ch7 | Visible | Fundamental control for maintenance and blockage clearing. |n| MCR-027 | Site Barricading & Zoning | Effective barricading, exclusion zones, and clear SIMOPS boundaries must be established and maintained before starting HPWJ work. | Ch5; Sec20 | Visible | Critical for protecting non-involved personnel and managing simultaneous operations. |n| MCR-028 | SIMOPS Coordination | Robust daily SIMOPS planning and coordination meetings required whenever HPWJ work occurs alongside other activities (hot work, lifting, scaffolding, vacuum trucks, etc.). Clear permit interfaces and hot-work controls near jetting operations. | Ch8; Sec20 | Visible | High RPN item (200). Jet spray/mist near ignition sources is a major risk. |n| MCR-029 | Water Hammer / Pressure Surge Prevention | Open and close high-pressure valves slowly and in correct sequence. Follow proper pump startup/shutdown procedures. Never slam valves. Be especially cautious during nozzle changes or blockage clearing. | Sec16; Sec20 | Visible | Sudden pressure spikes can damage equipment and cause dangerous hose movement. |n| MCR-030 | Training & Competency Link | All personnel involved in HPWJ operations must be trained and assessed against the controls in this Register. Training materials and competency assessments must explicitly reference relevant MCR items. | Ch13 (planned); Sec20 | Added | Ensures the Register is not just a document but is operationalized through competency. |
+| MCR-001 | Hose Life Management | Flex lances and shotgun whip hoses: maximum 2 years from date of manufacture or receipt. All other high-pressure hoses: maximum 4 years from date of manufacture or receipt. | Sec18; WJTA | Visible | Mandatory retirement. |
+| MCR-002 | Hose Testing | Annual third-party pressure/proof testing mandatory in addition to visual. | Sec18; WJTA | Visible | ~7% fail visual-only. |
+| MCR-003 | Hose Colour Coding & Marking | Permanent MAWP marking + colour coding visible from 2 ft matched to system pressure. | Sec18; Ch7 | Visible | |
+| MCR-004 | Hose Reject Criteria | Reject on exposed braid, bulging, cuts to reinforcement, kinks, weepage, damaged fittings, exceeded life, missing marking. | Sec18; Ch7 | Visible | |
+| MCR-005 | Hose Bend Radius & Handling | Never exceed min bend radius. Support weight; never drag by coupling. | Sec18; Ch7 | Visible | |
+| MCR-006 | Whip Checks | Both sides of every HP connection. Correct WLL. Inspect every use. Prefer HPWJ-rated. | Sec18; Ch7 | Visible | |
+| MCR-007 | Quick-Connect Couplings | Prefer screw/face-seal in high-movement. Inspect latches. Never where rotation likely. | Sec18; Ch7 | Visible | RPN 180 |
+| MCR-008 | Type M Connections | 3.5–5 full threads. Clean cone/seat, clear weep holes. | Sec18 | Visible | |
+| MCR-009 | Rupture Disc | Correct rating. Single-use only. Spare on unit. Tag date/rating. | Ch7; Sec20 | Visible | Never reuse. |
+| MCR-010 | Pressure Relief / Dump | Operator-controlled dump system. Tested every pre-use. | Ch7; Sec20 | Visible | Non-negotiable. |
+| MCR-011 | Pump Unattended | Never leave pump running unattended. | Ch7 | Visible | |
+| MCR-012 | NPSH Margin | NPSHa ≥ NPSHr + 0.5–1.0 bar. Critical in KSA heat. | Ch7; Sec16 | Visible | |
+| MCR-013 | Inlet Filtration | Multi-stage (final 10–50 µm typical). Monitor dP. | Ch7 | Visible | |
+| MCR-014 | Pump Pre-Use Foundation | Level, chocked, grounded, guards, fluids, gauges, extinguisher, rupture disc. | Ch7 | Visible | |
+| MCR-015 | Plunger Changes | Re-verify all ratings and rupture disc after change. | Ch7 | Visible | |
+| MCR-016 | Reaction Force (Three Additive) | ≤250 N AND ≤1/3 body weight AND barrel geometry prevents jet over own feet/legs. All three required. | Ch7; Sec16 | Visible | RPN 180 |
+| MCR-017 | Reaction Force Formulas | Imperial ≈ 0.052 × Q(GPM) × √P(psi); Metric ≈ 0.745 × Q(L/min) × √P(bar) | Sec16 | Visible | |
+| MCR-018 | Nozzle Wear | 20–60 h typical. Pin gauge. Reject on pitting. | Ch7 | Visible | |
+| MCR-019 | Flex Lance AWD | Mandatory correct AWD installation for all flex lance work. | Ch7; Sec20 | Visible | |
+| MCR-020 | Flex Lance Back-Out Prevention | AWD + communication + reaction force. Never bypass. | Sec20 | Visible | RPN 200 |
+| MCR-021 | Automated Tooling Safety | Pre-use test sensors/auto-shut-off. Clear zoning. Never bypass. | Ch7; Sec20 | Visible | |
+| MCR-022 | Nozzle Thrust Direction | Correct forward thrust for tube/pipe. Verify before insertion. | Ch7 | Visible | |
+| MCR-023 | Pre-Use Inspection Mandatory | Full documented inspection before every use. No excuses. | Ch7; Sec20 | Visible | RPN 210 |
+| MCR-024 | Supervisor Pre-Use Verification | Supervisor spot-checks required. | Ch7; Sec20 | Visible | |
+| MCR-025 | Communication Protocol | Clear radio/hand signals. Pre-job briefing. Stop-work on failure. | Ch6; Ch8 | Visible | |
+| MCR-026 | Pump LOTO & Isolation | Full LOTO + try-out before maintenance or entry into danger zones. | Ch6 | Visible | |
+| MCR-027 | Site Barricading & Exclusion Zones | Physical barricading + pressure-appropriate exclusion zone mandatory before pressurising. | Ch5 | Visible | |
+| MCR-028 | SIMOPS Coordination | Daily SIMOPS meeting + clear zoning + hot-work controls when interfaces exist. | Ch6; Ch8 | Visible | RPN 200 |
+| MCR-029 | Water Hammer Prevention | Slow valve operation, correct sequence, never slam valves. | Sec16 | Visible | |
+| MCR-030 | Training & Competency Link | All personnel trained and assessed against this Register. | Ch13 | Visible | |
+| MCR-031 | Exclusion Zone Sizing | 7.5–10 m ≤10k psi; 10–15 m 10–20k; 15–25 m+ UHP/40k. Adjust for jet direction and whip. | Ch5 | Added | |
+| MCR-032 | Lightning Stop-Work | Stop outdoor work if thunder/lightning. 30 min wait after last thunder. | Ch5 | Added | |
+| MCR-033 | Heat Stress Controls | Mandatory work/rest/hydration/shade in high ambient temperatures (KSA). | Ch5; Ch10 | Added | |
+| MCR-034 | UHP Creeping Hose Controls | Level 3 operators only. AWD mandatory + verified. Vacuum at outlet. Expanded exclusion. No quick-connects in high-movement run. | Ch7.17 | Added | Critical for tube bundles. |
+| MCR-035 | Post-Job Care & Records | Depressurise fully, inspect, clean, store correctly, complete all records before leaving site. | Ch11 | Added | |
+| MCR-036 | Supervisor Accountability | Supervisor accountable for competency verification, pre-use quality, SIMOPS, and stop-work authority. | Ch12 | Added | |
+| MCR-037 | Controlled Shutdown Sequence | Operator-controlled pressure reduction → confirm zero → secure → decontaminate → post-job inspection → records. | Ch11 | Added | |
+| MCR-038 | Never Rules Enforcement | All Never Rules in Chapter 9 are absolute. Violation requires immediate stop and investigation. | Ch9 | Added | |
 
-**Maintenance Note:** This register is a living document. After any incident, near-miss, equipment change, or new manufacturer guidance, new or revised entries must be added promptly and linked to the FMEA where appropriate. All chapters and training content must demonstrate compliance with applicable MCR items.
+**Maintenance Note:** Living document. Update promptly after any incident, near-miss, equipment change or new guidance. Link to FMEA. All training and procedures must demonstrate compliance.
+
+**Total Active Controls: 38**
