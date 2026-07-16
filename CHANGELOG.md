@@ -1,28 +1,23 @@
 # CHANGELOG
 
-## v8.1 – 16 July 2026 (SABIC OMS 8.2 Full Integration + Chapter 8 Full Depth)
+## v8.2 – 16 July 2026 (Anabeeb OPS-P-019 + Safetech + MCR to 52)
 
 ### Major Content
-- **Chapter 8 completely rewritten** to full encyclopedia depth using 100% of SABIC OMS Attachment 8.2 (mandatory for KSA), YANSAB JSA & Pre-Job Checklist, SABIC Awareness PPT, and TST PPE data.
-- Hierarchy of methods (Table 4.1), min team size, HPWJ Authorising Person, TQCP + 1 yr + 2-yr refresh, Medical Alert Card mandatory, 6 m barricade, 1.2 m lance length, 6 ft safety shroud, ATT-6 pre-permit gate, 250 N formula, work/rest rotation, full Do’s & Don’ts all sourced and mapped.
-- **Master Control Register expanded to 45 rows** (MCR-039 to MCR-045 added from SABIC).
-- **KSA_Anabeeb_ATC_Notes.md fully rewritten** as the deepest client standards file in the repo. SABIC extraction complete; Aramco still flagged [UNVERIFIED – internal docs needed]. Compliance matrix SABIC → MCR → Chapter included.
+- **Anabeeb OPS-P-019** (company HPWJ procedure, prepared Selva Subarayan / reviewed Jacques Theron / approved Raed Al Ghamdi) fully summarised and mapped: `references/standards/Anabeeb_OPS-P-019_HPWJ_Procedure_Summary.md`.
+- New MCR-046 to MCR-052: max 40 000 psi, min **3-man team**, rupture disc ≤1.2× lowest MAWP, manual operators **2 years continuous experience** + Management approval, shotgun ≤10k psi / 1.6 mm orifice, **10 m** unauthorised exclusion, lance tip mark ≥600 mm.
+- **Safetech Protection** manufacturer summary added (UHP PPE to 45k psi, Air Comfort cooling to 18 °C for 3 operators – critical KSA heat control).
+- Master Control Register now **52 rows**. Where Anabeeb procedure is stricter than SABIC, Anabeeb governs Anabeeb operations.
+- Aramco CSM 5th Edition reviewed: no dedicated HPWJ chapter; general PPE / Work Permit / LOTO / Confined Space / Heat Stress / Pressure Testing chapters apply and remain mapped at high level. Full clause extraction still requires targeted internal SAES/GI packs.
 
-### Previous Critical Fixes (v8.0)
-- Section 16.4 jet velocity corrected (√10 unit error).
-- Residual wrong velocity band in Ch7.17 table corrected.
-- FMEA and Physics content restoration after silent regression.
-- Self-grading language retired.
-- Full operational core (Ch 1–15) + technical sections + Appendices A/B present.
+### Previous (v8.1)
+- Chapter 8 full depth with SABIC OMS 8.2.
+- KSA notes rewritten as deepest client file for SABIC.
+- MCR to 45.
 
 ### Remaining Honest Gaps
-- Aramco SAES / CSMS full clause extraction (requires Anabeeb-held internal documents).
-- Chapters 11 & 12 still thinner than Ch5/7/8/10/13 (next expansion candidates).
-- More documented (non-composite) public incidents.
-- Additional field diagrams.
-- Section 23 (marine) deprioritized; 27/29 future.
+- Full Aramco SAES / CSMS questionnaire / GI hydrojetting-specific clauses (internal docs).
+- Chapters 11 & 12 still thinner than Ch5/7/8/10/13.
+- More documented public incidents.
+- Field diagrams pack.
 
 **This changelog prioritises truth over presentation.**
-
-## Earlier Activity (v7.x – 15–16 July 2026)
-- Built operational core foundations, templates, standards library, competency framework hybrid of WJTA/WJA/AS-NZS, initial MCR and incident library.
