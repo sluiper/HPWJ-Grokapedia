@@ -1,37 +1,28 @@
 # CHANGELOG
 
-## v8.0 – 16 July 2026 (Truth Protocol + Full Core + Audit Restoration)
+## v8.1 – 16 July 2026 (SABIC OMS 8.2 Full Integration + Chapter 8 Full Depth)
 
-### Critical Fixes
-- **Section 16.4 Jet Velocity**: Corrected unit-conversion error (values had been understated by ≈√10). Verified theoretical velocities: 371 / 455 / 525 / 743 m/s at 10 / 15 / 20 / 40k psi.
-- **Chapter 7.17 residual velocity band**: Audit found the old wrong 160–235 m/s band still present in the UHP comparison table; corrected to match Section 16.4.
-- **Silent content regression**: FMEA (Section 20) and Physics (Section 16) had been gutted during earlier “verification” commits; full Description/Causes/Consequences/Detection/Controls and derivations restored.
-- Self-grading language (“10/10”, “world best”, “Max Truth Reviewed”) retired from front-matter and remaining residual headers cleaned as found.
+### Major Content
+- **Chapter 8 completely rewritten** to full encyclopedia depth using 100% of SABIC OMS Attachment 8.2 (mandatory for KSA), YANSAB JSA & Pre-Job Checklist, SABIC Awareness PPT, and TST PPE data.
+- Hierarchy of methods (Table 4.1), min team size, HPWJ Authorising Person, TQCP + 1 yr + 2-yr refresh, Medical Alert Card mandatory, 6 m barricade, 1.2 m lance length, 6 ft safety shroud, ATT-6 pre-permit gate, 250 N formula, work/rest rotation, full Do’s & Don’ts all sourced and mapped.
+- **Master Control Register expanded to 45 rows** (MCR-039 to MCR-045 added from SABIC).
+- **KSA_Anabeeb_ATC_Notes.md fully rewritten** as the deepest client standards file in the repo. SABIC extraction complete; Aramco still flagged [UNVERIFIED – internal docs needed]. Compliance matrix SABIC → MCR → Chapter included.
 
-### Structural / Metadata
-- README and `00_Encyclopedia_Structure.md` synchronised with actual filesystem (no longer claiming empty chapters that exist).
-- Master Control Register: 38 rows, zero dangling citations found in audit passes.
-- Duplicate structure file removed earlier in cycle.
-
-### Content Delivered in v8.0 Cycle
-- Full operational core: Chapters 1–15
-- Technical sections: 16 (restored + SVGs), 17, 18, 19, 20 (restored + candidate site-hazard), 22, 24, 25 (15 cases: 1 documented HSE fatality + 14 composites), 26, 28
-- Appendices A (Pump Selection Quick Guide) and B (Manufacturer Comparison Matrix)
-- Documented Case 2 (UK HSE flexi-lance fatality via SAFETY4SEA / IMCA) replacing composite
-- NIOSH CA/FACE 16CA001 site-hazard case added to Chapter 5 + FMEA candidate row
-- 11 manufacturer summaries synthesised in Section 22 / Appendix B
+### Previous Critical Fixes (v8.0)
+- Section 16.4 jet velocity corrected (√10 unit error).
+- Residual wrong velocity band in Ch7.17 table corrected.
+- FMEA and Physics content restoration after silent regression.
+- Self-grading language retired.
+- Full operational core (Ch 1–15) + technical sections + Appendices A/B present.
 
 ### Remaining Honest Gaps
-- Aramco SAES / CSMS and SABIC/PETRO RABIGH clause extraction (requires internal documents)
-- Sections 23 (marine/offshore – low priority for Anabeeb onshore scope), 27 (Lessons Learned – grows with real incidents), 29 (Future Tech)
-- Thin operational chapters 8, 11, 12 still shorter than field-depth peers (functional but not full encyclopedia depth)
-- Additional appendices and more diagrams
-- Section 21 Regulatory Matrix naming/placement tidy
+- Aramco SAES / CSMS full clause extraction (requires Anabeeb-held internal documents).
+- Chapters 11 & 12 still thinner than Ch5/7/8/10/13 (next expansion candidates).
+- More documented (non-composite) public incidents.
+- Additional field diagrams.
+- Section 23 (marine) deprioritized; 27/29 future.
 
 **This changelog prioritises truth over presentation.**
 
-## Earlier Activity (15–16 July 2026 / v7.x)
-- Built operational core foundations (Ch5–7, 9, 10, 13)
-- Templates and standards library
-- Competency framework hybrid of WJTA / WJA / AS/NZS elements
-- Initial MCR expansion and first incident library pass
+## Earlier Activity (v7.x – 15–16 July 2026)
+- Built operational core foundations, templates, standards library, competency framework hybrid of WJTA/WJA/AS-NZS, initial MCR and incident library.
