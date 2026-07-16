@@ -1,7 +1,6 @@
 # Chapter 11: Shutdown, Post-Job, Decontamination, Care, Storage & Records
 
-**Maximum Practical Depth – Completing the Job Lifecycle**  
-**Version 7.6 – 10/10**
+**Version 8.0**
 
 This chapter closes the operational loop. A perfect start means nothing if the end of the job is poorly controlled. Proper shutdown, care, and records protect people, equipment life, the environment, and Anabeeb’s reputation.
 
@@ -86,6 +85,6 @@ Records retained minimum 5 years or per client/TVTC requirement.
 
 ---
 
-**This chapter ensures every job ends as safely and professionally as it started.**
+**Depth note:** Functional lifecycle close-out chapter. Further expansion (photo standards, client-specific waste codes, detailed storage checklists) remains available as future work.
 
-**References:** Master Control Register, Chapter 7, Chapter 18, manufacturer storage guidelines, client environmental procedures.
+**References:** Master Control Register, Chapter 7, Chapter 18, manufacturer storage guidelines, client environmental procedures, Section 28.
