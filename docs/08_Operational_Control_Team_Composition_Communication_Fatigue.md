@@ -1,11 +1,10 @@
 # Chapter 8: Operational Control, Team Composition, Communication & Fatigue Management
 
-**Maximum Human Factors Depth**  
-**Version 7.6 – 10/10**
+**Version 8.0**
 
 This chapter addresses the human and organisational controls that turn good equipment and procedures into consistently safe performance.
 
-**Linked MCR:** MCR-025, MCR-028, MCR-016, MCR-020, Chapter 13, Chapter 6.
+**Linked MCR:** MCR-025, MCR-028, MCR-016, MCR-020, MCR-033, Chapter 13, Chapter 6, Section 26.
 
 ---
 
@@ -43,6 +42,7 @@ This chapter addresses the human and organisational controls that turn good equi
 - Rotate operators on high-reaction-force or UHP tasks.
 - Enforce hydration and shade breaks per heat stress procedure (MCR-033).
 - Never allow a fatigued operator to continue controlling a high-energy lance.
+- See Section 26 for human-factors expansion.
 
 ---
 
@@ -50,7 +50,7 @@ This chapter addresses the human and organisational controls that turn good equi
 
 - Named SIMOPS coordinator for complex interfaces.
 - Continuous awareness of hot work, lifting, and other energy sources.
-- Immediate stop if any SIMOPS control is breached.
+- Immediate stop if any SIMOPS control is breached (MCR-028).
 
 ---
 
@@ -63,4 +63,6 @@ This chapter addresses the human and organisational controls that turn good equi
 
 ---
 
-**This chapter is essential for Day 3 of the ATC course and for all Level 2+ operators and supervisors.**
+**Depth note:** This chapter is functional field guidance. Fuller encyclopedia expansion remains a known gap relative to Chapters 5–7 / 10 / 13.
+
+**References:** Master Control Register, Chapter 6, Chapter 13, Section 26, FMEA 20.6.
