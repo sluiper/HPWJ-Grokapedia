@@ -1,33 +1,19 @@
 # CHANGELOG
 
-## v8.3 – 16 July 2026 (Section 23 Live + Schema Role Split Fixed)
-
-### Structural / Process
-- Updated AGENTS.md and WORKFLOW.md to the actual current role split: **Grok drafts full production sections and pushes; Claude reviews/guides only** (no longer “Claude drafts”).
-- Fixed the seawater density claim: full derivation under the explicit constant-flow-rate (positive-displacement pump) assumption now present; +2.5 % is no longer a bare assertion.
-- All format rules (MCR mapping table, full derivations, Verification Log, land-vs-wet table, honest gaps) enforced in the live section.
+## v8.4 – 16 July 2026 (Section 27 Lessons Learned – first clean full-loop delivery)
 
 ### Content
-- **Section 23 – Marine / Offshore / IMCA** is now live as a full production draft (`docs/23_Marine_Offshore_IMCA.md`).
-- 8 new MCR rows proposed (MCR-053 to MCR-060) covering diver authorisation, underwater reaction/hose/dump/medical controls, elevated method hierarchy, and cavitation tools. Status = Drafting until Claude review + human gate.
-- Public sources only: IMCA D049 principles (TOC + public extracts), Safety Flashes 18/20, 09/17, 03/15, 06/07, 15/18, DMAC, and verified Section 16 physics.
-- Research package retained under `docs/research/` as audit trail and updated to point to the live section.
+- **Section 27 – Lessons Learned** merged to main after clean Claude verification (zero P0/P1 findings on first pass).
+- Seeded with 6 permanent lessons extracted from Section 25 (including the documented UK HSE flexi-lance fatality as LL-001).
+- Defined the living process for converting future Anabeeb events into organisational memory.
+- Proposed 5 new process-control MCR rows (MCR-061 to MCR-065) – all remain **Drafting** (human decision: leave unpromoted until first live exercise of the cadence or explicit further instruction).
+- MASTER_CONTROL_REGISTER.md now at **65 total** (52 Visible + 13 Drafting).
 
-### Status
-Section 23 is ready for Claude’s independent verification pass. No MCR rows have been promoted from Drafting to Visible yet.
+### Process Win
+This is the first delivery package that completed the full locked v1.2 loop (draft branch → Claude Verification Report with zero P0/P1 → P2 only → human green light → merge) with no correction rounds required on numbers, citations, or MCR/CHANGELOG consistency. The draft-branch + mandatory template redesign is compounding.
 
-### Previous (v8.2 – 16 July 2026)
-- Anabeeb OPS-P-019 fully integrated + Safetech PPE.
-- MCR to 52 rows (MCR-046 to MCR-052).
-- Where Anabeeb is stricter, Anabeeb governs.
-
-### Remaining Honest Gaps
-- Full IMCA D049 clause extraction (member document).
-- Exact numerical pressure/orifice limits for diver-held tools inside current D049.
-- Anabeeb-specific marine/diving procedure (if any).
-- Section 27 Lessons Learned.
-- Section 29 Future Technology.
-- Full appendices.
-- Deep Aramco SAES/CSMS (internal docs only).
+### Previous (v8.3)
+- Section 23 Marine/Offshore/IMCA production draft (grandfathered on main).
+- Dual-model process fully locked.
 
 **This changelog prioritises truth over presentation.**

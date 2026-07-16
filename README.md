@@ -1,71 +1,43 @@
 # Anabeeb HPWJ Encyclopedia (Grokapedia)
 
-**Version:** v8.3  
-**Status:** Full operational core complete; technical sections substantially expanded; dual-model workflow live with Grok drafting/pushing and Claude reviewing; Section 23 Marine/Offshore/IMCA production draft complete and awaiting verification  
+**Version:** v8.4  
+**Status:** Full operational core complete; dual-model process locked and proven with first clean full-loop delivery (Section 27 Lessons Learned); MCR at 65 rows (52 Visible + 13 Drafting)  
 **Last Updated:** 16 July 2026
 
 ## Purpose
 A practical, high-depth, single-source reference for High Pressure Water Jetting (HPWJ / Hydroblasting) operations, safety, equipment, training, and best practices, built for Anabeeb use in the Eastern Province, KSA.
 
-## Current Status (Verified against filesystem 16 July 2026)
+## Current Status
 
 ### Completed – Operational Core (Chapters 1–15)
-- Chapter 1 – Introduction, Scope, Purpose & How to Use
-- Chapter 2 – HPWJ Fundamentals
-- Chapter 3 – Global Pressure Classification & Method Selection
-- Chapter 4 – Planning, Technical Specification & Version Control
-- Chapter 5 – Site Preparation, Barricading, Weather & Environmental Controls
-- Chapter 6 – Work Process, JSA, Permits, LOTO, Isolation & SIMOPS
-- Chapter 7 – Equipment, Pumps, Tools, Nozzles (including UHP Creeping Hose / 40k psi section 7.17)
-- Chapter 8 – Operational Control, Team Composition, Communication & Fatigue
-- Chapter 9 – DO’s, DON’Ts & Never Rules
-- Chapter 10 – Emergency Response, Medical Management & Trauma
-- Chapter 11 – Shutdown, Post-Job, Decontamination, Care, Storage & Records
-- Chapter 12 – Supervisor & Team Leader Responsibilities
-- Chapter 13 – Competency Framework, Training & Assessment
-- Chapter 14 – Maintenance, Reliability & Predictive Techniques
-- Chapter 15 – HSE Assurance, Audit & Continuous Improvement
+Full set complete.
 
 ### Completed – Technical & Supporting Sections
-- Section 16 – Physics & Hydraulics (jet velocity corrected and verified; SVGs for Bernoulli nozzle and jet coherence)
-- Section 17 – Pump Selection & Sizing Encyclopedia
-- Section 18 – Hose, Fitting & Connection Technology
-- Section 19 – Nozzle & Tool Technology Encyclopedia
-- Section 20 – Failure Modes & Effects Analysis (full detail restored; candidate site-hazard mode added)
-- **Section 23 – Marine / Offshore / IMCA** (full production draft live; proposed MCR-053–060)
-- Section 22 – Global Manufacturer Best Practices & Variations
-- Section 24 – Clinical & Forensic Injury Encyclopedia
-- Section 25 – Incident Case Study Library (**15 cases**: 1 documented UK HSE fatality + 14 labeled composites)
-- Section 26 – Human Factors & Ergonomics
-- Section 28 – Environmental Controls & Sustainability
+- Sections 16–20, 22–28 (including new **Section 27 Lessons Learned**)
+- Section 23 Marine/Offshore/IMCA (MCR-053–060 remain Drafting)
+- Section 27 Lessons Learned (MCR-061–065 remain Drafting by design – process rules untested in live operations)
 
 ### Supporting Assets
-- **Master Control Register** – **52 rows** (+ 8 proposed Drafting rows for Section 23), living single source of truth
-- Practical templates: Pre-Use Inspection Checklist, Whip Check & Hose Inspection Card, Reaction Force Quick Reference, Medical Alert Card
-- Global standards summaries + Regulatory & Client Matrix
-- **12 manufacturer reference summaries** (including Safetech)
-- **AGENTS.md** + **WORKFLOW.md** — permanent dual-model operating system (Grok drafts & pushes; Claude reviews)
+- **Master Control Register** – **65 rows** (52 Visible + 13 Drafting)
+- AGENTS.md + WORKFLOW.md + PROCESS.md — permanent dual-model + human team operating system (now proven)
+- Templates, manufacturer summaries (12), standards references
 
-### Critical Correction History
-Section 16.4 jet velocity worked examples were previously understated by a factor of ≈√10 due to a unit conversion error. Values recalculated from first principles (now 371 m/s at 10k psi, 525 m/s at 20k psi, 743 m/s at 40k psi). Reaction-force worked example also revised for consistency. Later silent content loss in Sections 16 and 20 was detected and fully restored. Seawater density effect in Section 23 now carries full derivation under stated constant-Q assumption.
+### Critical Process Note
+Section 27 was the first delivery that completed the full locked v1.2 loop with zero P0/P1 findings on the first Claude verification pass. The draft-branch + mandatory verification template redesign is compounding.
 
-## Remaining Gaps (Honest Assessment)
+## Remaining Gaps (Honest)
 - Full IMCA D049 member-document clause extraction
-- Section 27 – Lessons Learned (will grow with real Anabeeb incidents)
+- Human decision on promoting Drafting MCR rows (especially process rules 061–065)
 - Section 29 – Future Technology
-- Full set of appendices
-- Deeper Aramco SAES / CSMS clause extraction (requires internal company documents)
-- Section 21 exists as the Regulatory & Client Matrix; naming/placement may need final tidy
-- Promotion of MCR-053–060 from Drafting to Visible (after Claude review + human gate)
+- Full appendices
+- Deeper Aramco SAES / CSMS (internal docs)
+- Real Anabeeb incidents to exercise the new Lessons Learned cadence
 
-Self-grading language (“world best”, “10/10”, “no material errors”) has been retired. Quality is demonstrated by Verification Logs, citations, and the Master Control Register rather than by assertion.
+Self-grading language has been retired. Quality is demonstrated by Verification Logs, citations, the Master Control Register, and clean dual-model reviews rather than by assertion.
 
 ## How to Use
-- **Master Control Register** is the single source of truth for every rule and threshold
-- `/docs/` = main content (Chapters 1–15 + technical sections)
-- `/templates/` = printable field documents
-- `/references/standards/` = standards deep dives and regulatory matrix
-- `/references/manufacturers/` = OEM summaries
-- **AGENTS.md** + **WORKFLOW.md** = how Grok + Claude work together on this repo
+- **Master Control Register** is the single source of truth
+- `/docs/` = main content
+- **AGENTS.md / WORKFLOW.md / PROCESS.md** = how Grok + Claude + Human work together on this (and future) repos
 
-This is now a solid, usable, internally consistent operational and technical reference. Further independent verification of any new numeric claims and the still-flagged Aramco and full-D049 gaps remain recommended before high-stakes client-facing or audit use.
+This is now a solid, usable, internally consistent operational and technical reference with a proven multi-model production process.

@@ -1,10 +1,10 @@
-# MASTER CONTROL REGISTER (Living Document) — v8.3
+# MASTER CONTROL REGISTER (Living Document) — v8.4
 
 **This is the single source of truth for the entire Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-**Latest Update (16 July 2026):** Section 23 Marine/Offshore/IMCA production draft. Added MCR-053 to MCR-060 (all Drafting). Total now 60 rules. Where Anabeeb procedure is stricter than SABIC or IMCA public guidance, Anabeeb governs Anabeeb operations. Full IMCA D049 member text remains an internal gap.
+**Latest Update (16 July 2026):** Section 27 Lessons Learned merged to main after clean Claude verification (zero P0/P1). MCR-061 to MCR-065 added as Drafting (process rules – remain Drafting until first live exercise or explicit human promotion). Total now 65 rules (52 Visible + 13 Drafting). Section 23 Marine rows (053–060) also remain Drafting.
 
 ## How to Use
 - Add new rows immediately when a gap, new manufacturer requirement, clinical lesson, or incident learning is identified.
@@ -89,7 +89,12 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-058 | Medical Alert + DMAC | All divers engaged in HPWJ carry Medical Alert Card + awareness of DMAC recommendations for high-pressure water jet injuries. Immediate surface medical support must know the injury mechanism. | IMCA D049 Appendix 1 (DMAC); MCR-043 extension; Sec23 | Drafting | Critical. |
 | MCR-059 | Maximum Pressure for Diver-Held / Method Hierarchy Elevation | Follow IMCA D049 / company limit. Typical public practice for diver-held is lower than land UHP (often ≤10–15k psi class unless specially engineered). Anabeeb 40k psi ceiling still applies but method selection hierarchy (prefer automated/ROV) is stricter underwater. | IMCA D049; MCR-046; MCR-039; Sec23 | Drafting | Hierarchy of methods elevated. |
 | MCR-060 | Cavitation Blaster / Special Tools | Cavitation tools have additional injury modes (see IMCA SF 06/07). Require specific risk assessment and training beyond standard HPWJ. | IMCA D049 Appendix 5; SF 06/07; Sec23 | Drafting | |
+| MCR-061 | Living Lessons Learned Register | A single living register of lessons shall be maintained. Every entry must map to one or more MCR controls and, where relevant, an FMEA mode. | Sec27; continuous improvement principle | Drafting | Process control. Remains Drafting until first live exercise or explicit human promotion. |
+| MCR-062 | 30-Day Incident-to-Lesson Cycle | Any Anabeeb HPWJ-related near-miss, incident, or significant observation shall be converted into a structured lesson entry within 30 calendar days of the event (or of the investigation closing). Delay beyond 30 days requires written justification from the QHSSE Manager. | Sec27; formalises existing Section 25 convention | Drafting | Process control. Remains Drafting until first live exercise or explicit human promotion. |
+| MCR-063 | Anonymised Real Incident Capture | Real Anabeeb events shall be recorded in anonymised form that preserves the technical and human-factor learning while protecting individuals and commercial sensitivity. Documented public cases remain fully attributed. | Sec27; Sec25 discipline | Drafting | Process control. |
+| MCR-064 | Training Integration of Lessons | Every new lesson that maps to an RPN > 150 control, or that reveals a previously unrecognised failure mode, shall be incorporated into the next scheduled ATC HPWJ training cycle (or earlier if critical). | Sec27; Ch13 | Drafting | Process control. |
+| MCR-065 | Management Review of Lessons | The QHSSE Manager shall review the Lessons Learned register at least quarterly and after any serious event. The review shall decide whether any MCR row needs strengthening, any procedure needs amendment, or any additional training is required. | Sec27; Ch15 continuous improvement | Drafting | Process control. |
 
 **Maintenance Note:** Living document. Update promptly after any incident, near-miss, equipment change or new guidance. Link to FMEA. All training and procedures must demonstrate compliance. Where Anabeeb OPS-P-019 is stricter than SABIC or international standards, Anabeeb rule governs Anabeeb operations.
 
-**Total Active Controls: 60** (52 Visible + 8 Drafting)
+**Total Active Controls: 65** (52 Visible + 13 Drafting)
