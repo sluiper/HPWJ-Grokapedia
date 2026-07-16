@@ -1,6 +1,7 @@
 # Section 16: Physics & Hydraulics Reference
 
-**Corrected and Re-verified 16 July 2026 under v8.0 Verification Protocol**
+**Corrected and Re-verified 16 July 2026 under v8.0 Verification Protocol**  
+**Full detail restored after accidental content loss**
 
 This section provides the fundamental physics and hydraulics behind high-pressure water jetting. Every numeric claim has been re-derived from first principles and cross-checked against independent sources.
 
@@ -17,6 +18,7 @@ Key concepts: Bernoulli’s principle, orifice flow, momentum/reaction force, ca
 ## 16.2 Key Constants and Units
 
 - Water density ρ ≈ 1000 kg/m³ (20 °C, standard)
+- Dynamic viscosity of water μ ≈ 1.0 × 10⁻³ Pa·s at 20 °C
 - 1 bar = 10⁵ Pa ≈ 14.5038 psi
 - 1 MPa = 10⁶ Pa ≈ 145.038 psi
 - 1 HP = 745.7 W
@@ -35,29 +37,28 @@ $$ P + \frac{1}{2}\rho v^2 = \text{constant} $$
 
 At the nozzle exit, static pressure ≈ atmospheric and velocity is high. This is the origin of the theoretical jet velocity formula.
 
+**Derivation of theoretical exit velocity (Torricelli / Bernoulli):**
+
+From the simplified form, equating upstream (high pressure, near-zero velocity) to the free jet (atmospheric pressure):
+
+$$ P_{\text{upstream}} = \frac{1}{2}\rho v^2 $$
+
+$$ v = \sqrt{\frac{2 \Delta P}{\rho}} $$
+
 ### Diagram 16.3 – Bernoulli Nozzle (Conceptual)
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="100%" style="max-width:640px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;">
-  <!-- High-pressure side -->
   <rect x="20" y="70" width="180" height="80" rx="4" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
   <text x="110" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#1e3a8a" font-weight="600">High Pressure</text>
   <text x="110" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1e40af">P high · v low</text>
-
-  <!-- Nozzle constriction -->
   <path d="M200 70 L280 95 L280 125 L200 150 Z" fill="#93c5fd" stroke="#1e40af" stroke-width="2"/>
   <text x="240" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1e3a8a">Nozzle</text>
-
-  <!-- Jet -->
   <path d="M280 100 Q360 100 420 95 Q500 90 580 85" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
   <path d="M280 120 Q360 120 420 125 Q500 130 580 135" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
   <path d="M280 110 Q400 110 580 110" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
-
-  <!-- Labels on jet -->
   <text x="430" y="70" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#0c4a6e" font-weight="600">High Velocity Jet</text>
   <text x="430" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0369a1">P ≈ atm · v high</text>
-
-  <!-- Arrow showing energy conversion -->
   <text x="320" y="195" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#475569">Pressure energy → Kinetic energy (Bernoulli)</text>
 </svg>
 ```
@@ -68,18 +69,17 @@ At the nozzle exit, static pressure ≈ atmospheric and velocity is high. This i
 
 ## 16.4 Orifice Flow and Jet Velocity (Re-derived and Verified)
 
-**Theoretical exit velocity (Torricelli / Bernoulli):**
+**Theoretical exit velocity:**
 
 $$ v = \sqrt{\frac{2 \Delta P}{\rho}} $$
 
-**Derivation shown:**
-- ΔP in Pa, ρ = 1000 kg/m³
-- For 10 000 psi = 68.9476 MPa = 6.89476 × 10⁷ Pa
+**Full derivation for 10 000 psi (worked example):**
+- 10 000 psi = 68.9476 MPa = 6.89476 × 10⁷ Pa
 - 2ΔP = 1.37895 × 10⁸
-- 2ΔP/ρ = 1.37895 × 10⁵
+- 2ΔP / ρ = 1.37895 × 10⁸ / 1000 = 1.37895 × 10⁵
 - √(1.37895 × 10⁵) = **371.3 m/s**
 
-**Independent check:** Industry approximation V (m/s) ≈ 44.721 × √P (MPa) yields exactly the same result (44.721 × √68.95 ≈ 371.3 m/s). Source: published water-jet peening literature using the same Bernoulli-derived constant.
+**Independent check:** Industry approximation V (m/s) ≈ 44.721 × √P (MPa) yields the same result (44.721 × √68.95 ≈ 371.3 m/s). Source: published water-jet peening literature using the same Bernoulli-derived constant.
 
 **Corrected Worked Values (theoretical, Cd = 1):**
 
@@ -96,11 +96,17 @@ $$ Q = C_d \cdot A \cdot \sqrt{\frac{2 \Delta P}{\rho}} $$
 
 ---
 
-## 16.5 Reynolds Number
+## 16.5 Reynolds Number (Restored Worked Example)
 
 $$ Re = \frac{\rho v D}{\mu} $$
 
-Typical HPWJ hose flows are highly turbulent (Re ≫ 4000). Example: 1-inch ID, 80 L/min, water at 20 °C → Re ≈ 66 500.
+**Worked example (restored):**  
+1-inch (0.0254 m) ID hose, 80 L/min (0.001333 m³/s), water at 20 °C (μ ≈ 1.0 × 10⁻³ Pa·s).
+
+- Mean velocity v = Q / A = 0.001333 / (π × 0.0127²) ≈ 2.63 m/s
+- Re = (1000 × 2.63 × 0.0254) / 0.001 ≈ **66 800**
+
+Typical HPWJ hose flows are highly turbulent (Re ≫ 4000). This confirms that laminar-flow assumptions do not apply inside the high-pressure lines.
 
 ---
 
@@ -112,15 +118,15 @@ $$ F_r \ (\text{lbf}) \approx 0.052 \times Q\ (\text{GPM}) \times \sqrt{P\ (\tex
 
 Metric equivalent: ≈ 0.745 × Q (L/min) × √P (bar).
 
-**Consistent worked example (revised):**
+**Consistent worked example:**
 0.040-inch (1.016 mm) orifice at 15 000 psi.
 - Theoretical velocity ≈ 455 m/s
-- Using Cd ≈ 0.85 and correct area gives flow in the range **≈ 5–6 GPM** (not the previously stated 12 GPM).
+- Using Cd ≈ 0.85 and correct area gives flow in the range **≈ 5–6 GPM**
 - Using 6 GPM: Fr ≈ 0.052 × 6 × √15 000 ≈ 0.052 × 6 × 122.47 ≈ **38.2 lbf ≈ 170 N**
 
 This is within the common 250 N handheld guideline for many operators but still requires the three additive controls. Higher flows or larger orifices rapidly exceed safe handheld limits.
 
-**Three Additive Controls (industry practice):**
+**Three Additive Controls (industry practice – MCR-016):**
 1. Absolute ≤ 250 N
 2. ≤ 1/3 of operator body weight
 3. Barrel geometry prevents jet from crossing own feet/legs
@@ -135,21 +141,14 @@ A high-pressure water jet remains coherent for a limited distance (the core leng
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" width="100%" style="max-width:680px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;">
-  <!-- Nozzle -->
   <rect x="20" y="90" width="50" height="40" rx="3" fill="#1e40af"/>
   <text x="45" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="white" font-weight="600">Nozzle</text>
-
-  <!-- Coherent core -->
   <path d="M70 100 L280 100 L280 120 L70 120 Z" fill="#0ea5e9" opacity="0.9"/>
   <text x="175" y="85" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0c4a6e" font-weight="600">Coherent Core</text>
   <text x="175" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#0369a1">High energy density</text>
-
-  <!-- Transition / breakup -->
   <path d="M280 100 Q340 95 400 90 Q460 85 520 80" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
   <path d="M280 120 Q340 125 400 130 Q460 135 520 140" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
   <path d="M280 110 Q360 110 520 110" fill="none" stroke="#7dd3fc" stroke-width="4" stroke-dasharray="6 4" opacity="0.8"/>
-
-  <!-- Spray / mist region -->
   <circle cx="540" cy="95" r="6" fill="#bae6fd" opacity="0.8"/>
   <circle cx="560" cy="110" r="8" fill="#bae6fd" opacity="0.7"/>
   <circle cx="555" cy="130" r="5" fill="#bae6fd" opacity="0.8"/>
@@ -158,14 +157,10 @@ A high-pressure water jet remains coherent for a limited distance (the core leng
   <circle cx="610" cy="115" r="9" fill="#bae6fd" opacity="0.5"/>
   <text x="580" y="160" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0369a1">Breakup / Mist</text>
   <text x="580" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Lower energy density</text>
-
-  <!-- Distance axis -->
   <line x1="70" y1="200" x2="620" y2="200" stroke="#64748b" stroke-width="1.5"/>
   <text x="70" y="218" font-family="system-ui,sans-serif" font-size="11" fill="#475569">0</text>
   <text x="280" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#475569">Core length</text>
   <text x="520" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#475569">Increasing standoff →</text>
-
-  <!-- Caption -->
   <text x="340" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e293b" font-weight="600">Jet remains coherent only for a limited distance</text>
 </svg>
 ```
@@ -174,9 +169,30 @@ A high-pressure water jet remains coherent for a limited distance (the core leng
 
 ---
 
-## 16.8–16.10 Impact, Water Hammer, Power
+## 16.8 Impact Force and Momentum
 
-(Standard Bernoulli, momentum, and water-hammer physics remain valid. No numeric changes required. Power formula HP ≈ P(psi) × Q(GPM) / 1714 is standard and verified.)
+The cleaning / cutting power of the jet is related to the rate of momentum transfer:
+
+$$ F_{\text{impact}} \approx \dot{m} \cdot v = \rho Q v $$
+
+This is the physical basis of both cleaning effectiveness and the reaction force felt by the operator (action-reaction). Higher velocity and mass-flow rate increase both cleaning power and reaction force.
+
+---
+
+## 16.9 Water Hammer
+
+Rapid closure of a high-pressure valve or sudden blockage can generate a pressure surge (water hammer). The magnitude depends on fluid velocity, pipe/hose elasticity, and closure time.  
+**Practical rule already captured in MCR-029:** open and close high-pressure valves slowly and in the correct sequence; never slam valves.
+
+---
+
+## 16.10 Hydraulic Power
+
+Standard hydraulic power formula (verified):
+
+$$ \text{HP} \approx \frac{P\ (\text{psi}) \times Q\ (\text{GPM})}{1714} $$
+
+This is the theoretical hydraulic power delivered by the pump. Actual shaft power required is higher because of mechanical and volumetric efficiency losses (see 16.14).
 
 ---
 
@@ -193,9 +209,21 @@ Thus compressibility is no longer negligible at true UHP. For most industrial ca
 
 ---
 
-## 16.12–16.13 Temperature Effects & Cavitation
+## 16.12 Temperature Effects
 
-Standard: higher temperature raises vapour pressure → reduces NPSHa → increases cavitation risk. Critical in KSA summer conditions. No new numeric claims.
+Higher water temperature:
+- Raises vapour pressure → reduces NPSHa → increases cavitation risk (critical in KSA summer).
+- Slightly lowers density and viscosity.
+- Can affect elastomer seals and packing life.
+
+No new numeric thresholds are asserted beyond the existing NPSH margin requirement (MCR-012).
+
+---
+
+## 16.13 Cavitation
+
+Cavitation occurs when local pressure falls below vapour pressure, forming vapour bubbles that collapse violently on metal surfaces. It produces the characteristic “gravel” or “marbles” noise and rapid erosion of plungers, valves and seats.  
+Primary controls remain those already in MCR-012 and MCR-013 (NPSH margin and filtration).
 
 ---
 
@@ -211,13 +239,20 @@ Standard: higher temperature raises vapour pressure → reduces NPSHa → increa
 
 ## 16.15 Physics and Injury Mechanisms
 
-High jet velocity (hundreds of m/s) + small orifice area explains skin penetration and deep tissue damage. Reaction force explains loss-of-control injuries. These physical realities underpin the mandatory Medical Alert Card, AWD, reaction-force limits, and immediate medical response rules.
+High jet velocity (hundreds of m/s) + small orifice area explains skin penetration and deep tissue damage. Reaction force explains loss-of-control injuries. These physical realities underpin the mandatory Medical Alert Card, AWD, reaction-force limits, and immediate medical response rules (Chapter 10 and MCR-016 / 019 / 020).
 
 ---
 
 ## 16.16 Practical Implications Summary
 
-(Unchanged table of principles → rules. All linked to Master Control Register items.)
+| Physical Principle              | Operational Control                          | MCR Link      |
+|--------------------------------|----------------------------------------------|---------------|
+| High jet velocity              | Exclusion zones, PPE, Medical Alert Card     | MCR-027/031, Ch10 |
+| Reaction force = momentum rate | Three additive controls                      | MCR-016       |
+| NPSH / cavitation risk         | Inlet conditions, filtration, cooler water   | MCR-012/013   |
+| Compressibility at UHP         | Note for 30–40 kpsi calculations             | Ch7.17 / MCR-034 |
+| Water hammer                   | Slow valve operation                         | MCR-029       |
+| Hose / fitting integrity       | Life limits, annual test, whip checks        | MCR-001–008   |
 
 ---
 
@@ -225,13 +260,14 @@ High jet velocity (hundreds of m/s) + small orifice area explains skin penetrati
 
 | Claim / Formula | Method | Source / Cross-check | Status |
 |-----------------|--------|----------------------|--------|
-| Jet velocity formula & 10/20/40k psi values | First-principles derivation + arithmetic | Bernoulli; independent check V ≈ 44.721√P(MPa) from water-jet literature | **Verified** |
-| Reaction force formula Fr = 0.052 × Q × √P | Confirmed against published equation | WJTA-IMCA conference paper (Impact Force of High Pressure Waterjets) | **Verified** |
+| Jet velocity formula & 10/20/40k psi values | First-principles derivation + arithmetic | Bernoulli; independent check V ≈ 44.721√P(MPa) | **Verified** |
+| Reaction force formula Fr = 0.052 × Q × √P | Confirmed against published equation | WJTA-IMCA conference paper | **Verified** |
 | Reaction force worked example (0.040" / 15k psi) | Re-derived flow from orifice equation with Cd 0.8–0.9 | Consistent with nozzle flow tables | **Corrected & Verified** |
+| Reynolds number worked example (1" hose, 80 L/min) | First-principles calculation | Standard fluid mechanics | **Restored & Verified** |
 | Water compressibility ≈12.5 % at 40k psi | Bulk modulus calculation | Standard bulk modulus of water (~2.2 GPa) | **Verified magnitude** |
-| Efficiency 70–85 % | Synthesis of manufacturer ranges | Pump performance literature, WJTA pumping papers | **Typical range – not hard constant** |
-| All other formulas (Re, power, Bernoulli) | Standard fluid mechanics | Textbooks + industry practice | **Verified** |
-| Diagrams 16.3 and 16.7 | Conceptual SVGs only | Illustrate already-verified principles; no new numbers | **Illustrative only** |
+| Efficiency 70–85 % | Synthesis of manufacturer ranges | Pump performance literature | **Typical range – not hard constant** |
+| All other formulas (power, Bernoulli, impact) | Standard fluid mechanics | Textbooks + industry practice | **Verified** |
+| Diagrams 16.3 and 16.7 | Conceptual SVGs only | Illustrate already-verified principles | **Illustrative only** |
 
 **No remaining unverified numeric claims in this section.**
 
