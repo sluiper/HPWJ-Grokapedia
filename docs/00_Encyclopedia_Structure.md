@@ -1,7 +1,7 @@
 # HPWJ Encyclopedia (Grokapedia) – Current Structure & Status
 
-**Version 8.4 – 16 July 2026**  
-**Status: Full operational core complete; technical sections substantially expanded; dual-model process locked and proven with first clean full-loop delivery (Section 27)**
+**Version 8.6.4 – 16 July 2026**  
+**Status: Full operational core complete; technical sections substantially expanded; dual-model process locked and proven with first clean full-loop delivery (Section 27); full numeric truth audit completed and closed (three instances of unit-conversion defect found and fixed); high-value field toolkit live** 
 
 ## Completed Chapters (1–15)
 
@@ -30,28 +30,42 @@
 - **Section 18**: Hose, Fitting & Connection Technology
 - **Section 19**: Nozzle & Tool Technology Encyclopedia
 - **Section 20**: Failure Modes & Effects Analysis (full detail restored + candidate site-hazard mode)
-- **Section 23**: Marine / Offshore / IMCA-specific (production draft live; MCR-053–060 remain Drafting)
+- **Section 21**: Regulatory & Client Matrix (live under `references/standards/21_Regulatory_and_Client_Matrix.md`)
 - **Section 22**: Global Manufacturer Best Practices & Variations
+- **Section 23**: Marine / Offshore / IMCA-specific (production draft live; all MCR-053–060 now Visible)
 - **Section 24**: Clinical & Forensic Injury Encyclopedia
 - **Section 25**: Incident Case Study Library (15 cases: 1 documented + 14 composites)
 - **Section 26**: Human Factors & Ergonomics
-- **Section 27**: Lessons Learned (live – first clean full-loop delivery; MCR-061–065 remain Drafting)
+- **Section 27**: Lessons Learned (live – first clean full-loop delivery; all MCR-061–065 now Visible)
 - **Section 28**: Environmental Controls & Sustainability
 
+## High-Value Field Toolkit (Live – Merged v8.6 after four clean verification cycles)
+- Appendix C – Reaction Force Quick Calculator (corrected formula)
+- Appendix D – Exclusion Zone & Team Quick Reference
+- Appendix F – Hose Life, Inspection & Rejection Matrix
+- Appendix G – Never Rules One-Pager
+- Appendix H – Emergency Response & Medical Pocket Card
+- Appendix I – SIMOPS & Permit Interface Card
+- Appendix J – UHP / Creeping Hose Specific Card
+- Pre-Use Inspection Quick Card
+- Rupture Disc & Pressure Relief Verification Card
+- Reaction Force Quick Reference Card (metric formula corrected)
+
 ## Supporting Assets
-- **Master Control Register** – **65 rows** (52 Visible + 13 Drafting)
-- **AGENTS.md** + **WORKFLOW.md** + **PROCESS.md** — permanent dual-model operating system (proven with first clean delivery)
-- Templates, manufacturer summaries, standards references
+- **Master Control Register** – **65 rows, all Visible** (clean SSOT – all Drafting promoted)
+- **AGENTS.md** + **WORKFLOW.md** + **PROCESS.md** — permanent dual-model operating system (proven with first clean delivery and full truth audit)
+- Templates, manufacturer summaries (12), standards references
+- **docs/audit/TRUTH_AUDIT_v8.6.1.md** — full numeric re-derivation audit (closed; three defects found and fixed, standing rule added)
 
 ## Remaining Gaps (Honest)
 - Full IMCA D049 member-document clause extraction
-- Promotion of Drafting MCR rows (053–065) – human decision, especially process rules 061–065
-- Section 29 – Future Technology
-- Full appendices
-- Deeper Aramco SAES / CSMS clause extraction (requires internal company documents)
-- Real Anabeeb incidents to exercise Section 27 cadence
+- Appendix B manufacturer matrix expansion (low priority)
+- Section 29 – Future Technology (deliberately deprioritised)
+- Deeper Aramco SAES / CSMS clause extraction (requires internal company documents – human-gated)
+- Real Anabeeb incidents to fully exercise Section 27 cadence (human-gated)
 
 ## How to Use This Structure
 The **Master Control Register** is the single source of truth. Every chapter and section maps its controls to MCR item IDs. New thresholds must be added to the MCR (or flagged as candidates) rather than asserted only in a chapter.
 
 **This document reflects the actual filesystem state as of 16 July 2026.**
+**Aligned with README v8.6.4 and CHANGELOG v8.6.4.**
