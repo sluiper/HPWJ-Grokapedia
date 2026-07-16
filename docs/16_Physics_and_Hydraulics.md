@@ -23,7 +23,7 @@ Key concepts: Bernoulli’s principle, orifice flow, momentum/reaction force, ca
 
 ---
 
-## 16.3 Bernoulli’s Equation
+## 16.3 Bernoulli’s Equation & Nozzle Schematic
 
 **Full form (steady, incompressible, streamline):**
 
@@ -34,6 +34,35 @@ $$ P + \frac{1}{2}\rho v^2 + \rho g h = \text{constant} $$
 $$ P + \frac{1}{2}\rho v^2 = \text{constant} $$
 
 At the nozzle exit, static pressure ≈ atmospheric and velocity is high. This is the origin of the theoretical jet velocity formula.
+
+### Diagram 16.3 – Bernoulli Nozzle (Conceptual)
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="100%" style="max-width:640px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;">
+  <!-- High-pressure side -->
+  <rect x="20" y="70" width="180" height="80" rx="4" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="110" y="105" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#1e3a8a" font-weight="600">High Pressure</text>
+  <text x="110" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1e40af">P high · v low</text>
+
+  <!-- Nozzle constriction -->
+  <path d="M200 70 L280 95 L280 125 L200 150 Z" fill="#93c5fd" stroke="#1e40af" stroke-width="2"/>
+  <text x="240" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1e3a8a">Nozzle</text>
+
+  <!-- Jet -->
+  <path d="M280 100 Q360 100 420 95 Q500 90 580 85" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+  <path d="M280 120 Q360 120 420 125 Q500 130 580 135" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+  <path d="M280 110 Q400 110 580 110" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Labels on jet -->
+  <text x="430" y="70" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#0c4a6e" font-weight="600">High Velocity Jet</text>
+  <text x="430" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0369a1">P ≈ atm · v high</text>
+
+  <!-- Arrow showing energy conversion -->
+  <text x="320" y="195" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#475569">Pressure energy → Kinetic energy (Bernoulli)</text>
+</svg>
+```
+
+*Illustrates the already-verified principle: static pressure is converted into jet velocity at the nozzle. No new numeric claims.*
 
 ---
 
@@ -98,7 +127,54 @@ This is within the common 250 N handheld guideline for many operators but still 
 
 ---
 
-## 16.7–16.10 Jet Coherence, Impact, Water Hammer, Power
+## 16.7 Jet Coherence versus Distance
+
+A high-pressure water jet remains coherent for a limited distance (the core length) before aerodynamic drag, turbulence and droplet formation cause it to break up and lose cleaning effectiveness. Standoff distance is therefore a practical operating parameter.
+
+### Diagram 16.7 – Jet Coherence vs Distance (Conceptual)
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" width="100%" style="max-width:680px;background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;">
+  <!-- Nozzle -->
+  <rect x="20" y="90" width="50" height="40" rx="3" fill="#1e40af"/>
+  <text x="45" y="115" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="white" font-weight="600">Nozzle</text>
+
+  <!-- Coherent core -->
+  <path d="M70 100 L280 100 L280 120 L70 120 Z" fill="#0ea5e9" opacity="0.9"/>
+  <text x="175" y="85" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0c4a6e" font-weight="600">Coherent Core</text>
+  <text x="175" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#0369a1">High energy density</text>
+
+  <!-- Transition / breakup -->
+  <path d="M280 100 Q340 95 400 90 Q460 85 520 80" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M280 120 Q340 125 400 130 Q460 135 520 140" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M280 110 Q360 110 520 110" fill="none" stroke="#7dd3fc" stroke-width="4" stroke-dasharray="6 4" opacity="0.8"/>
+
+  <!-- Spray / mist region -->
+  <circle cx="540" cy="95" r="6" fill="#bae6fd" opacity="0.8"/>
+  <circle cx="560" cy="110" r="8" fill="#bae6fd" opacity="0.7"/>
+  <circle cx="555" cy="130" r="5" fill="#bae6fd" opacity="0.8"/>
+  <circle cx="580" cy="100" r="7" fill="#bae6fd" opacity="0.6"/>
+  <circle cx="590" cy="125" r="6" fill="#bae6fd" opacity="0.7"/>
+  <circle cx="610" cy="115" r="9" fill="#bae6fd" opacity="0.5"/>
+  <text x="580" y="160" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0369a1">Breakup / Mist</text>
+  <text x="580" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Lower energy density</text>
+
+  <!-- Distance axis -->
+  <line x1="70" y1="200" x2="620" y2="200" stroke="#64748b" stroke-width="1.5"/>
+  <text x="70" y="218" font-family="system-ui,sans-serif" font-size="11" fill="#475569">0</text>
+  <text x="280" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#475569">Core length</text>
+  <text x="520" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#475569">Increasing standoff →</text>
+
+  <!-- Caption -->
+  <text x="340" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1e293b" font-weight="600">Jet remains coherent only for a limited distance</text>
+</svg>
+```
+
+*Conceptual illustration of the well-known jet coherence behaviour. Exact core length depends on pressure, nozzle design, ambient conditions and fluid properties; no new numeric values are asserted.*
+
+---
+
+## 16.8–16.10 Impact, Water Hammer, Power
 
 (Standard Bernoulli, momentum, and water-hammer physics remain valid. No numeric changes required. Power formula HP ≈ P(psi) × Q(GPM) / 1714 is standard and verified.)
 
@@ -155,6 +231,7 @@ High jet velocity (hundreds of m/s) + small orifice area explains skin penetrati
 | Water compressibility ≈12.5 % at 40k psi | Bulk modulus calculation | Standard bulk modulus of water (~2.2 GPa) | **Verified magnitude** |
 | Efficiency 70–85 % | Synthesis of manufacturer ranges | Pump performance literature, WJTA pumping papers | **Typical range – not hard constant** |
 | All other formulas (Re, power, Bernoulli) | Standard fluid mechanics | Textbooks + industry practice | **Verified** |
+| Diagrams 16.3 and 16.7 | Conceptual SVGs only | Illustrate already-verified principles; no new numbers | **Illustrative only** |
 
 **No remaining unverified numeric claims in this section.**
 
