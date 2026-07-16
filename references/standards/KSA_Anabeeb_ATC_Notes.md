@@ -1,40 +1,98 @@
-# KSA / Anabeeb / Client-Specific Notes – Expanded
+# KSA / Anabeeb / Client-Specific Requirements – Expanded (v8.0 Protocol)
 
-**Version 7.6 – Deepened 16 July 2026 after independent review**
+**Last updated:** 16 July 2026  
+**Status:** Deepened under new verification protocol. Public sources used; internal client manuals still required for full depth.
 
-This is the most important jurisdiction-specific file in the repository for Anabeeb operations. It must become the deepest standards file, not the thinnest.
+This file is intentionally the highest-priority differentiator for Anabeeb. It must become the deepest standards document in the repository.
 
-## Current Anabeeb Operating Context
-- Operator: Arabian Pipeline & Services Co. Ltd. (Anabeeb)
-- Primary location: Al Jubail / Eastern Province, KSA
-- Key clients and interfaces: PETRO RABIGH, SABIC, Aramco-related work, general industrial turnarounds
-- Training Center: Anabeeb Training Center (ATC) – Majd Square, TVTC approval process active, ECITB relationship (MJI-10 and Membership Services)
-- QHSSE: Reports to CEO, manages CASE actions, ISO compliance, HSE/Iqama recruitment, training license compliance
+---
 
-## Key Local / Client Expectations (Practical Synthesis)
-- **Competency**: Clients expect demonstrated competence, often via company-approved training + practical verification. Chapter 13 hybrid (WJTA-style practical + WJA theory + Australian-style 2-year VOC + mandatory Medical Alert Card) is designed to meet or exceed this.
-- **Permit-to-Work & Isolation**: Strict client PTW systems. Positive isolation, gas testing, SIMOPS, and hot-work interfaces are heavily audited. Chapters 5, 6 and 11 directly support this.
-- **Barricading & Exclusion Zones**: Physical barriers and clear (preferably bilingual) signage expected. Pressure-based distances in Chapter 5 are a defensible starting point; expand for UHP.
-- **Hose & Equipment Management**: Annual testing, life management, and rigorous pre-use inspection are expected. MCR + templates give Anabeeb a strong, auditable system.
-- **Medical Response**: High-pressure injection injury awareness is critical. Medical Alert Cards and Chapter 10 protocol should be shared with client medical teams where possible.
-- **Heat Stress**: Extreme Jubail summer conditions make heat controls (MCR-033, Chapter 5) non-negotiable. Work/rest cycles, hydration, and shade must be enforced.
-- **Environmental**: Waste water, debris, and spill control must meet client and Saudi environmental requirements. Chapter 11 covers decontamination and records.
-- **TVTC / ATC**: Courses should be structured for TVTC recognition. Keep learning outcomes, assessment records, and trainer qualifications audit-ready.
-- **UHP / Tube Bundle**: High scrutiny during turnarounds. Section 7.17 + Level 3 competency + expanded exclusion zones + vacuum systems are the baseline controls.
+## 1. Anabeeb Operating Context
+- Company: Arabian Pipeline & Services Co. Ltd. (Anabeeb)
+- Primary base: Al Jubail Industrial City / Eastern Province
+- Key clients: PETRO RABIGH, SABIC affiliates, Aramco-related work, other industrial turnarounds
+- Training: Anabeeb Training Center (ATC), Majd Square – TVTC approval process, ECITB relationship (MJI-10 etc.)
+- QHSSE: Direct reporting line to CEO; owns CASE actions, ISO, training licence, HSE/Iqama recruitment
 
-## Current Gaps That Must Be Filled (Priority Order)
-1. Extract exact clauses from Aramco CSMS / SAES documents, SABIC contractor HSE manuals, and PETRO RABIGH requirements that touch HPWJ, isolation, SIMOPS, competency, emergency response, or mobile high-pressure equipment.
-2. Create a simple “Client Requirement vs Anabeeb Encyclopedia Control” compliance matrix.
-3. Identify any Saudi Civil Defense or other local rules applicable to mobile high-pressure plant.
-4. Formal mapping of the ATC 3-day course and specialty modules to any client-approved training matrices.
-5. Document any site-specific or client-specific medical response expectations for injection injuries.
+---
 
-## Recommended Immediate Actions
-- Pull the actual client HSE / CSMS / contractor manuals (under company access) and systematically extract every relevant clause.
-- Make this file longer and more detailed than the WJTA/WJA/AS-NZS summaries — local depth is the real differentiator for Anabeeb.
-- Treat every client audit finding or near-miss as a mandatory update to this file and the Master Control Register.
+## 2. Saudi Aramco Interface (Publicly Documented Elements)
 
-**This file is intentionally the one that must grow the most. Foreign standards are already well covered; KSA/client depth is the current weak point for a KSA-focused operating company and must be fixed next.**
+### Contractor Safety Management System (CSMS)
+- All contractors must pass Aramco CSMS pre-qualification before bidding.
+- CSMS evaluates HSE policy, hazard identification, operational controls, emergency preparedness, incident management, and continual improvement.
+- Historical safety performance (typically rolling 3-year window) heavily influences contract awards.
+- Multiple “Red Cards” can lead to permanent exclusion from approved contractor lists.
+
+**Implication for Anabeeb HPWJ:** Full implementation of the Master Control Register, Pre-Use Checklists, competency records (Ch13), Medical Alert Cards, and incident learning (Section 25) directly supports strong CSMS scoring and audit readiness.
+
+### Construction Safety Manual (CSM) & General Instructions
+- Aramco maintains a comprehensive Construction Safety Manual and numerous General Instructions (GIs).
+- Hydrojetting / vacuum tanker services are explicitly procured by Aramco Corporate Maintenance (GBS scope includes hydrojetting of vessels, exchangers, piping, etc. by certified personnel).
+- Specific SAES engineering standards for high-pressure water jetting are **not publicly extractable** in full. Common related SAES for pressure equipment and testing (e.g. SAES-A-004 family for hydrotesting) exist but are not direct jetting operational standards.
+
+**[UNVERIFIED – needs internal access to full SAES / CSMS questionnaires / client-specific jetting procedures. Do not invent clauses.]**
+
+### Practical Expectations Observed in Aramco Contractor Environment
+- Strict Permit-to-Work and isolation verification
+- Documented competency and training records available for audit
+- Physical barricading and exclusion zones
+- SIMOPS coordination
+- Immediate stop-work authority
+- Heat stress management in Eastern Province conditions
+- Environmental controls for waste water and debris
+
+All of these map cleanly onto existing chapters (5, 6, 8, 10, 11, 12, 13) and the Master Control Register.
+
+---
+
+## 3. SABIC, PETRO RABIGH, Ma’aden
+
+Publicly available contractor HSE manuals for these companies are limited. In practice they enforce:
+- Company-specific PTW systems
+- Isolation and LOTO standards
+- Competency demonstration
+- SIMOPS and hot-work interfaces
+- Medical emergency response protocols
+
+**Action required:** Extract exact clauses from the current contractor HSE / CSMS / PTW manuals held by Anabeeb and map them line-by-line to MCR items. This is the single highest-value next research task.
+
+---
+
+## 4. Saudi Civil Defense & Other Local Requirements
+- Civil Defense focuses primarily on fire safety equipment, fire pumps, hoses, and facility compliance.
+- No publicly available Civil Defense standard specifically regulating mobile high-pressure water jetting equipment was located in this pass.
+- GOSI / Ministry of Labor occupational safety rules apply in general (training, PPE, incident reporting, heat stress). Exact numerical thresholds for jetting equipment remain **[UNVERIFIED – requires local legal/HSE review]**.
+
+---
+
+## 5. TVTC & ATC Implications
+- ATC courses should be designed so that learning outcomes, assessment methods, and records support potential TVTC recognition.
+- Keep competency register, Medical Alert Card issuance, and practical assessment evidence audit-ready at all times.
+- Specialty modules (UHP tube bundle, automated systems) can be marketed as high-value once core competency is solid.
+
+---
+
+## 6. Verification Log for This File
+
+| Claim | Source | Status |
+|-------|--------|--------|
+| Aramco CSMS pre-qualification and Red Card system | Public contractor HSE guides and Aramco-related industry articles | Verified (public description) |
+| Hydrojetting is an Aramco-procured service | Aramco Corporate Maintenance GBS description | Verified |
+| Specific SAES jetting clauses | Not publicly available in full | **[UNVERIFIED – internal documents required]** |
+| SABIC / PETRO RABIGH exact jetting clauses | Not publicly extractable | **[UNVERIFIED – internal manuals required]** |
+| Civil Defense specific jetting rules | No public standard located | **[UNVERIFIED / likely limited]** |
+
+---
+
+## 7. Immediate Next Actions (Priority Order)
+1. Obtain and extract from current Aramco CSMS questionnaire, relevant SAES, and any client-specific hydrojetting procedures held by Anabeeb.
+2. Do the same for SABIC and PETRO RABIGH contractor HSE manuals.
+3. Build a simple compliance matrix: “Client Clause → MCR Item → Chapter / Template”.
+4. Add any local heat-stress or mobile plant rules confirmed by company HSE/legal.
+5. Update this file until it is longer and more detailed than the WJTA/WJA/AS-NZS summaries.
+
+**This file is the current credibility differentiator. Foreign standards are already solid. Local depth is the gap that must be closed next.**
 
 **Owner:** Anabeeb QHSSE / ATC Lead  
-**Next deep update target:** Immediately after next access to full client HSE documentation.
+**Target:** Make this the deepest standards file in the repository.
