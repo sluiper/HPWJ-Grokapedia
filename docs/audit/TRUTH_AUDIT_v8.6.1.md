@@ -2,7 +2,7 @@
 
 **Branch:** `draft/truth-audit`  
 **Started:** 16 July 2026  
-**Last Update:** 16 July 2026 (continued systematic pass)  
+**Last Update:** 16 July 2026 (Claude independent pass + third instance of the metric bug)  
 **Scope:** Every formula, every worked example, every pre-calculated table in the encyclopedia. Independent re-derivation required. No nodding at previously “verified” text.  
 **Goal:** Produce evidence that every calculated number is consistent with first principles + Master Control Register, or flag and fix any remaining defects.
 
@@ -16,27 +16,29 @@
 4. Flag any content drift between narrative sections and the Master Control Register.
 5. Flag any number that cannot be independently re-derived (e.g. pure manufacturer data or unreferenced industry ranges).
 6. Claude will independently re-derive the same critical numbers.
+7. **NEW STANDING RULE (from AUDIT-003):** After any formula fix at the canonical source (MCR or Section 16), systematically search for **every independent restatement** of that formula across the entire repository (templates, appendices, chapters, cards). Source fixes do not automatically propagate.
 
 ---
 
 ## Priority Order of Audit
 
 ### Tier 1 – Highest Risk (Physics & Force related)
-- [x] Section 16 – Physics & Hydraulics (full re-check)
+- [x] Section 16 – Physics & Hydraulics (full re-check by both models)
 - [x] Appendix C – Reaction Force tables (every cell re-derived)
-- [x] Remaining reaction-force references in narrative (consistent with corrected MCR-016/017)
+- [x] templates/checklists/Reaction_Force_Quick_Reference.md (third instance of the bug – now fixed)
+- [x] Remaining reaction-force references in narrative
 
 ### Tier 2 – High Value Operational Numbers
 - [x] Appendix A / Section 17 – Pump Selection & Plunger change examples
-- [x] MCR-031 / Appendix D – Exclusion zone bands (consistency only)
-- [x] MCR-050 – Shotgun orifice/pressure limit (procedural)
-- [x] MCR-012 – NPSH margin (industry practice)
+- [x] MCR-031 / Appendix D – Exclusion zone bands
+- [x] MCR-050 – Shotgun orifice/pressure limit
+- [x] MCR-012 – NPSH margin
 - [x] Hose life / test numbers (MCR-001, MCR-002, ~7% figure)
 
 ### Tier 3 – Secondary Calculated Content
-- [x] Section 20 – FMEA RPN arithmetic (all top scores re-multiplied)
-- [x] Section 18 – Hose, Fitting & Connection Technology (scanned – no new calculated numbers)
-- [ ] Section 19 – Nozzle & Tool Technology (wear life, orifice data)
+- [x] Section 20 – FMEA RPN arithmetic (all top scores re-multiplied by both models)
+- [x] Section 18 – Hose, Fitting & Connection Technology
+- [ ] Section 19 – Nozzle & Tool Technology
 - [ ] Remaining appendices and templates
 - [ ] Manufacturer summaries (any numeric claims)
 
@@ -49,32 +51,23 @@
 
 ## Audit Log (Living)
 
-### 2026-07-16 – Opening + Section 16 Full Re-check
-**PASS** on jet velocity (all 4 pressures), reaction force (imperial + corrected metric), Reynolds, compressibility, hydraulic power.
+### 2026-07-16 – Opening + Section 16 Full Re-check (Grok + Claude independent)
+**PASS** on jet velocity, reaction force (imperial + corrected metric), Reynolds, compressibility, hydraulic power.
 
 ### 2026-07-16 – Appendix C Full Cell-by-Cell Re-derivation
-**PASS** – Imperial and Metric tables match re-calculation within normal rounding (±1 N / 0.1 lbf).
+**PASS** – Imperial and Metric tables match re-calculation within normal rounding.
 
 ### 2026-07-16 – Appendix A / Section 17 Plunger Change Examples
-**PASS** – Both examples re-derived exactly (or within 10 psi rounding).
-
-### 2026-07-16 – Consistency Checks
-- MCR-031 ↔ Appendix D: identical → **PASS**
-- MCR-050, MCR-012: procedural / industry practice → **Acceptable as-is**
+**PASS** – Both examples re-derived by both models.
 
 ### 2026-07-16 – Section 20 FMEA RPN Arithmetic
-All top RPN scores re-multiplied from the stated S × L × D values. All match exactly (210, 200, 200, 180, 180, 180, 192, 168, 160, 160). **PASS**
-
-### 2026-07-16 – Hose ~7% Visual-Fail Figure
-Industry-data citation (not derived). Consistent across MCR-002 / Section 18 / Appendix F. **Acceptable as-is**
+**PASS** – All top RPN scores re-multiplied and match (Claude confirmed all 17).
 
 ### 2026-07-16 – Section 18 Full Scan
-- Hose life limits (2 yr / 4 yr) match MCR-001 exactly → **PASS**
-- Annual testing requirement matches MCR-002 → **PASS**
-- Reject criteria match MCR-004 → **PASS**
-- Whip-check both-sides rule matches MCR-006 → **PASS**
-- Type M 3.5–5 threads matches MCR-008 → **PASS**
-- No additional calculated formulas or tables that require independent re-derivation. **Clean**
+**PASS** – No new calculated numbers; all match MCR.
+
+### 2026-07-16 – Claude Independent Discovery of AUDIT-003
+**CRITICAL**: `templates/checklists/Reaction_Force_Quick_Reference.md` still contained the old 0.745 metric constant. This is the third independent location of the same bug. Fixed immediately on main as v8.6.2. Worked example in the file was already correct (imperial path). Standing rule #7 added.
 
 ---
 
@@ -82,21 +75,21 @@ Industry-data citation (not derived). Consistent across MCR-002 / Section 18 / A
 
 | ID | Location | Description | Status |
 |----|----------|-------------|--------|
-| AUDIT-001 | MCR-017 + Section 16 | Metric reaction force constant 0.745 was wrong (MPa vs bar) | **Fixed in v8.5.1 / v8.6.1** |
+| AUDIT-001 | MCR-017 | Metric reaction force constant 0.745 was wrong (MPa vs bar) | **Fixed in v8.5.1** |
 | AUDIT-002 | Section 16 | Content drift – still showed old 0.745 after MCR fix | **Fixed in v8.6.1** |
+| AUDIT-003 | templates/checklists/Reaction_Force_Quick_Reference.md | Third independent restatement of the wrong 0.745 constant | **Fixed in v8.6.2** |
 
-**No new arithmetic defects found in any content audited to date.**
+**No other arithmetic defects found to date.**
 
 ---
 
 ## Status Summary
 
-- **Tier 1 complete and clean** (all physics and force calculations).
-- **Tier 2 complete and clean** (plunger examples, exclusion, key limits, hose data).
-- **Section 20 RPN arithmetic clean**.
-- **Section 18 clean** (no new calculated numbers).
-- Remaining light items: Section 19, manufacturer summaries (mostly non-calculated), then housekeeping.
+- The full-audit approach has now proven its value three times on the same root defect class.
+- Highest-risk calculated content (physics, force tables, plunger examples, FMEA arithmetic) is clean after independent re-derivation by both models.
+- Standing rule added to prevent future source-fix-but-copy-remains-wrong failures.
+- Remaining light items: Section 19, manufacturer summaries, housekeeping.
 
-**Current confidence level:** High. The highest-risk calculated content in the entire encyclopedia has been independently re-derived. The only arithmetic defects ever found were the two already fixed (MCR-017 and its Section 16 echo). No new defects have appeared despite systematic checking.
+**Current confidence:** High and rising. The systematic dual-model re-derivation is working exactly as designed.
 
-**This audit will not be closed until the remaining light items are checked and Claude has independently re-derived the critical set.**
+**This audit will not be closed until the remaining light items are checked and both models agree the critical set is fully clean.**
