@@ -53,9 +53,10 @@
 - Ready for human review / Needs fixes / etc.
 ```
 
-## Priority Queue (as of v8.3.2)
+## Priority Queue (as of v8.3.3)
 - [x] Lock optimized process (AGENTS.md + WORKFLOW.md + PROCESS.md)
-- [x] Explicitly grandfather Section 23 (pre-dates draft-branch rule; already reviewed and on main)
+- [x] Explicitly grandfather Section 23 (pre-dates draft-branch rule; already reviewed and on main — decision recorded in PROCESS.md)
+- [x] Document CDN / raw.githubusercontent.com cache-busting lesson
 - [ ] Human sets next priority
 - [ ] Grok starts first true draft-branch work (recommended: Section 27 Lessons Learned)
 

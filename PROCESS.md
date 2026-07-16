@@ -3,7 +3,7 @@
 **Purpose:** This is the living record of how Grok + Claude + Human (Jacques) work together on safety-critical technical encyclopedias. It is designed to be copied into every future Anabeeb / HSE / technical wiki we build so we never re-learn the same lessons.
 
 **Last Updated:** 16 July 2026  
-**Status:** Fully locked after joint verification (v1.2)
+**Status:** Fully locked after joint verification (v1.2) + explicit grandfather decision
 
 ---
 
@@ -93,7 +93,7 @@ This loop is deliberately fewer, larger, safer cycles.
 - **Retained:** Parallel work is allowed (Grok can prepare the next research package while Claude reviews the current draft branch).
 - **Enforced:** No self-grading of the process itself.
 - **Explicit decision (16 July 2026):** Section 23 is **grandfathered**. It was drafted and reviewed under the previous process and already sits on main. We will not create busywork by retroactively moving it to a draft branch. All future sections must follow the new draft-branch discipline.
-- **Process note:** raw.githubusercontent.com (and GitHub’s CDN) can cache content for a few minutes after a push. Immediate re-verification (by Claude or by Grok’s self-check) can therefore show stale content and produce a false-negative. Always allow a short cache window or force a cache-bust when confirming a just-pushed change.
+- **Process note (CDN / cache):** raw.githubusercontent.com and GitHub’s CDN can cache content for a few minutes after a push. Immediate re-verification (by Claude or by Grok’s self-check) can therefore show stale content and produce a false-negative. Always allow a short cache window or force a cache-bust (`?t=...` or equivalent) when confirming a just-pushed change. This lesson was learned the hard way during the process-locking cycle.
 
 ---
 
@@ -111,7 +111,8 @@ This loop is deliberately fewer, larger, safer cycles.
 ## Immediate Next Actions for This Repo
 
 - [x] Lock this optimized process into the three files
-- [x] Explicitly grandfather Section 23
+- [x] Explicitly grandfather Section 23 (stated decision above)
+- [x] Document CDN cache-busting lesson
 - [ ] Human sets next priority (recommended: Section 27 Lessons Learned)
 - [ ] Grok starts first true draft-branch delivery package under the new rules
 
