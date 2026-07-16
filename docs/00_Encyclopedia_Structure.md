@@ -1,7 +1,7 @@
 # HPWJ Encyclopedia (Grokapedia) – Current Structure & Status
 
-**Version 8.0 – 16 July 2026**  
-**Status: Full operational core complete; technical sections substantially expanded; structure synchronised with filesystem**
+**Version 8.3-prep – 16 July 2026**  
+**Status: Full operational core complete; technical sections substantially expanded; dual-model schema live; Section 23 Research Package ready for Claude draft**
 
 ## Completed Chapters (1–15)
 
@@ -36,17 +36,21 @@
 - **Section 26**: Human Factors & Ergonomics
 - **Section 28**: Environmental Controls & Sustainability
 
+## In Progress / Ready for Draft
+- **Section 23**: Marine / Offshore / IMCA-specific — full Research Package complete (`docs/research/23_Marine_Offshore_IMCA_Research_Package.md`). Ready for Claude structured draft.
+
 ## Supporting Assets
-- **Master Control Register** – 38 rows (living single source of truth)
+- **Master Control Register** – **52 rows** (living single source of truth). 8 new rows proposed in Section 23 package.
+- **AGENTS.md** + **WORKFLOW.md** — permanent dual-model operating system (Grok research + Claude draft + dual verification).
 - Templates: Pre-Use Inspection Checklist, Whip Check & Hose Card, Reaction Force Quick Reference, Medical Alert Card
 - Global standards summaries + Regulatory & Client Matrix
-- **11 manufacturer reference summaries** (NLB, Hammelmann, StoneAge, Peinemann, WOMA, Kamat, Uraca, Interpump, Jetstream, Sugino, DERC Salotech)
+- Manufacturer reference summaries (12 including Safetech)
 
 ## Remaining Gaps (Honest)
-- Section 23 – Marine / Offshore / IMCA-specific content
+- Section 23 production markdown (next)
 - Section 27 – Lessons Learned (grows with real Anabeeb incidents)
 - Section 29 – Future Technology
-- Full appendices (currently placeholder only)
+- Full appendices
 - Deeper Aramco SAES / CSMS clause extraction (requires internal company documents)
 - Section 21 / Regulatory & Client Matrix – exists; final naming/placement tidy may still be useful
 

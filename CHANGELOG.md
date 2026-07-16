@@ -1,23 +1,28 @@
 # CHANGELOG
 
-## v8.2 – 16 July 2026 (Anabeeb OPS-P-019 + Safetech + MCR to 52)
+## v8.3-prep – 16 July 2026 (Schema Lock + Section 23 Research Package)
 
-### Major Content
-- **Anabeeb OPS-P-019** (company HPWJ procedure, prepared Selva Subarayan / reviewed Jacques Theron / approved Raed Al Ghamdi) fully summarised and mapped: `references/standards/Anabeeb_OPS-P-019_HPWJ_Procedure_Summary.md`.
-- New MCR-046 to MCR-052: max 40 000 psi, min **3-man team**, rupture disc ≤1.2× lowest MAWP, manual operators **2 years continuous experience** + Management approval, shotgun ≤10k psi / 1.6 mm orifice, **10 m** unauthorised exclusion, lance tip mark ≥600 mm.
-- **Safetech Protection** manufacturer summary added (UHP PPE to 45k psi, Air Comfort cooling to 18 °C for 3 operators – critical KSA heat control).
-- Master Control Register now **52 rows**. Where Anabeeb procedure is stricter than SABIC, Anabeeb governs Anabeeb operations.
-- Aramco CSM 5th Edition reviewed: no dedicated HPWJ chapter; general PPE / Work Permit / LOTO / Confined Space / Heat Stress / Pressure Testing chapters apply and remain mapped at high level. Full clause extraction still requires targeted internal SAES/GI packs.
+### Structural / Process
+- Fixed README.md MCR row-count drift (was still saying 38; now correctly 52).
+- Added **AGENTS.md** — permanent dual-model operating schema (MCR-first, Grok = research/calculations/verification, Claude = structured draft, format lock matching Sections 16–20, no self-grading, land-vs-wet requirement, honest gaps).
+- Added **WORKFLOW.md** — explicit research → draft → re-verify → human gate loop.
+- Created `docs/research/` and full **Research Package for Section 23 Marine/Offshore/IMCA** (public sources only: IMCA D049 principles + multiple Safety Flashes + DMAC + existing physics). Includes 8 proposed new MCR rows (053–060), full reaction-force derivation underwater, land-vs-wet table, ready-to-expand skeleton.
 
-### Previous (v8.1)
-- Chapter 8 full depth with SABIC OMS 8.2.
-- KSA notes rewritten as deepest client file for SABIC.
-- MCR to 45.
+### Content Status
+- Section 23 now has a complete, source-grounded research foundation ready for Claude to draft the production markdown.
+- No new operational prose or MCR rows live yet (proposed only). Next step is Claude draft → Grok number re-verification → human gate → merge + MCR to 60.
+
+### Previous (v8.2 – 16 July 2026)
+- Anabeeb OPS-P-019 fully integrated + Safetech PPE.
+- MCR to 52 rows (MCR-046 to MCR-052).
+- Where Anabeeb is stricter, Anabeeb governs.
 
 ### Remaining Honest Gaps
-- Full Aramco SAES / CSMS questionnaire / GI hydrojetting-specific clauses (internal docs).
-- Chapters 11 & 12 still thinner than Ch5/7/8/10/13.
-- More documented public incidents.
-- Field diagrams pack.
+- Full IMCA D049 clause extraction (member document).
+- Section 23 production draft.
+- Section 27 Lessons Learned.
+- Section 29 Future Technology.
+- Full appendices.
+- Deep Aramco SAES/CSMS (internal docs only).
 
 **This changelog prioritises truth over presentation.**
