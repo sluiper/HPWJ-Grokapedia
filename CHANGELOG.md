@@ -1,33 +1,28 @@
 # CHANGELOG
 
-## v8.3 – 16 July 2026 (Section 23 Live + Schema Role Split Fixed)
-
-### Structural / Process
-- Updated AGENTS.md and WORKFLOW.md to the actual current role split: **Grok drafts full production sections and pushes; Claude reviews/guides only** (no longer “Claude drafts”).
-- Fixed the seawater density claim: full derivation under the explicit constant-flow-rate (positive-displacement pump) assumption now present; +2.5 % is no longer a bare assertion.
-- All format rules (MCR mapping table, full derivations, Verification Log, land-vs-wet table, honest gaps) enforced in the live section.
+## v8.4-draft – 16 July 2026 (Section 27 Lessons Learned – draft branch)
 
 ### Content
-- **Section 23 – Marine / Offshore / IMCA** is now live as a full production draft (`docs/23_Marine_Offshore_IMCA.md`).
-- 8 new MCR rows proposed (MCR-053 to MCR-060) covering diver authorisation, underwater reaction/hose/dump/medical controls, elevated method hierarchy, and cavitation tools. Status = Drafting until Claude review + human gate.
-- Public sources only: IMCA D049 principles (TOC + public extracts), Safety Flashes 18/20, 09/17, 03/15, 06/07, 15/18, DMAC, and verified Section 16 physics.
-- Research package retained under `docs/research/` as audit trail and updated to point to the live section.
+- Created full production draft of **Section 27 – Lessons Learned** on branch `draft/section-27`.
+- Seeded with 6 permanent lessons extracted from the highest-value cases in Section 25 (including the documented UK HSE flexi-lance fatality).
+- Defined the living process for converting future Anabeeb events into organisational memory.
+- Proposed 5 new process-control MCR rows (MCR-061 to MCR-065) all in Drafting status:
+  - Living Lessons Learned Register
+  - 30-Day Incident-to-Lesson Cycle
+  - Anonymised Real Incident Capture
+  - Training Integration of Lessons
+  - Management Review of Lessons
+- MASTER_CONTROL_REGISTER.md updated on the draft branch to 65 total controls.
+
+### Process
+- This is the first delivery package produced entirely under the locked v1.2 dual-model + human workflow (draft branch, full AGENTS format, MCR-first, ready for mandatory Claude Verification Report).
 
 ### Status
-Section 23 is ready for Claude’s independent verification pass. No MCR rows have been promoted from Drafting to Visible yet.
+Awaiting Claude Verification Report on branch `draft/section-27`. No rows promoted from Drafting to Visible.
 
-### Previous (v8.2 – 16 July 2026)
-- Anabeeb OPS-P-019 fully integrated + Safetech PPE.
-- MCR to 52 rows (MCR-046 to MCR-052).
-- Where Anabeeb is stricter, Anabeeb governs.
-
-### Remaining Honest Gaps
-- Full IMCA D049 clause extraction (member document).
-- Exact numerical pressure/orifice limits for diver-held tools inside current D049.
-- Anabeeb-specific marine/diving procedure (if any).
-- Section 27 Lessons Learned.
-- Section 29 Future Technology.
-- Full appendices.
-- Deep Aramco SAES/CSMS (internal docs only).
+### Previous (v8.3 – 16 July 2026)
+- Section 23 Marine/Offshore/IMCA production draft live on main (grandfathered).
+- MCR to 60 rows (MCR-053 to MCR-060 Drafting).
+- Dual-model process fully locked (AGENTS.md, WORKFLOW.md, PROCESS.md).
 
 **This changelog prioritises truth over presentation.**
