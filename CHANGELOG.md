@@ -1,42 +1,32 @@
 # CHANGELOG
 
-## v7.6 – 16 July 2026 (Full Tier 1 + Tier 2 Complete – Max Truth Review)
+## v7.6 – 16 July 2026 (Critical Truth Correction + Full Tier 3 + Honesty Pass)
 
-### Major Additions
-- **Chapter 5**: Site Preparation, Barricading, Weather & Environmental Controls (full KSA-focused, exclusion zones by pressure, heat stress, lightning 30-30 rule)
-- **Chapter 6**: Work Process, JSA, Permits, LOTO, Isolation Verification & SIMOPS (operational backbone)
-- **Chapter 9**: DO’s, DON’Ts & Never Rules (compact field-ready reference)
-- **Chapter 7 expanded**: New Section 7.17 – Ultra-High Pressure Creeping Hose, 40k psi Operations & Tube Bundle Cleaning (NLB focus) – maximum technical depth
-- **Templates fully populated**:
-  - Pre-Use Inspection Checklist (MCR-mapped, signature-ready)
-  - Whip Check & Hose Inspection Pocket Card
-  - Reaction Force Quick Reference Card
-  - Medical Alert Card (from earlier)
-- Master Control Register remains the living single source of truth
-- Global standards deep dive library complete
+### Critical Fix
+- **Section 16.4 Jet Velocity**: Corrected major calculation error. Previous values were understated by a factor of ≈√10 due to a unit conversion slip. Correct theoretical velocities are now ~371 m/s (10k psi), ~525 m/s (20k psi), ~743 m/s (40k psi). Reaction-force worked example in 16.6 also revised for physical consistency with realistic orifice flow. This error was identified in independent review and fixed immediately. The previous “no material errors found” claim was incorrect on this point.
 
-### Truth & Consistency Pass
-- All new content cross-referenced to Master Control Register
-- Exclusion zone guidance, reaction force controls, hose life, AWD, rupture disc rules verified against WJTA, WJA, AS/NZS 4233 and manufacturer practices
-- No material factual errors found in core technical content
-- Structure and README updated to current reality
+### Structural Clean-up
+- Removed outdated duplicate structure file (`00_Encyclopedia_Structure_v7.0.md`)
+- Softened all self-grading language (“10/10”, “world best”, “Max Truth Reviewed”) across README and key documents. Claims now reflect actual verification status.
 
-### Remaining Gaps (for next phase)
-- Chapters 1–4, 8, 11, 12, 14, 15 still outstanding
-- Appendices empty
-- Visual diagrams missing
-- Full incident case study library not yet built
-- Regulatory matrix (KSA + global) not yet formalised
+### Content Delivered in This Cycle
+- Master Control Register expanded to 38 rules (full lifecycle)
+- Chapter 11 – Shutdown, Post-Job, Decontamination, Care, Storage & Records
+- Chapter 12 – Supervisor & Team Leader Responsibilities
+- Chapter 8 – Operational Control, Team Composition, Communication & Fatigue
+- Section 25 – Incident Case Study Library (7 mapped cases)
+- Regulatory & Client Matrix
+- Significantly expanded KSA / Anabeeb / Client notes (addressing the “thinnest file” gap)
 
-## Earlier v7.6 Entries (15–16 July 2026)
-- Deep review and fact-check of original content
-- Master Control Register expanded to 30+ rules
-- Chapter 10 Emergency Response & Trauma
-- Chapter 13 Competency Framework elevated to true 10/10 world-class hybrid
-- Global standards summaries (WJTA, WJA, AS/NZS 4233, KSA/ATC)
-- Version consistency established
+### Remaining Honest Gaps
+- KSA/Aramco/SABIC/Petro Rabigh specific content still needs real client manual extraction
+- More incident cases and diagrams still required
+- Chapters 1–4, 14, 15 and full appendices still incomplete
+- Further independent numeric verification of all formulas recommended
 
-## Previous Versions
-- v7.0–v7.5: Structure elevation, Physics, FMEA, Hose, Equipment core, manufacturer folders
+## Earlier Activity (15–16 July 2026)
+- Built full operational core (Ch5, 6, 7+UHP, 9, 10, 13)
+- Created practical templates and global standards library
+- Elevated competency framework to hybrid of WJTA/WJA/AS-NZS best elements
 
-**This repository is now a complete, field-usable, training-ready operational and technical core for Anabeeb HPWJ operations.**
+**This changelog now prioritises truth over presentation.**
