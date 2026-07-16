@@ -1,7 +1,6 @@
 # Chapter 5: Site Preparation, Barricading, Weather & Environmental Controls
 
-**Maximum Practical Depth – 10/10 Field Standard**  
-**Version 7.6**
+**Version 8.0 – Updated with documented site-hazard case**
 
 This chapter defines the mandatory requirements for preparing a safe HPWJ worksite, establishing exclusion zones, managing weather risks (especially critical in Jubail / KSA), and controlling environmental impacts. All content is linked to the Master Control Register and supports Chapters 6, 7, 10, and 13.
 
@@ -18,6 +17,7 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 - Confirm water supply quality and volume (clean, cool preferred for NPSH)
 - Identify drainage, containment, and waste water disposal method
 - Check for overhead power lines, buried services, and fragile structures
+- **Identify and control all open excavations, pits, vertical pipes, manholes, and floor openings** in or adjacent to the work area (see documented case below)
 - Ensure adequate lighting for night or low-light work
 - Confirm first-aid / trauma kit and Medical Alert Card availability
 
@@ -48,8 +48,20 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 - Any unauthorised person entering the zone → immediate dump of pressure and stop work.
 - For UHP creeping hose and tube bundle work, expand the zone in the direction of possible hose whip or back-spray.
 - Screens or blast shields should be used where the jet could be directed toward other workers or sensitive equipment.
+- **All open pits, vertical pipes, manholes, and floor openings inside or immediately adjacent to the exclusion zone must be covered, guarded, or clearly marked and controlled.**
 
 **WJTA / Safe Work Australia Alignment**: Barricading and restricted access is mandatory. People other than the operating team must be kept out of barricaded work areas.
+
+---
+
+## 5.2.1 Documented Site-Hazard Case – NIOSH CA/FACE 16CA001
+
+**Type:** Documented Case (site / excavation hazard adjacent to hydroblasting work)  
+**Summary:** A hydroblasting laborer died after falling into an uncovered vertical pipe during the job. This is **not** a classic equipment-failure mode (no lance ejection, hose whip, or reaction-force loss). It is a site-preparation and barricading failure involving an open vertical opening in the work area.  
+**Relevance to this chapter:** Highlights that exclusion-zone and site-prep controls must address **adjacent open pits, pipes, and floor openings**, not only the jet and hose whip energy.  
+**FMEA Gap:** The current Section 20 FMEA is equipment- and process-centric. This case exposes a gap category: “Adjacent excavation / open-hole / vertical opening hazard during HPWJ work.”  
+**Action logged:** Candidate new FMEA row to be added to Section 20 (Site Hazard – Unprotected Opening / Fall into Pit or Pipe). Corresponding MCR control candidate: require identification, covering/guarding, or physical control of all open vertical openings inside or immediately adjacent to the HPWJ exclusion zone before work starts.  
+**Source:** NIOSH CA/FACE 16CA001 (California Fatality Assessment and Control Evaluation) – hydroblasting laborer fatality involving fall into uncovered vertical pipe.
 
 ---
 
@@ -90,6 +102,7 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 
 - [ ] Exclusion zone established and signed (correct size for pressure)
 - [ ] Physical barricades in place and continuous
+- [ ] All open pits, vertical pipes, manholes, and floor openings identified, covered, guarded, or controlled
 - [ ] SIMOPS interfaces controlled (Chapter 6)
 - [ ] Weather conditions acceptable (heat, wind, lightning, rain)
 - [ ] Heat stress controls in place if required
@@ -105,6 +118,7 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 
 - Never start HPWJ without physical barricading and clear exclusion zone.
 - Never allow unauthorised persons inside the barricaded area.
+- Never leave open pits, vertical pipes, or floor openings unguarded inside or adjacent to the work area.
 - Never continue work during lightning or unsafe weather.
 - Never ignore heat stress controls in high temperatures.
 - Never leave the site unsecured with pressurised equipment.
@@ -113,6 +127,6 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 
 **Linked Master Control Register Items**: MCR-027 (Barricading), MCR-028 (SIMOPS), MCR-023 (Pre-Use), MCR-016 (Reaction Force), heat-related items from Ch7/Ch10.
 
-**This chapter is designed for direct use in pre-job planning, toolbox talks, and client audits.**
+**FMEA Candidate Logged:** Adjacent excavation / unprotected vertical opening hazard during HPWJ work (new row recommended for Section 20).
 
-**References**: WJTA Industry Best Practices (Orange Book), Safe Work Australia Guide to Managing HPWJ Risks, WJA Codes of Practice, NLB and manufacturer site setup guidance, KSA heat stress procedures, Master Control Register.
+**References**: WJTA Industry Best Practices, Safe Work Australia Guide, WJA Codes, NLB/manufacturer site setup guidance, KSA heat stress procedures, NIOSH CA/FACE 16CA001, Master Control Register.
