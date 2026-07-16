@@ -1,9 +1,9 @@
 # Section 23: Marine / Offshore / IMCA-specific HPWJ
 
-**Status:** Drafted from public sources (IMCA D049 principles + Safety Flashes + existing verified physics) – awaiting Claude independent verification + human Anabeeb gate  
-**Version:** 8.3  
+**Status:** Live on main (production draft after clean dual-model verification)  
+**Version:** 8.6.5  
 **Date:** 16 July 2026  
-**MCR Controls Referenced:** MCR-016, MCR-039, MCR-043, MCR-046, MCR-047, MCR-051 + proposed MCR-053 to MCR-060
+**MCR Controls Referenced:** MCR-016, MCR-039, MCR-043, MCR-046, MCR-047, MCR-051 + MCR-053 to MCR-060 (all now Visible)
 
 ## MCR Mapping for This Section
 
@@ -15,14 +15,14 @@
 | MCR-046 | Maximum System Pressure | Visible |
 | MCR-047 | Anabeeb Minimum Team Size | Visible (higher manning wet) |
 | MCR-051 | Unauthorised Person Exclusion | Visible (stricter wet) |
-| MCR-053 | Diver HPWJ Authorisation | Drafting |
-| MCR-054 | Underwater Reaction Force Control | Drafting |
-| MCR-055 | Hose Tethering & Securing (Wet) | Drafting |
-| MCR-056 | Dump / Dead-Man System (Underwater) | Drafting |
-| MCR-057 | Exclusion of Non-Essential Personnel | Drafting |
-| MCR-058 | Medical Alert + DMAC | Drafting |
-| MCR-059 | Maximum Pressure for Diver-Held | Drafting |
-| MCR-060 | Cavitation Blaster / Special Tools | Drafting |
+| MCR-053 | Diver HPWJ Authorisation | Visible |
+| MCR-054 | Underwater Reaction Force Control | Visible |
+| MCR-055 | Hose Tethering & Securing (Wet) | Visible |
+| MCR-056 | Dump / Dead-Man System (Underwater) | Visible |
+| MCR-057 | Exclusion of Non-Essential Personnel | Visible |
+| MCR-058 | Medical Alert + DMAC | Visible |
+| MCR-059 | Maximum Pressure for Diver-Held | Visible |
+| MCR-060 | Cavitation Blaster / Special Tools | Visible |
 
 ---
 
@@ -103,13 +103,15 @@ With the theoretical exit velocity from Bernoulli:
 
 $$ v = \sqrt{\frac{2 \Delta P}{\rho}} $$
 
-After unit conversion and typical discharge-coefficient factors this yields the industry formula already verified in Section 16:
+After unit conversion and typical discharge-coefficient factors this yields the industry formula already verified in Section 16 and corrected in MCR-017:
 
 $$ F_r\ (\text{lbf}) \approx 0.052 \times Q\ (\text{GPM}) \times \sqrt{P\ (\text{psi})} $$
 
-$$ F_r\ (\text{N}) \approx 0.745 \times Q\ (\text{L/min}) \times \sqrt{P\ (\text{bar})} $$
+$$ F_r\ (\text{N}) \approx 0.233 \times Q\ (\text{L/min}) \times \sqrt{P\ (\text{bar})} $$
 
-The formula itself does not change when the work is performed underwater. Ambient water pressure at dive depth is negligible compared with system pressures of hundreds of bar. [DERIVED from Section 16]
+**Historical note (AUDIT-004):** The previous constant 0.745 was a unit-conversion error (correct only for MPa). Corrected 16 July 2026. This is the fourth independent restatement of the same bug that the standing restatement-search rule was designed to catch.
+
+The formula itself does not change when the work is performed underwater. Ambient water pressure at dive depth is negligible compared with system pressures of hundreds of bar. [DERIVED from Section 16 + MCR-017]
 
 ### Buoyancy effect on the “≤ 1/3 body weight” control
 
@@ -214,6 +216,7 @@ In addition to the standard Pre-Use Inspection Checklist and ATT-6 style forms, 
 | Claim / Formula | Method | Source / Cross-check | Status |
 |-----------------|--------|----------------------|--------|
 | Reaction force formula unchanged underwater | First-principles momentum + Bernoulli (Section 16) | Existing verified Section 16 | **Verified** |
+| Metric constant 0.233 | First-principles unit conversion from verified imperial (MCR-017) | Corrected in v8.5.1 / v8.6.5 (AUDIT-004) | **Corrected & Verified** |
 | 250 bar / 5 GPM worked example ≈ 70 N | Full arithmetic re-derivation | IMCA SF 18/20 pressure + industry formula | **Verified** |
 | Seawater +2.5 % force under constant-Q | Density ratio 1025/1000 with stated positive-displacement assumption | Standard fluid density + pump type used throughout encyclopedia | **Verified under stated assumption** |
 | Buoyancy tightens 1/3 body-weight control | Qualitative physical reasoning | Standard diving physics | **Verified as qualitative** |
@@ -223,7 +226,7 @@ In addition to the standard Pre-Use Inspection Checklist and ATT-6 style forms, 
 | Full D049 numerical limits for diver-held tools | Not publicly available | Member document | **[INTERNAL GAP]** |
 
 **No remaining unverified numeric claims that are asserted as hard numbers.**  
-All proposed MCR-053–060 remain in Drafting status pending Claude review and human gate.
+All MCR-053–060 are now Visible (promoted by human gate after dual-model review).
 
 ---
 

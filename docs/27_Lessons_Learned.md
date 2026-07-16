@@ -1,9 +1,9 @@
 # Section 27: Lessons Learned
 
 **Status:** Live on main (merged from draft/section-27 after clean Claude verification – zero P0/P1)  
-**Version:** 8.4  
+**Version:** 8.6.5  
 **Date:** 16 July 2026  
-**MCR Controls Referenced:** Existing high-RPN controls + proposed MCR-061 to MCR-065 (remain Drafting)
+**MCR Controls Referenced:** Existing high-RPN controls + MCR-061 to MCR-065 (all now Visible)
 
 ## MCR Mapping for This Section
 
@@ -15,11 +15,11 @@
 | MCR-016 | Reaction Force (Three Additive) | Visible |
 | MCR-007 | Quick-Connect Couplings | Visible |
 | MCR-036 | Supervisor Accountability | Visible |
-| MCR-061 | Living Lessons Learned Register | Drafting |
-| MCR-062 | 30-Day Incident-to-Lesson Cycle | Drafting |
-| MCR-063 | Anonymised Real Incident Capture | Drafting |
-| MCR-064 | Training Integration of Lessons | Drafting |
-| MCR-065 | Management Review of Lessons | Drafting |
+| MCR-061 | Living Lessons Learned Register | Visible |
+| MCR-062 | 30-Day Incident-to-Lesson Cycle | Visible |
+| MCR-063 | Anonymised Real Incident Capture | Visible |
+| MCR-064 | Training Integration of Lessons | Visible |
+| MCR-065 | Management Review of Lessons | Visible |
 
 ---
 
@@ -41,7 +41,7 @@ It is deliberately designed to grow. The first version seeds the process with th
 
 ---
 
-## 27.3 Core Process Rules (Proposed MCR-061 to MCR-065)
+## 27.3 Core Process Rules (MCR-061 to MCR-065)
 
 ### MCR-061 – Living Lessons Learned Register
 A single living register of lessons shall be maintained (this section + linked entries in Section 25). Every entry must map to one or more MCR controls and, where relevant, an FMEA mode. [SYNTHESIS]
@@ -173,7 +173,7 @@ Future real Anabeeb lessons will be appended here.
 | Anonymisation rule | Existing Section 25 discipline + data-protection good practice | Section 25 | **Verified** |
 
 **No new hard numeric claims are introduced in this section.**  
-All proposed MCR-061–065 remain in Drafting status pending human gate / first live exercise of the process.
+All MCR-061–065 are now Visible (promoted by human gate after dual-model review).
 
 ---
 

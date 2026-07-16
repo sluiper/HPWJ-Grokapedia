@@ -1,20 +1,17 @@
 # CHANGELOG
 
-## v8.6.4 – 16 July 2026 (Full Numeric Truth Audit Formally Closed)
+## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 
-### Audit Closure
-- Full dual-model numeric truth audit completed and formally closed.
-- Three instances of the same unit-conversion defect (metric reaction force constant 0.745) found and fixed across MCR-017, Section 16, and the Reaction_Force_Quick_Reference.md template.
-- All high-risk calculated numbers, worked examples, and tables independently re-derived by both models – all PASS.
-- Standing rule locked: source formula fixes must be followed by a full restatement search across the repository.
-- Section 21 (Regulatory & Client Matrix) placement confirmed correct under references/standards.
-- Manufacturer summaries scanned – no first-principles calculated constants requiring re-derivation.
-- README and CHANGELOG brought fully current.
+### Critical
+- **AUDIT-004**: Section 23.6 still contained the old wrong metric reaction force constant (0.745). This is the fourth independent restatement of the same unit-conversion defect. Corrected to 0.233 with full historical note. Standing rule expanded: restatement search now explicitly covers all narrative sections, not only the three previously known locations.
+
+### Status Sync
+- Section 23 MCR mapping table + Verification Log: MCR-053–060 updated from Drafting → Visible.
+- Section 27 MCR mapping table + Verification Log: MCR-061–065 updated from Drafting → Visible.
+- docs/00_Encyclopedia_Structure.md already current at v8.6.4 (confirmed); Section 21 path confirmed real under references/standards/.
 
 ### Previous
-- v8.6.3: Housekeeping README/CHANGELOG update
-- v8.6.2: Third instance of metric formula bug fixed
-- v8.6.1: Section 16 content drift fixed
-- v8.6: Full field toolkit merged after four clean verification cycles
+- v8.6.4: Full numeric truth audit formally closed; docs/00 aligned; manufacturer summaries scanned.
+- v8.6.3 / v8.6.2 / v8.6.1: Three earlier instances of the 0.745 bug fixed + housekeeping.
 
 **This changelog prioritises truth over presentation.**
