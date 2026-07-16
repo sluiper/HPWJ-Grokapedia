@@ -1,10 +1,10 @@
-# MASTER CONTROL REGISTER (Living Document) — v8.2
+# MASTER CONTROL REGISTER (Living Document) — v8.3
 
 **This is the single source of truth for the entire Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-**Latest Update (16 July 2026):** Integrated Anabeeb OPS-P-019 (company procedure) + Safetech PPE data. New rows MCR-046 to MCR-052. Total now 52 rules. Where Anabeeb procedure is stricter than SABIC, Anabeeb governs Anabeeb operations.
+**Latest Update (16 July 2026):** Section 23 Marine/Offshore/IMCA production draft. Added MCR-053 to MCR-060 (all Drafting). Total now 60 rules. Where Anabeeb procedure is stricter than SABIC or IMCA public guidance, Anabeeb governs Anabeeb operations. Full IMCA D049 member text remains an internal gap.
 
 ## How to Use
 - Add new rows immediately when a gap, new manufacturer requirement, clinical lesson, or incident learning is identified.
@@ -14,7 +14,7 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 
 ## Status Legend
 - **Visible** = Explicitly stated at outline or chapter level
-- **Drafting** = Will be expanded at full chapter depth
+- **Drafting** = Will be expanded at full chapter depth / proposed, awaiting final review & human gate
 - **Added** = New in current version
 - **Priority** = High RPN item from FMEA requiring focused attention
 
@@ -44,7 +44,7 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-013 | Inlet Filtration | Multi-stage (final 10–50 µm typical). Monitor dP. Clean water source. | Ch7; SABIC; OPS-P-019 | Visible | |
 | MCR-014 | Pump Pre-Use Foundation | Level, chocked, grounded, guards, fluids, gauges, extinguisher, rupture disc. | Ch7; OPS-P-019 | Visible | |
 | MCR-015 | Plunger Changes | Re-verify all ratings and rupture disc after change. | Ch7 | Visible | |
-| MCR-016 | Reaction Force (Three Additive) | ≤250 N AND ≤1/3 body weight AND barrel geometry prevents jet over own feet/legs. All three required. | Ch7; Sec16; SABIC; YANSAB; OPS-P-019 | Visible | RPN 180. Formula: 0.052 × GPM × √psi (lbf) |
+| MCR-016 | Reaction Force (Three Additive) | ≤250 N AND ≤1/3 body weight AND barrel geometry prevents jet over own feet/legs. All three required. | Ch7; Sec16; SABIC; YANSAB; OPS-P-019 | Visible | RPN 180. Formula: 0.052 × GPM × √psi (lbf). Extended underwater by MCR-054. |
 | MCR-017 | Reaction Force Formulas | Imperial ≈ 0.052 × Q(GPM) × √P(psi); Metric ≈ 0.745 × Q(L/min) × √P(bar) | Sec16; SABIC; OPS-P-019 | Visible | |
 | MCR-018 | Nozzle Wear | 20–60 h typical. Pin gauge. Reject on pitting. | Ch7; OPS-P-019 | Visible | |
 | MCR-019 | Flex Lance AWD | Mandatory correct AWD installation for all flex lance work. | Ch7; Sec20; SABIC; OPS-P-019 | Visible | |
@@ -67,21 +67,29 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-036 | Supervisor Accountability | Supervisor accountable for competency verification, pre-use quality, SIMOPS, and stop-work authority. Project Manager overall responsibility cannot be delegated (OPS-P-019). | Ch12; SABIC; OPS-P-019 §6.1 | Visible | |
 | MCR-037 | Controlled Shutdown Sequence | Operator-controlled pressure reduction → confirm zero → secure → decontaminate → post-job inspection → records. | Ch11 | Visible | |
 | MCR-038 | Never Rules Enforcement | All Never Rules in Chapter 9 (SABIC Do’s/Don’ts + OPS-P-019) are absolute. Violation requires immediate stop and investigation. No shortcuts, no sub-standard equipment. | Ch9; SABIC; OPS-P-019 | Visible | |
-| MCR-039 | Hierarchy of Methods | Automated / mechanized methods with operators outside jetting area shall be selected wherever reasonably practicable. Manual reaction-force work requires elevated approval. Flexible lance without AWD = Not Permitted. | SABIC 2.1; OPS-P-019 §8; Ch8 | Added | Core selection control. |
-| MCR-040 | Minimum Team Size (SABIC baseline) | Minimum two competent persons for any pressurised work. Lone working prohibited. Additional members for remote dump, enclosures, UHP, confined space. | SABIC 2.2.4, 2.7.3–4; Ch8 | Added | See MCR-047 for Anabeeb stricter rule. |
-| MCR-041 | HPWJ Authorising Person | End-User Manager appoints trained Authorising Person who reviews Technical Specification, ensures approved contractor, leads JSA, supervises, and verifies controls before permit. | SABIC 2.2.1; Ch8 | Added | Client-specific gate. |
-| MCR-042 | Method-Specific Certification | TQCP (or equivalent) / Anabeeb Training Dept for the specific method/technique and pressure class + experience + refresh. Automatic qualification does not authorise manual. | SABIC 2.3.4; OPS-P-019 §7; Ch8; Ch13 | Added | |
-| MCR-043 | Medical Alert Card | All operators engaged in HPWJ tasks shall carry an immediately accessible waterproof Medical Alert Card (Anabeeb form OPS0080804 or equivalent). | SABIC 2.3.7; OPS-P-019; Ch10 | Added | |
-| MCR-044 | Lance / Gun Length | Lances minimum 1.2 m (48 in) from trigger/butt to nozzle tip. Shorter only with double trigger + extra hand protection + special RA. Flexible hoses require rigid leader/stinger. | SABIC; OPS-P-019 §9; Ch8 | Added | |
-| MCR-045 | Safety Shroud / Burst Sleeve at Connection | Safety shroud / Burst Protection Sleeve minimum 6 ft at hose-to-gun/lance connection, tested and verified. Required for UHP. | SABIC Checklist; OPS-P-019 §9; Awareness PPT | Added | |
-| MCR-046 | Maximum System Pressure | Maximum allowable pressure for any Anabeeb HPWJ activity = 40 000 psi (2 759 bar). No work above this. | OPS-P-019 §3.8 | Added | Absolute ceiling. |
-| MCR-047 | Anabeeb Minimum Team Size | Anabeeb HPWJ teams shall consist of minimum **three** competent persons. One dedicated to emergency stop/dump when line of sight between lance and pump is lost. | OPS-P-019 §6.4 | Added | Stricter than SABIC 2-person baseline. |
-| MCR-048 | Rupture Disc Rating Factor | Rupture disc shall be rated **no greater than 1.2 times** the MAWP of the lowest-rated component in the system. | OPS-P-019 §6.2 | Added | |
-| MCR-049 | Manual Operator Experience | Manual HPWJ operators shall have minimum **two years continuous** relevant experience, recorded on training card, in addition to method-specific certification. Management approval required before manual lancing/gun work. | OPS-P-019 §9 | Added | |
-| MCR-050 | Shotgun Pressure / Orifice Limit | Hand-held shotgunning shall not be performed above **10 000 psi (680 bar)** with nozzle orifice larger than **1.6 mm**. Reaction force ≤250 N absolute. | OPS-P-019 §9 | Added | |
-| MCR-051 | Unauthorised Person Exclusion | No unauthorised person within **10 metres** of operating Anabeeb HPWJ equipment. System shall be depressurised on breach. | OPS-P-019 §9 | Added | |
-| MCR-052 | Lance Tip Marking | Lance/hose shall be clearly marked with paint or tape **no closer than 600 mm** from the nozzle tip to warn of impending exit. | OPS-P-019 §9 | Added | |
+| MCR-039 | Hierarchy of Methods | Automated / mechanized methods with operators outside jetting area shall be selected wherever reasonably practicable. Manual reaction-force work requires elevated approval. Flexible lance without AWD = Not Permitted. | SABIC 2.1; OPS-P-019 §8; Ch8 | Visible | Core selection control. Elevated underwater by MCR-059. |
+| MCR-040 | Minimum Team Size (SABIC baseline) | Minimum two competent persons for any pressurised work. Lone working prohibited. Additional members for remote dump, enclosures, UHP, confined space. | SABIC 2.2.4, 2.7.3–4; Ch8 | Visible | See MCR-047 for Anabeeb stricter rule. |
+| MCR-041 | HPWJ Authorising Person | End-User Manager appoints trained Authorising Person who reviews Technical Specification, ensures approved contractor, leads JSA, supervises, and verifies controls before permit. | SABIC 2.2.1; Ch8 | Visible | Client-specific gate. |
+| MCR-042 | Method-Specific Certification | TQCP (or equivalent) / Anabeeb Training Dept for the specific method/technique and pressure class + experience + refresh. Automatic qualification does not authorise manual. | SABIC 2.3.4; OPS-P-019 §7; Ch8; Ch13 | Visible | |
+| MCR-043 | Medical Alert Card | All operators engaged in HPWJ tasks shall carry an immediately accessible waterproof Medical Alert Card (Anabeeb form OPS0080804 or equivalent). | SABIC 2.3.7; OPS-P-019; Ch10 | Visible | Extended underwater by MCR-058. |
+| MCR-044 | Lance / Gun Length | Lances minimum 1.2 m (48 in) from trigger/butt to nozzle tip. Shorter only with double trigger + extra hand protection + special RA. Flexible hoses require rigid leader/stinger. | SABIC; OPS-P-019 §9; Ch8 | Visible | |
+| MCR-045 | Safety Shroud / Burst Sleeve at Connection | Safety shroud / Burst Protection Sleeve minimum 6 ft at hose-to-gun/lance connection, tested and verified. Required for UHP. | SABIC Checklist; OPS-P-019 §9; Awareness PPT | Visible | |
+| MCR-046 | Maximum System Pressure | Maximum allowable pressure for any Anabeeb HPWJ activity = 40 000 psi (2 759 bar). No work above this. | OPS-P-019 §3.8 | Visible | Absolute ceiling. |
+| MCR-047 | Anabeeb Minimum Team Size | Anabeeb HPWJ teams shall consist of minimum **three** competent persons. One dedicated to emergency stop/dump when line of sight between lance and pump is lost. | OPS-P-019 §6.4 | Visible | Stricter than SABIC 2-person baseline. Higher manning expected for wet work. |
+| MCR-048 | Rupture Disc Rating Factor | Rupture disc shall be rated **no greater than 1.2 times** the MAWP of the lowest-rated component in the system. | OPS-P-019 §6.2 | Visible | |
+| MCR-049 | Manual Operator Experience | Manual HPWJ operators shall have minimum **two years continuous** relevant experience, recorded on training card, in addition to method-specific certification. Management approval required before manual lancing/gun work. | OPS-P-019 §9 | Visible | |
+| MCR-050 | Shotgun Pressure / Orifice Limit | Hand-held shotgunning shall not be performed above **10 000 psi (680 bar)** with nozzle orifice larger than **1.6 mm**. Reaction force ≤250 N absolute. | OPS-P-019 §9 | Visible | |
+| MCR-051 | Unauthorised Person Exclusion | No unauthorised person within **10 metres** of operating Anabeeb HPWJ equipment. System shall be depressurised on breach. | OPS-P-019 §9 | Visible | |
+| MCR-052 | Lance Tip Marking | Lance/hose shall be clearly marked with paint or tape **no closer than 600 mm** from the nozzle tip to warn of impending exit. | OPS-P-019 §9 | Visible | |
+| MCR-053 | Diver HPWJ Authorisation | Only divers trained and certified for underwater HP/UHP jetting per IMCA D049 (or equivalent company standard) may operate. Surface support must hold concurrent competence. | IMCA D049 Rev 1.2; Anabeeb OPS-P-019 principle; Sec23 | Drafting | Priority for any marine work. |
+| MCR-054 | Underwater Reaction Force Control | Reaction force limits remain the three additive controls (≤250 N, ≤1/3 body weight, geometry). In water buoyancy reduces effective weight → tighter practical limit. Dedicated standby diver + surface dump control mandatory. | IMCA D049 principles; MCR-016 extension; Sec23 | Drafting | Higher RPN underwater. |
+| MCR-055 | Hose Tethering & Securing (Wet) | All high-pressure hoses must be securely tied off / restrained at multiple points to prevent hose whip or entanglement of diver. Never free-floating. | IMCA D049; IMCA SF 09/17 extract; Sec23 | Drafting | Direct from D049 guidance. |
+| MCR-056 | Dump / Dead-Man System (Underwater) | Fail-safe dump system must be operable by both the diver (if equipped) and surface tender. Continuous communication + pre-agreed emergency dump signal. | IMCA D049; general diving safety; Sec23 | Drafting | Non-negotiable. |
+| MCR-057 | Exclusion of Non-Essential Personnel | No non-essential personnel (including supervisors) inside the immediate work area or line of fire. Barriers + positive communication. Dock-bottom / moon-pool / confined wet areas treated as high-risk. | IMCA SF 18/20; IMCA D049; Sec23 | Drafting | Direct lesson from SF 18/20. |
+| MCR-058 | Medical Alert + DMAC | All divers engaged in HPWJ carry Medical Alert Card + awareness of DMAC recommendations for high-pressure water jet injuries. Immediate surface medical support must know the injury mechanism. | IMCA D049 Appendix 1 (DMAC); MCR-043 extension; Sec23 | Drafting | Critical. |
+| MCR-059 | Maximum Pressure for Diver-Held / Method Hierarchy Elevation | Follow IMCA D049 / company limit. Typical public practice for diver-held is lower than land UHP (often ≤10–15k psi class unless specially engineered). Anabeeb 40k psi ceiling still applies but method selection hierarchy (prefer automated/ROV) is stricter underwater. | IMCA D049; MCR-046; MCR-039; Sec23 | Drafting | Hierarchy of methods elevated. |
+| MCR-060 | Cavitation Blaster / Special Tools | Cavitation tools have additional injury modes (see IMCA SF 06/07). Require specific risk assessment and training beyond standard HPWJ. | IMCA D049 Appendix 5; SF 06/07; Sec23 | Drafting | |
 
 **Maintenance Note:** Living document. Update promptly after any incident, near-miss, equipment change or new guidance. Link to FMEA. All training and procedures must demonstrate compliance. Where Anabeeb OPS-P-019 is stricter than SABIC or international standards, Anabeeb rule governs Anabeeb operations.
 
-**Total Active Controls: 52**
+**Total Active Controls: 60** (52 Visible + 8 Drafting)
