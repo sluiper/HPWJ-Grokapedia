@@ -1,6 +1,6 @@
 # Section 27: Lessons Learned
 
-**Status:** Drafted on branch `draft/section-27` – awaiting Claude Verification Report + human gate  
+**Status:** Drafted on branch `draft/section-27` – Claude Verification Report complete (zero P0/P1) – awaiting human gate  
 **Version:** 8.4-draft  
 **Date:** 16 July 2026  
 **MCR Controls Referenced:** Existing high-RPN controls + proposed MCR-061 to MCR-065
@@ -35,7 +35,7 @@ It is deliberately designed to grow. The first version seeds the process with th
 ## 27.2 Relationship to Other Sections
 
 - **Section 20 (FMEA)** supplies the risk prioritisation (RPN).
-- **Section 25 (Incident Case Study Library)** supplies the detailed narrative cases used for training.
+- **Section 25 (Incident Case Study Library)** supplies the detailed narrative cases used for training. Note: Section 25 already contained the convention “add a new anonymized entry within 30 days”; MCR-062 formalises that existing convention into a controlled process rule.
 - **This Section 27** owns the *process* by which new events become permanent organisational memory and trigger MCR or procedure updates.
 - **Chapter 13 (Competency & Training)** and **Chapter 15 (HSE Assurance)** consume the outputs.
 
@@ -47,7 +47,7 @@ It is deliberately designed to grow. The first version seeds the process with th
 A single living register of lessons shall be maintained (this section + linked entries in Section 25). Every entry must map to one or more MCR controls and, where relevant, an FMEA mode. [SYNTHESIS]
 
 ### MCR-062 – 30-Day Incident-to-Lesson Cycle
-Any Anabeeb HPWJ-related near-miss, incident, or significant observation shall be converted into a structured lesson entry within **30 calendar days** of the event (or of the investigation closing). Delay beyond 30 days requires written justification from the QHSSE Manager. [SYNTHESIS – industry good practice for learning systems]
+Any Anabeeb HPWJ-related near-miss, incident, or significant observation shall be converted into a structured lesson entry within **30 calendar days** of the event (or of the investigation closing). Delay beyond 30 days requires written justification from the QHSSE Manager. [SYNTHESIS – formalises the 30-day convention already stated in Section 25 “How to Use”]
 
 ### MCR-063 – Anonymised Real Incident Capture
 Real Anabeeb events shall be recorded in anonymised form that preserves the technical and human-factor learning while protecting individuals and commercial sensitivity. Documented public cases (e.g. the UK HSE flexi-lance fatality) remain fully attributed. [SYNTHESIS + existing Section 25 rule]
@@ -154,21 +154,29 @@ Future real Anabeeb lessons will be appended here.
 
 ---
 
-## 27.7 Verification Log
+## 27.7 Remaining Gaps (Honest)
+
+- No real Anabeeb incidents or near-misses have been logged yet (by design — this first version is seeded only from the public documented fatality and the existing high-RPN composite cases in Section 25).
+- MCR-062 (30-day cycle) and MCR-065 (quarterly management review) cadence are therefore untested in live Anabeeb operations.
+- Future value of this section depends entirely on disciplined capture of real events under the rules defined above.
+
+---
+
+## 27.8 Verification Log
 
 | Claim | Method | Source | Status |
 |-------|--------|--------|--------|
 | Documented fatality details (LL-001) | Cross-checked against public HSE / SAFETY4SEA / IMCA reporting | Section 25 Case 2 + original sources | **Verified** |
 | All other seed lessons | Extracted from existing high-RPN FMEA modes and Section 25 composites | Section 20 + Section 25 | **Verified as patterns** |
-| 30-day cycle (MCR-062) | Industry good-practice synthesis for learning systems | Common HSE / process-safety practice | **[SYNTHESIS]** – no hard public standard cited |
+| 30-day cycle (MCR-062) | Formalises the existing 30-day convention already stated in Section 25 “How to Use” | Section 25 + industry learning-system good practice | **[SYNTHESIS]** |
 | Quarterly management review (MCR-065) | Continuous-improvement principle | Chapter 15 + ISO-style management review | **[SYNTHESIS]** |
 | Anonymisation rule | Existing Section 25 discipline + data-protection good practice | Section 25 | **Verified** |
 
 **No new hard numeric claims are introduced in this section.**  
-All proposed MCR-061–065 remain in Drafting status pending Claude review and human gate.
+All proposed MCR-061–065 remain in Drafting status pending human gate.
 
 ---
 
-**End of Section 27 (draft)**
+**End of Section 27 (draft – Claude clean)**
 
 This section is intentionally process-oriented rather than narrative-heavy. Its value will grow as real Anabeeb events are added under the rules defined here.
