@@ -1,6 +1,6 @@
 # Chapter 7: Equipment, Pumps, Tools, Nozzles & Pre-Use Inspection
 
-**Maximum Technical & Operational Depth**
+**Version 8.0**
 
 This chapter provides the complete reference for selecting, inspecting, and operating high-pressure water jetting equipment. It combines fundamental engineering principles with practical field requirements from WJTA, WJA, NLB, StoneAge, Hammelmann, WOMA, Peinemann, and other major manufacturers, aligned with KSA/SABIC operational practice.
 
@@ -237,7 +237,7 @@ These examples illustrate that **no single pump size fits all applications**. Se
 
 ---
 
-## 7.5 Global Manufacturer Overview & Variations (Corrected for Accuracy)
+## 7.5 Global Manufacturer Overview & Variations
 
 It is important to distinguish between **pump manufacturers** (companies that design and build the high-pressure pumps) and **tooling & automation specialists** (companies that focus on nozzles, lances, automated systems, and safety accessories).
 
@@ -373,7 +373,7 @@ These modes are addressed in more detail in the dedicated Failure Modes & Effect
 
 ---
 
-## 7.12 Maintenance & Reliability (Expanded for Maximum Information)
+## 7.12 Maintenance & Reliability
 
 ### Preventive vs Predictive Maintenance
 - **Preventive**: Time-based (e.g., oil changes every X hours, annual inspections).
@@ -459,7 +459,7 @@ Awareness of these common errors significantly reduces risk.
 
 ---
 
-## 7.17 Ultra-High Pressure (UHP) Creeping Hose, 40k psi Operations & Tube Bundle Cleaning (NLB Focus) – Maximum Depth
+## 7.17 Ultra-High Pressure (UHP) Creeping Hose, 40k psi Operations & Tube Bundle Cleaning (NLB Focus)
 
 **This section is critical for Anabeeb tube bundle and high-pressure work.**
 
@@ -478,13 +478,15 @@ A “creeping hose” (also called self-propelled or crawling flex lance) is a s
 
 | Parameter | Standard HP (10–20k psi) | UHP Creeping Hose (30–40k+ psi) |
 |-----------|---------------------------|---------------------------------|
-| Jet velocity | ~160–235 m/s | Significantly higher |
+| Jet velocity (theoretical, Cd=1) | ~371–525 m/s (see Section 16.4) | ~640–743+ m/s at 30–40k psi |
 | Reaction force | Manageable with controls | Extremely high – mechanical assistance or automation preferred |
 | Hose stiffness | More flexible | Much stiffer, higher bend radius critical |
 | Failure consequences | Severe | Catastrophic (whip energy much higher) |
 | AWD importance | High | Absolute (non-negotiable) |
 | Water quality | Important | Critical (orifice erosion accelerated) |
 | Operator skill | High | Expert / Level 3 Advanced only |
+
+**Note:** Earlier versions of this table incorrectly listed ~160–235 m/s for standard HP. Those values were residual from the Section 16 unit-conversion error and have been corrected to match the verified Bernoulli-derived velocities in Section 16.4.
 
 ### 7.17.3 Mandatory Controls for Creeping Hose / 40k psi Tube Bundle Work
 
@@ -536,6 +538,4 @@ This work requires the **ATC-HPWJ-UHP specialty module** (Chapter 13). Operators
 
 ---
 
-**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, relevant hose life-cycle studies, Master Control Register, Chapter 10, Chapter 13, Section 20 FMEA.
-
-**This chapter, including the new 7.17 UHP section, is now at maximum practical depth for Anabeeb operations.**
+**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, relevant hose life-cycle studies, Master Control Register, Chapter 10, Chapter 13, Section 16, Section 20 FMEA.
