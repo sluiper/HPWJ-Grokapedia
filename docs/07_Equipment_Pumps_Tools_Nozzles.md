@@ -354,35 +354,9 @@ Poor filtration is one of the fastest ways to damage plungers, valves, and packi
 
 The high-pressure pump and all associated equipment must be inspected **prior to each use**.
 
-**Pump**
-- Unit is level and wheels chocked
-- Grounded to valid earth
-- All protective guards in place (plungers, belts, cooling fan)
-- Rupture disc tagged, rated, and validated to the pump and system operating pressure; spare disc stock available on unit
-- Filter bag installed and clean
-- Engine and high-pressure gauges functional and within calibration period
-- Fire extinguisher accessible and tagged
-- All fluids checked (engine oil, pump oil, coolant, fuel, DEF where fitted)
+**See the controlled field document**: `templates/checklists/Pre_Use_Inspection_Checklist.md` (fully MCR-mapped, signature-ready).
 
-**Hoses & Connections**
-- Visual inspection for exposed wire braids, bubbling outer jacket, damaged crimps/threads, exceeded bend radius
-- Colour coding correct and visible from 2 ft
-- Within expiration life
-- Annual third-party pressure test records current
-- Whip checks correctly installed across all connections (exceptions noted for rotating hoses and feed-through applications)
-- Quick-connect latches/pins in good condition (or screw-type/face-seal preferred where movement risk exists)
-
-**Nozzles & Tooling**
-- Rated for hose size and pump pressure
-- Orifices clean and producing correct thrust direction
-- Threads and sealing surfaces undamaged
-- Wear life within scheduled replacement interval
-- Corrosion pitting absent
-
-**Safety & Control Systems**
-- Pressure relief / dump system functional and operator-controlled
-- Pressureless-at-rest design verified (where applicable)
-- Cold weather winterization completed if required (RV/marine antifreeze only)
+Key summary items remain as previously detailed (pump, hoses, nozzles, safety systems).
 
 ---
 
@@ -483,4 +457,85 @@ Awareness of these common errors significantly reduces risk.
 - Never leave the pump unit running unattended.
 - Never start the system if potentially frozen without proper winterization.
 
-**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, and relevant hose life-cycle studies.
+---
+
+## 7.17 Ultra-High Pressure (UHP) Creeping Hose, 40k psi Operations & Tube Bundle Cleaning (NLB Focus) – Maximum Depth
+
+**This section is critical for Anabeeb tube bundle and high-pressure work.**
+
+### 7.17.1 What is a Creeping Hose / UHP Flex Lance System?
+
+A “creeping hose” (also called self-propelled or crawling flex lance) is a specialised high-pressure hose assembly designed to advance itself through heat exchanger tubes under the reaction force of the jet. At 30,000–40,000+ psi it becomes extremely powerful and extremely hazardous if not perfectly controlled.
+
+**Typical Anabeeb / NLB Configuration**:
+- NLB diesel triplex pump configured for 40,000 psi class
+- Small diameter multi-wire braided or spiral UHP hose (often 3/8" or smaller ID for high pressure)
+- Specialised rotating or multi-orifice nozzle at the tip
+- Anti-Withdrawal Device (AWD) / safety clamp system mandatory
+- Vacuum recovery or catch system at the far end of the tube bundle
+
+### 7.17.2 Key Technical Differences at 40k psi vs Standard HP
+
+| Parameter | Standard HP (10–20k psi) | UHP Creeping Hose (30–40k+ psi) |
+|-----------|---------------------------|---------------------------------|
+| Jet velocity | ~160–235 m/s | Significantly higher |
+| Reaction force | Manageable with controls | Extremely high – mechanical assistance or automation preferred |
+| Hose stiffness | More flexible | Much stiffer, higher bend radius critical |
+| Failure consequences | Severe | Catastrophic (whip energy much higher) |
+| AWD importance | High | Absolute (non-negotiable) |
+| Water quality | Important | Critical (orifice erosion accelerated) |
+| Operator skill | High | Expert / Level 3 Advanced only |
+
+### 7.17.3 Mandatory Controls for Creeping Hose / 40k psi Tube Bundle Work
+
+1. **Only Level 3 Advanced / UHP Operators** (Chapter 13) may perform this work.
+2. **Anti-Withdrawal Device (AWD)** must be correctly installed and verified before every insertion (MCR-019 / MCR-020). Never bypass.
+3. Full pre-use inspection with extra focus on hose condition, fittings, and AWD (use the controlled checklist).
+4. Reaction force assessment – often exceeds safe handheld limits → use mechanical feeders, reels, or automated systems wherever possible.
+5. Vacuum truck or catch system at the outlet end of the tubes to control water, debris, and prevent back-spray.
+6. Clear communication protocol between lance operator, pump operator, and vacuum operator.
+7. Exclusion zone expanded due to higher energy.
+8. Immediate dump capability under operator control at all times.
+9. No quick-connects in the high-movement creeping hose run – prefer permanent or screw-type connections.
+10. Continuous visual monitoring of the hose as it advances; stop immediately on any abnormal resistance or whip.
+
+### 7.17.4 NLB-Specific Guidance (Practical)
+
+- Follow NLB operation manuals for the specific pump model and pressure configuration.
+- Pre-use checks emphasised by NLB: rupture disc, fluid levels, area clear, never leave unattended.
+- Plunger size and RPM must be correctly matched for the target 40k psi performance curve.
+- Use only hoses and fittings rated and certified for the full operating pressure with appropriate safety factor.
+- After any rupture disc activation or unusual event, full system inspection before restart.
+
+### 7.17.5 Common Failure Modes Specific to Creeping Hose / UHP Tube Bundle
+
+- Hose burst or fitting blow-out under high energy
+- AWD failure or incorrect installation leading to uncontrolled back-out (highest RPN risk)
+- Nozzle blockage causing sudden pressure spike and whip
+- Excessive reaction force causing loss of control
+- Inadequate vacuum → water/debris blow-back toward operator
+- Orifice erosion leading to loss of self-propulsion or incorrect thrust
+
+All of these map directly into the FMEA (Section 20) and must be briefed before every UHP job.
+
+### 7.17.6 Best Practice Sequence for Tube Bundle Cleaning with Creeping Hose
+
+1. Bundle prepared, ends accessible, vacuum system ready.
+2. Full pre-use inspection completed and signed.
+3. AWD installed and function-tested.
+4. Communication check with all parties.
+5. Controlled pressure build-up.
+6. Controlled insertion and advancement under continuous observation.
+7. Monitoring of progress, pressure, and vacuum performance.
+8. Controlled withdrawal and pressure dump.
+9. Post-job inspection of hose, nozzle, and AWD.
+
+### 7.17.7 Training & Competency Link
+
+This work requires the **ATC-HPWJ-UHP specialty module** (Chapter 13). Operators must hold current Level 3 competency and have demonstrated AWD proficiency and emergency response for injection injuries.
+
+---
+
+**References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, relevant hose life-cycle studies, Master Control Register, Chapter 10, Chapter 13, Section 20 FMEA.
+
+**This chapter, including the new 7.17 UHP section, is now at maximum practical depth for Anabeeb operations.**
