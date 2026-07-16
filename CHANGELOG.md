@@ -1,27 +1,17 @@
 # CHANGELOG
 
-## v8.6 – 16 July 2026 (Major Field Toolkit Merge)
+## v8.6.1 – 16 July 2026 (Truth Audit – Content Drift Fixed + Dormant Number Review)
 
-### Content
-- Merged the complete high-value Appendices field toolkit after **four consecutive clean Claude Verification Reports** (zero P0/P1 across the entire pack).
-- New live appendices / cards:
-  - Appendix C – Reaction Force Quick Calculator (with corrected MCR-017 constant 0.233)
-  - Appendix D – Exclusion Zone & Minimum Team Quick Reference
-  - Appendix F – Hose Life, Inspection & Rejection Matrix
-  - Appendix G – Never Rules One-Pager
-  - Appendix H – Emergency Response & Medical Pocket Card
-  - Appendix I – SIMOPS & Permit Interface Card
-  - Appendix J – UHP / Creeping Hose Specific Card
-  - Pre-Use Inspection Quick Card (companion to full checklist)
-  - Rupture Disc & Pressure Relief Verification Card
-- All content is pure synthesis of already-verified MCR rows and existing chapters. No new hard claims.
-- Manufacturer matrix (Appendix B expansion) deliberately left for a later, separate, low-priority delivery.
+### Critical Content Drift Fixed
+- **Section 16** still contained the old incorrect metric reaction force formula (0.745). This was content drift after MCR-017 was corrected in v8.5.1. Section 16 now matches the corrected constant (0.233) with full derivation shown.
 
-### Process Win
-Four consecutive clean verification cycles with zero P0/P1 findings. The dual-model draft-branch + mandatory report process is now proven at scale on operational field tools.
+### Dormant Number Audit Findings
+- **MCR-031** (Exclusion zone bands 7.5–10 m / 10–15 m / 15–25 m+ / 10 m absolute): Industry-practice ranges, not first-principles constants. Consistent across MCR and Appendix D. No arithmetic defect. Acceptable as guidance ranges.
+- **MCR-050** (Shotgun ≤10 000 psi with ≤1.6 mm orifice + ≤250 N): Procedural limit from OPS-P-019. Not a derived constant. Leave as-is.
+- **MCR-012** (NPSH margin 0.5–1.0 bar): Standard pump engineering practice. Acceptable industry guidance.
+- No additional arithmetic defects found in the remaining numeric MCR rows examined.
 
-### Previous
-- v8.5.1: Critical MCR-017 metric formula correction (0.745 → 0.233)
-- v8.5: All 13 Drafting MCR rows promoted to Visible
+### Previous (v8.6)
+- Complete high-value field toolkit (Appendices C–J + cards) merged after four consecutive clean Claude Verification Reports.
 
 **This changelog prioritises truth over presentation.**

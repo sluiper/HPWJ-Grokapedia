@@ -1,6 +1,7 @@
 # Section 16: Physics & Hydraulics Reference
 
 **Corrected and Re-verified 16 July 2026 under v8.0 Verification Protocol**  
+**Critical formula correction applied 16 July 2026 (v8.6.1) – metric reaction force constant**  
 **Full detail restored after accidental content loss**
 
 This section provides the fundamental physics and hydraulics behind high-pressure water jetting. Every numeric claim has been re-derived from first principles and cross-checked against independent sources.
@@ -116,7 +117,19 @@ Typical HPWJ hose flows are highly turbulent (Re ≫ 4000). This confirms that l
 
 $$ F_r \ (\text{lbf}) \approx 0.052 \times Q\ (\text{GPM}) \times \sqrt{P\ (\text{psi})} $$
 
-Metric equivalent: ≈ 0.745 × Q (L/min) × √P (bar).
+**Metric (CORRECTED 16 July 2026 – v8.5.1 / v8.6.1):**  
+$$ F_r \ (\text{N}) \approx 0.233 \times Q\ (\text{L/min}) \times \sqrt{P\ (\text{bar})} $$
+
+**Full derivation of the metric constant (from verified imperial):**
+- 1 GPM = 3.785411784 L/min
+- 1 psi = 0.0689475729 bar → √(psi) = √(bar) / √0.0689475729 ≈ √(bar) / 0.26258
+- 1 lbf = 4.448221615 N
+
+$$ F_r(N) = 0.052 \times (Q_{L/min}/3.785411784) \times (\sqrt{P_{bar}}/0.26258) \times 4.448221615 \approx 0.2327 $$
+
+**Operational constant: 0.233**
+
+**Historical note:** The previous constant 0.745 was correct only when pressure is expressed in **MPa**. It was incorrectly paired with bar. This is the same class of √10-scale unit conversion error previously fixed in the jet velocity calculations. The error was conservative (over-estimated force).
 
 **Consistent worked example:**
 0.040-inch (1.016 mm) orifice at 15 000 psi.
@@ -261,7 +274,8 @@ High jet velocity (hundreds of m/s) + small orifice area explains skin penetrati
 | Claim / Formula | Method | Source / Cross-check | Status |
 |-----------------|--------|----------------------|--------|
 | Jet velocity formula & 10/20/40k psi values | First-principles derivation + arithmetic | Bernoulli; independent check V ≈ 44.721√P(MPa) | **Verified** |
-| Reaction force formula Fr = 0.052 × Q × √P | Confirmed against published equation | WJTA-IMCA conference paper | **Verified** |
+| Reaction force formula Fr = 0.052 × Q × √P (imperial) | Confirmed against published equation | WJTA-IMCA conference paper | **Verified** |
+| Metric reaction force constant 0.233 | First-principles unit conversion from verified imperial | Shown in full above | **Corrected & Verified (v8.5.1 / v8.6.1)** |
 | Reaction force worked example (0.040" / 15k psi) | Re-derived flow from orifice equation with Cd 0.8–0.9 | Consistent with nozzle flow tables | **Corrected & Verified** |
 | Reynolds number worked example (1" hose, 80 L/min) | First-principles calculation | Standard fluid mechanics | **Restored & Verified** |
 | Water compressibility ≈12.5 % at 40k psi | Bulk modulus calculation | Standard bulk modulus of water (~2.2 GPa) | **Verified magnitude** |
