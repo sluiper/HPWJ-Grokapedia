@@ -94,6 +94,7 @@ $$ F_r(N) = 0.052 \times \left(\frac{Q_{L/min}}{3.785411784}\right) \times \left
 | Imperial formula | Section 16 + MCR-016/017 | Verified |
 | Metric constant 0.233 | First-principles conversion from verified imperial (shown above) | **Corrected & verified 16 July 2026** |
 | Tables | Direct calculation from corrected formulas | Derived |
+| ±1 N shifts vs earlier draft table | Rounding refinement using the precise 0.2327 constant rather than a coarser intermediate value | **Not a second correction** – pure precision update |
 | Three additive controls | MCR-016 + MCR-054 | Verified |
 | Red zone definition | MCR-016 absolute 250 N | Verified |
 
