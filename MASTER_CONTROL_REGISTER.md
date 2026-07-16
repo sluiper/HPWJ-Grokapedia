@@ -1,10 +1,10 @@
-# MASTER CONTROL REGISTER (Living Document) — v8.5
+# MASTER CONTROL REGISTER (Living Document) — v8.5.1
 
 **This is the single source of truth for the entire Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-**Latest Update (16 July 2026):** Human green light (“lfg all”) — promoted all remaining Drafting rows (MCR-053 to MCR-065) to **Visible**. Total now **65 Visible / 0 Drafting**. Marine controls (053–060) and Lessons Learned process controls (061–065) are now fully mandated.
+**Latest Update (16 July 2026):** CRITICAL FIX — MCR-017 metric reaction force constant corrected from 0.745 to ≈0.233. Root cause: unit conversion error (constant was correct for MPa but labelled for bar). Same class of √10 error previously caught in Section 16 jet velocity. All 65 rows remain Visible. Appendix C tables were already correct because they were computed via the verified imperial path.
 
 ## How to Use
 - Add new rows immediately when a gap, new manufacturer requirement, clinical lesson, or incident learning is identified.
@@ -45,7 +45,7 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-014 | Pump Pre-Use Foundation | Level, chocked, grounded, guards, fluids, gauges, extinguisher, rupture disc. | Ch7; OPS-P-019 | Visible | |
 | MCR-015 | Plunger Changes | Re-verify all ratings and rupture disc after change. | Ch7 | Visible | |
 | MCR-016 | Reaction Force (Three Additive) | ≤250 N AND ≤1/3 body weight AND barrel geometry prevents jet over own feet/legs. All three required. | Ch7; Sec16; SABIC; YANSAB; OPS-P-019 | Visible | RPN 180. Formula: 0.052 × GPM × √psi (lbf). Extended underwater by MCR-054. |
-| MCR-017 | Reaction Force Formulas | Imperial ≈ 0.052 × Q(GPM) × √P(psi); Metric ≈ 0.745 × Q(L/min) × √P(bar) | Sec16; SABIC; OPS-P-019 | Visible | |
+| MCR-017 | Reaction Force Formulas | Imperial ≈ 0.052 × Q(GPM) × √P(psi); Metric ≈ **0.233** × Q(L/min) × √P(bar)  [CORRECTED 16 July 2026 — previous 0.745 was a unit-conversion error treating the constant as if pressure was in MPa] | Sec16; SABIC; OPS-P-019; first-principles conversion from verified imperial | Visible | **Critical correction applied.** |
 | MCR-018 | Nozzle Wear | 20–60 h typical. Pin gauge. Reject on pitting. | Ch7; OPS-P-019 | Visible | |
 | MCR-019 | Flex Lance AWD | Mandatory correct AWD installation for all flex lance work. | Ch7; Sec20; SABIC; OPS-P-019 | Visible | |
 | MCR-020 | Flex Lance Back-Out Prevention | AWD + communication + reaction force. Never bypass. Flexible lance without catcher/AWD = Not Permitted. | Sec20; SABIC Table 4.1; OPS-P-019 | Visible | RPN 200 |
