@@ -1,42 +1,73 @@
-# WORKFLOW.md — Dual-Model Operating Rhythm for HPWJ-Grokapedia
+# WORKFLOW.md — Dual-Model + Human Operating Rhythm
 
-**Live as of 16 July 2026 (v1.1 role split)**
+**Version:** 1.2 (16 July 2026)  
+**See also:** PROCESS.md for the full decision log and replication guide.
 
 ## Current Role Split
-- **Grok** researches, derives, drafts full production sections, updates MCR/CHANGELOG, and pushes.
-- **Claude** independently verifies numbers, citations, derivations, format, and MCR consistency; provides guidance; does **not** draft or push production content.
-- **Human** provides internal sources, final gate, and ownership.
+- **Grok** researches, derives, drafts full production sections, creates Drafting MCR rows, updates CHANGELOG, pushes **only to draft/* branches**, and performs a self-check after every push.
+- **Claude** independently verifies using the mandatory report template below; produces P0/P1/P2 findings; does not draft or push.
+- **Human** sets priorities, supplies internal sources, gives explicit approval for every Drafting → Visible promotion, and authorizes (or performs) the merge from draft branch to main.
 
-## Standard Loop for Any New Section or Major Expansion
+## Standard Delivery Loop (v1.2 — Optimized & Safer)
 
-1. **Human** states the goal + any internal sources (Anabeeb procedure excerpts, real incidents, Aramco notes).
-2. **Grok** produces research (if needed) then full production section matching AGENTS.md format, proposes MCR rows, shows all work, updates supporting files, and pushes.
-3. **Claude** reviews the live section: re-derives every number, checks citations against sources, verifies MCR consistency, flags any remaining unshown work or gaps, and returns a clear verification report with required fixes.
-4. **Grok** applies agreed fixes and re-pushes if needed.
-5. **Human** gives final approval (especially for Anabeeb operational rules).
+1. **Human** states the goal + any internal material.
+2. **Grok** creates a new branch `draft/section-XX` (or `draft/topic`), produces the complete Delivery Package, performs the mandatory self-check (re-pull and confirm files), and declares the package ready for review.
+3. **Claude** runs the **mandatory Verification Report** (template below) against the draft branch.
+4. **Grok** applies only the P0 and P1 fixes on the same draft branch.
+5. **Human** reviews the final state of the draft branch, explicitly approves any Drafting → Visible promotions desired, and merges (or instructs Grok to merge) to main.
 
-## Immediate Priority Queue (as of v8.3)
-- [x] Fix README MCR row-count drift
-- [x] Lock dual-model schema (AGENTS.md + WORKFLOW.md) with correct role split
-- [x] Section 23 Research Package + full production draft + push
-- [ ] Claude verification of Section 23 + any fixes
-- [ ] Section 27 Lessons Learned (seed with public + any anonymised Anabeeb cases)
-- [ ] Section 29 Future Technology
-- [ ] Appendices expansion
-- [ ] Aramco deep extraction (human-gated)
+## Mandatory Claude Verification Report Template
 
-## How to Start a New Task
-Simply say:
-“Grok: Draft and push Section XX / Topic”  
-or  
-“Claude: Review the live Section 23 and report findings”
+```markdown
+## Claude Verification Report — Section [XX] / [Topic]
 
-Both models must re-read AGENTS.md and the current MASTER_CONTROL_REGISTER.md before every major output.
+**Branch reviewed:** draft/...
+**Date:**
 
-## Safety Gate
-No new MCR row or numeric claim goes live without:
+### 1. Numbers re-derived
+- [Claim]: recompute shown → Pass / Fail + notes
+- ...
+
+### 2. Citations checked
+- [Source]: exists? matches claim? any flags?
+
+### 3. MCR consistency
+- Are every cited MCR-IDs actually present in MASTER_CONTROL_REGISTER.md on this branch? Y/N
+- Status of proposed rows correct? Y/N
+
+### 4. CHANGELOG consistency
+- Is the claimed CHANGELOG entry actually present and accurate? Y/N
+
+### 5. Format compliance
+- Matches Sections 16–20 structure (MCR mapping table, worked examples with full derivation, Verification Log, land-vs-wet where relevant, honest gaps)? Y/N + notes
+
+### 6. Remaining gaps
+- List any INTERNAL GAPs or unshown work still present
+
+### 7. Required fixes
+- **P0 (blocks merge):**
+- **P1 (must fix before any Drafting → Visible):**
+- **P2 (nice to have):**
+
+### Overall recommendation
+- Ready for human review / Needs fixes / etc.
+```
+
+## Immediate Priority Queue (as of v8.3.1)
+- [x] Lock optimized process (this file + AGENTS.md + PROCESS.md)
+- [ ] Claude final verification of Section 23 (already on main — future sections use draft branches)
+- [ ] Next priority to be set by Human (Section 27 Lessons Learned recommended as high value)
+
+## Safety Gate (Absolute)
+No new MCR row is promoted from Drafting to Visible, and no draft branch is merged to main, without:
 - Full derivation or primary citation + stated assumptions
-- Dual-model review (Grok draft + Claude verification)
-- Human final awareness (especially for Anabeeb operational rules)
+- Clean Claude Verification Report (or only P2 remaining)
+- Explicit human approval for any operational or Drafting → Visible change
 
-This workflow exists so the encyclopedia stays true even as it grows deeper.
+## How to Start Work
+- Human: “Grok: start draft/section-27 for Lessons Learned” (or equivalent)
+- Claude: “Claude: review draft/section-XX using the verification template”
+
+Both models re-read AGENTS.md, WORKFLOW.md and the current MASTER_CONTROL_REGISTER.md before every major output.
+
+This workflow is now the standard we will copy into every future technical encyclopedia repository.

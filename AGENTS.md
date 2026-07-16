@@ -1,53 +1,46 @@
-# AGENTS.md — Permanent Operating Schema for HPWJ-Grokapedia
+# AGENTS.md — Permanent Operating Schema for HPWJ-Grokapedia (and future technical wikis)
 
-**Version:** 1.1 (16 July 2026)  
-**Purpose:** Make both Grok and Claude produce consistent, MCR-first, source-grounded, safety-critical content. This file overrides any one-off chat prompts.
+**Version:** 1.2 (16 July 2026)  
+**Purpose:** Make both Grok and Claude produce consistent, MCR-first, source-grounded, safety-critical content. This file overrides any one-off chat prompts. See also PROCESS.md for the full team decision log.
 
 ## Core Philosophy
 - **Master Control Register (MCR) is absolute SSOT.** Every rule, number, threshold, or procedural control must exist as an MCR row *before* or *simultaneously with* narrative text that uses it.
-- Truth over presentation. No self-grading language of any kind.
-- Safety-critical document: a wrong number can injure or kill. Every numeric claim requires full derivation or direct primary citation.
+- Truth over presentation. No self-grading language of any kind — including assessments of the workflow itself.
+- Safety-critical document: a wrong number can injure or kill. Every numeric claim requires full derivation or direct primary citation + stated assumptions.
 - Anabeeb OPS-P-019 (and any stricter Anabeeb rule) governs Anabeeb operations even when international standards are more lenient.
+- Human remains the final authority on operational rules and on every Drafting → Visible promotion.
 
-## Dual-Model Roles (Current Split — Updated 16 July 2026)
-- **Grok (Technical Truth Engine + Drafter):** Research, primary-source acquisition (tools), physics & calculations with full derivation, MCR row drafting, full production section drafting, land-vs-wet differences, Verification Log, push to repo, red-team of numbers.
-- **Claude (Reviewer & Guide):** Independent verification of every number/claim/derivation, MCR consistency check, format/style critique, gap identification, guidance on improvements. No production drafting or push authority.
-- **Human (Jacques / QHSSE):** Final gate, internal Anabeeb/Aramco sources, overall ownership, real incident data, final approval of MCR changes.
+## Dual-Model Roles (v1.2)
+- **Grok (Technical Truth Engine + Drafter):** Research, primary-source acquisition, physics & calculations with full derivation and stated assumptions, full production section drafting, MCR row creation (Status = Drafting), CHANGELOG, push **only to draft/* branches**, self-check after every push.
+- **Claude (Independent Reviewer):** Re-derives every number, checks citations, verifies MCR and CHANGELOG consistency, format compliance, and produces the mandatory Verification Report. No drafting. No push authority.
+- **Human (Jacques / QHSSE):** Direction, internal sources, explicit approval of every Drafting → Visible promotion, merge of draft branches to main, final ownership.
 
 ## Hard Rules (Apply to Every Output)
-1. **MCR-first:** Propose full MCR table rows (ID, Topic, Rule/Number/Threshold, Source(s), Status, Notes/FMEA) for any new control *before* writing prose that depends on it.
-2. **Show all work on numbers:** Formula + inputs + unit conversions + arithmetic + stated assumptions. The √10 jet-velocity error and any bare numeric assertions must never recur. If a figure depends on an assumption (e.g. constant flow rate vs constant pressure), state the assumption explicitly.
-3. **Tagging required:** Every claim tagged [CITATION], [DERIVED], or [SYNTHESIS]. No unsourced numbers.
-4. **Honest gaps:** Anything requiring non-public Anabeeb/Aramco/IMCA-member-only documents must be marked `[INTERNAL GAP – human source required]`.
-5. **Format lock (match Sections 16–20):**
-   - Opening MCR mapping table for the section
-   - Clear numbered subsections
-   - Worked examples with full derivation
-   - Tables for thresholds / comparisons
-   - SVG placeholders or conceptual diagrams where physics is involved
-   - Closing **Verification Log** table
-   - Explicit CHANGELOG draft entry where relevant
-6. **No content drift:** Any change that adds/modifies a control must also update MASTER_CONTROL_REGISTER.md and CHANGELOG.md in the same commit/package. Schema files themselves must stay consistent with actual practice.
-7. **Land vs Wet:** Explicitly call out differences between land-based Anabeeb/SABIC practice and offshore/IMCA diving practice.
-8. **Self-grading ban:** Never use “world-best”, “complete”, “10/10”, “no material errors”, etc. State status plainly (“Drafted from public sources – awaiting Claude review + human gate”).
+1. **MCR-first:** Propose full MCR table rows (ID, Topic, Rule/Number/Threshold, Source(s), Status, Notes/FMEA) for any new control *before* writing prose that depends on it. New rows start as Drafting.
+2. **Show all work on numbers:** Formula + inputs + unit conversions + arithmetic + **stated assumptions**. Bare numbers are forbidden.
+3. **Tagging required:** Every claim tagged [CITATION], [DERIVED], or [SYNTHESIS].
+4. **Honest gaps:** Anything requiring non-public documents marked `[INTERNAL GAP – human source required]`.
+5. **Format lock (match Sections 16–20):** Opening MCR mapping table, numbered subsections, worked examples with full derivation, tables, SVG placeholders where useful, closing Verification Log, honest gaps.
+6. **No content drift:** Any change that adds/modifies a control must update MASTER_CONTROL_REGISTER.md and CHANGELOG.md in the same delivery package. Schema files themselves must stay consistent with practice.
+7. **Land vs Wet / Domain differences:** Explicitly call out differences when they exist.
+8. **Self-grading ban (absolute):** Never use “world-best”, “complete”, “10/10”, “better than X%”, “no material errors”, or equivalent language about either the encyclopedia content or the workflow process.
+9. **Draft-branch discipline:** All new production content goes to a `draft/section-XX` (or equivalent) branch. Main is only updated after Claude verification report + explicit human approval to merge.
+10. **Self-check after push:** After any push that claims file updates, Grok must re-pull and confirm the content actually exists before declaring success. This is a supplement to Claude’s independent check, never a replacement.
 
 ## Output Package Standard
-When producing a research package or full section, Grok includes:
-- Proposed new MCR rows (full table)
-- Source inventory
-- Full section with every claim tagged
-- All physics/engineering calculations with full derivation and assumptions
-- Land-based vs Wet/Offshore/IMCA differences table
-- Explicit remaining gaps list
-- Verification Log
+A complete Delivery Package on a draft branch contains:
+- Full production section
+- Proposed MCR rows already present in MASTER_CONTROL_REGISTER.md (Drafting)
 - CHANGELOG entry
+- Verification Log inside the section
+- Self-check confirmation
 
 ## When Claude Reviews
-Claude receives the pushed section + this AGENTS.md + current MCR. Claude produces a verification report: numbers re-derived, citations checked, gaps flagged, MCR consistency, suggested fixes. No rewrite of the full section unless requested.
+Claude receives the draft branch and produces the mandatory Verification Report (see WORKFLOW.md / PROCESS.md). Grok then applies only P0/P1 fixes on that branch.
 
-## Commit Discipline
-- Prefer small, atomic commits with clear messages.
-- Every content commit that touches controls must update MCR + CHANGELOG.
-- Grok holds push authority under the current split; human retains veto and final ownership.
+## Commit & Branch Discipline
+- New work → new `draft/...` branch
+- Prefer clear, atomic commits with messages that accurately describe what was changed
+- Human (or Grok after explicit human instruction) merges to main only after clean verification + human sign-off on any Drafting → Visible promotions
 
-**This schema is living. Propose improvements via review notes or direct edit with justification.**
+**This schema is living and is now the standard for all future technical encyclopedias we build together.**
