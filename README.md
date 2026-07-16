@@ -1,36 +1,38 @@
 # Anabeeb World Best HPWJ Encyclopedia (Grokapedia)
 
 **Version:** v7.6  
-**Status:** Complete Operational + Technical + Training Core (Max Truth Reviewed)  
+**Status:** Full Tier 1 + 2 + 3 Complete – Maximum Operational Depth  
 **Last Updated:** 16 July 2026
 
 ## Purpose
-The single most complete, maximum-depth, field-usable reference for High Pressure Water Jetting (HPWJ / Hydroblasting) operations, safety, equipment, training, and global best practices for Anabeeb.
+The single most complete, maximum-depth, field-usable, training-ready, and client-defensible reference for High Pressure Water Jetting operations at Anabeeb.
 
-## Current Status – Max Truth Review Complete
+## Current Status – Full Tier 3 Delivered
 
-**Fully Delivered at 10/10 Depth:**
-- Master Control Register (living single source of truth)
-- Chapter 5 – Site Preparation, Barricading, Weather & Environmental Controls
-- Chapter 6 – Work Process, JSA, Permits, LOTO, Isolation & SIMOPS
-- Chapter 7 – Equipment + major UHP Creeping Hose / 40k psi / NLB Tube Bundle section
-- Chapter 9 – DO’s, DON’Ts & Never Rules (field-ready)
+**Now Complete at 10/10 Depth:**
+- Master Control Register expanded to **38 rules** (full lifecycle coverage)
+- Chapter 5 – Site Preparation, Barricading, Weather
+- Chapter 6 – Work Process, JSA, Permits, LOTO, SIMOPS
+- Chapter 7 – Equipment + full UHP Creeping Hose / 40k psi / NLB section
+- Chapter 8 – Operational Control, Team Composition, Communication & Fatigue
+- Chapter 9 – DO’s, DON’Ts & Never Rules
 - Chapter 10 – Emergency Response & Trauma
-- Chapter 13 – Competency Framework (true best-in-world hybrid)
-- Section 16 Physics, 18 Hose Technology, 20 FMEA
-- Complete practical templates (Pre-Use Checklist, Whip Check/Hose Card, Reaction Force Card, Medical Alert Card)
-- Global standards library + 10 manufacturer summaries
+- Chapter 11 – Shutdown, Post-Job, Decontamination, Care, Storage & Records
+- Chapter 12 – Supervisor & Team Leader Responsibilities
+- Chapter 13 – Competency Framework (best-in-world)
+- Section 16 Physics, 18 Hose, 20 FMEA, 25 Incident Case Study Library
+- Full practical templates (Pre-Use, Whip/Hose, Reaction Force, Medical Alert)
+- Global standards library + Regulatory & Client Matrix
+- 10 Manufacturer summaries
 
-**Truth Status:** Full consistency and factual review completed. Core technical claims (reaction force, hose life, AWD, rupture disc, exclusion zones, NPSH, UHP practices) align with WJTA, WJA, AS/NZS 4233 and manufacturer guidance. No material errors found.
+**This is now a complete, end-to-end, world-class HPWJ operating system.**
 
 ## How to Use
-- **Master Control Register** = single source of truth for every rule and threshold
-- `/docs/` = all chapters
-- `/templates/checklists/` = printable field documents
-- `/templates/medical_alert/` = Medical Alert Card
-- `/references/standards/` = global deep dives
-- `/references/manufacturers/` = OEM summaries
-
-**This is now a complete, usable system for field operations, ATC training, and client audits.**
+- Master Control Register = single source of truth (38 controls)
+- `/docs/` = all operational and technical chapters
+- `/templates/` = printable field documents
+- `/references/standards/` = global deep dives + Regulatory Matrix
 
 **Private repository for Anabeeb use.**
+
+The core is finished. Remaining work is refinement, visuals, and continuous improvement.
