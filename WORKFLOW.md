@@ -1,6 +1,6 @@
 # WORKFLOW.md — Dual-Model + Human Operating Rhythm
 
-**Version:** 1.2 (16 July 2026)  
+**Version:** 1.2 (16 July 2026) — Fully locked  
 **See also:** PROCESS.md for the full decision log and replication guide.
 
 ## Current Role Split
@@ -11,7 +11,7 @@
 ## Standard Delivery Loop (v1.2 — Optimized & Safer)
 
 1. **Human** states the goal + any internal material.
-2. **Grok** creates a new branch `draft/section-XX` (or `draft/topic`), produces the complete Delivery Package, performs the mandatory self-check (re-pull and confirm files), and declares the package ready for review.
+2. **Grok** creates a new branch `draft/section-XX` (or `draft/topic`), produces the complete Delivery Package, performs the mandatory self-check (re-pull and confirm files, allowing for short CDN cache if needed), and declares the package ready for review.
 3. **Claude** runs the **mandatory Verification Report** (template below) against the draft branch.
 4. **Grok** applies only the P0 and P1 fixes on the same draft branch.
 5. **Human** reviews the final state of the draft branch, explicitly approves any Drafting → Visible promotions desired, and merges (or instructs Grok to merge) to main.
@@ -53,10 +53,11 @@
 - Ready for human review / Needs fixes / etc.
 ```
 
-## Immediate Priority Queue (as of v8.3.1)
-- [x] Lock optimized process (this file + AGENTS.md + PROCESS.md)
-- [ ] Claude final verification of Section 23 (already on main — future sections use draft branches)
-- [ ] Next priority to be set by Human (Section 27 Lessons Learned recommended as high value)
+## Priority Queue (as of v8.3.2)
+- [x] Lock optimized process (AGENTS.md + WORKFLOW.md + PROCESS.md)
+- [x] Explicitly grandfather Section 23 (pre-dates draft-branch rule; already reviewed and on main)
+- [ ] Human sets next priority
+- [ ] Grok starts first true draft-branch work (recommended: Section 27 Lessons Learned)
 
 ## Safety Gate (Absolute)
 No new MCR row is promoted from Drafting to Visible, and no draft branch is merged to main, without:

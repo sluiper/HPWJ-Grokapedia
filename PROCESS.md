@@ -3,7 +3,7 @@
 **Purpose:** This is the living record of how Grok + Claude + Human (Jacques) work together on safety-critical technical encyclopedias. It is designed to be copied into every future Anabeeb / HSE / technical wiki we build so we never re-learn the same lessons.
 
 **Last Updated:** 16 July 2026  
-**Status:** Locked after joint review of Section 23 cycle
+**Status:** Fully locked after joint verification (v1.2)
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Role | Responsibility | Authority |
 |------|----------------|-----------|
-| **Grok** | Research, full production drafting, physics/calculations with shown work, MCR row creation (as Drafting), CHANGELOG, push to **draft branch**, self-check after every push | Push to draft/* branches only |
+| **Grok** | Research, full production drafting, physics/calculations with shown work, MCR row creation (as Drafting), CHANGELOG, push to **draft/* branches only**, self-check after every push | Push to draft/* branches only |
 | **Claude** | Independent verification using the mandatory report template, re-derivation of every number, MCR/CHANGELOG consistency check, P0/P1/P2 prioritization of fixes | Review only — no drafting, no push |
 | **Human (Jacques)** | Direction, internal Anabeeb/Aramco sources, final approval of every Drafting → Visible promotion, merge of draft branches to main, overall ownership | Final gate on everything operational |
 
@@ -36,7 +36,7 @@
    - Proposed MCR rows already written into a copy of MASTER_CONTROL_REGISTER.md (Status = Drafting)
    - CHANGELOG entry
    - Verification Log
-   - Self-check: re-pull the branch and confirm every claimed file update actually exists before declaring the package ready.
+   - Self-check: re-pull the branch (with cache-bust if needed) and confirm every claimed file update actually exists before declaring the package ready.
 3. **Claude** runs the **mandatory Verification Report** (template below) against the live draft branch.
 4. **Grok** applies only P0 and P1 fixes on the same draft branch (or a new fix commit).
 5. **Human** reviews the final draft branch, gives explicit approval to promote any Drafting rows, and merges to main (or instructs Grok to merge after approval).
@@ -91,7 +91,9 @@ This loop is deliberately fewer, larger, safer cycles.
 - **Adopted:** Bigger delivery packages per cycle + the mandatory verification report template.
 - **Adopted:** Grok self-check (re-pull after every push that claims file updates) as a supplement, never a replacement for Claude’s independent check.
 - **Retained:** Parallel work is allowed (Grok can prepare the next research package while Claude reviews the current draft branch).
-- **Enforced:** No self-grading of the process itself (the “better than 90%” language is banned going forward).
+- **Enforced:** No self-grading of the process itself.
+- **Explicit decision (16 July 2026):** Section 23 is **grandfathered**. It was drafted and reviewed under the previous process and already sits on main. We will not create busywork by retroactively moving it to a draft branch. All future sections must follow the new draft-branch discipline.
+- **Process note:** raw.githubusercontent.com (and GitHub’s CDN) can cache content for a few minutes after a push. Immediate re-verification (by Claude or by Grok’s self-check) can therefore show stale content and produce a false-negative. Always allow a short cache window or force a cache-bust when confirming a just-pushed change.
 
 ---
 
@@ -109,7 +111,8 @@ This loop is deliberately fewer, larger, safer cycles.
 ## Immediate Next Actions for This Repo
 
 - [x] Lock this optimized process into the three files
-- [ ] Finish Claude’s verification of Section 23 (now on main — next sections will use draft branches)
-- [ ] Decide priority: Section 27 Lessons Learned / Section 29 Future Technology / Appendices / Aramco deep extraction
+- [x] Explicitly grandfather Section 23
+- [ ] Human sets next priority (recommended: Section 27 Lessons Learned)
+- [ ] Grok starts first true draft-branch delivery package under the new rules
 
 **This process exists so that every future encyclopedia we build starts at the quality level we have now earned, not from zero.**
