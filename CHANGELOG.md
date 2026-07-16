@@ -1,32 +1,37 @@
 # CHANGELOG
 
-## v7.6 – 16 July 2026 (Critical Truth Correction + Full Tier 3 + Honesty Pass)
+## v8.0 – 16 July 2026 (Truth Protocol + Full Core + Audit Restoration)
 
-### Critical Fix
-- **Section 16.4 Jet Velocity**: Corrected major calculation error. Previous values were understated by a factor of ≈√10 due to a unit conversion slip. Correct theoretical velocities are now ~371 m/s (10k psi), ~525 m/s (20k psi), ~743 m/s (40k psi). Reaction-force worked example in 16.6 also revised for physical consistency with realistic orifice flow. This error was identified in independent review and fixed immediately. The previous “no material errors found” claim was incorrect on this point.
+### Critical Fixes
+- **Section 16.4 Jet Velocity**: Corrected unit-conversion error (values had been understated by ≈√10). Verified theoretical velocities: 371 / 455 / 525 / 743 m/s at 10 / 15 / 20 / 40k psi.
+- **Chapter 7.17 residual velocity band**: Audit found the old wrong 160–235 m/s band still present in the UHP comparison table; corrected to match Section 16.4.
+- **Silent content regression**: FMEA (Section 20) and Physics (Section 16) had been gutted during earlier “verification” commits; full Description/Causes/Consequences/Detection/Controls and derivations restored.
+- Self-grading language (“10/10”, “world best”, “Max Truth Reviewed”) retired from front-matter and remaining residual headers cleaned as found.
 
-### Structural Clean-up
-- Removed outdated duplicate structure file (`00_Encyclopedia_Structure_v7.0.md`)
-- Softened all self-grading language (“10/10”, “world best”, “Max Truth Reviewed”) across README and key documents. Claims now reflect actual verification status.
+### Structural / Metadata
+- README and `00_Encyclopedia_Structure.md` synchronised with actual filesystem (no longer claiming empty chapters that exist).
+- Master Control Register: 38 rows, zero dangling citations found in audit passes.
+- Duplicate structure file removed earlier in cycle.
 
-### Content Delivered in This Cycle
-- Master Control Register expanded to 38 rules (full lifecycle)
-- Chapter 11 – Shutdown, Post-Job, Decontamination, Care, Storage & Records
-- Chapter 12 – Supervisor & Team Leader Responsibilities
-- Chapter 8 – Operational Control, Team Composition, Communication & Fatigue
-- Section 25 – Incident Case Study Library (7 mapped cases)
-- Regulatory & Client Matrix
-- Significantly expanded KSA / Anabeeb / Client notes (addressing the “thinnest file” gap)
+### Content Delivered in v8.0 Cycle
+- Full operational core: Chapters 1–15
+- Technical sections: 16 (restored + SVGs), 17, 18, 19, 20 (restored + candidate site-hazard), 22, 24, 25 (15 cases: 1 documented HSE fatality + 14 composites), 26, 28
+- Appendices A (Pump Selection Quick Guide) and B (Manufacturer Comparison Matrix)
+- Documented Case 2 (UK HSE flexi-lance fatality via SAFETY4SEA / IMCA) replacing composite
+- NIOSH CA/FACE 16CA001 site-hazard case added to Chapter 5 + FMEA candidate row
+- 11 manufacturer summaries synthesised in Section 22 / Appendix B
 
 ### Remaining Honest Gaps
-- KSA/Aramco/SABIC/Petro Rabigh specific content still needs real client manual extraction
-- More incident cases and diagrams still required
-- Chapters 1–4, 14, 15 and full appendices still incomplete
-- Further independent numeric verification of all formulas recommended
+- Aramco SAES / CSMS and SABIC/PETRO RABIGH clause extraction (requires internal documents)
+- Sections 23 (marine/offshore – low priority for Anabeeb onshore scope), 27 (Lessons Learned – grows with real incidents), 29 (Future Tech)
+- Thin operational chapters 8, 11, 12 still shorter than field-depth peers (functional but not full encyclopedia depth)
+- Additional appendices and more diagrams
+- Section 21 Regulatory Matrix naming/placement tidy
 
-## Earlier Activity (15–16 July 2026)
-- Built full operational core (Ch5, 6, 7+UHP, 9, 10, 13)
-- Created practical templates and global standards library
-- Elevated competency framework to hybrid of WJTA/WJA/AS-NZS best elements
+**This changelog prioritises truth over presentation.**
 
-**This changelog now prioritises truth over presentation.**
+## Earlier Activity (15–16 July 2026 / v7.x)
+- Built operational core foundations (Ch5–7, 9, 10, 13)
+- Templates and standards library
+- Competency framework hybrid of WJTA / WJA / AS/NZS elements
+- Initial MCR expansion and first incident library pass
