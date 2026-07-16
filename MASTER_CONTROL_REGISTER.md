@@ -1,10 +1,10 @@
-# MASTER CONTROL REGISTER (Living Document) — v8.4
+# MASTER CONTROL REGISTER (Living Document) — v8.5
 
 **This is the single source of truth for the entire Encyclopedia.**
 
 Every named rule, numeric threshold, procedural requirement, and control from all sources and versions must be recorded here with clear sourcing and linkage to FMEA where applicable.
 
-**Latest Update (16 July 2026):** Section 27 Lessons Learned merged to main after clean Claude verification (zero P0/P1). MCR-061 to MCR-065 added as Drafting (process rules – remain Drafting until first live exercise or explicit human promotion). Total now 65 rules (52 Visible + 13 Drafting). Section 23 Marine rows (053–060) also remain Drafting.
+**Latest Update (16 July 2026):** Human green light (“lfg all”) — promoted all remaining Drafting rows (MCR-053 to MCR-065) to **Visible**. Total now **65 Visible / 0 Drafting**. Marine controls (053–060) and Lessons Learned process controls (061–065) are now fully mandated.
 
 ## How to Use
 - Add new rows immediately when a gap, new manufacturer requirement, clinical lesson, or incident learning is identified.
@@ -13,7 +13,7 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 - Every operational procedure, checklist, and training module must map back to relevant MCR items.
 
 ## Status Legend
-- **Visible** = Explicitly stated at outline or chapter level
+- **Visible** = Explicitly stated at outline or chapter level and fully mandated
 - **Drafting** = Will be expanded at full chapter depth / proposed, awaiting final review & human gate
 - **Added** = New in current version
 - **Priority** = High RPN item from FMEA requiring focused attention
@@ -81,20 +81,20 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-050 | Shotgun Pressure / Orifice Limit | Hand-held shotgunning shall not be performed above **10 000 psi (680 bar)** with nozzle orifice larger than **1.6 mm**. Reaction force ≤250 N absolute. | OPS-P-019 §9 | Visible | |
 | MCR-051 | Unauthorised Person Exclusion | No unauthorised person within **10 metres** of operating Anabeeb HPWJ equipment. System shall be depressurised on breach. | OPS-P-019 §9 | Visible | |
 | MCR-052 | Lance Tip Marking | Lance/hose shall be clearly marked with paint or tape **no closer than 600 mm** from the nozzle tip to warn of impending exit. | OPS-P-019 §9 | Visible | |
-| MCR-053 | Diver HPWJ Authorisation | Only divers trained and certified for underwater HP/UHP jetting per IMCA D049 (or equivalent company standard) may operate. Surface support must hold concurrent competence. | IMCA D049 Rev 1.2; Anabeeb OPS-P-019 principle; Sec23 | Drafting | Priority for any marine work. |
-| MCR-054 | Underwater Reaction Force Control | Reaction force limits remain the three additive controls (≤250 N, ≤1/3 body weight, geometry). In water buoyancy reduces effective weight → tighter practical limit. Dedicated standby diver + surface dump control mandatory. | IMCA D049 principles; MCR-016 extension; Sec23 | Drafting | Higher RPN underwater. |
-| MCR-055 | Hose Tethering & Securing (Wet) | All high-pressure hoses must be securely tied off / restrained at multiple points to prevent hose whip or entanglement of diver. Never free-floating. | IMCA D049; IMCA SF 09/17 extract; Sec23 | Drafting | Direct from D049 guidance. |
-| MCR-056 | Dump / Dead-Man System (Underwater) | Fail-safe dump system must be operable by both the diver (if equipped) and surface tender. Continuous communication + pre-agreed emergency dump signal. | IMCA D049; general diving safety; Sec23 | Drafting | Non-negotiable. |
-| MCR-057 | Exclusion of Non-Essential Personnel | No non-essential personnel (including supervisors) inside the immediate work area or line of fire. Barriers + positive communication. Dock-bottom / moon-pool / confined wet areas treated as high-risk. | IMCA SF 18/20; IMCA D049; Sec23 | Drafting | Direct lesson from SF 18/20. |
-| MCR-058 | Medical Alert + DMAC | All divers engaged in HPWJ carry Medical Alert Card + awareness of DMAC recommendations for high-pressure water jet injuries. Immediate surface medical support must know the injury mechanism. | IMCA D049 Appendix 1 (DMAC); MCR-043 extension; Sec23 | Drafting | Critical. |
-| MCR-059 | Maximum Pressure for Diver-Held / Method Hierarchy Elevation | Follow IMCA D049 / company limit. Typical public practice for diver-held is lower than land UHP (often ≤10–15k psi class unless specially engineered). Anabeeb 40k psi ceiling still applies but method selection hierarchy (prefer automated/ROV) is stricter underwater. | IMCA D049; MCR-046; MCR-039; Sec23 | Drafting | Hierarchy of methods elevated. |
-| MCR-060 | Cavitation Blaster / Special Tools | Cavitation tools have additional injury modes (see IMCA SF 06/07). Require specific risk assessment and training beyond standard HPWJ. | IMCA D049 Appendix 5; SF 06/07; Sec23 | Drafting | |
-| MCR-061 | Living Lessons Learned Register | A single living register of lessons shall be maintained. Every entry must map to one or more MCR controls and, where relevant, an FMEA mode. | Sec27; continuous improvement principle | Drafting | Process control. Remains Drafting until first live exercise or explicit human promotion. |
-| MCR-062 | 30-Day Incident-to-Lesson Cycle | Any Anabeeb HPWJ-related near-miss, incident, or significant observation shall be converted into a structured lesson entry within 30 calendar days of the event (or of the investigation closing). Delay beyond 30 days requires written justification from the QHSSE Manager. | Sec27; formalises existing Section 25 convention | Drafting | Process control. Remains Drafting until first live exercise or explicit human promotion. |
-| MCR-063 | Anonymised Real Incident Capture | Real Anabeeb events shall be recorded in anonymised form that preserves the technical and human-factor learning while protecting individuals and commercial sensitivity. Documented public cases remain fully attributed. | Sec27; Sec25 discipline | Drafting | Process control. |
-| MCR-064 | Training Integration of Lessons | Every new lesson that maps to an RPN > 150 control, or that reveals a previously unrecognised failure mode, shall be incorporated into the next scheduled ATC HPWJ training cycle (or earlier if critical). | Sec27; Ch13 | Drafting | Process control. |
-| MCR-065 | Management Review of Lessons | The QHSSE Manager shall review the Lessons Learned register at least quarterly and after any serious event. The review shall decide whether any MCR row needs strengthening, any procedure needs amendment, or any additional training is required. | Sec27; Ch15 continuous improvement | Drafting | Process control. |
+| MCR-053 | Diver HPWJ Authorisation | Only divers trained and certified for underwater HP/UHP jetting per IMCA D049 (or equivalent company standard) may operate. Surface support must hold concurrent competence. | IMCA D049 Rev 1.2; Anabeeb OPS-P-019 principle; Sec23 | Visible | Priority for any marine work. |
+| MCR-054 | Underwater Reaction Force Control | Reaction force limits remain the three additive controls (≤250 N, ≤1/3 body weight, geometry). In water buoyancy reduces effective weight → tighter practical limit. Dedicated standby diver + surface dump control mandatory. | IMCA D049 principles; MCR-016 extension; Sec23 | Visible | Higher RPN underwater. |
+| MCR-055 | Hose Tethering & Securing (Wet) | All high-pressure hoses must be securely tied off / restrained at multiple points to prevent hose whip or entanglement of diver. Never free-floating. | IMCA D049; IMCA SF 09/17 extract; Sec23 | Visible | Direct from D049 guidance. |
+| MCR-056 | Dump / Dead-Man System (Underwater) | Fail-safe dump system must be operable by both the diver (if equipped) and surface tender. Continuous communication + pre-agreed emergency dump signal. | IMCA D049; general diving safety; Sec23 | Visible | Non-negotiable. |
+| MCR-057 | Exclusion of Non-Essential Personnel | No non-essential personnel (including supervisors) inside the immediate work area or line of fire. Barriers + positive communication. Dock-bottom / moon-pool / confined wet areas treated as high-risk. | IMCA SF 18/20; IMCA D049; Sec23 | Visible | Direct lesson from SF 18/20. |
+| MCR-058 | Medical Alert + DMAC | All divers engaged in HPWJ carry Medical Alert Card + awareness of DMAC recommendations for high-pressure water jet injuries. Immediate surface medical support must know the injury mechanism. | IMCA D049 Appendix 1 (DMAC); MCR-043 extension; Sec23 | Visible | Critical. |
+| MCR-059 | Maximum Pressure for Diver-Held / Method Hierarchy Elevation | Follow IMCA D049 / company limit. Typical public practice for diver-held is lower than land UHP (often ≤10–15k psi class unless specially engineered). Anabeeb 40k psi ceiling still applies but method selection hierarchy (prefer automated/ROV) is stricter underwater. | IMCA D049; MCR-046; MCR-039; Sec23 | Visible | Hierarchy of methods elevated. |
+| MCR-060 | Cavitation Blaster / Special Tools | Cavitation tools have additional injury modes (see IMCA SF 06/07). Require specific risk assessment and training beyond standard HPWJ. | IMCA D049 Appendix 5; SF 06/07; Sec23 | Visible | |
+| MCR-061 | Living Lessons Learned Register | A single living register of lessons shall be maintained. Every entry must map to one or more MCR controls and, where relevant, an FMEA mode. | Sec27; continuous improvement principle | Visible | Process control. |
+| MCR-062 | 30-Day Incident-to-Lesson Cycle | Any Anabeeb HPWJ-related near-miss, incident, or significant observation shall be converted into a structured lesson entry within 30 calendar days of the event (or of the investigation closing). Delay beyond 30 days requires written justification from the QHSSE Manager. | Sec27; formalises existing Section 25 convention | Visible | Process control. |
+| MCR-063 | Anonymised Real Incident Capture | Real Anabeeb events shall be recorded in anonymised form that preserves the technical and human-factor learning while protecting individuals and commercial sensitivity. Documented public cases remain fully attributed. | Sec27; Sec25 discipline | Visible | Process control. |
+| MCR-064 | Training Integration of Lessons | Every new lesson that maps to an RPN > 150 control, or that reveals a previously unrecognised failure mode, shall be incorporated into the next scheduled ATC HPWJ training cycle (or earlier if critical). | Sec27; Ch13 | Visible | Process control. |
+| MCR-065 | Management Review of Lessons | The QHSSE Manager shall review the Lessons Learned register at least quarterly and after any serious event. The review shall decide whether any MCR row needs strengthening, any procedure needs amendment, or any additional training is required. | Sec27; Ch15 continuous improvement | Visible | Process control. |
 
 **Maintenance Note:** Living document. Update promptly after any incident, near-miss, equipment change or new guidance. Link to FMEA. All training and procedures must demonstrate compliance. Where Anabeeb OPS-P-019 is stricter than SABIC or international standards, Anabeeb rule governs Anabeeb operations.
 
-**Total Active Controls: 65** (52 Visible + 13 Drafting)
+**Total Active Controls: 65** (65 Visible / 0 Drafting)
