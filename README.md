@@ -1,7 +1,7 @@
 # Anabeeb HPWJ Encyclopedia (Grokapedia)
 
-**Version:** v8.3-prep  
-**Status:** Full operational core complete; technical sections substantially expanded; dual-model workflow and schema now live; Section 23 Research Package ready for drafting  
+**Version:** v8.3  
+**Status:** Full operational core complete; technical sections substantially expanded; dual-model workflow live with Grok drafting/pushing and Claude reviewing; Section 23 Marine/Offshore/IMCA production draft complete and awaiting verification  
 **Last Updated:** 16 July 2026
 
 ## Purpose
@@ -32,6 +32,7 @@ A practical, high-depth, single-source reference for High Pressure Water Jetting
 - Section 18 – Hose, Fitting & Connection Technology
 - Section 19 – Nozzle & Tool Technology Encyclopedia
 - Section 20 – Failure Modes & Effects Analysis (full detail restored; candidate site-hazard mode added)
+- **Section 23 – Marine / Offshore / IMCA** (full production draft live; proposed MCR-053–060)
 - Section 22 – Global Manufacturer Best Practices & Variations
 - Section 24 – Clinical & Forensic Injury Encyclopedia
 - Section 25 – Incident Case Study Library (**15 cases**: 1 documented UK HSE fatality + 14 labeled composites)
@@ -39,22 +40,23 @@ A practical, high-depth, single-source reference for High Pressure Water Jetting
 - Section 28 – Environmental Controls & Sustainability
 
 ### Supporting Assets
-- **Master Control Register** – **52 rows**, living single source of truth
+- **Master Control Register** – **52 rows** (+ 8 proposed Drafting rows for Section 23), living single source of truth
 - Practical templates: Pre-Use Inspection Checklist, Whip Check & Hose Inspection Card, Reaction Force Quick Reference, Medical Alert Card
 - Global standards summaries + Regulatory & Client Matrix
-- **11 manufacturer reference summaries** (NLB, Hammelmann, StoneAge, Peinemann, WOMA, Kamat, Uraca, Interpump, Jetstream, Sugino, DERC Salotech + Safetech)
-- **AGENTS.md** + **WORKFLOW.md** — permanent dual-model (Grok research + Claude draft) operating system
+- **12 manufacturer reference summaries** (including Safetech)
+- **AGENTS.md** + **WORKFLOW.md** — permanent dual-model operating system (Grok drafts & pushes; Claude reviews)
 
 ### Critical Correction History
-Section 16.4 jet velocity worked examples were previously understated by a factor of ≈√10 due to a unit conversion error. Values recalculated from first principles (now 371 m/s at 10k psi, 525 m/s at 20k psi, 743 m/s at 40k psi). Reaction-force worked example also revised for consistency. Later silent content loss in Sections 16 and 20 was detected and fully restored.
+Section 16.4 jet velocity worked examples were previously understated by a factor of ≈√10 due to a unit conversion error. Values recalculated from first principles (now 371 m/s at 10k psi, 525 m/s at 20k psi, 743 m/s at 40k psi). Reaction-force worked example also revised for consistency. Later silent content loss in Sections 16 and 20 was detected and fully restored. Seawater density effect in Section 23 now carries full derivation under stated constant-Q assumption.
 
 ## Remaining Gaps (Honest Assessment)
-- Section 23 – Marine / Offshore / IMCA-specific content (**Research Package complete — ready for Claude draft**)
+- Full IMCA D049 member-document clause extraction
 - Section 27 – Lessons Learned (will grow with real Anabeeb incidents)
 - Section 29 – Future Technology
-- Full set of appendices (currently placeholder only)
-- Deeper Aramco SAES / CSMS clause extraction (requires internal company documents – cannot be completed from public web sources alone)
+- Full set of appendices
+- Deeper Aramco SAES / CSMS clause extraction (requires internal company documents)
 - Section 21 exists as the Regulatory & Client Matrix; naming/placement may need final tidy
+- Promotion of MCR-053–060 from Drafting to Visible (after Claude review + human gate)
 
 Self-grading language (“world best”, “10/10”, “no material errors”) has been retired. Quality is demonstrated by Verification Logs, citations, and the Master Control Register rather than by assertion.
 
@@ -66,4 +68,4 @@ Self-grading language (“world best”, “10/10”, “no material errors”) 
 - `/references/manufacturers/` = OEM summaries
 - **AGENTS.md** + **WORKFLOW.md** = how Grok + Claude work together on this repo
 
-This is now a solid, usable, internally consistent operational and technical reference. Further independent verification of any new numeric claims and the still-flagged Aramco gap remain recommended before high-stakes client-facing or audit use.
+This is now a solid, usable, internally consistent operational and technical reference. Further independent verification of any new numeric claims and the still-flagged Aramco and full-D049 gaps remain recommended before high-stakes client-facing or audit use.

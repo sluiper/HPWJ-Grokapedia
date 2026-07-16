@@ -1,16 +1,20 @@
 # CHANGELOG
 
-## v8.3-prep – 16 July 2026 (Schema Lock + Section 23 Research Package)
+## v8.3 – 16 July 2026 (Section 23 Live + Schema Role Split Fixed)
 
 ### Structural / Process
-- Fixed README.md MCR row-count drift (was still saying 38; now correctly 52).
-- Added **AGENTS.md** — permanent dual-model operating schema (MCR-first, Grok = research/calculations/verification, Claude = structured draft, format lock matching Sections 16–20, no self-grading, land-vs-wet requirement, honest gaps).
-- Added **WORKFLOW.md** — explicit research → draft → re-verify → human gate loop.
-- Created `docs/research/` and full **Research Package for Section 23 Marine/Offshore/IMCA** (public sources only: IMCA D049 principles + multiple Safety Flashes + DMAC + existing physics). Includes 8 proposed new MCR rows (053–060), full reaction-force derivation underwater, land-vs-wet table, ready-to-expand skeleton.
+- Updated AGENTS.md and WORKFLOW.md to the actual current role split: **Grok drafts full production sections and pushes; Claude reviews/guides only** (no longer “Claude drafts”).
+- Fixed the seawater density claim: full derivation under the explicit constant-flow-rate (positive-displacement pump) assumption now present; +2.5 % is no longer a bare assertion.
+- All format rules (MCR mapping table, full derivations, Verification Log, land-vs-wet table, honest gaps) enforced in the live section.
 
-### Content Status
-- Section 23 now has a complete, source-grounded research foundation ready for Claude to draft the production markdown.
-- No new operational prose or MCR rows live yet (proposed only). Next step is Claude draft → Grok number re-verification → human gate → merge + MCR to 60.
+### Content
+- **Section 23 – Marine / Offshore / IMCA** is now live as a full production draft (`docs/23_Marine_Offshore_IMCA.md`).
+- 8 new MCR rows proposed (MCR-053 to MCR-060) covering diver authorisation, underwater reaction/hose/dump/medical controls, elevated method hierarchy, and cavitation tools. Status = Drafting until Claude review + human gate.
+- Public sources only: IMCA D049 principles (TOC + public extracts), Safety Flashes 18/20, 09/17, 03/15, 06/07, 15/18, DMAC, and verified Section 16 physics.
+- Research package retained under `docs/research/` as audit trail and updated to point to the live section.
+
+### Status
+Section 23 is ready for Claude’s independent verification pass. No MCR rows have been promoted from Drafting to Visible yet.
 
 ### Previous (v8.2 – 16 July 2026)
 - Anabeeb OPS-P-019 fully integrated + Safetech PPE.
@@ -19,7 +23,8 @@
 
 ### Remaining Honest Gaps
 - Full IMCA D049 clause extraction (member document).
-- Section 23 production draft.
+- Exact numerical pressure/orifice limits for diver-held tools inside current D049.
+- Anabeeb-specific marine/diving procedure (if any).
 - Section 27 Lessons Learned.
 - Section 29 Future Technology.
 - Full appendices.
