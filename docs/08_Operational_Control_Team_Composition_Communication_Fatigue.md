@@ -1,0 +1,66 @@
+# Chapter 8: Operational Control, Team Composition, Communication & Fatigue Management
+
+**Maximum Human Factors Depth**  
+**Version 7.6 – 10/10**
+
+This chapter addresses the human and organisational controls that turn good equipment and procedures into consistently safe performance.
+
+**Linked MCR:** MCR-025, MCR-028, MCR-016, MCR-020, Chapter 13, Chapter 6.
+
+---
+
+## 8.1 Team Composition (Minimum Standards)
+
+- Minimum two competent persons for any pressurised work (nozzle operator + pump operator).
+- For UHP creeping hose / tube bundle: Level 3 operator + competent support + vacuum operator.
+- Supervisor / Team Leader present or immediately available for higher-risk or SIMOPS jobs.
+- All members must hold current competency and Medical Alert Card.
+
+---
+
+## 8.2 Communication Protocol (MCR-025)
+
+- Primary: dedicated radio channel or confirmed hand signals (Safe Work Australia style signals recommended as baseline).
+- Pre-job agreement on signals and emergency dump command.
+- Continuous communication required during pressure operations.
+- Any breakdown in communication = immediate dump and stop.
+- No mobile phone use while controlling the lance or pump.
+
+---
+
+## 8.3 Operational Control Principles
+
+- The nozzle operator always has final control of pressure relief.
+- Pump operator never increases pressure without clear instruction from nozzle operator.
+- Any team member can call stop-work; the call is absolute.
+- Continuous monitoring of hose behaviour, reaction force, and exclusion zone integrity.
+
+---
+
+## 8.4 Fatigue & Heat Management (KSA Critical)
+
+- Monitor work/rest cycles, especially in full PPE under high ambient temperatures.
+- Rotate operators on high-reaction-force or UHP tasks.
+- Enforce hydration and shade breaks per heat stress procedure (MCR-033).
+- Never allow a fatigued operator to continue controlling a high-energy lance.
+
+---
+
+## 8.5 SIMOPS Real-Time Control
+
+- Named SIMOPS coordinator for complex interfaces.
+- Continuous awareness of hot work, lifting, and other energy sources.
+- Immediate stop if any SIMOPS control is breached.
+
+---
+
+## 8.6 Never Rules – Operational Control
+
+- Never operate as a single person under pressure.
+- Never continue if communication is lost.
+- Never ignore fatigue or heat stress signs.
+- Never override a stop-work call.
+
+---
+
+**This chapter is essential for Day 3 of the ATC course and for all Level 2+ operators and supervisors.**
