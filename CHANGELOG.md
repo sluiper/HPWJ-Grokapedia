@@ -1,16 +1,27 @@
 # CHANGELOG
 
-## v8.5.1 – 16 July 2026 (CRITICAL: MCR-017 Metric Formula Corrected)
+## v8.6 – 16 July 2026 (Major Field Toolkit Merge)
 
-### Critical Correction
-- **MCR-017 metric reaction force constant** corrected from **0.745** to **≈0.233** × Q(L/min) × √P(bar).
-- Root cause: unit conversion error. The constant 0.745 is correct when pressure is expressed in **MPa**, but it was incorrectly paired with **bar**. This is the same class of √10-scale unit conversion error previously fixed in Section 16 jet velocity.
-- Full first-principles conversion from the verified imperial formula (0.052 × GPM × √psi) yields ≈0.2327. Rounded operational constant: **0.233**.
-- Direction of error was conservative (over-estimated force by ~3.2×). No known unsafe operations resulted, but the defect violated the “every number derived” standard.
-- Appendix C tables on the draft branch were already correct because they were computed via the imperial path + conversion rather than the buggy metric formula.
+### Content
+- Merged the complete high-value Appendices field toolkit after **four consecutive clean Claude Verification Reports** (zero P0/P1 across the entire pack).
+- New live appendices / cards:
+  - Appendix C – Reaction Force Quick Calculator (with corrected MCR-017 constant 0.233)
+  - Appendix D – Exclusion Zone & Minimum Team Quick Reference
+  - Appendix F – Hose Life, Inspection & Rejection Matrix
+  - Appendix G – Never Rules One-Pager
+  - Appendix H – Emergency Response & Medical Pocket Card
+  - Appendix I – SIMOPS & Permit Interface Card
+  - Appendix J – UHP / Creeping Hose Specific Card
+  - Pre-Use Inspection Quick Card (companion to full checklist)
+  - Rupture Disc & Pressure Relief Verification Card
+- All content is pure synthesis of already-verified MCR rows and existing chapters. No new hard claims.
+- Manufacturer matrix (Appendix B expansion) deliberately left for a later, separate, low-priority delivery.
 
-### Previous (v8.5)
-- All 13 Drafting MCR rows promoted to Visible (human “lfg all”).
-- MCR fully clean at 65 Visible.
+### Process Win
+Four consecutive clean verification cycles with zero P0/P1 findings. The dual-model draft-branch + mandatory report process is now proven at scale on operational field tools.
+
+### Previous
+- v8.5.1: Critical MCR-017 metric formula correction (0.745 → 0.233)
+- v8.5: All 13 Drafting MCR rows promoted to Visible
 
 **This changelog prioritises truth over presentation.**
