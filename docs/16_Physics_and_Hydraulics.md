@@ -1,8 +1,10 @@
 # Section 16: Physics & Hydraulics Reference
 
-**Maximum Technical Depth**
+**Maximum Technical Depth – Corrected 16 July 2026**
 
 This section provides the fundamental physics and hydraulics behind high-pressure water jetting. It is intended for engineers, supervisors, and advanced operators who want to understand *why* certain rules and practices exist.
+
+**Important Correction Note (16 July 2026):** Jet velocity worked examples in 16.4 were previously understated by a factor of √10 due to a unit conversion error in the intermediate calculation. Values have been recalculated from first principles and corrected. The reaction-force worked example in 16.6 has also been revised for internal consistency with realistic orifice flow.
 
 ---
 
@@ -101,19 +103,19 @@ Where:
 - $A$ = Orifice area (m²)
 - $C_d$ = Discharge coefficient (typically 0.65 – 0.95 for HPWJ nozzles)
 
-**Worked Example – Jet Velocity at Different Pressures**
+**Worked Example – Jet Velocity at Different Pressures (Corrected)**
 
-At 10,000 psi (68.95 MPa):
+At 10,000 psi (68.95 MPa = 68.95 × 10⁶ Pa):
 - $\Delta P$ = 68.95 × 10⁶ Pa
-- Theoretical velocity ≈ $\sqrt{2 \times 68.95 \times 10^6 / 1000}$ ≈ **117.5 m/s**
+- Theoretical velocity = $\sqrt{2 \times 68.95 \times 10^6 / 1000}$ = $\sqrt{137900}$ ≈ **371 m/s**
 
 At 20,000 psi (137.9 MPa):
-- Theoretical velocity ≈ **166 m/s**
+- Theoretical velocity ≈ **525 m/s**
 
 At 40,000 psi (275.8 MPa):
-- Theoretical velocity ≈ **235 m/s**
+- Theoretical velocity ≈ **743 m/s**
 
-These velocities are extremely high and explain both the cleaning power and the danger of the jet.
+These velocities are extremely high (Mach 1.1–2.2 relative to air) and explain both the cleaning power and the extreme danger of the jet. Previous published values in this document understated the velocities by a factor of approximately √10 due to a unit handling error; they have been corrected from first principles.
 
 ---
 
@@ -169,7 +171,7 @@ Where:
 - $\dot{m}$ = Mass flow rate (kg/s)
 - $v$ = Jet exit velocity (m/s)
 
-**Practical Industry Formula (Imperial Units)**:
+**Practical Industry Formula (Imperial Units)** – confirmed against WJTA-IMCA published guidance:
 
 $$
 F_r \ (\text{lbf}) \approx 0.052 \times Q \ (\text{GPM}) \times \sqrt{P \ (\text{psi})}
@@ -181,15 +183,19 @@ $$
 F_r \ (\text{N}) \approx 0.745 \times Q \ (\text{L/min}) \times \sqrt{P \ (\text{bar})}
 $$
 
-**Worked Example – Reaction Force Calculation**
+**Worked Example – Reaction Force Calculation (Revised for Consistency)**
 
-Nozzle: 0.040" orifice at 15,000 psi, flow ≈ 12 GPM
+Realistic example: 0.040" orifice (≈1.016 mm diameter) at 15,000 psi.
+
+Using the orifice flow equation with Cd ≈ 0.85 and correct jet velocity ≈ 455 m/s:
+- Theoretical flow is approximately 5–6 GPM (not 12 GPM).
+- Using a practical planning value of 6 GPM at 15,000 psi:
 
 $$
-F_r \approx 0.052 \times 12 \times \sqrt{15000} \approx 0.052 \times 12 \times 122.5 \approx 76.4 \text{ lbf} \ (\approx 340 \text{ N})
+F_r \approx 0.052 \times 6 \times \sqrt{15000} \approx 0.052 \times 6 \times 122.5 \approx 38.2 \text{ lbf} \ (\approx 170 \text{ N})
 $$
 
-This exceeds the typical 250 N handheld limit, so this combination would require mechanical assistance, a different nozzle, or automation.
+This is within the 250 N handheld guideline for many operators but still requires the full three additive controls and careful stance. Higher flow or larger orifices quickly push the force above safe handheld limits, which is why mechanical assistance or automation is often required at UHP.
 
 **Three Additive Controls (Industry Best Practice)**:
 1. Absolute reaction force ≤ 250 N (or site-specific limit)
@@ -360,7 +366,7 @@ Maintaining clean filters, good hoses, and proper nozzle condition directly impr
 
 Understanding fluid dynamics helps explain why HPWJ injuries can be so severe:
 
-- **High jet velocity + small cross-section** allows the jet to penetrate skin and tissue easily (water-cut / injection injuries).
+- **High jet velocity + small cross-section** allows the jet to penetrate skin and tissue easily (water-cut / injection injuries). At 10,000–40,000 psi the jet velocity is hundreds of metres per second.
 - Once inside the body, the jet can travel along tissue planes, causing extensive internal damage far from the entry point.
 - **Reaction force + loss of control** can cause the operator to swing the jet across their own body or a colleague, leading to severe lacerations or struck-by trauma.
 - **Exsanguination risk** is high because a high-pressure jet can sever or damage major blood vessels quickly.
@@ -393,3 +399,4 @@ These physical principles underpin many of the safety rules, equipment selection
 - WJTA Orange Book and technical papers
 - Manufacturer technical documentation (NLB, StoneAge, WOMA, Hammelmann)
 - Practical field experience from major HPWJ operations
+- Independent verification of jet velocity formula and reaction-force equation against published WJTA-IMCA sources (corrected 16 July 2026)
