@@ -1,7 +1,8 @@
 # Reaction Force Quick Reference Card (MCR-016)
 
 **Anabeeb HPWJ – Pocket Card**  
-**Three Additive Controls – ALL must be satisfied for handheld work**
+**Three Additive Controls – ALL must be satisfied for handheld work**  
+**Version 8.6.2 – metric formula corrected 16 July 2026**
 
 ---
 
@@ -20,8 +21,10 @@
 **Imperial**:  
 Reaction Force (lbf) ≈ 0.052 × Q (GPM) × √P (psi)
 
-**Metric**:  
-Reaction Force (N) ≈ 0.745 × Q (L/min) × √P (bar)
+**Metric (CORRECTED)**:  
+Reaction Force (N) ≈ **0.233** × Q (L/min) × √P (bar)
+
+**Historical note**: Previous constant 0.745 was a unit-conversion error (correct only for MPa). Corrected 16 July 2026 after independent re-derivation from the verified imperial formula.
 
 **Example**: 12 GPM at 15,000 psi ≈ 76 lbf ≈ 340 N → **exceeds 250 N limit** → not safe for handheld without additional controls.
 
@@ -37,4 +40,4 @@ Reaction Force (N) ≈ 0.745 × Q (L/min) × √P (bar)
 **All boxes ticked?** → Proceed with continuous monitoring.  
 **Any box unticked?** → Stop and redesign the tooling / method.
 
-**Linked to Chapter 7, Chapter 13, Master Control Register MCR-016, and FMEA high RPN item.**
+**Linked to Chapter 7, Chapter 13, Master Control Register MCR-016, Appendix C, and FMEA high RPN item.**

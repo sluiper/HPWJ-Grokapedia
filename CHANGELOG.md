@@ -1,17 +1,16 @@
 # CHANGELOG
 
-## v8.6.1 – 16 July 2026 (Truth Audit – Content Drift Fixed + Dormant Number Review)
+## v8.6.2 – 16 July 2026 (Third Instance of Metric Formula Bug Fixed)
 
-### Critical Content Drift Fixed
-- **Section 16** still contained the old incorrect metric reaction force formula (0.745). This was content drift after MCR-017 was corrected in v8.5.1. Section 16 now matches the corrected constant (0.233) with full derivation shown.
+### Critical Correction
+- **Third instance** of the wrong metric reaction force constant (0.745) found and fixed in `templates/checklists/Reaction_Force_Quick_Reference.md`.
+- Previous instances: MCR-017 (v8.5.1) and Section 16 (v8.6.1).
+- Root cause class: unit conversion error (constant correct for MPa but labelled for bar). Same √10-scale defect previously fixed in jet velocity calculations.
+- Worked example in the template was already correct (computed via imperial path). Only the stated metric formula line was wrong.
+- Lesson locked: any fix at the canonical source (MCR) must be followed by a systematic search for every independent restatement of the same formula.
 
-### Dormant Number Audit Findings
-- **MCR-031** (Exclusion zone bands 7.5–10 m / 10–15 m / 15–25 m+ / 10 m absolute): Industry-practice ranges, not first-principles constants. Consistent across MCR and Appendix D. No arithmetic defect. Acceptable as guidance ranges.
-- **MCR-050** (Shotgun ≤10 000 psi with ≤1.6 mm orifice + ≤250 N): Procedural limit from OPS-P-019. Not a derived constant. Leave as-is.
-- **MCR-012** (NPSH margin 0.5–1.0 bar): Standard pump engineering practice. Acceptable industry guidance.
-- No additional arithmetic defects found in the remaining numeric MCR rows examined.
-
-### Previous (v8.6)
-- Complete high-value field toolkit (Appendices C–J + cards) merged after four consecutive clean Claude Verification Reports.
+### Previous
+- v8.6.1: Section 16 content drift fixed + dormant-number audit of MCR-031/050/012
+- v8.6: Full field toolkit merged after four clean verification cycles
 
 **This changelog prioritises truth over presentation.**
