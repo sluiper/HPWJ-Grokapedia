@@ -35,7 +35,7 @@
 
 ### Tier 3 – Secondary Calculated Content
 - [x] Section 20 – FMEA RPN arithmetic (all top scores re-multiplied)
-- [ ] Section 18 – Hose, Fitting & Connection Technology (numeric claims)
+- [x] Section 18 – Hose, Fitting & Connection Technology (scanned – no new calculated numbers)
 - [ ] Section 19 – Nozzle & Tool Technology (wear life, orifice data)
 - [ ] Remaining appendices and templates
 - [ ] Manufacturer summaries (any numeric claims)
@@ -63,27 +63,18 @@
 - MCR-050, MCR-012: procedural / industry practice → **Acceptable as-is**
 
 ### 2026-07-16 – Section 20 FMEA RPN Arithmetic
-All top RPN scores re-multiplied from the stated S × L × D values:
+All top RPN scores re-multiplied from the stated S × L × D values. All match exactly (210, 200, 200, 180, 180, 180, 192, 168, 160, 160). **PASS**
 
-| Failure Mode | S | L | D | Claimed RPN | Re-calculated | Status |
-|--------------|---|---|---|-------------|---------------|--------|
-| Inadequate Pre-Use Inspection | 7 | 6 | 5 | 210 | 210 | **PASS** |
-| Flex Lance Back-Out | 10 | 4 | 5 | 200 | 200 | **PASS** |
-| Poor SIMOPS Coordination | 8 | 5 | 5 | 200 | 200 | **PASS** |
-| Quick-Connect Disconnection | 9 | 5 | 4 | 180 | 180 | **PASS** |
-| Excessive Reaction Force | 9 | 5 | 4 | 180 | 180 | **PASS** |
-| Candidate Opening Hazard | 9 | 4 | 5 | 180 | 180 | **PASS** |
-| Cavitation | 8 | 6 | 4 | 192 | 192 | **PASS** |
-| Inlet Filtration Failure | 7 | 6 | 4 | 168 | 168 | **PASS** |
-| Hose Burst | 10 | 4 | 4 | 160 | 160 | **PASS** |
-| Overheating / Lubrication | 8 | 4 | 5 | 160 | 160 | **PASS** |
+### 2026-07-16 – Hose ~7% Visual-Fail Figure
+Industry-data citation (not derived). Consistent across MCR-002 / Section 18 / Appendix F. **Acceptable as-is**
 
-**Note:** RPN scores are expert judgment (Severity/Likelihood/Detection), not first-principles physics. Arithmetic of the multiplications is correct. No defects.
-
-### 2026-07-16 – Hose ~7% Visual-Fail Figure (MCR-002 / Section 18 / Appendix F)
-Claim: “~7% of hoses that pass visual inspection still fail pressure test”.  
-**Classification:** Industry-data citation (not a derived constant). Consistent with the statement in Section 18 and Appendix F.  
-**Status:** Acceptable as cited industry data. No arithmetic to re-derive. Marked as non-derived reference.
+### 2026-07-16 – Section 18 Full Scan
+- Hose life limits (2 yr / 4 yr) match MCR-001 exactly → **PASS**
+- Annual testing requirement matches MCR-002 → **PASS**
+- Reject criteria match MCR-004 → **PASS**
+- Whip-check both-sides rule matches MCR-006 → **PASS**
+- Type M 3.5–5 threads matches MCR-008 → **PASS**
+- No additional calculated formulas or tables that require independent re-derivation. **Clean**
 
 ---
 
@@ -94,17 +85,18 @@ Claim: “~7% of hoses that pass visual inspection still fail pressure test”.
 | AUDIT-001 | MCR-017 + Section 16 | Metric reaction force constant 0.745 was wrong (MPa vs bar) | **Fixed in v8.5.1 / v8.6.1** |
 | AUDIT-002 | Section 16 | Content drift – still showed old 0.745 after MCR fix | **Fixed in v8.6.1** |
 
-**No new arithmetic defects found in the content audited in this pass.**
+**No new arithmetic defects found in any content audited to date.**
 
 ---
 
 ## Status Summary
 
-- Tier 1 (physics + all force tables) complete and clean.
-- Tier 2 (plunger examples, exclusion zones, key limits, hose data) complete and clean.
-- Section 20 FMEA RPN arithmetic fully re-checked – clean.
-- Remaining: light scan of Sections 18/19 manufacturer numbers, then housekeeping (README/CHANGELOG/Section 21).
+- **Tier 1 complete and clean** (all physics and force calculations).
+- **Tier 2 complete and clean** (plunger examples, exclusion, key limits, hose data).
+- **Section 20 RPN arithmetic clean**.
+- **Section 18 clean** (no new calculated numbers).
+- Remaining light items: Section 19, manufacturer summaries (mostly non-calculated), then housekeeping.
 
-**Current confidence:** The highest-risk calculated content in the encyclopedia has now been independently re-derived and is solid. The two known defects from earlier in the project remain the only arithmetic issues found.
+**Current confidence level:** High. The highest-risk calculated content in the entire encyclopedia has been independently re-derived. The only arithmetic defects ever found were the two already fixed (MCR-017 and its Section 16 echo). No new defects have appeared despite systematic checking.
 
 **This audit will not be closed until the remaining light items are checked and Claude has independently re-derived the critical set.**
