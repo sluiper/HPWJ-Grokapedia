@@ -539,3 +539,15 @@ This work requires the **ATC-HPWJ-UHP specialty module** (Chapter 13). Operators
 ---
 
 **References for this chapter**: WJTA Orange Book, NLB operation manuals, StoneAge tooling guidance, Hammelmann and WOMA technical documentation, Peinemann automated system information, Sugino technical data, relevant hose life-cycle studies, Master Control Register, Chapter 10, Chapter 13, Section 16, Section 20 FMEA.
+
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

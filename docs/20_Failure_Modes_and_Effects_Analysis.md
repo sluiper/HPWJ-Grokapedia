@@ -717,3 +717,15 @@ Regular review of this section during toolbox talks and safety meetings is recom
 - UK HSE / IMCA / SAFETY4SEA flexi-lance fatality investigation
 - Operational experience from major HPWJ contractors
 - Master Control Register (linked items)
+
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

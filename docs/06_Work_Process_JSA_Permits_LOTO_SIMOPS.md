@@ -188,3 +188,15 @@ All team members must sign the briefing record.
 **This chapter is designed for direct use in the field, for client audits, and as the core of Day 1 and Day 3 of the Anabeeb 3-day ATC course.**
 
 **References**: Master Control Register, Chapter 7, Chapter 10, Chapter 13, client PTW systems (Aramco/SABIC/PETRO RABIGH), WJTA & WJA recommended practices.
+
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

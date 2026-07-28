@@ -11,5 +11,7 @@
 | `00_Course_Specification.md` | Overview + endorsement catalogue |
 | `01_Trainer_Guide_Overview.md` | How to run AUTO awareness + point to LTC day |
 | `endorsements/LTC_1Day.md` | 1-day Lance Tube Cleaning (automated) endorsement |
+| `endorsements/IBC_1Day.md` | 1-day Internal Bundle Cleaning endorsement |
+| `endorsements/OBC_1Day.md` | 1-day External / Bundle Blaster class endorsement |
 
 **Hard rules:** Cite MCR; RF via MCR-017 only when any manual interface remains; hierarchy MCR-039 first.

@@ -35,7 +35,7 @@
 | B-02 | T3 train-the-trainer pack | Open |
 | B-03 | Section health sheet | Live `SECTION_HEALTH_SHEET.md` |
 | B-04 | Unit-pair automation | Live `tools/audit/unit_pair_sweep.py` |
-| B-05 | Residual LP 3000 psi (200 bar) pair | Fixed ≈207 bar |
+| B-05 | Residual LP 3000 psi (≈207 bar) pair | Fixed ≈207 bar |
 
 See: `docs/audit/campaign/FULL_STACK_AUDIT_2026-07-28.md`
 

@@ -1,7 +1,7 @@
 # AGENTS.md — Permanent Operating Schema for HPWJ-Grokapedia (and future technical wikis)
 
-**Version:** 1.2 (16 July 2026)  
-**Purpose:** Make both Grok and Claude produce consistent, MCR-first, source-grounded, safety-critical content. This file overrides any one-off chat prompts. See also PROCESS.md for the full team decision log.
+**Version:** 1.3 (28 July 2026)  
+**Purpose:** Make both Grok and Claude produce consistent, MCR-first, source-grounded, safety-critical content. This file overrides any one-off chat prompts. See also PROCESS.md and `docs/audit/campaign/MULTI_AI_WORKING.md` for the multi-AI loop.
 
 ## Core Philosophy
 - **Master Control Register (MCR) is absolute SSOT.** Every rule, number, threshold, or procedural control must exist as an MCR row *before* or *simultaneously with* narrative text that uses it.

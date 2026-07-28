@@ -15,9 +15,9 @@
 
 | Code | Method | Duration | Status |
 |------|--------|----------|--------|
-| ATC-HPWJ-LTC | Automated / semi-auto lance tube cleaning | 1 day | **Scaffold live** (`endorsements/LTC_1Day.md`) |
-| ATC-HPWJ-IBC | Internal bundle cleaning systems | 1 day | Planned |
-| ATC-HPWJ-OBC | External / bundle blaster class | 1 day | Planned |
+| ATC-HPWJ-LTC | Automated / semi-auto lance tube cleaning | 1 day | **Live** (`endorsements/LTC_1Day.md`) |
+| ATC-HPWJ-IBC | Internal bundle cleaning systems | 1 day | **Live** (`endorsements/IBC_1Day.md`) |
+| ATC-HPWJ-OBC | External / bundle blaster class | 1 day | **Live** (`endorsements/OBC_1Day.md`) |
 | ATC-HPWJ-3D | 3D / tank cleaning automation | 1 day | Planned |
 
 **Version:** 0.1-draft — 28 July 2026  
