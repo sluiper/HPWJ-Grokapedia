@@ -53,12 +53,14 @@
 - Ready for human review / Needs fixes / etc.
 ```
 
-## Priority Queue (as of v8.3.3)
+## Priority Queue (as of campaign 28 July 2026)
 - [x] Lock optimized process (AGENTS.md + WORKFLOW.md + PROCESS.md)
 - [x] Explicitly grandfather Section 23 (pre-dates draft-branch rule; already reviewed and on main — decision recorded in PROCESS.md)
 - [x] Document CDN / raw.githubusercontent.com cache-busting lesson
-- [ ] Human sets next priority
-- [ ] Grok starts first true draft-branch work (recommended: Section 27 Lessons Learned)
+- [x] Section 27 Lessons Learned delivered (MCR-061–065 Visible)
+- [x] Full numeric truth audit closed (AUDIT-001–004)
+- [ ] **Active campaign** on `draft/campaign-max-truth-training`: Max data → Organize → Max truth → Training (see `docs/audit/campaign/CAMPAIGN_LOG.md`)
+- [ ] Phase 3 human freeze before any `training/ATC-HPWJ-OP-001` pack content
 
 ## Safety Gate (Absolute)
 No new MCR row is promoted from Drafting to Visible, and no draft branch is merged to main, without:

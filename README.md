@@ -47,6 +47,11 @@ A full dual-model numeric truth audit was executed and formally closed. It found
 - Section 29 – Future Technology (deliberately deprioritised)
 - Deeper Aramco SAES / CSMS (requires internal documents – human-gated)
 - Real Anabeeb incidents to fully exercise Section 27 cadence (human-gated)
+- Full ATC training packs (trainer guide, workbook, exam bank) — **after** truth campaign freeze; framework lives in Chapter 13
+
+## Active Campaign (draft branch)
+**Max Data → Organize → Max Truth → Training** on `draft/campaign-max-truth-training`.  
+See `docs/audit/campaign/CAMPAIGN_LOG.md`, `docs/research/inventory/`, and `docs/research/packages/`.
 
 Self-grading language has been retired. Quality is demonstrated by Verification Logs, citations, the Master Control Register, repeated clean dual-model reviews, and the closed full numeric truth audit.
 

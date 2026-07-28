@@ -3,7 +3,7 @@
 **Version 8.2**  
 **Status:** Living reference – all claims mapped to Master Control Register and dual SABIC + Anabeeb sources. No self-grading language.
 
-This chapter defines Anabeeb’s competency framework for High Pressure Water Jetting. It synthesises the strongest elements of WJTA, WJA, AS/NZS 4233 and SIR and hard-wires them to the Master Control Register (52 rows), Chapter 10 trauma protocols, OPS-P-019, SABIC OMS 8.2, and the Anabeeb Training Center (ATC).
+This chapter defines Anabeeb’s competency framework for High Pressure Water Jetting. It synthesises the strongest elements of WJTA, WJA, AS/NZS 4233 and SIR and hard-wires them to the Master Control Register (**65 rows**, all Visible as of v8.6.x — including marine MCR-053–060 and lessons MCR-061–065), Chapter 10 trauma protocols, OPS-P-019, SABIC OMS 8.2, and the Anabeeb Training Center (ATC).
 
 **Guiding Principle**: Competence is not a certificate. Competence is the consistent, verifiable ability to prevent injection injuries, apply every Master Control Register control under real conditions, and lead or support a safe, high-quality job.
 

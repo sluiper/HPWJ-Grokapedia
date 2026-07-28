@@ -113,7 +113,9 @@ This loop is deliberately fewer, larger, safer cycles.
 - [x] Lock this optimized process into the three files
 - [x] Explicitly grandfather Section 23 (stated decision above)
 - [x] Document CDN cache-busting lesson
-- [ ] Human sets next priority (recommended: Section 27 Lessons Learned)
-- [ ] Grok starts first true draft-branch delivery package under the new rules
+- [x] Section 27 Lessons Learned delivered under dual-model rules
+- [x] Full numeric truth audit closed (AUDIT-001–004)
+- [ ] **Active:** Campaign Max Data → Organize → Max Truth → Training on `draft/campaign-max-truth-training` (`docs/audit/campaign/CAMPAIGN_LOG.md`)
+- [ ] Human freeze after Phase 3 before training pack files
 
 **This process exists so that every future encyclopedia we build starts at the quality level we have now earned, not from zero.**

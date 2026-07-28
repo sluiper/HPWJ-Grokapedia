@@ -63,6 +63,12 @@
 - Section 29 – Future Technology (deliberately deprioritised)
 - Deeper Aramco SAES / CSMS clause extraction (requires internal company documents – human-gated)
 - Real Anabeeb incidents to fully exercise Section 27 cadence (human-gated)
+- Full ATC training packs — after campaign truth freeze (Ch13 framework + pack standard exist)
+- Appendix letter **E** currently unused (A–D then F–J); reserved / not a missing file
+
+## Active Campaign
+`draft/campaign-max-truth-training` — Max Data → Organize → Max Truth → Training.  
+Inventories: `docs/research/inventory/`. Packages: `docs/research/packages/`. Log: `docs/audit/campaign/CAMPAIGN_LOG.md`.
 
 ## How to Use This Structure
 The **Master Control Register** is the single source of truth. Every chapter and section maps its controls to MCR item IDs. New thresholds must be added to the MCR (or flagged as candidates) rather than asserted only in a chapter.

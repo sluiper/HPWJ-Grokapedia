@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## draft/campaign-max-truth-training – 28 July 2026 (Campaign scaffold — not yet merged)
+
+### Campaign open: Max Data → Organize → Max Truth → Training
+- Branch `draft/campaign-max-truth-training` opened.
+- `docs/audit/campaign/CAMPAIGN_LOG.md` + `TRUTH_CAMPAIGN_v9.md` (stub) added.
+- Research inventories: `MASTER_SOURCE_INVENTORY.md`, `INTERNAL_GAP_REGISTER.md`, `MCR_RESTATEMENT_MAP.md` (high-risk restatement stub).
+- Nine research package stubs under `docs/research/packages/RP-*/` (PHYS, STD, OPS, INJ, INC, MFG, IMCA, ENV, TRN).
+- Status-drift cleanup: Ch13 MCR row count 52→65; WORKFLOW/PROCESS priority queues updated; README + structure note active campaign; Appendix E letter noted as unused.
+- **No new MCR rows. No training pack files. No formula changes.** Training packs blocked until Phase 3 human freeze.
+
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 
 ### Critical
