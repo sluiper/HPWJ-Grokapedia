@@ -13,7 +13,7 @@
 - **NEVER** use a flexible lance without a correctly installed and verified Anti-Withdrawal / Anti-Ejection Device (AWD) (MCR-019 / MCR-020 / RPN 200).
 - **NEVER** leave the pump running unattended (MCR-011).
 - **NEVER** reuse a rupture disc. Always have a spare of the correct rating on the unit (MCR-009 / MCR-048).
-- **NEVER** exceed 40 000 psi (2 759 bar) — absolute Anabeeb ceiling (MCR-046).
+- **NEVER** exceed 40 000 psi (≈ 2 758 bar) — absolute Anabeeb ceiling (MCR-046).
 - **NEVER** use quick-connects on high-pressure hoses where relative movement or rotation is possible (MCR-007 / RPN 180).
 - **NEVER** operate with a reaction force > 250 N absolute or > 1/3 body weight or with geometry that allows the jet to cross the operator’s feet/legs (MCR-016 / RPN 180).
 

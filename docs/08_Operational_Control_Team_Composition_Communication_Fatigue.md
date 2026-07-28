@@ -179,7 +179,7 @@ PPE is the last line of defence. It does **not** replace hierarchy of methods or
 | Pressure Band | Body / Hand Protection | Notes |
 |---------------|------------------------|-------|
 | Up to 14 500 psi (≈1000 bar) | 10/28 rating or equivalent | Yellow label (TST) |
-| Up to 30 000 psi (≈2000–3000 bar) | 20/30 rating or TurtleSkin WaterArmor | Orange label (TST); higher thermal load |
+| Up to 30 000 psi (≈ **2 070 bar**) | 20/30 rating or TurtleSkin WaterArmor | Orange label (TST); higher thermal load. (Do not read as 3 000 bar — that would exceed MCR-046 ceiling.) |
 | Foot | Waterproof boots with steel/Kevlar toes + metatarsal guards; 3000 boots or WaterArmor for high pressure | |
 | Shin | Gun operators shall wear shin guards | |
 | Head / Face | Hard hat + face shield + safety glasses (goggles if aerosol). Full-face visor BS EN 166 Impact Grade B minimum + chin protection | Head protection 20/30 rating |

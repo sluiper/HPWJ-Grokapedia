@@ -18,10 +18,10 @@ Ensure all HPWJ activities are conducted with safe operating practices, safeguar
 **Pressure Definitions (OPS-P-019 §3.8)**
 - LP: < 3 000 psi (200 bar)
 - HP: 3 000 – 20 000 psi (1 380 bar)
-- UHP: up to 36 250 psi (2 500 bar) in definition text; **maximum allowable for any HPWJ activity = 40 000 psi (2 759 bar)**. No work above this.
+- UHP: up to 36 250 psi (2 500 bar) in definition text; **maximum allowable for any HPWJ activity = 40 000 psi (≈ 2 758 bar)**. No work above this.
 - General water jetting term covers up to 25 000 psi; above that is UHP.
 
-**MCR-046 (new):** Maximum system pressure for Anabeeb HPWJ activities shall not exceed 40 000 psi (2 759 bar).
+**MCR-046:** Maximum system pressure for Anabeeb HPWJ activities shall not exceed **40 000 psi** (**≈ 2 758 bar** derived). Confirm independent bar wording on controlled OPS (GAP-004).
 
 ---
 
@@ -129,7 +129,7 @@ Safety controls: Flow Control (Diverter) Valve + Foot Pedal (Dump Valve). Set up
 - Lance length **minimum 1.2 m** from butt to nozzle (shorter only under special RA). Double-trigger gun considered for UHP short barrels.
 - **Trigger mechanism must never be locked, wedged or blocked ON.**
 - No person besides operators within **10 metres** of operating equipment without permission. System de-pressured if unauthorised person enters.
-- Hand-held shotgunning **not above 10 000 psi (680 bar)** with nozzle orifice larger than 1.6 mm (reaction force control). Body weight + reaction force considered for any hand-held.
+- Hand-held shotgunning **not above 10 000 psi (≈ 690 bar)** with nozzle orifice larger than 1.6 mm (reaction force control). Body weight + reaction force considered for any hand-held. (Bar derived from psi; was 680 — Claude F-01; confirm controlled OPS GAP-004.)
 - Reaction force formula identical: Back Thrust (lbf) = 0.052 × GPM × √psi; ≤ 250 N.
 - Never direct lance toward self or another person.
 - Burst Protection Sleeve required where UHP hose joins hand-held device.
@@ -146,7 +146,7 @@ Safety controls: Flow Control (Diverter) Valve + Foot Pedal (Dump Valve). Set up
 - Earthing/grounding to prevent static; anti-seize on stainless fittings.
 - **No water jetting ever from a ladder.**
 
-**MCR-050 (new):** Hand-held shotgunning shall not be performed above 10 000 psi with orifice >1.6 mm. Reaction force ≤250 N absolute.
+**MCR-050:** Hand-held shotgunning shall not be performed above **10 000 psi (≈ 690 bar)** with orifice >1.6 mm. Reaction force ≤250 N absolute.
 
 **MCR-051 (new):** No unauthorised person within 10 m of operating Anabeeb HPWJ equipment; system depressurised on breach.
 

@@ -69,15 +69,16 @@
 - [x] TRUTH_CAMPAIGN_v9.md (in progress / near freeze)
 - [x] T1 high-risk arithmetic (App C, Sec16/17/20/23 RF class) — see T1_T3_RUN_2026-07-28.md
 - [x] T3 freeze-candidate restatement samples
-- [ ] Claude Verification Report
-- [x] No open P0 / no AUDIT-005
-- [ ] Human freeze recorded here
+- [x] Claude Verification Report — `CLAUDE_VERIFICATION_REPORT_2026-07-28.md` (no P0; P1s F-01–F-03)
+- [x] Grok applied F-01–F-08 on `draft/claude-p1-fixes` — see `GROK_RESPONSE_CLAUDE_F_FINDINGS.md`
+- [x] Standing T1 unit-pair sweep adopted
+- [ ] Human freeze recorded here (GAP-004 still open for independent OPS bar wording)
 
 ### Phase 4
 - [x] `training/ATC-HPWJ-OP-001/` full pack (0.1-draft)
 - [x] Cite-MCR-only design (RF via MCR-017; thresholds by MCR-ID)
+- [x] Pack drift check — `PACK_DRIFT_CHECK_2026-07-28.md` (clean)
 - [ ] Human pilot approval
-- [ ] Claude pack drift check (recommended)
 
 ---
 
@@ -86,7 +87,10 @@
 | ID | Found | Severity | Status | Notes |
 |----|-------|----------|--------|-------|
 | (seed) AUDIT-001–004 | Pre-campaign | Closed | Closed | Metric RF constant 0.745 class; fixed |
-| — | — | — | — | New findings start AUDIT-005 |
+| AUDIT-005 / F-01 | Claude 28 Jul | P1 | Fixed (conversion) | MCR-050 680→≈690 bar derived; GAP-004 if OPS independent |
+| AUDIT-006 / F-02 | Claude 28 Jul | P1 | Fixed | Sec20 list ≥180 + Cavitation 192 |
+| AUDIT-007 / F-03 | Claude 28 Jul | P1 | Fixed | Sec16.6 Cd-consistent work |
+| F-04–F-08 | Claude 28 Jul | P2 | Fixed | Tables, 2758 bar, Ch8, caveats, labels |
 
 ---
 

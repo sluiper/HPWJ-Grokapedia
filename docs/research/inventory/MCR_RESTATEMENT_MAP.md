@@ -66,7 +66,7 @@
 
 ## Anabeeb absolute procedural rules (OPS-P-019 — freeze candidates for OP-001)
 
-### MCR-046 — Max system pressure 40 000 psi (2 759 bar)
+### MCR-046 — Max system pressure 40 000 psi (≈ 2 758 bar)
 
 | Path |
 |------|

@@ -34,15 +34,19 @@ Each failure mode includes a simple risk rating and explicit links to relevant i
 
 ---
 
-## Top Priority Failure Modes (RPN > 180)
+## Top Priority Failure Modes (RPN ≥ 180)
+
+Ranked by scored RPN (all modes with RPN ≥ 180):
 
 1. **Inadequate Pre-Use Inspection** (RPN 210)
 2. **Flex Lance Back-Out / Loss of Control** (RPN 200)
 3. **Poor SIMOPS Coordination** (RPN 200)
-4. **Quick-Connect Disconnection Under Pressure** (RPN 180)
-5. **Loss of Control Due to Excessive Reaction Force** (RPN 180)
+4. **Cavitation Damage** (RPN 192) — §20.2.1
+5. **Quick-Connect Disconnection Under Pressure** (RPN 180)
+6. **Loss of Control Due to Excessive Reaction Force** (RPN 180)
+7. **Adjacent Excavation / Unprotected Opening** (provisional RPN 180) — candidate mode
 
-These five modes represent the greatest potential for serious injury or fatality based on current assessment.
+These modes are the highest-scored items in this FMEA (criterion: **RPN ≥ 180**). They should drive training emphasis and control priority.
 
 ---
 
@@ -80,7 +84,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Site walkthrough and pre-start checklist specifically looking for openings
 - Visual inspection of covers and barriers before pressurising
 
-**Provisional Risk Rating**: S=9, L=4, D=5 → **RPN = 180** (High – provisional pending full scoring review)
+**Provisional Risk Rating**: S=9, L=4, D=5 → **RPN = 180** (High priority) >150))
 
 **Recommended Controls**:
 - Explicit identification of all open pits, vertical pipes, manholes, and floor openings during site preparation (Chapter 5)
@@ -119,7 +123,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Gradual loss of pressure/flow
 - Higher than normal power consumption
 
-**Risk Rating**: S=8, L=6, D=4 → **RPN = 192** (High)
+**Risk Rating**: S=8, L=6, D=4 → **RPN = 192** (High priority) >150))
 
 **Recommended Controls**:
 - Maintain clean, short suction lines with adequate diameter
@@ -156,7 +160,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Sudden pressure drop and water discharge
 - Activation of secondary relief systems
 
-**Risk Rating**: S=9, L=5, D=3 → **RPN = 135** (High)
+**Risk Rating**: S=9, L=5, D=3 → **RPN = 135** (Review band) 100–150))
 
 **Recommended Controls**:
 - Always use correctly rated discs matched to pump and system
@@ -194,7 +198,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Low oil pressure alarm (if fitted)
 - Visible oil leaks or discoloration
 
-**Risk Rating**: S=8, L=4, D=5 → **RPN = 160** (High)
+**Risk Rating**: S=8, L=4, D=5 → **RPN = 160** (High priority) >150))
 
 **Recommended Controls**:
 - Daily oil level and condition checks
@@ -231,7 +235,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Unusual engine noise or performance
 - Visible smoke or fluid leaks
 
-**Risk Rating**: S=6, L=5, D=3 → **RPN = 90** (Medium-High)
+**Risk Rating**: S=6, L=5, D=3 → **RPN = 90** (Monitor band) <100))
 
 **Recommended Controls**:
 - Pre-use engine checks (oil, coolant, fuel, air filter, DEF)
@@ -266,7 +270,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Visible contamination in inlet water
 - Accelerated component wear during maintenance inspections
 
-**Risk Rating**: S=7, L=6, D=4 → **RPN = 168** (High)
+**Risk Rating**: S=7, L=6, D=4 → **RPN = 168** (High priority) >150))
 
 **Recommended Controls**:
 - Multi-stage filtration with correct micron rating
@@ -305,7 +309,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Weepage from outer cover
 - Annual third-party pressure test failure
 
-**Risk Rating**: S=10, L=4, D=4 → **RPN = 160** (High)
+**Risk Rating**: S=10, L=4, D=4 → **RPN = 160** (High priority) >150))
 
 **Recommended Controls**:
 - Strict hose life management (2 years for flex lances/whip hoses, 4 years for others) – MCR-001
@@ -342,7 +346,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Audible click or feel during connection
 - Regular function testing of couplings
 
-**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High)
+**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High priority) >150))
 
 **Recommended Controls**:
 - Prefer screw-type or face-seal couplings in high-movement applications
@@ -381,7 +385,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Change in pump pressure and flow readings
 - Reduced cleaning performance
 
-**Risk Rating**: S=6, L=7, D=3 → **RPN = 126** (Medium-High)
+**Risk Rating**: S=6, L=7, D=3 → **RPN = 126** (Review band) 100–150))
 
 **Recommended Controls**:
 - Scheduled nozzle replacement based on wear life (typically 20–60 hours) – MCR-018
@@ -417,7 +421,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Loss of cleaning progress
 - Operator reports of unusual resistance or movement
 
-**Risk Rating**: S=10, L=4, D=5 → **RPN = 200** (Very High)
+**Risk Rating**: S=10, L=4, D=5 → **RPN = 200** (High priority) ≥200))
 
 **Recommended Controls**:
 - Mandatory use and correct installation of Anti-Withdrawal Devices – MCR-019 / MCR-020
@@ -455,7 +459,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Unusual behaviour or position of tooling
 - Loss of expected cleaning progress
 
-**Risk Rating**: S=8, L=4, D=4 → **RPN = 128** (High)
+**Risk Rating**: S=8, L=4, D=4 → **RPN = 128** (Review band) 100–150))
 
 **Recommended Controls**:
 - Specific competency training for automated system operators
@@ -492,7 +496,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Alarms or indicators (if fitted)
 - Operator reports of slow or incomplete pressure relief
 
-**Risk Rating**: S=9, L=4, D=3 → **RPN = 108** (High)
+**Risk Rating**: S=9, L=4, D=3 → **RPN = 108** (Review band) 100–150))
 
 **Recommended Controls**:
 - Mandatory functional test of pressure relief system before every job – MCR-010
@@ -526,7 +530,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Alarm or fault indication
 - Regular calibration and maintenance checks
 
-**Risk Rating**: S=8, L=3, D=5 → **RPN = 120** (High)
+**Risk Rating**: S=8, L=3, D=5 → **RPN = 120** (Review band) 100–150))
 
 **Recommended Controls**:
 - Mandatory pre-use functional test of all safety sensors – MCR-021
@@ -563,7 +567,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Visible struggle or loss of stance
 - Sudden change in jet direction
 
-**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High)
+**Risk Rating**: S=9, L=5, D=4 → **RPN = 180** (High priority) >150))
 
 **Recommended Controls**:
 - Strict adherence to the three additive reaction force controls – MCR-016
@@ -597,7 +601,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Post-incident investigation often reveals missed defects
 - Audit findings on inspection quality
 
-**Risk Rating**: S=7, L=6, D=5 → **RPN = 210** (Very High)
+**Risk Rating**: S=7, L=6, D=5 → **RPN = 210** (High priority) ≥200))
 
 **Recommended Controls**:
 - Clear, comprehensive pre-use checklists – MCR-023
@@ -631,7 +635,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Near misses or incidents during SIMOPS
 - Audit findings on permit and coordination quality
 
-**Risk Rating**: S=8, L=5, D=5 → **RPN = 200** (Very High)
+**Risk Rating**: S=8, L=5, D=5 → **RPN = 200** (High priority) ≥200))
 
 **Recommended Controls**:
 - Robust SIMOPS planning and daily coordination meetings – MCR-028
@@ -665,7 +669,7 @@ This analysis draws from industry incident data, manufacturer experience, and op
 - Near misses involving miscommunication
 - Post-job debrief findings
 
-**Risk Rating**: S=7, L=5, D=5 → **RPN = 175** (High)
+**Risk Rating**: S=7, L=5, D=5 → **RPN = 175** (High priority) >150))
 
 **Recommended Controls**:
 - Clear communication protocols and hand signals – MCR-025
@@ -684,13 +688,14 @@ This analysis draws from industry incident data, manufacturer experience, and op
 
 This FMEA is a living document. It should be reviewed and updated after any significant incident, near miss, or major equipment change. Key lessons should be fed back into procedures, training, and the Master Control Register.
 
-**Highest Priority Items (RPN > 180)**:
-- Inadequate Pre-Use Inspection
-- Flex Lance Back-Out / Loss of Control (now with documented fatality)
-- Poor SIMOPS Coordination
-- Quick-Connect Disconnection Under Pressure
-- Loss of Control Due to Excessive Reaction Force
-- **NEW CANDIDATE**: Adjacent Excavation / Unprotected Opening Hazard (provisional RPN 180)
+**Highest Priority Items (RPN ≥ 180)** — ranked:
+- Inadequate Pre-Use Inspection (210)
+- Flex Lance Back-Out / Loss of Control (200)
+- Poor SIMOPS Coordination (200)
+- Cavitation Damage (192)
+- Quick-Connect Disconnection Under Pressure (180)
+- Loss of Control Due to Excessive Reaction Force (180)
+- Adjacent Excavation / Unprotected Opening Hazard (provisional 180)
 
 Common themes across many failure modes include:
 - Importance of pre-use inspection discipline
