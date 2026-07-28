@@ -56,6 +56,7 @@ See `docs/audit/campaign/CAMPAIGN_LOG.md`, `docs/research/inventory/`, and `docs
 ### Training packs (draft)
 See `training/README.md`.  
 - **ATC-HPWJ-OP-001** — 3-Day Core Operator (Forms A/B exams)  
+- **ATC-HPWJ-SUP** — 2-Day Supervisor / Team Leader (Level 4)  
 - **ATC-HPWJ-AWARE** — ½-day site awareness  
 - **ATC-HPWJ-VOC** — 1-day verification of competency  
 

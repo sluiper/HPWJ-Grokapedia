@@ -203,7 +203,13 @@ Every training product (3-day Basic, Supervisor, 1-day method attachments, Aware
 
 This pack structure is what we will use next for Supervisor and then for each 1-day method attachment.
 
-**OP-001 pack location (draft):** `training/ATC-HPWJ-OP-001/` — course specification, trainer guide, student workbook, practical checklist, theory exam bank, assessment/certificate templates, and equipment list. Living rule: after any MCR change, review that pack within 30 days.
+**Training pack locations (draft):**  
+- `training/ATC-HPWJ-OP-001/` — Level 2 Operator (3-day)  
+- `training/ATC-HPWJ-SUP/` — Level 4 Supervisor (2-day, Ch12 packaging)  
+- `training/ATC-HPWJ-AWARE/` — site awareness (½-day)  
+- `training/ATC-HPWJ-VOC/` — VOC / refresher (1-day)  
+- Index: `training/README.md`  
+Living rule: after any MCR change, review affected packs within 30 days.
 
 ---
 

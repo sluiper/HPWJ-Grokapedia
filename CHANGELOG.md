@@ -29,6 +29,11 @@
 - `training/ATC-HPWJ-VOC/` — 1-day VOC/refresher (reassessment checklist, short theory, record).
 - OP-001 **0.2-draft**: printable Exam Forms A/B + assessor answer keys; bilingual EN/AR headings on key files.
 - `training/README.md` index.
+- PR #1 opened: https://github.com/sluiper/HPWJ-Grokapedia/pull/1
+
+### Slice F — ATC-HPWJ-SUP (Level 4 Supervisor)
+- Full 2-day pack: `training/ATC-HPWJ-SUP/` (four Pre-Job Gates, leadership practical checklist, theory exam, assessment record).
+- Based on Chapter 12 + MCR-036/041/047–052; RF still via MCR-017 only.
 
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 

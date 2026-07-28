@@ -120,3 +120,8 @@
 ### 28 July 2026 — AWARE + VOC + OP-001 polish + PR
 - User directed “1-3 go”: AWARE pack, VOC pack, OP-001 Forms A/B + AR headings, open PR.
 - OP-001 → 0.2-draft; training/README index.
+- PR: https://github.com/sluiper/HPWJ-Grokapedia/pull/1
+
+### 28 July 2026 — SUP pack (user “go”)
+- Built `training/ATC-HPWJ-SUP/` Level 4 two-day pack (Ch12 four gates).
+- PR #1 updated via push; still do not merge until human pilot/freeze approval.
