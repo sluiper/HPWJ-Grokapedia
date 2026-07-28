@@ -27,11 +27,24 @@
 
 ---
 
+## Buildable gaps (public / editorial — not human PDF)
+
+| ID | Description | Status |
+|----|-------------|--------|
+| B-01 | Method endorsements LTC/IBC/OBC | LTC scaffold live under `training/ATC-HPWJ-AUTO/` |
+| B-02 | T3 train-the-trainer pack | Open |
+| B-03 | Section health sheet | Live `SECTION_HEALTH_SHEET.md` |
+| B-04 | Unit-pair automation | Live `tools/audit/unit_pair_sweep.py` |
+| B-05 | Residual LP 3000 psi (200 bar) pair | Fixed ≈207 bar |
+
+See: `docs/audit/campaign/FULL_STACK_AUDIT_2026-07-28.md`
+
 ## Explicitly not gaps (closed or deprioritised)
 
 | ID | Item | Disposition |
 |----|------|-------------|
 | N/A | Arithmetic of MCR-017 metric constant | Closed in TRUTH_AUDIT + AUDIT-004 |
+| N/A | AUDIT-005–007 / F-01–F-08 | Closed on main (PR #4) |
 | N/A | Section 29 Future Technology | Deliberately deprioritised |
 | N/A | Appendix B full OEM expansion | P2 — collect sources in RP-MFG; expand later |
 | N/A | Fabricating incidents to “complete” Sec 25/27 | Forbidden — keep composites labelled |
