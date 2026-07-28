@@ -12,9 +12,9 @@
 | Phase | Name | Status | Notes |
 |-------|------|--------|-------|
 | 0 | Setup / scaffold | **Done (branch)** | Log + inventory dirs + research package stubs |
-| 1 | Max data collection | **Baseline done** | Inventories + 9 RP stubs from on-disk sources; public web harvest next |
-| 2 | Organize data | **Partial** | Restatement map stub + status-drift cleanup done; deeper section health sheet later |
-| 3 | Max truth | Pending | T1 arithmetic / T2 citation / T3 consistency; human freeze before training |
+| 1 | Max data collection | **Strong progress** | Inventories + 9 RP stubs + PUBLIC_HARVEST for PHYS/STD/INJ/INC/IMCA |
+| 2 | Organize data | **Partial** | Restatement map + drift cleanup; inventories updated with public URLs |
+| 3 | Max truth | **Started** | T1 RF class Pass; T2 primary cites pinned; T3 wording pass pending |
 | 4 | Training material | **Blocked until Phase 3 freeze** | First pack: ATC-HPWJ-OP-001 |
 
 ---
@@ -93,3 +93,9 @@
 - Plan approved; branch `draft/campaign-max-truth-training` cut from main.
 - Scaffold + inventories + package stubs created from **existing on-disk sources** first (max collection baseline), then expand public harvest.
 - Training directory intentionally **not** populated with pack content until Phase 3 freeze.
+
+### 28 July 2026 — Push + public harvest + T1
+- Pushed branch to `origin/draft/campaign-max-truth-training`.
+- Public harvest: Wright 2013 RF Eq.1 PDF; WJTA FT/FV; WJA Black Code + medical algorithm URL; StatPearls NBK542210; IMCA SF URL table expanded.
+- T1: metric k re-derived **0.232711 → 0.233**; no live operational `0.745`.
+- No MCR changes; freeze still pending human.

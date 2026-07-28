@@ -12,7 +12,7 @@
 
 | Claim | Tag | Location | Notes |
 |-------|-----|----------|-------|
-| Fr(lbf) ≈ 0.052 × Q(GPM) × √P(psi) | [CITATION]+[DERIVED lineage] | Sec16, MCR-017 | Industry formula; conference lineage cited in Sec16 |
+| Fr(lbf) ≈ 0.052 × Q(GPM) × √P(psi) | [CITATION] | Sec16, MCR-017 | **Wright 2013 WJTA-IMCA Eq.1** (public PDF); see PUBLIC_HARVEST.md |
 | Fr(N) ≈ 0.233 × Q(L/min) × √P(bar) | [DERIVED] | Sec16, MCR-017 | From imperial; 0.2327 → 0.233 |
 | Jet velocity from √(2P/ρ) tables | [DERIVED] | Sec16 | Audit re-derived 371/455/525/743 m/s class |
 | Re worked example ~66 800 | [DERIVED] | Sec16 | Inputs stated |
@@ -65,6 +65,8 @@ None at this time. Physics package supports existing MCR-016/017. Any new derive
 |-------|--------|
 | Live operational constant is 0.233 not 0.745 | Pass (grep baseline 28 Jul 2026) |
 | Derivation chain present in Sec16 | Pass |
+| Metric re-derive T1 k=0.232711 | Pass (28 Jul 2026) |
+| Primary public PDF for 0.052 | Pass (Wright 2013) |
 | Restatement map lists known RF sites | Pass (MCR_RESTATEMENT_MAP) |
 | New constants introduced in this package | None |
 
@@ -72,6 +74,7 @@ None at this time. Physics package supports existing MCR-016/017. Any new derive
 
 ## G. Next actions
 
-- [ ] Add bibliography block when public harvest completes  
-- [ ] Phase 3 T1: re-derive metric constant once more as campaign entry exercise  
+- [x] Add bibliography / primary cite (PUBLIC_HARVEST + Sec16)  
+- [x] Phase 3 T1: re-derive metric constant  
 - [ ] Phase 3 T3: wording pass on all 0.052 / 250 N restatements  
+- [ ] Optional second independent industry restatement of 0.052 for citation density  

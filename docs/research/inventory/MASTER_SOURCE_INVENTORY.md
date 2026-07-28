@@ -22,8 +22,11 @@
 
 | ID | Title | Type | Owner | Rev / Date | Access | Path in repo | Linked sections | Linked MCR | Last verified |
 |----|-------|------|-------|------------|--------|--------------|-----------------|------------|---------------|
-| SRC-WJTA-001 | WJTA Recommended Practices (“Orange Book”) + certification | Industry RP | WJTA | Public summary | Public-summary | `references/standards/WJTA_Summary.md` | Ch13, Sec16 | MCR-001–002, 016, 030 | 16 Jul 2026 |
-| SRC-WJA-001 | WJA Codes of Practice + training pathway | Industry CoP | WJA (UK) | Public summary | Public-summary | `references/standards/WJA_Summary.md` | Ch13, Ch10 | MCR-030, 043 | 16 Jul 2026 |
+| SRC-WJTA-001 | WJTA Recommended Practices (“Orange Book”) + certification | Industry RP | WJTA | Public summary + FT/FV pages | Public-summary | `references/standards/WJTA_Summary.md` + RP-STD harvest | Ch13, Sec16 | MCR-001–002, 016, 030 | 28 Jul 2026 |
+| SRC-WJTA-FTFV | WJTA Hydroblaster FT (19HBFT) + FV (19HBFV) | Certification program | WJTA | Current public pages | Public | https://www.wjta.org/wjta/HydroblasterTraining.asp | Ch13 | MCR-030, 042 | 28 Jul 2026 |
+| SRC-WJA-001 | WJA Codes of Practice + training pathway | Industry CoP | WJA (UK) | Black Code (unified); public landing | Public-summary (full CoP gated) | `references/standards/WJA_Summary.md` + https://waterjetting.org.uk/code-of-practice/ | Ch13, Ch10 | MCR-030, 043 | 28 Jul 2026 |
+| SRC-WJA-MED | WJA Water Jetting Injury Treatment Algorithm | Medical algorithm PDF | WJA | 2026 public PDF | Public | https://waterjetting.org.uk/wp-content/uploads/2026/07/WJA-Water-Jetting-Injury-Treatment-Algorithm.pdf | Ch10, RP-INJ | MCR-043 | 28 Jul 2026 |
+| SRC-CLIN-STAT | StatPearls Hand High Pressure Injury | Clinical review | NCBI Bookshelf | Updated 26 Jun 2023 | Public | https://www.ncbi.nlm.nih.gov/books/NBK542210/ | Ch10, Ch24, RP-INJ | MCR-043 | 28 Jul 2026 |
 | SRC-ASNZ-001 | AS/NZS 4233.1:2013 + MSMWJ units | National standard | Standards AU/NZ | 2013 + units | Public-summary | `references/standards/ASNZS_4233_Australia_Summary.md` | Ch13 | MCR-030, 042 | 16 Jul 2026 |
 | SRC-SIR-001 | SIR industrial cleaning / water jetting | National scheme | SIR (NL) | Overview only | Public-summary | `references/standards/00_Global_Standards_Overview.md` | Ch13 | MCR-030 | 16 Jul 2026 |
 | SRC-EWJI-001 | EWJI harmonisation | Industry body | EWJI | Overview only | Public-summary | `references/standards/00_Global_Standards_Overview.md` | Ch13 | — | 16 Jul 2026 |
@@ -36,12 +39,15 @@
 
 | ID | Title | Type | Owner | Rev / Date | Access | Path in repo | Linked sections | Linked MCR | Last verified |
 |----|-------|------|-------|------------|--------|--------------|-----------------|------------|---------------|
-| SRC-IMCA-D049 | IMCA D049 HP jetting by divers | Recommended practice | IMCA | Rev 1.2 Nov 2023 | **Member** | Research package notes only | Sec23 | MCR-053–060 | Partial public |
-| SRC-IMCA-SF1820 | SF 18/20 Serious injury HP washer | Safety flash | IMCA | 12 Jun 2020 | Public | Cited in Sec23 + research | Sec23, Sec25 | MCR-057 | 16 Jul 2026 |
-| SRC-IMCA-SF0917 | SF 09/17 Leg injury HP water jetting | Safety flash | IMCA | 2017 | Public | Cited in Sec23 | Sec23 | MCR-055 | 16 Jul 2026 |
-| SRC-IMCA-SF0315 | SF 03/15 Diver water jetting injury | Safety flash | IMCA | 2015 | Public | Cited in Sec23 | Sec23 | MCR-053 | 16 Jul 2026 |
-| SRC-IMCA-SF0607 | SF 06/07 Cavitation blaster injury | Safety flash | IMCA | 2007 | Public / D049 extract | Cited in Sec23 | Sec23 | MCR-060 | 16 Jul 2026 |
-| SRC-IMCA-SF1518 | SF 15/18 LTI diver water jetting | Safety flash | IMCA | 2018 | Public | Cited in Sec23 research | Sec23 | — | 16 Jul 2026 |
+| SRC-IMCA-D049 | IMCA D049 HP jetting by divers | Recommended practice | IMCA | Rev 1.2 Nov 2023 | **Member** (landing public) | https://www.imca-int.com/resources/technical-library/document/96325a5b-c55b-ee11-8def-6045bdc208e3/ + RP-IMCA | Sec23 | MCR-053–060 | 28 Jul 2026 |
+| SRC-IMCA-SF1820 | SF 18/20 Serious injury HP washer | Safety flash | IMCA | 12 Jun 2020 | Public | https://www.imca-int.com/resources/safety/safety-flashes/1820-serious-injury-caused-by-high-pressure-washer/ | Sec23, Sec25 | MCR-057 | 28 Jul 2026 |
+| SRC-IMCA-SF0917 | SF 09/17 Leg injury HP water jetting | Safety flash | IMCA | 3 May 2017 | Public | https://www.imca-int.com/resources/safety/safety-flashes/0917-lti-leg-injury-caused-during-high-pressure-hp-water-jetting/ | Sec23 | MCR-055 | 28 Jul 2026 |
+| SRC-IMCA-SF0315 | SF 03/15 Diver water jetting injury | Safety flash | IMCA | 3 Mar 2015 | Public | https://www.imca-int.com/resources/safety/safety-flashes/0315-diver-sustains-water-jetting-injury/ | Sec23 | MCR-053 | 28 Jul 2026 |
+| SRC-IMCA-SF0607 | SF 06/07 Cavitation blaster injury | Safety flash | IMCA | 2007 | Public / D049 extract | Cited in Sec23 + D049 App 5 | Sec23 | MCR-060 | 28 Jul 2026 |
+| SRC-IMCA-SF1518 | SF 15/18 LTI diver water jetting | Safety flash | IMCA | 20 Jul 2018 | Public | https://www.imca-int.com/resources/safety/safety-flashes/1518-lti-diver-injured-during-water-jetting-operations/ | Sec23 | — | 28 Jul 2026 |
+| SRC-IMCA-SF0511 | SF 05/11 Diver safety HP water jetting | Safety flash | IMCA | 29 Jun 2011 | Public | https://www.imca-int.com/resources/safety/safety-flashes/0511-diver-safety-high-pressure-water-jetting/ | Sec23 | MCR-053+ | 28 Jul 2026 |
+| SRC-IMCA-SF0711 | SF 07/11 Failure of subsea HP jetting gun | Safety flash | IMCA | 19 Jul 2011 | Public | https://www.imca-int.com/resources/safety/safety-flashes/0711-injury-failure-of-subsea-hp-water-jetting-gun/ | Sec23, Sec20 | — | 28 Jul 2026 |
+| SRC-IMCA-SF3320 | SF 33/20 UK HSE fatal HPWJ pointer | Safety flash | IMCA / HSE | 6 Dec 2020 | Public | https://www.imca-int.com/resources/safety/safety-flashes/3320-uk-hse-fatal-incident-using-high-pressure-water-jetting-equipment/ | Sec25, Ch9 | — | 28 Jul 2026 |
 | SRC-DMAC-HPWJ | DMAC HP water jet accident guidance | Medical | DMAC | Via D049 App 1 | Public via refs | Cited in Sec23 | Sec23, Ch10 | MCR-058 | Partial |
 
 ---
@@ -50,8 +56,8 @@
 
 | ID | Title | Type | Owner | Rev / Date | Access | Path in repo | Linked sections | Linked MCR | Last verified |
 |----|-------|------|-------|------------|--------|--------------|-----------------|------------|---------------|
-| SRC-PHYS-RF | Reaction force industry formula (imperial 0.052) | Formula lineage | WJTA-IMCA conference paper lineage (cited Sec16) | — | Secondary + derivation | `docs/16_Physics_and_Hydraulics.md` | Sec16, App C | MCR-016, 017 | 16 Jul 2026 (audit) |
-| SRC-PHYS-RF-M | Metric constant 0.233 from imperial | First-principles conversion | Encyclopedia dual-model | 16 Jul 2026 | Derived | Sec16, MCR-017, App C, templates | Sec16, Sec23 | MCR-017 | Closed audit + AUDIT-004 |
+| SRC-PHYS-RF | Reaction force industry formula (imperial 0.052) | Formula lineage | **D. Wright, StoneAge — Impact Force of High Pressure Waterjets**, 2013 WJTA-IMCA Conference (Eq. 1; same as reaction force) | 2013 | **Public PDF** | https://www.wjta.org/images/wjta/Proceedings/Papers/2013/C1%20-%20DW%20Impact.pdf + `docs/research/packages/RP-PHYS/PUBLIC_HARVEST.md` | Sec16, App C | MCR-016, 017 | 28 Jul 2026 harvest |
+| SRC-PHYS-RF-M | Metric constant 0.233 from imperial | First-principles conversion | Encyclopedia dual-model | 16 Jul 2026 / re-check 28 Jul 2026 | Derived | Sec16, MCR-017, App C, templates | Sec16, Sec23 | MCR-017 | Closed audit + AUDIT-004; T1 re-derive k=0.232711 |
 | SRC-PHYS-V | Jet velocity / Bernoulli √(2P/ρ) | First principles | Textbook fluid mechanics | — | Derived | Sec16 | Sec16 | — | 16 Jul 2026 audit |
 | SRC-AUDIT-861 | Full numeric truth audit | Audit record | Grok+Claude | Closed 16 Jul 2026 | Internal process | `docs/audit/TRUTH_AUDIT_v8.6.1.md` | All numeric | MCR-017 etc. | 16 Jul 2026 |
 

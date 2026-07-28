@@ -1,14 +1,20 @@
 # CHANGELOG
 
-## draft/campaign-max-truth-training – 28 July 2026 (Campaign scaffold — not yet merged)
+## draft/campaign-max-truth-training – 28 July 2026 (Campaign — not yet merged)
 
-### Campaign open: Max Data → Organize → Max Truth → Training
-- Branch `draft/campaign-max-truth-training` opened.
-- `docs/audit/campaign/CAMPAIGN_LOG.md` + `TRUTH_CAMPAIGN_v9.md` (stub) added.
-- Research inventories: `MASTER_SOURCE_INVENTORY.md`, `INTERNAL_GAP_REGISTER.md`, `MCR_RESTATEMENT_MAP.md` (high-risk restatement stub).
-- Nine research package stubs under `docs/research/packages/RP-*/` (PHYS, STD, OPS, INJ, INC, MFG, IMCA, ENV, TRN).
-- Status-drift cleanup: Ch13 MCR row count 52→65; WORKFLOW/PROCESS priority queues updated; README + structure note active campaign; Appendix E letter noted as unused.
-- **No new MCR rows. No training pack files. No formula changes.** Training packs blocked until Phase 3 human freeze.
+### Slice A — Campaign scaffold
+- Branch `draft/campaign-max-truth-training` opened and pushed.
+- Inventories + nine RP-* package stubs; status-drift cleanup (Ch13 52→65 rows; process queues).
+
+### Slice B — Public harvest + truth campaign start
+- `RP-PHYS/PUBLIC_HARVEST.md`: pinned imperial 0.052 to **D. Wright, StoneAge, 2013 WJTA-IMCA** public PDF (Eq. 1 = reaction force formula).
+- Metric constant independently re-derived: **0.232711 → operational 0.233** (T1 Pass); no live operational `0.745`.
+- `RP-STD/PUBLIC_HARVEST.md`: WJTA FT/FV (19HBFT/19HBFV); WJA Black Code + training/medical algorithm URLs.
+- `RP-INJ/PUBLIC_HARVEST.md`: StatPearls NBK542210 + training caution (field emergency still mandatory for water injections).
+- `RP-INC` + `RP-IMCA` PUBLIC_HARVEST: IMCA SF stable URL table (18/20, 09/17, 03/15, 15/18, 05/11, 07/11, 33/20).
+- `TRUTH_CAMPAIGN_v9.md` moved from stub to **in progress**.
+- Master source inventory updated with public URLs.
+- **No new MCR rows. No training pack files. No formula changes.** Freeze still requires T3 + Claude + human.
 
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 
