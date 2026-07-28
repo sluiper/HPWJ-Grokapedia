@@ -125,3 +125,9 @@
 ### 28 July 2026 — SUP pack (user “go”)
 - Built `training/ATC-HPWJ-SUP/` Level 4 two-day pack (Ch12 four gates).
 - PR #1 updated via push; still do not merge until human pilot/freeze approval.
+
+### 28 July 2026 — MERGED TO MAIN
+- Human directed **“merge”**.
+- PR #1 merged: https://github.com/sluiper/HPWJ-Grokapedia/pull/1  
+- Merge commit on main: `afdcbc3`  
+- Training freeze treated as **authorized for pilot use on main** by human merge decision.
