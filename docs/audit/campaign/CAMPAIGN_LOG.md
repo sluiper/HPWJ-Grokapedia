@@ -15,7 +15,7 @@
 | 1 | Max data collection | **Strong progress** | Inventories + 9 RP stubs + PUBLIC_HARVEST for PHYS/STD/INJ/INC/IMCA |
 | 2 | Organize data | **Partial** | Restatement map + drift cleanup; inventories updated with public URLs |
 | 3 | Max truth | **Near freeze** | T1 high-risk PASS; T3 freeze-set PASS; need Claude + human freeze |
-| 4 | Training material | **Blocked until Phase 3 freeze** | First pack: ATC-HPWJ-OP-001 |
+| 4 | Training material | **In progress** | ATC-HPWJ-OP-001 pack under `training/` (provisional freeze) |
 
 ---
 
@@ -27,7 +27,7 @@
 | 28 July 2026 | Public collection proceeds without waiting on INTERNAL GAPs | Default (plan) |
 | 28 July 2026 | First training pack = ATC-HPWJ-OP-001 only | Default (plan) |
 | 28 July 2026 | No hard-coded training constants until human freeze after Phase 3 | Process + plan |
-| — | Numeric + control freeze for OP-001 authorized | **Pending human** |
+| 28 July 2026 | User directed **“go”** after T1 near-freeze report → proceed Phase 4 OP-001 pack on draft branch; freeze treated as **provisional for pilot pack build** (Claude formal report still welcome) | Human direction in session |
 
 ---
 
@@ -74,9 +74,10 @@
 - [ ] Human freeze recorded here
 
 ### Phase 4
-- [ ] `training/ATC-HPWJ-OP-001/` full pack
-- [ ] Cite-MCR-only verified
+- [x] `training/ATC-HPWJ-OP-001/` full pack (0.1-draft)
+- [x] Cite-MCR-only design (RF via MCR-017; thresholds by MCR-ID)
 - [ ] Human pilot approval
+- [ ] Claude pack drift check (recommended)
 
 ---
 
@@ -109,3 +110,9 @@
 - Sec23 seawater +2.5% PASS under stated assumption.
 - Freeze-candidate MCR restatements (046–052, 016/017) consistent.
 - **Ready for Claude review + human freeze** before OP-001 training pack.
+
+### 28 July 2026 — Phase 4 OP-001 pack (user “go”)
+- Provisional freeze for pilot pack build.
+- Created full `training/ATC-HPWJ-OP-001/` pack: README, course spec, trainer guide, workbook, practical checklist, exam bank, assessment/cert, equipment list.
+- Hard rules: no free-floating RF constants; cite MCR-017 / MCR rows.
+- Pilot approval + optional Claude pack review still open before main merge.

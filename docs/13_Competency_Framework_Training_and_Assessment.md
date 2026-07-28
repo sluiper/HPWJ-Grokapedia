@@ -203,6 +203,8 @@ Every training product (3-day Basic, Supervisor, 1-day method attachments, Aware
 
 This pack structure is what we will use next for Supervisor and then for each 1-day method attachment.
 
+**OP-001 pack location (draft):** `training/ATC-HPWJ-OP-001/` — course specification, trainer guide, student workbook, practical checklist, theory exam bank, assessment/certificate templates, and equipment list. Living rule: after any MCR change, review that pack within 30 days.
+
 ---
 
 ## 13.7 Assessment, Records, VOC & Continuous Competence

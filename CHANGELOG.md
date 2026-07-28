@@ -17,7 +17,12 @@
 - Section 23 seawater density factor +2.5% re-checked PASS.
 - T3 freeze-candidate restatements (MCR-016/017, 046–052) consistent across MCR, OPS summary, Ch11–13, apps, templates.
 - Run log: `docs/audit/campaign/T1_T3_RUN_2026-07-28.md`.
-- **No AUDIT-005. No new MCR. No training packs.** Awaiting Claude report + human freeze before Phase 4.
+- **No AUDIT-005. No new MCR.**
+
+### Slice D — Phase 4 ATC-HPWJ-OP-001 training pack (0.1-draft)
+- Full pack under `training/ATC-HPWJ-OP-001/`: course spec, trainer guide, student workbook, 15-item practical checklist with rubrics, theory exam bank (MCR-mapped, RF via MCR-017 lookup), assessment/certificate templates, equipment & PPE list.
+- Build rules enforced: cite MCR; no free-floating formula constants.
+- Provisional freeze for pilot build (user directed “go”); main merge still needs human pilot approval.
 
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 

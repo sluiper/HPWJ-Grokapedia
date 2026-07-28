@@ -75,9 +75,9 @@ Legacy closed: AUDIT-001–004.
 | 4 | Human confirms GAP-004 (OPS extract fidelity) | **Pending human** |
 | 5 | Human freeze sentence in CAMPAIGN_LOG | **Pending human** |
 
-**Human freeze:** _Pending_
+**Human freeze:** _Provisional_ — user directed “go” 28 July 2026 to build OP-001 pack after T1 near-complete. Formal Claude report still recommended before main merge.
 
-Suggested freeze sentence (when ready):
+Suggested formal freeze sentence (when ready for main):
 
 > “Numeric + control freeze for ATC-HPWJ-OP-001 is authorized against MCR-016, 017, 046–052 and the high-priority RPN set as of commit _____ on draft/campaign-max-truth-training.”
 
