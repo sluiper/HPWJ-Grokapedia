@@ -7,14 +7,17 @@
 - Inventories + nine RP-* package stubs; status-drift cleanup (Ch13 52→65 rows; process queues).
 
 ### Slice B — Public harvest + truth campaign start
-- `RP-PHYS/PUBLIC_HARVEST.md`: pinned imperial 0.052 to **D. Wright, StoneAge, 2013 WJTA-IMCA** public PDF (Eq. 1 = reaction force formula).
-- Metric constant independently re-derived: **0.232711 → operational 0.233** (T1 Pass); no live operational `0.745`.
-- `RP-STD/PUBLIC_HARVEST.md`: WJTA FT/FV (19HBFT/19HBFV); WJA Black Code + training/medical algorithm URLs.
-- `RP-INJ/PUBLIC_HARVEST.md`: StatPearls NBK542210 + training caution (field emergency still mandatory for water injections).
-- `RP-INC` + `RP-IMCA` PUBLIC_HARVEST: IMCA SF stable URL table (18/20, 09/17, 03/15, 15/18, 05/11, 07/11, 33/20).
-- `TRUTH_CAMPAIGN_v9.md` moved from stub to **in progress**.
-- Master source inventory updated with public URLs.
-- **No new MCR rows. No training pack files. No formula changes.** Freeze still requires T3 + Claude + human.
+- Pinned imperial 0.052 to **D. Wright, StoneAge, 2013 WJTA-IMCA** public PDF; metric re-derive 0.232711→0.233.
+- Public harvest packages: PHYS, STD, INJ, INC, IMCA.
+
+### Slice C — T1 complete for high-risk set + T3 freeze samples
+- Appendix C: all **42 imperial + 36 metric** cells re-derived **PASS**.
+- Section 20: all **17** explicit S×L×D→RPN lines **PASS**.
+- Section 17 Ex2: full arithmetic shown (68.06 L/min / 11 020 psi vs rounded 68 / 11 030); Appendix A aligned.
+- Section 23 seawater density factor +2.5% re-checked PASS.
+- T3 freeze-candidate restatements (MCR-016/017, 046–052) consistent across MCR, OPS summary, Ch11–13, apps, templates.
+- Run log: `docs/audit/campaign/T1_T3_RUN_2026-07-28.md`.
+- **No AUDIT-005. No new MCR. No training packs.** Awaiting Claude report + human freeze before Phase 4.
 
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 

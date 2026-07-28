@@ -26,7 +26,7 @@ For fixed RPM and power:
 
 **Worked Example 2 – Increase flow**  
 12 mm → 14 mm plungers, was 15 000 psi @ 50 L/min  
-→ New Flow ≈ 68 L/min, New Pressure ≈ 11 030 psi
+→ New Flow ≈ 68.06 L/min (≈ 68 L/min with intermediate 1.36), New Pressure ≈ **11 020 psi** (or ≈ **11 030 psi** if using rounded 68 L/min — see Sec17 full work)
 
 Always re-verify component ratings and rupture disc after change.
 

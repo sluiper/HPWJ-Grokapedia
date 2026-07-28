@@ -1,110 +1,85 @@
 # Truth Campaign v9 — Broader than Arithmetic Audit
 
-**Status:** **IN PROGRESS** (Phase 3 started 28 July 2026)  
+**Status:** **IN PROGRESS** — T1 substantially complete; freeze **not** authorized  
 **Branch:** `draft/campaign-max-truth-training`  
 **Opened:** 28 July 2026  
-**Predecessor:** `docs/audit/TRUTH_AUDIT_v8.6.1.md` (arithmetic **closed**; AUDIT-001–004 closed)
+**Detail run log:** `T1_T3_RUN_2026-07-28.md`  
+**Predecessor:** `docs/audit/TRUTH_AUDIT_v8.6.1.md` (arithmetic closed; AUDIT-001–004 closed)
 
 ---
 
-## Scope
+## Track status
 
-| Track | Focus | Method | Status |
-|-------|-------|--------|--------|
-| **T1 Arithmetic** | Derived formulas/tables | Independent re-derivation + restatement search | **Partial — RF constant class Pass** |
-| **T2 Citation fidelity** | High-priority MCR + Never Rules + OPS numbers | Source exists? Matches? | **Partial — RF formula primary cite pinned** |
-| **T3 Consistency** | Same rule, different wording | Diff vs MCR; use `MCR_RESTATEMENT_MAP.md` | Pending deep wording pass |
+| Track | Focus | Status |
+|-------|-------|--------|
+| **T1 Arithmetic** | Derived formulas/tables | **Substantially complete — all high-risk checks PASS** |
+| **T2 Citation fidelity** | Primary sources for freeze numbers | **RF formula pinned; OPS/SABIC extract fidelity = human GAP-004** |
+| **T3 Consistency** | Restatement vs MCR | **Freeze-candidate set PASS on samples; full map optional** |
 
 ---
 
-## T1 results (28 July 2026)
+## T1 summary (28 July 2026)
 
-### MCR-017 metric constant
-
-| Step | Result |
+| Item | Result |
 |------|--------|
-| Re-derive from imperial 0.052 with exact unit factors | **k = 0.232711** → operational **0.233** |
-| Match Sec16 shown derivation | Pass |
-| Repo grep live operational `0.745` (excluding historical notes) | **Zero live uses** — only CHANGELOG/audit/history |
-| Live `0.233` present at canonical + App C + template + Sec16 + Sec23 | Pass |
-
-**Primary public citation for imperial 0.052:**  
-D. Wright (StoneAge), *Impact Force of High Pressure Waterjets*, 2013 WJTA-IMCA Conference, Equation 1 — public PDF  
-https://www.wjta.org/images/wjta/Proceedings/Papers/2013/C1%20-%20DW%20Impact.pdf  
-See `docs/research/packages/RP-PHYS/PUBLIC_HARVEST.md`.
-
-### Jet velocity table (ideal √(2P/ρ), ρ=1000 kg/m³, Cd=1)
-
-| psi | Claimed (Sec16) | Re-derived | Delta |
-|-----|-----------------|------------|-------|
-| 10 000 | 371 m/s | 371.3 | 0.3 |
-| 15 000 | 455 m/s | 454.8 | 0.2 |
-| 20 000 | 525 m/s | 525.2 | 0.2 |
-| 40 000 | 743 m/s | 742.7 | 0.3 |
-
-**T1 Pass** (rounding only).
-
-### RF worked example consistency
-
-6 GPM @ 15 000 psi → Fr ≈ 38.2 lbf ≈ 170 N (imperial path).  
-Metric path 0.233 × Q_L/min × √P_bar → ≈ 170.2 N. **Pass** (paths agree within 0.2 N).
-
-### Still open on T1
-
-- [ ] Appendix C every table cell full re-spot-check
-- [ ] Sec17 plunger-change examples
-- [ ] Sec20 all RPN multiplications
-- [ ] Sec23 seawater density / underwater RF narrative numbers
+| MCR-017 metric k = 0.232711 → 0.233 | PASS |
+| Live operational 0.745 | **None** (historical notes only) |
+| Sec16 jet velocity 371/455/525/743 | PASS (≤0.3 m/s) |
+| Appendix C imperial 42 cells | PASS |
+| Appendix C metric 36 cells | PASS |
+| Appendix C worked examples | PASS |
+| Sec17 Ex1 plunger | PASS exact |
+| Sec17 Ex2 plunger | Intermediate-rounding clarified (not a formula defect) |
+| App A Ex2 aligned to Sec17 | Done |
+| Sec20 all 17 S×L×D → RPN | PASS 17/17 |
+| Sec23 seawater +2.5% @ ρ=1025 | PASS under stated assumption |
+| Wright 2013 public PDF for 0.052 | Pinned in Sec16 + RP-PHYS |
 
 ---
 
-## T2 results (28 July 2026)
+## T2 summary
 
-| Claim family | Primary source now | Status |
-|--------------|-------------------|--------|
-| Imperial RF 0.052 | Wright 2013 public PDF | **Pinned** |
+| Claim family | Primary source | Status |
+|--------------|----------------|--------|
+| Imperial RF 0.052 | Wright 2013 WJTA-IMCA public PDF | Pinned |
 | Metric 0.233 | Derived from imperial | Pass |
-| MCR-046–052 Anabeeb absolutes | OPS-P-019 summary in repo | Pending human GAP-004 fidelity check |
-| IMCA SF 18/20 lessons | Public IMCA page | URL verified; maps MCR-057 |
-| Injection injury clinical | StatPearls NBK542210 | URL verified — training caution logged |
-| WJTA FT/FV structure | WJTA public pages | Verified for training design only |
+| MCR-046–052 | OPS-P-019 summary in repo | **Pending human GAP-004** |
+| IMCA SF 18/20 etc. | Public IMCA URLs | Verified |
+| Injection clinical | StatPearls NBK542210 | Verified |
 
 ---
 
-## T3 results (sample — freeze candidates)
+## T3 summary (freeze candidates)
 
-| Control | Sample files checked | Result |
-|---------|---------------------|--------|
-| MCR-050 (10k / 1.6 mm / 250 N) | MCR, OPS summary, Ch12, Ch13 | **Consistent** |
-| MCR-047 (team of 3) | MCR, OPS summary, Ch13 | **Consistent** |
-| MCR-051 (10 m unauthorised) | MCR, App D, App G, Ch13, Ch5 bands | **Consistent** (bands vs absolute rule correctly distinguished) |
-| MCR-017 constant | Canonical + App C + template + Sec16 + Sec23 | **0.233 live; 0.745 historical only** |
-
-Full prose wording-diff across all chapters still open; freeze-candidate set looks clean on samples.
-
-Restatement map: `docs/research/inventory/MCR_RESTATEMENT_MAP.md`.
+MCR-016/017, 046, 047, 048, 050, 051, 052 — restatement samples across MCR, OPS summary, Ch11–13, App C/D/G/J, templates: **consistent**. No soft conflicts found that change operational meaning.
 
 ---
 
-## Defect table (new findings start at AUDIT-005)
+## Defect table
 
 | ID | Location | Description | Severity | Status |
 |----|----------|-------------|----------|--------|
-| — | — | No new arithmetic defects found in RF class re-check | — | — |
+| — | — | No new arithmetic defects this campaign | — | — |
 
-Legacy closed: AUDIT-001–004 (metric RF 0.745 class).
+Legacy closed: AUDIT-001–004.
 
 ---
 
-## Safe-to-freeze statement (training)
+## Safe-to-freeze checklist (ATC-HPWJ-OP-001)
 
-> Numeric + control freeze for ATC-HPWJ-OP-001 is **not** authorized until:
-> 1. T1–T3 complete for freeze-candidate MCR set (016, 017, 046–052, high-priority RPN set, hose life MCR-001–004 as used in OP-001)
-> 2. Claude Verification Report on this branch
-> 3. Explicit human sign-off in `CAMPAIGN_LOG.md`
-> 4. Recommended: human confirms GAP-004 (OPS-P-019 extract = controlled copy for 046–052)
+| # | Criterion | Status |
+|---|-----------|--------|
+| 1 | T1 high-risk arithmetic PASS | **Done** |
+| 2 | T3 freeze-candidate restatements clean | **Done (sample + greps)** |
+| 3 | Claude Verification Report on branch | **Pending** |
+| 4 | Human confirms GAP-004 (OPS extract fidelity) | **Pending human** |
+| 5 | Human freeze sentence in CAMPAIGN_LOG | **Pending human** |
 
 **Human freeze:** _Pending_
+
+Suggested freeze sentence (when ready):
+
+> “Numeric + control freeze for ATC-HPWJ-OP-001 is authorized against MCR-016, 017, 046–052 and the high-priority RPN set as of commit _____ on draft/campaign-max-truth-training.”
 
 ---
 
@@ -112,8 +87,7 @@ Legacy closed: AUDIT-001–004 (metric RF 0.745 class).
 
 | Date | Action |
 |------|--------|
-| 28 Jul 2026 | Stub created; restatement map populated for high-risk IDs |
-| 28 Jul 2026 | Public harvest: Wright 2013, WJTA FT/FV, WJA Black Code, IMCA SF URLs, StatPearls |
-| 28 Jul 2026 | T1 RF metric re-derive Pass; 0.745 live-use Pass |
-| 28 Jul 2026 | T1 jet velocity table Pass; RF imperial/metric worked example Pass |
-| 28 Jul 2026 | T3 sample pass on MCR-047/050/051/017 freeze candidates |
+| 28 Jul 2026 | Campaign open; inventories; public harvest |
+| 28 Jul 2026 | Wright 2013 cite; RF metric re-derive; velocity Pass |
+| 28 Jul 2026 | App C 78 cells Pass; Sec20 17 RPNs Pass; Sec17 Ex2 clarified; App A aligned |
+| 28 Jul 2026 | T1_T3_RUN log written |

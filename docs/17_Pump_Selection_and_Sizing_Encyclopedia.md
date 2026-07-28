@@ -38,8 +38,10 @@ Change to 12 mm plungers.
 Current: 12 mm plungers delivering 15 000 psi at 50 L/min.  
 Change to 14 mm plungers.
 
-- New Flow ≈ 50 × (14/12)² = 50 × 1.36 ≈ **68 L/min**
-- New Pressure ≈ 15 000 × (50 / 68) ≈ **11 030 psi**
+- (14/12)² = 1.3611…  
+- New Flow ≈ 50 × 1.3611… = **68.06 L/min** (≈ **68 L/min** if intermediate rounded to 1.36)  
+- New Pressure ≈ 15 000 × (50 / 68.06) ≈ **11 020 psi**  
+  (Using rounded flow 68 L/min: 15 000 × 50/68 ≈ **11 029 psi** ≈ **11 030 psi** — intermediate-rounding only; not a different formula.)
 
 **Always** re-verify hose, fitting, and rupture-disc ratings after any plunger change (MCR-015). Cross-check final numbers against the specific pump manufacturer’s performance data or software.
 
@@ -90,7 +92,7 @@ Before the unit is released to the field:
 
 | Claim | Status |
 |-------|--------|
-| Plunger diameter / flow / pressure relationships | Taken verbatim from existing Chapter 7 worked examples |
+| Plunger diameter / flow / pressure relationships | Taken from Chapter 7; Ex2 intermediate-rounding made explicit (v9 truth campaign 28 Jul 2026) |
 | Power formula | Same as already verified in Section 16 / Chapter 7 |
 | Application selection table | Synthesis of Chapter 7 examples only |
 | Manufacturer notes | Drawn only from existing manufacturer summaries and Ch7 |

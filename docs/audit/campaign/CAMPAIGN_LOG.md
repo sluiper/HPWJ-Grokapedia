@@ -14,7 +14,7 @@
 | 0 | Setup / scaffold | **Done (branch)** | Log + inventory dirs + research package stubs |
 | 1 | Max data collection | **Strong progress** | Inventories + 9 RP stubs + PUBLIC_HARVEST for PHYS/STD/INJ/INC/IMCA |
 | 2 | Organize data | **Partial** | Restatement map + drift cleanup; inventories updated with public URLs |
-| 3 | Max truth | **Started** | T1 RF class Pass; T2 primary cites pinned; T3 wording pass pending |
+| 3 | Max truth | **Near freeze** | T1 high-risk PASS; T3 freeze-set PASS; need Claude + human freeze |
 | 4 | Training material | **Blocked until Phase 3 freeze** | First pack: ATC-HPWJ-OP-001 |
 
 ---
@@ -66,9 +66,11 @@
 - [ ] Section health sheet (optional, later)
 
 ### Phase 3
-- [ ] TRUTH_CAMPAIGN_v9.md
+- [x] TRUTH_CAMPAIGN_v9.md (in progress / near freeze)
+- [x] T1 high-risk arithmetic (App C, Sec16/17/20/23 RF class) — see T1_T3_RUN_2026-07-28.md
+- [x] T3 freeze-candidate restatement samples
 - [ ] Claude Verification Report
-- [ ] No open P0
+- [x] No open P0 / no AUDIT-005
 - [ ] Human freeze recorded here
 
 ### Phase 4
@@ -99,3 +101,11 @@
 - Public harvest: Wright 2013 RF Eq.1 PDF; WJTA FT/FV; WJA Black Code + medical algorithm URL; StatPearls NBK542210; IMCA SF URL table expanded.
 - T1: metric k re-derived **0.232711 → 0.233**; no live operational `0.745`.
 - No MCR changes; freeze still pending human.
+
+### 28 July 2026 — Full T1 high-risk + T3 freeze-set
+- App C: **78/78** table cells PASS; worked examples PASS.
+- Sec20: **17/17** RPN multiplications PASS.
+- Sec17 Ex2 intermediate-rounding clarified; App A aligned.
+- Sec23 seawater +2.5% PASS under stated assumption.
+- Freeze-candidate MCR restatements (046–052, 016/017) consistent.
+- **Ready for Claude review + human freeze** before OP-001 training pack.
