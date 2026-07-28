@@ -1,6 +1,15 @@
 # CHANGELOG
 
-## draft/max-data-web-stack – 28 July 2026 (public max-data harvest)
+## draft/max-stack-continue – 28 July 2026
+
+### Max stack build (items 1–4)
+- Merged PR #2 (global public stack) to main.
+- Sec21 matrix expanded: AU Class A/B **bar·L/min** comparison + worked energy-product examples; competency/ops/medical rows densified.
+- Deeper public harvest: OEM (Hammelmann medical PDFs, Jetstream safety manual RF language), EWJI/SIR/DIRV notes, medical OEM expansion.
+- **ATC-HPWJ-UHP** Level 3 training pack (MCR-034 / App J) under `training/ATC-HPWJ-UHP/`.
+- No new MCR rows; RF still cite-only via MCR-017.
+
+## draft/max-data-web-stack – 28 July 2026 (merged PR #2)
 
 ### Global stack expansion (public web only)
 - `docs/research/inventory/GLOBAL_STACK_PUBLIC_SOURCES.md` — world map of WJTA / WJA / AS-NZS / SWA / IMCA / SIR / OSHA public sources.
