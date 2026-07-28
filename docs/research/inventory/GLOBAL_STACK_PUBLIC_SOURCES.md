@@ -181,3 +181,17 @@ Public harvest **does not wait** on these — inventories grow; encyclopedia rul
 | Class A/B numbers attributed to public WorkSafe VIC / secondary AU | Pass |
 | WJTA 3rd ed 2026 edition fact from WJTA safety page | Pass |
 | Links stored for re-fetch | Pass |
+
+---
+
+## 8. Continuation harvest — 28 July 2026 (OEM / EU / medical / Sec21)
+
+| Stream | Deliverable |
+|--------|-------------|
+| Sec21 matrix | Expanded v8.0 with AU Class A/B energy product rows + worked bar·L/min examples |
+| OEM | `RP-MFG/PUBLIC_HARVEST.md` — Hammelmann safety/medical PDFs; Jetstream safety manual (~50 lbf / 1/3 BW aligns MCR-016); StoneAge/NLB pointers |
+| Medical | `RP-INJ/PUBLIC_HARVEST_OEM_MEDICAL.md` — association + OEM doctor cards |
+| EU | `RP-STD/EU_EWJI_DIRV_NOTES.md` — EWJI guide pointer; SIR; DIRV gap |
+| Training | `training/ATC-HPWJ-UHP/` Level 3 pack (MCR-034 / App J) |
+
+Jetstream public manual states manual gun thrust often limited ~50 lbf or 1/3 body weight — same control family as MCR-016 (≤250 N ≈ 56 lbf + 1/3 BW + geometry).

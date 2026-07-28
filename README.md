@@ -58,6 +58,7 @@ A full dual-model numeric truth audit was executed and formally closed. It found
 See `training/README.md`.  
 - **ATC-HPWJ-OP-001** — 3-Day Core Operator (Forms A/B exams)  
 - **ATC-HPWJ-SUP** — 2-Day Supervisor / Team Leader (Level 4)  
+- **ATC-HPWJ-UHP** — 1–2 Day UHP / creeping hose (Level 3)  
 - **ATC-HPWJ-AWARE** — ½-day site awareness  
 - **ATC-HPWJ-VOC** — 1-day verification of competency  
 

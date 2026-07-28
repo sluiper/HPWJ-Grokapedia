@@ -206,6 +206,7 @@ This pack structure is what we will use next for Supervisor and then for each 1-
 **Training pack locations (draft):**  
 - `training/ATC-HPWJ-OP-001/` — Level 2 Operator (3-day)  
 - `training/ATC-HPWJ-SUP/` — Level 4 Supervisor (2-day, Ch12 packaging)  
+- `training/ATC-HPWJ-UHP/` — Level 3 UHP / creeping hose (1–2 day, MCR-034)  
 - `training/ATC-HPWJ-AWARE/` — site awareness (½-day)  
 - `training/ATC-HPWJ-VOC/` — VOC / refresher (1-day)  
 - Index: `training/README.md`  
