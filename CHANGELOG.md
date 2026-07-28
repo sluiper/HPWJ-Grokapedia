@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## draft/campaign-max-truth-training – 28 July 2026 (Campaign — not yet merged)
+
+### Slice A — Campaign scaffold
+- Branch `draft/campaign-max-truth-training` opened and pushed.
+- Inventories + nine RP-* package stubs; status-drift cleanup (Ch13 52→65 rows; process queues).
+
+### Slice B — Public harvest + truth campaign start
+- Pinned imperial 0.052 to **D. Wright, StoneAge, 2013 WJTA-IMCA** public PDF; metric re-derive 0.232711→0.233.
+- Public harvest packages: PHYS, STD, INJ, INC, IMCA.
+
+### Slice C — T1 complete for high-risk set + T3 freeze samples
+- Appendix C: all **42 imperial + 36 metric** cells re-derived **PASS**.
+- Section 20: all **17** explicit S×L×D→RPN lines **PASS**.
+- Section 17 Ex2: full arithmetic shown (68.06 L/min / 11 020 psi vs rounded 68 / 11 030); Appendix A aligned.
+- Section 23 seawater density factor +2.5% re-checked PASS.
+- T3 freeze-candidate restatements (MCR-016/017, 046–052) consistent across MCR, OPS summary, Ch11–13, apps, templates.
+- Run log: `docs/audit/campaign/T1_T3_RUN_2026-07-28.md`.
+- **No AUDIT-005. No new MCR.**
+
+### Slice D — Phase 4 ATC-HPWJ-OP-001 training pack (0.1-draft)
+- Full pack under `training/ATC-HPWJ-OP-001/`: course spec, trainer guide, student workbook, 15-item practical checklist with rubrics, theory exam bank (MCR-mapped, RF via MCR-017 lookup), assessment/certificate templates, equipment & PPE list.
+- Build rules enforced: cite MCR; no free-floating formula constants.
+- Provisional freeze for pilot build (user directed “go”); main merge still needs human pilot approval.
+
+### Slice E — AWARE + VOC packs; OP-001 polish; PR
+- `training/ATC-HPWJ-AWARE/` — ½-day site awareness (EN/AR headings, quiz, attendance).
+- `training/ATC-HPWJ-VOC/` — 1-day VOC/refresher (reassessment checklist, short theory, record).
+- OP-001 **0.2-draft**: printable Exam Forms A/B + assessor answer keys; bilingual EN/AR headings on key files.
+- `training/README.md` index.
+- PR #1 opened: https://github.com/sluiper/HPWJ-Grokapedia/pull/1
+
+### Slice F — ATC-HPWJ-SUP (Level 4 Supervisor)
+- Full 2-day pack: `training/ATC-HPWJ-SUP/` (four Pre-Job Gates, leadership practical checklist, theory exam, assessment record).
+- Based on Chapter 12 + MCR-036/041/047–052; RF still via MCR-017 only.
+
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 
 ### Critical

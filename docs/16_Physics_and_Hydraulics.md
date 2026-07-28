@@ -113,7 +113,7 @@ Typical HPWJ hose flows are highly turbulent (Re ≫ 4000). This confirms that l
 
 ## 16.6 Reaction Force (Verified Formula + Consistent Worked Example)
 
-**Industry formula (confirmed against WJTA-IMCA conference paper):**
+**Industry formula [CITATION]:** D. Wright (StoneAge), *Impact Force of High Pressure Waterjets*, 2013 WJTA-IMCA Conference and Expo (Houston), Equation 1 — public PDF: `https://www.wjta.org/images/wjta/Proceedings/Papers/2013/C1%20-%20DW%20Impact.pdf`. The paper states this is the same equation used for waterjet **reaction force**:
 
 $$ F_r \ (\text{lbf}) \approx 0.052 \times Q\ (\text{GPM}) \times \sqrt{P\ (\text{psi})} $$
 

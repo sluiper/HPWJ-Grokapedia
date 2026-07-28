@@ -3,7 +3,7 @@
 **Version 8.2**  
 **Status:** Living reference – all claims mapped to Master Control Register and dual SABIC + Anabeeb sources. No self-grading language.
 
-This chapter defines Anabeeb’s competency framework for High Pressure Water Jetting. It synthesises the strongest elements of WJTA, WJA, AS/NZS 4233 and SIR and hard-wires them to the Master Control Register (52 rows), Chapter 10 trauma protocols, OPS-P-019, SABIC OMS 8.2, and the Anabeeb Training Center (ATC).
+This chapter defines Anabeeb’s competency framework for High Pressure Water Jetting. It synthesises the strongest elements of WJTA, WJA, AS/NZS 4233 and SIR and hard-wires them to the Master Control Register (**65 rows**, all Visible as of v8.6.x — including marine MCR-053–060 and lessons MCR-061–065), Chapter 10 trauma protocols, OPS-P-019, SABIC OMS 8.2, and the Anabeeb Training Center (ATC).
 
 **Guiding Principle**: Competence is not a certificate. Competence is the consistent, verifiable ability to prevent injection injuries, apply every Master Control Register control under real conditions, and lead or support a safe, high-quality job.
 
@@ -202,6 +202,14 @@ Every training product (3-day Basic, Supervisor, 1-day method attachments, Aware
 - After any MCR change, affected training packs are reviewed within 30 days (Living Document Rule).
 
 This pack structure is what we will use next for Supervisor and then for each 1-day method attachment.
+
+**Training pack locations (draft):**  
+- `training/ATC-HPWJ-OP-001/` — Level 2 Operator (3-day)  
+- `training/ATC-HPWJ-SUP/` — Level 4 Supervisor (2-day, Ch12 packaging)  
+- `training/ATC-HPWJ-AWARE/` — site awareness (½-day)  
+- `training/ATC-HPWJ-VOC/` — VOC / refresher (1-day)  
+- Index: `training/README.md`  
+Living rule: after any MCR change, review affected packs within 30 days.
 
 ---
 
