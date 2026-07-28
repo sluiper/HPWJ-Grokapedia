@@ -142,3 +142,14 @@ All training and toolbox talks must reinforce these controls.
 - Master Control Register (linked items)
 
 **Next Actions**: All Anabeeb HPWJ personnel must receive training on this chapter and carry the Medical Alert Card (see templates/medical_alert/).
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

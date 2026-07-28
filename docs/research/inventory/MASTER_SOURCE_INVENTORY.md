@@ -13,7 +13,10 @@
 |----|-------|------|-------|------------|--------|--------------|-----------------|------------|---------------|
 | SRC-OPS-001 | Anabeeb OPS-P-019 High Pressure Water Jetting | Company procedure | Anabeeb | Captured 16 Jul 2026 | Internal (summary in repo) | `references/standards/Anabeeb_OPS-P-019_HPWJ_Procedure_Summary.md` | Ch5–13, Sec21 | MCR-046–052, 001–045 (mapped) | 16 Jul 2026 |
 | SRC-SAB-001 | SABIC OMS Attachment 8.2 HPWJ | Client OMS | SABIC | Extracted in KSA notes | Internal / client-controlled (extract) | `references/standards/KSA_Anabeeb_ATC_Notes.md` | Ch5–12, Sec21 | MCR-016, 039–045, 027, 040 etc. | 16 Jul 2026 |
-| SRC-ARA-001 | Aramco SAES / CSMS HPWJ-related | Client standards | Aramco | — | **Internal – not in repo** | — | Sec21 | TBD | **[INTERNAL GAP]** |
+| SRC-ARA-001 | Aramco SAES / CSMS HPWJ-related | Client standards | Aramco | — | **Internal – not in repo** | `references/source_materials/CROSS_WIKI_ARAMCO_CSM_STATUS.md` (status only) | Sec21 | TBD | **[INTERNAL GAP]** — Mac crawl 28 Jul 2026: binary **not found** |
+| SRC-LOC-001 | Mac gold-mine harvest inventory | Local path map | Encyclopedia | 28 Jul 2026 | Internal | `references/source_materials/MAC_HARVEST_2026-07-28.md` | All | — | 28 Jul 2026 |
+| SRC-LOC-002 | SABIC OMS Att 8.2 harvest card | Client procedure extract | SABIC / Encyclopedia | 28 Jul 2026 | Internal extract | `references/source_materials/SABIC_OMS_Att_8.2_HPWJ_Summary.md` | Ch3,6–9, Sec21 | Mapped via KSA notes | 28 Jul 2026 |
+| SRC-LOC-003 | WJTA checklist + deck inventory | Industry training | WJTA/NLB | FV4.2 / checklists | Member/copyrighted binaries local | `references/source_materials/WJTA_Checklists_and_Deck_Inventory.md` | Ch7–9,13 | MCR hearing / signals candidates | 28 Jul 2026 |
 | SRC-ATC-001 | Anabeeb ATC competency notes | Training notes | Anabeeb ATC | v8.1 notes file | Internal / synthesis | `references/standards/KSA_Anabeeb_ATC_Notes.md` | Ch13 | MCR-030, 042, 064 | 16 Jul 2026 |
 
 ---

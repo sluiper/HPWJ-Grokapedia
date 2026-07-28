@@ -130,3 +130,15 @@ This chapter defines the mandatory requirements for preparing a safe HPWJ worksi
 **FMEA Candidate Logged:** Adjacent excavation / unprotected vertical opening hazard during HPWJ work (new row recommended for Section 20).
 
 **References**: WJTA Industry Best Practices, Safe Work Australia Guide, WJA Codes, NLB/manufacturer site setup guidance, KSA heat stress procedures, NIOSH CA/FACE 16CA001, Master Control Register.
+
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

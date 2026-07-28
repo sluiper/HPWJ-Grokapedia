@@ -19,6 +19,19 @@
 
 ---
 
+## Mac gold-mine harvest (28 July 2026) — multi-AI parallel with Rigging + Scaffolding
+
+**Human ask:** Search Mac for ref docs; summarise into each wiki; document what was done; review Aramco CSM as example.
+
+| Result | Detail |
+|--------|--------|
+| HPWJ binaries mapped | OPS-P-019 (3 paths), SABIC OMS 8.2, WJTA FV4.2 + 8 checklists, ATC decks, Course Overview 9-day, Safetech UHP catalogue |
+| Aramco CSM/CSMS primary | **Not found on Mac** — GAP-002 remains; status card written |
+| Deliverables | `references/source_materials/*` (README + 4 markdown harvest files) |
+| MCR | No promotions from harvest |
+
+---
+
 ## Decisions
 
 | Date | Decision | Authority |
@@ -36,7 +49,7 @@
 | Item | Status | Blocks |
 |------|--------|--------|
 | Full IMCA D049 member PDF | Waiting | Sec 23 full clause extraction only |
-| Aramco SAES / CSMS HPWJ clauses | Waiting | Sec 21 client depth |
+| Aramco SAES / CSMS HPWJ clauses | Waiting (Mac crawl 28 Jul: **not on disk**) | Sec 21 client depth |
 | OPS-P-019 full controlled original (if summary incomplete) | Waiting | Any MCR wording change on 046–052 |
 | Real anonymised Anabeeb incidents | Waiting | Sec 27 volume |
 | Existing ATC course materials / exam banks | Waiting | Phase 4 efficiency |
@@ -141,3 +154,8 @@
 - Full-stack audit written; unit-pair sweep tool; section health sheet.
 - AUTO/LTC training scaffold; residual LP bar pair fixed.
 - Top human gap remains **GAP-004** (controlled OPS-P-019).
+
+### 28 July 2026 — Multi-AI docs + gap hunt + IBC/OBC
+- PR #5 merged. Multi-AI working protocol + session board.
+- gap_hunter.py; Verification Logs on 8 chapters; IBC/OBC + T3 scaffold.
+- gap_hunter clean: 0 orphan MCR, 0 missing VL on docs/*, 0 unit-pair issues.

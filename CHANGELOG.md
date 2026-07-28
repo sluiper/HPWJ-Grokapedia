@@ -1,4 +1,24 @@
+## draft/multi-ai-build-gaps – 28 July 2026
+
+### Multi-AI documentation + gap hunt + more training
+- `docs/audit/campaign/MULTI_AI_WORKING.md` — dual-model + human loop, hand-offs, standing checks.
+- `docs/audit/campaign/MULTI_AI_SESSION_BOARD.md` — living queue for Grok / Claude / Human.
+- `tools/audit/gap_hunter.py` — orphan MCR cites, missing Verification Logs, pack headers, unit-pair.
+- Lightweight Verification Logs added to Ch5–7, 9–10, 13, Sec18, Sec20.
+- AUTO endorsements: IBC + OBC; T3 scaffold; FAMILY.md pointer.
+- gap_hunter clean: 0 orphan MCR, 0 missing VL, 0 unit-pair issues.
+
+
 # CHANGELOG
+
+## mac-goldmine-harvest – 28 July 2026 (multi-AI, local)
+
+### Source materials pack (`references/source_materials/`)
+- `MAC_HARVEST_2026-07-28.md` — full Mac path inventory (OPS-P-019, SABIC OMS 8.2, WJTA FV+checklists, ATC decks, TVTC pack).
+- `SABIC_OMS_Att_8.2_HPWJ_Summary.md` — client mandatory KSA/MEA harvest card.
+- `WJTA_Checklists_and_Deck_Inventory.md` — PPE + shotgun sequence extract + copyright note.
+- `CROSS_WIKI_ARAMCO_CSM_STATUS.md` — honest result: **full Aramco CSM/CSMS not on Mac**; sibling pointers to Rigger III + scaffold CSM-II quotes.
+- No MCR promotions. Binaries left on Desktop/Documents. MASTER_SOURCE_INVENTORY + campaign log updated.
 
 ## draft/full-stack-audit-build – 28 July 2026
 

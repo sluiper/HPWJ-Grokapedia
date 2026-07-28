@@ -256,3 +256,14 @@ Consistent application of these controls significantly reduces hose-related inci
 - SABIC HPWJ Procedure for MEA Region
 - Master Control Register (linked items)
 - Industry hose life-cycle studies
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.

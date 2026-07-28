@@ -83,3 +83,15 @@ Pre-use checklist signed | Whip checks both sides | Reaction force controlled | 
 **This is the sharpest, most actionable “rules of the road” document for Anabeeb HPWJ operations.**
 
 **References**: Master Control Register, Chapters 5, 6, 7, 10, 13, Section 20 FMEA, WJTA Best Practices, WJA Codes, Safe Work Australia guidance.
+
+---
+
+## Verification Log
+
+| Claim class | Method | Status |
+|-------------|--------|--------|
+| Controls cited | Map to MASTER_CONTROL_REGISTER.md | Living — verify MCR IDs on edit |
+| Numeric thresholds | Must match MCR or show derivation | Living — unit-pair sweep after threshold edits |
+| Honest gaps | Tagged INTERNAL GAP where non-public | Living |
+
+**Note:** Lightweight Verification Log added 28 July 2026 (gap hunter). Expand with claim-level rows when section is next revised.
