@@ -24,6 +24,12 @@
 - Build rules enforced: cite MCR; no free-floating formula constants.
 - Provisional freeze for pilot build (user directed “go”); main merge still needs human pilot approval.
 
+### Slice E — AWARE + VOC packs; OP-001 polish; PR
+- `training/ATC-HPWJ-AWARE/` — ½-day site awareness (EN/AR headings, quiz, attendance).
+- `training/ATC-HPWJ-VOC/` — 1-day VOC/refresher (reassessment checklist, short theory, record).
+- OP-001 **0.2-draft**: printable Exam Forms A/B + assessor answer keys; bilingual EN/AR headings on key files.
+- `training/README.md` index.
+
 ## v8.6.5 – 16 July 2026 (Residual Status Drift + AUDIT-004 Closed)
 
 ### Critical
