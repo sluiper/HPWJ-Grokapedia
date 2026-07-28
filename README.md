@@ -49,9 +49,10 @@ A full dual-model numeric truth audit was executed and formally closed. It found
 - Real Anabeeb incidents to fully exercise Section 27 cadence (human-gated)
 - Full ATC training packs (trainer guide, workbook, exam bank) — **after** truth campaign freeze; framework lives in Chapter 13
 
-## Active Campaign (draft branch)
-**Max Data → Organize → Max Truth → Training** on `draft/campaign-max-truth-training`.  
-See `docs/audit/campaign/CAMPAIGN_LOG.md`, `docs/research/inventory/`, and `docs/research/packages/`.
+## Research & campaign
+- Campaign log: `docs/audit/campaign/CAMPAIGN_LOG.md`
+- Inventories: `docs/research/inventory/` (incl. **GLOBAL_STACK_PUBLIC_SOURCES.md**)
+- Packages: `docs/research/packages/`
 
 ### Training packs (draft)
 See `training/README.md`.  

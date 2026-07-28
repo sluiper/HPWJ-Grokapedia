@@ -22,7 +22,11 @@
 
 | ID | Title | Type | Owner | Rev / Date | Access | Path in repo | Linked sections | Linked MCR | Last verified |
 |----|-------|------|-------|------------|--------|--------------|-----------------|------------|---------------|
-| SRC-WJTA-001 | WJTA Recommended Practices (“Orange Book”) + certification | Industry RP | WJTA | Public summary + FT/FV pages | Public-summary | `references/standards/WJTA_Summary.md` + RP-STD harvest | Ch13, Sec16 | MCR-001–002, 016, 030 | 28 Jul 2026 |
+| SRC-WJTA-001 | WJTA Industry Best Practices (“Orange Book”) 3rd ed. 2026 + certification | Industry RP | WJTA | Public safety page + purchase book | Public-summary (full book paid) | `references/standards/WJTA_Summary.md` + GLOBAL_STACK | Ch13, Sec16 | MCR-001–002, 016, 030, 043 | 28 Jul 2026 |
+| SRC-WJTA-MED | WJTA fluid injection medical extract §4.1.1 (public) | Medical | WJTA | Safety_Reports page | Public extract | WJTA_Summary.md | Ch10 | MCR-043 | 28 Jul 2026 |
+| SRC-SWA-HPWJ | Safe Work Australia HPWJ risk guide | National guide | SWA | Dec 2013 / portal | Public PDF | `Safe_Work_Australia_HPWJ_Guide_Notes.md` | Ch5–7, Ch13 | MCR-030 | 28 Jul 2026 |
+| SRC-WSV-HPWJ | WorkSafe Victoria HPWJ alert (Class A/B) | Regulator alert | WorkSafe VIC | 14 Sep 2022 | Public | Safe_Work_Australia notes + ASNZS summary | Ch13, Sec21 | MCR-030 | 28 Jul 2026 |
+| SRC-STACK | Global stack map (max public) | Inventory | Encyclopedia | 28 Jul 2026 | Synthesis | `docs/research/inventory/GLOBAL_STACK_PUBLIC_SOURCES.md` | All | — | 28 Jul 2026 |
 | SRC-WJTA-FTFV | WJTA Hydroblaster FT (19HBFT) + FV (19HBFV) | Certification program | WJTA | Current public pages | Public | https://www.wjta.org/wjta/HydroblasterTraining.asp | Ch13 | MCR-030, 042 | 28 Jul 2026 |
 | SRC-WJA-001 | WJA Codes of Practice + training pathway | Industry CoP | WJA (UK) | Black Code (unified); public landing | Public-summary (full CoP gated) | `references/standards/WJA_Summary.md` + https://waterjetting.org.uk/code-of-practice/ | Ch13, Ch10 | MCR-030, 043 | 28 Jul 2026 |
 | SRC-WJA-MED | WJA Water Jetting Injury Treatment Algorithm | Medical algorithm PDF | WJA | 2026 public PDF | Public | https://waterjetting.org.uk/wp-content/uploads/2026/07/WJA-Water-Jetting-Injury-Treatment-Algorithm.pdf | Ch10, RP-INJ | MCR-043 | 28 Jul 2026 |

@@ -20,6 +20,10 @@
 | GAP-008 | SABIC OMS 8.2 full attachment PDF (beyond existing extract) | Cross-check extract fidelity | Client-controlled PDF | Human | Open | RP-OPS |
 | GAP-009 | YANSAB / PETRO RABIGH site-specific HPWJ addenda | Client matrix rows | Site HSE packs | Human | Open | Sec21 |
 | GAP-010 | TVTC learning-outcome mapping for accreditation | Accreditation only (not ops truth) | TVTC framework docs | Human / ATC | Open | Ch13 later |
+| GAP-STD-WJTA | Full WJTA Orange Book 2026 clause text | Clause-level US practice extract | Purchase 3rd ed. | Human | Open | RP-STD / WJTA_Summary |
+| GAP-STD-WJA | Full WJA Black Code text | Clause-level UK practice | WJA App / membership | Human | Open | RP-STD / WJA_Summary |
+| GAP-STD-ASNZ | Full AS/NZS 4233.1/.2 text | Legal AU clause extract | Standards licence | Human | Open | ASNZS summary |
+| GAP-STD-SIR | Full SIR industrial cleaning manuals | NL industrial depth | SIR / training bodies | Human | Open | RP-STD |
 
 ---
 

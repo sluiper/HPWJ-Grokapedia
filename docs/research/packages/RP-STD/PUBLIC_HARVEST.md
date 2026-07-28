@@ -78,6 +78,23 @@
 | Full Orange Book / Black Code clause extract | Open (licensed/member) |
 | SIR detailed public scheme | Still thin |
 
+## 6. Web stack expansion — 28 July 2026 (max data)
+
+**Canonical stack file:** `docs/research/inventory/GLOBAL_STACK_PUBLIC_SOURCES.md`
+
+| Item | Result |
+|------|--------|
+| WJTA Orange Book **3rd ed. 2026** | Confirmed on WJTA Safety_Reports page |
+| WJTA public medical extract (gunshot-parallel management) | Captured → WJTA_Summary.md |
+| WJTA coupling alert, color code, hand signals, hose whitepaper | Linked |
+| AU Class A/B **800–5600 / >5600 bar·L/min** | WorkSafe VIC public |
+| Safe Work Australia HPWJ guide | URL + notes file |
+| Class B RTO + trainer ≥5 y + 2-year refresh | WorkSafe VIC public |
+| WJA Black Code + algorithm | Confirmed / URL |
+| OSHA | No dedicated HPWJ standard — General Duty + industry WJTA |
+
+Standards folder files updated: `WJTA_Summary.md`, `WJA_Summary.md`, `ASNZS_4233_Australia_Summary.md`, `Safe_Work_Australia_HPWJ_Guide_Notes.md`, `00_Global_Standards_Overview.md`.
+
 ## Proposed MCR changes
 
-**None.**
+**None** from public harvest alone.

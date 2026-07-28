@@ -1,6 +1,16 @@
 # CHANGELOG
 
-## draft/campaign-max-truth-training – 28 July 2026 (Campaign — not yet merged)
+## draft/max-data-web-stack – 28 July 2026 (public max-data harvest)
+
+### Global stack expansion (public web only)
+- `docs/research/inventory/GLOBAL_STACK_PUBLIC_SOURCES.md` — world map of WJTA / WJA / AS-NZS / SWA / IMCA / SIR / OSHA public sources.
+- Expanded `WJTA_Summary.md` (Orange Book **3rd ed. 2026**, public medical extract, coupling alert, color code, hand signals, hose whitepaper).
+- Expanded `ASNZS_4233_Australia_Summary.md` + new `Safe_Work_Australia_HPWJ_Guide_Notes.md` (Class A/B **800–5600 / >5600 bar·L/min**, RTO Class B, 2-year refresh).
+- Expanded `WJA_Summary.md` (Black Code + injury algorithm).
+- Updated `00_Global_Standards_Overview.md` + master source inventory.
+- **No new MCR rows. No formula changes.** Full paid manuals remain INTERNAL GAPs.
+
+## draft/campaign-max-truth-training – 28 July 2026 (merged to main as PR #1)
 
 ### Slice A — Campaign scaffold
 - Branch `draft/campaign-max-truth-training` opened and pushed.
