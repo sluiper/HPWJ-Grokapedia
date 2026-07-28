@@ -152,10 +152,11 @@ Also: App F, Ch7, Sec18, OPS summary. Phase 3 check wording alignment.
 
 ---
 
-## Phase 3 completion checklist (not done in this stub)
+## Phase 3 completion checklist
 
-- [ ] Every path above: open file, compare claim to MCR row text  
-- [ ] Zero live operational `0.745` (historical notes OK)  
+- [x] Zero live operational `0.745` (historical notes OK) — verified 28 Jul 2026  
+- [x] Sample T3 on MCR-047 / 050 / 051 / 017 freeze candidates — consistent  
+- [ ] Every path above: full wording compare to MCR row text  
 - [ ] Grep for hard-coded training-bound numbers outside MCR citation style  
 - [ ] Expand map to MCR-001–015, 018–045, 053–065 as T3 progresses  
 - [ ] Record defects as AUDIT-005+

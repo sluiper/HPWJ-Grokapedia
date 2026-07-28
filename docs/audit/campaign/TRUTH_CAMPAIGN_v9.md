@@ -33,12 +33,27 @@ D. Wright (StoneAge), *Impact Force of High Pressure Waterjets*, 2013 WJTA-IMCA 
 https://www.wjta.org/images/wjta/Proceedings/Papers/2013/C1%20-%20DW%20Impact.pdf  
 See `docs/research/packages/RP-PHYS/PUBLIC_HARVEST.md`.
 
+### Jet velocity table (ideal √(2P/ρ), ρ=1000 kg/m³, Cd=1)
+
+| psi | Claimed (Sec16) | Re-derived | Delta |
+|-----|-----------------|------------|-------|
+| 10 000 | 371 m/s | 371.3 | 0.3 |
+| 15 000 | 455 m/s | 454.8 | 0.2 |
+| 20 000 | 525 m/s | 525.2 | 0.2 |
+| 40 000 | 743 m/s | 742.7 | 0.3 |
+
+**T1 Pass** (rounding only).
+
+### RF worked example consistency
+
+6 GPM @ 15 000 psi → Fr ≈ 38.2 lbf ≈ 170 N (imperial path).  
+Metric path 0.233 × Q_L/min × √P_bar → ≈ 170.2 N. **Pass** (paths agree within 0.2 N).
+
 ### Still open on T1
 
-- [ ] Appendix C every table cell re-spot-check (prior audit claimed pass — sample OK if no formula change)
+- [ ] Appendix C every table cell full re-spot-check
 - [ ] Sec17 plunger-change examples
 - [ ] Sec20 all RPN multiplications
-- [ ] Sec16 jet velocity table re-spot-check
 - [ ] Sec23 seawater density / underwater RF narrative numbers
 
 ---
@@ -56,9 +71,18 @@ See `docs/research/packages/RP-PHYS/PUBLIC_HARVEST.md`.
 
 ---
 
-## T3 results
+## T3 results (sample — freeze candidates)
 
-Not yet executed as full wording-diff pass. Restatement map ready at `docs/research/inventory/MCR_RESTATEMENT_MAP.md`.
+| Control | Sample files checked | Result |
+|---------|---------------------|--------|
+| MCR-050 (10k / 1.6 mm / 250 N) | MCR, OPS summary, Ch12, Ch13 | **Consistent** |
+| MCR-047 (team of 3) | MCR, OPS summary, Ch13 | **Consistent** |
+| MCR-051 (10 m unauthorised) | MCR, App D, App G, Ch13, Ch5 bands | **Consistent** (bands vs absolute rule correctly distinguished) |
+| MCR-017 constant | Canonical + App C + template + Sec16 + Sec23 | **0.233 live; 0.745 historical only** |
+
+Full prose wording-diff across all chapters still open; freeze-candidate set looks clean on samples.
+
+Restatement map: `docs/research/inventory/MCR_RESTATEMENT_MAP.md`.
 
 ---
 
@@ -91,3 +115,5 @@ Legacy closed: AUDIT-001–004 (metric RF 0.745 class).
 | 28 Jul 2026 | Stub created; restatement map populated for high-risk IDs |
 | 28 Jul 2026 | Public harvest: Wright 2013, WJTA FT/FV, WJA Black Code, IMCA SF URLs, StatPearls |
 | 28 Jul 2026 | T1 RF metric re-derive Pass; 0.745 live-use Pass |
+| 28 Jul 2026 | T1 jet velocity table Pass; RF imperial/metric worked example Pass |
+| 28 Jul 2026 | T3 sample pass on MCR-047/050/051/017 freeze candidates |
