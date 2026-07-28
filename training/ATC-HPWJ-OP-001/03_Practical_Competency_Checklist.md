@@ -1,26 +1,27 @@
-# ATC-HPWJ-OP-001 — Practical Competency Checklist (Field Verification)
+# ATC-HPWJ-OP-001 — Practical Competency Checklist (Field Verification)  
+## قائمة الكفاءة العملية — التحقق الميداني
 
 **MCR Controls Referenced:** MCR-005, 006, 009, 010, 016, 017, 019, 020, 021, 023, 025, 038, 039, 043, 047, 048, 050, 051, 052  
 
 **Controlled form:** Use as the **only** pass/fail instrument for Day 3 Field Verification.  
-**Scoring:** Critical items = **Pass / Fail** only. All critical items must Pass (or documented N/A where allowed).  
+**Scoring / التقييم:** Critical items = **Pass / Fail** only. All critical items must Pass (or documented N/A where allowed).  
 **Version:** 0.1-draft — 28 July 2026  
 
 ---
 
-## Learner & assessment header
+## Learner & assessment header / بيانات المتدرب والتقييم
 
-| Field | Entry |
+| Field / الحقل | Entry |
 |-------|--------|
-| Learner full name | |
+| Learner full name / الاسم | |
 | Employee / ID no. | |
-| Course dates | |
-| Assessor name | |
-| Location / pad | |
+| Course dates / التواريخ | |
+| Assessor name / المقيّم | |
+| Location / pad / الموقع | |
 | Water-only RA ref. | |
-| Exam bank version (theory) | |
+| Theory form ID (A or B) | |
 
-**Result overall:** ☐ Pass ☐ Fail ☐ Incomplete (re-assess)
+**Result overall / النتيجة:** ☐ Pass / ناجح ☐ Fail / راسب ☐ Incomplete (re-assess)
 
 Assessor signature: _________________ Date: ________  
 Learner signature: _________________ Date: ________  

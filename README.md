@@ -53,8 +53,12 @@ A full dual-model numeric truth audit was executed and formally closed. It found
 **Max Data → Organize → Max Truth → Training** on `draft/campaign-max-truth-training`.  
 See `docs/audit/campaign/CAMPAIGN_LOG.md`, `docs/research/inventory/`, and `docs/research/packages/`.
 
-### Training pack (draft)
-**ATC-HPWJ-OP-001** (3-Day Core Operator) full pack: `training/ATC-HPWJ-OP-001/`  
+### Training packs (draft)
+See `training/README.md`.  
+- **ATC-HPWJ-OP-001** — 3-Day Core Operator (Forms A/B exams)  
+- **ATC-HPWJ-AWARE** — ½-day site awareness  
+- **ATC-HPWJ-VOC** — 1-day verification of competency  
+
 Formulas and thresholds cite the Master Control Register (especially MCR-017) — do not hard-code constants into slides.
 
 Self-grading language has been retired. Quality is demonstrated by Verification Logs, citations, the Master Control Register, repeated clean dual-model reviews, and the closed full numeric truth audit.

@@ -116,3 +116,7 @@
 - Created full `training/ATC-HPWJ-OP-001/` pack: README, course spec, trainer guide, workbook, practical checklist, exam bank, assessment/cert, equipment list.
 - Hard rules: no free-floating RF constants; cite MCR-017 / MCR rows.
 - Pilot approval + optional Claude pack review still open before main merge.
+
+### 28 July 2026 — AWARE + VOC + OP-001 polish + PR
+- User directed “1-3 go”: AWARE pack, VOC pack, OP-001 Forms A/B + AR headings, open PR.
+- OP-001 → 0.2-draft; training/README index.

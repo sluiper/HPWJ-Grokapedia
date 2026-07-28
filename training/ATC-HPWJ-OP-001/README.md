@@ -1,23 +1,27 @@
-# ATC-HPWJ-OP-001 — Training Pack
+# ATC-HPWJ-OP-001 — Training Pack  
+## حزمة تدريب مشغّل النفث المائي عالي الضغط (المستوى 2)
 
 **MCR Controls Referenced:** MCR-005, 006, 009, 010, 016, 017, 019, 020, 021, 023, 025, 027, 028, 030, 031, 033, 038, 039, 043, 046, 047, 048, 050, 051, 052 (+ high-priority RPN set in MCR)
 
-**Course:** Anabeeb HPWJ Operator Competency Course  
-**Level:** Level 2 (HPWJ Operator) per Chapter 13  
+**Course / الدورة:** Anabeeb HPWJ Operator Competency Course / دورة كفاءة مشغّل HPWJ  
+**Level / المستوى:** Level 2 (HPWJ Operator) per Chapter 13  
 **Branch / campaign:** `draft/campaign-max-truth-training` (v9)  
 **Living rule:** After any MCR change, review this pack within 30 days (MCR-064 / Ch13 §13.6).
 
 ---
 
-## Pack contents
+## Pack contents / محتويات الحزمة
 
-| File | Purpose |
+| File | Purpose / الغرض |
 |------|---------|
 | `00_Course_Specification.md` | Code, gates, pass criteria, outcomes |
 | `01_Trainer_Guide.md` | Day-by-day script; **cite MCR only for formulas** |
 | `02_Student_Workbook.md` | Exercises + links to encyclopedia SSOT tools |
 | `03_Practical_Competency_Checklist.md` | Field Verification instrument (15 critical items) |
-| `04_Theory_Exam_Bank.md` | Versioned question bank mapped to MCR / Ch10 |
+| `04_Theory_Exam_Bank.md` | Master question bank mapped to MCR / Ch10 |
+| `04a_Exam_Form_A.md` | Printable learner paper Form A / النموذج أ |
+| `04b_Exam_Form_B.md` | Printable learner paper Form B / النموذج ب |
+| `04c_Exam_Answer_Keys.md` | Assessor keys only / مفاتيح المقيّم |
 | `05_Assessment_Record_and_Certificate.md` | Records, photo card, Medical Alert issue log |
 | `06_Equipment_and_PPE_List.md` | Delivery equipment minimum list |
 

@@ -1,21 +1,22 @@
-# ATC-HPWJ-OP-001 — Course Specification
+# ATC-HPWJ-OP-001 — Course Specification  
+## مواصفات الدورة — كفاءة مشغّل HPWJ (المستوى 2)
 
 **MCR Controls Referenced:** MCR-006, 009, 010, 016, 017, 019, 020, 023, 025, 027, 028, 030, 031, 033, 038, 039, 043, 046, 047, 048, 050, 051, 052 (+ high-priority RPN set)
 
 ---
 
-## 1. Identity
+## 1. Identity / الهوية
 
-| Field | Value |
-|-------|--------|
-| Code | **ATC-HPWJ-OP-001** |
-| Official name | Anabeeb HPWJ Operator Competency Course |
-| Target level | Level 2 — HPWJ Operator (Chapter 13) |
-| Duration | 24–28 contact hours over **3 days** |
-| Class size | Max **8–10** learners |
-| Validity | **24 months** then VOC (ATC-HPWJ-VOC) |
-| Owner | Anabeeb Training Center (ATC) / QHSSE |
-| Governing encyclopedia | HPWJ-Grokapedia Chapter 13 + Master Control Register |
+| Field | English | العربية |
+|-------|---------|---------|
+| Code | **ATC-HPWJ-OP-001** | ATC-HPWJ-OP-001 |
+| Official name | Anabeeb HPWJ Operator Competency Course | دورة كفاءة مشغّل النفث المائي عالي الضغط |
+| Target level | Level 2 — HPWJ Operator (Chapter 13) | المستوى 2 — مشغّل |
+| Duration | 24–28 contact hours over **3 days** | 24–28 ساعة على **3 أيام** |
+| Class size | Max **8–10** learners | بحد أقصى 8–10 متدربين |
+| Validity | **24 months** then VOC (ATC-HPWJ-VOC) | **24 شهراً** ثم VOC |
+| Owner | Anabeeb Training Center (ATC) / QHSSE | مركز تدريب أنابيب / الجودة والسلامة |
+| Governing encyclopedia | HPWJ-Grokapedia Chapter 13 + Master Control Register | الموسوعة + سجل التحكم الرئيسي |
 
 ---
 
@@ -81,5 +82,6 @@ Full day scripts: `01_Trainer_Guide.md`.
 | Version | Date | Notes |
 |---------|------|-------|
 | 0.1-draft | 28 July 2026 | First pack on campaign branch; provisional freeze |
+| 0.2-draft | 28 July 2026 | Exam Forms A/B + answer keys; EN/AR headings on key files |
 
 Any MCR change affecting listed IDs → review pack within 30 days.
