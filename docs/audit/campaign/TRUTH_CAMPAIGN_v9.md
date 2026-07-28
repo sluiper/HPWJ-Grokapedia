@@ -83,6 +83,10 @@ Suggested formal freeze sentence (when ready for main):
 
 ---
 
+## Standing T1 sub-check (added after Claude process note)
+
+After any threshold edit, run a **unit-pair sweep**: for every string of the form `N psi (M bar)` or reverse, recompute M from N (or N from M) using the repo’s stated conversion (1 psi = 0.0689475729 bar). Restatement-consistency alone cannot catch a value that is wrong **everywhere**.
+
 ## Work log
 
 | Date | Action |
@@ -91,3 +95,4 @@ Suggested formal freeze sentence (when ready for main):
 | 28 Jul 2026 | Wright 2013 cite; RF metric re-derive; velocity Pass |
 | 28 Jul 2026 | App C 78 cells Pass; Sec20 17 RPNs Pass; Sec17 Ex2 clarified; App A aligned |
 | 28 Jul 2026 | T1_T3_RUN log written |
+| 28 Jul 2026 | Claude Verification Report received; Grok applied F-01–F-08 on `draft/claude-p1-fixes` |

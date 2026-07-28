@@ -1,6 +1,17 @@
 # CHANGELOG
 
-## draft/max-stack-continue – 28 July 2026
+## draft/claude-p1-fixes – 28 July 2026 (Claude Verification F-01–F-08)
+
+### P1
+- **AUDIT-005 / F-01:** MCR-050 **680 bar → ≈ 690 bar** (derived from 10 000 psi); OPS summary aligned; GAP-004 note if OPS states independent 680 bar.
+- **AUDIT-006 / F-02:** Sec20 priority list **RPN ≥ 180** + Cavitation (192); MCR front matter + §20.7 updated.
+- **AUDIT-007 / F-03:** Sec16.6 Cd-consistent orifice example (≈4.97 GPM → ≈141 N); App C known-flow vs orifice cases separated.
+
+### P2
+- App C tables round-half-up (F-04); MCR-046 **≈ 2 758 bar** (F-05); Ch8 PPE ≈2 070 bar (F-06); Wright impact + compressibility caveats (F-07); Sec20 band labels (F-08).
+- Standing **unit-pair T1 sweep** in PROCESS.md; pack drift check clean.
+
+## draft/max-stack-continue – 28 July 2026 (merged PR #3)
 
 ### Max stack build (items 1–4)
 - Merged PR #2 (global public stack) to main.

@@ -44,28 +44,32 @@ $$ F_r(N) = 0.052 \times \left(\frac{Q_{L/min}}{3.785411784}\right) \times \left
 
 ### Imperial – Force in lbf (and N)
 
+**Rounding:** round-half-up from Fr(lbf) = 0.052 × Q × √P; N = lbf × 4.448221615 (regenerated Claude F-04).
+
 | Q (GPM) | 5 000 psi | 10 000 psi | 15 000 psi | 20 000 psi | 30 000 psi | 40 000 psi |
 |---------|-----------|------------|------------|------------|------------|------------|
 | 2       | 7.4 lbf (33 N) | 10.4 lbf (46 N) | 12.7 lbf (57 N) | 14.7 lbf (65 N) | 18.0 lbf (80 N) | 20.8 lbf (93 N) |
-| 3       | 11.0 lbf (49 N) | 15.6 lbf (69 N) | 19.1 lbf (85 N) | 22.0 lbf (98 N) | 27.0 lbf (120 N) | 31.2 lbf (139 N) |
+| 3       | 11.0 lbf (49 N) | 15.6 lbf (69 N) | 19.1 lbf (85 N) | 22.1 lbf (98 N) | 27.0 lbf (120 N) | 31.2 lbf (139 N) |
 | 4       | 14.7 lbf (65 N) | 20.8 lbf (93 N) | 25.5 lbf (113 N) | 29.4 lbf (131 N) | 36.0 lbf (160 N) | 41.6 lbf (185 N) |
-| 5       | 18.4 lbf (82 N) | 26.0 lbf (116 N) | 31.8 lbf (142 N) | 36.7 lbf (163 N) | 45.0 lbf (200 N) | 52.0 lbf (231 N) |
+| 5       | 18.4 lbf (82 N) | 26.0 lbf (116 N) | 31.8 lbf (142 N) | 36.8 lbf (164 N) | 45.0 lbf (200 N) | 52.0 lbf (231 N) |
 | 6       | 22.1 lbf (98 N) | 31.2 lbf (139 N) | 38.2 lbf (170 N) | 44.1 lbf (196 N) | 54.0 lbf (240 N) | 62.4 lbf (278 N) |
-| 8       | 29.4 lbf (131 N) | 41.6 lbf (185 N) | 50.9 lbf (227 N) | 58.8 lbf (262 N) | 72.0 lbf (320 N) | 83.2 lbf (370 N) |
-| 10      | 36.8 lbf (164 N) | 52.0 lbf (231 N) | 63.7 lbf (283 N) | 73.5 lbf (327 N) | 90.0 lbf (400 N) | 104.0 lbf (463 N) |
+| 8       | 29.4 lbf (131 N) | 41.6 lbf (185 N) | 50.9 lbf (227 N) | 58.8 lbf (262 N) | 72.1 lbf (321 N) | 83.2 lbf (370 N) |
+| 10      | 36.8 lbf (164 N) | 52.0 lbf (231 N) | 63.7 lbf (283 N) | 73.5 lbf (327 N) | 90.1 lbf (401 N) | 104.0 lbf (463 N) |
 
 **Red zone** = > 250 N (≈ 56 lbf) — not permitted for handheld without special engineering controls and elevated approval.
 
 ### Metric – Force in N (Corrected Formula)
 
+**Rounding:** round-half-up from Fr(N) = 0.233 × Q × √P(bar) (regenerated Claude F-04).
+
 | Q (L/min) | 350 bar | 700 bar | 1000 bar | 1400 bar | 2000 bar | 2750 bar |
 |-----------|---------|---------|----------|----------|----------|----------|
 | 8         | 35 N    | 49 N    | 59 N     | 70 N     | 83 N     | 98 N     |
 | 12        | 52 N    | 74 N    | 88 N     | 105 N    | 125 N    | 147 N    |
-| 15        | 65 N    | 92 N    | 110 N    | 131 N    | 156 N    | 183 N    |
+| 15        | 65 N    | 92 N    | 111 N    | 131 N    | 156 N    | 183 N    |
 | 19        | 83 N    | 117 N   | 140 N    | 166 N    | 198 N    | 232 N    |
-| 23        | 100 N   | 141 N   | 169 N    | 201 N    | 239 N    | 281 N    |
-| 30        | 131 N   | 184 N   | 220 N    | 262 N    | 312 N    | 366 N    |
+| 23        | 100 N   | 142 N   | 169 N    | 201 N    | 240 N    | 281 N    |
+| 30        | 131 N   | 185 N   | 221 N    | 262 N    | 313 N    | 367 N    |
 
 ---
 
@@ -79,11 +83,13 @@ $$ F_r(N) = 0.052 \times \left(\frac{Q_{L/min}}{3.785411784}\right) \times \left
 
 ---
 
-## C.5 Worked Example (Already Verified)
+## C.5 Worked Examples
 
-0.040-inch orifice at 15 000 psi ≈ 5–6 GPM → **≈ 38 lbf / 170 N** (inside 250 N but still requires geometry and body-weight check).
+**Known flow (table cell):** 6 GPM at 15 000 psi → Fr ≈ 0.052 × 6 × √15 000 ≈ **38.2 lbf / 170 N** (inside 250 N absolute; still requires all three MCR-016 controls).
 
-250 bar (≈ 3626 psi) at 5 GPM → **≈ 15.7 lbf / 70 N** (the IMCA SF 18/20 incident class).
+**Orifice-consistent flow (see Sec16.6):** 0.040″ orifice at 15 000 psi with Cd ≈ 0.85 → Q ≈ **4.97 GPM** → Fr ≈ **31.6 lbf / 141 N**. Do not claim Cd 0.85 produces 6 GPM.
+
+250 bar (≈ 3626 psi) at 5 GPM → **≈ 15.7 lbf / 70 N** (IMCA SF 18/20 incident class).
 
 ---
 
@@ -93,8 +99,8 @@ $$ F_r(N) = 0.052 \times \left(\frac{Q_{L/min}}{3.785411784}\right) \times \left
 |-------|--------|--------|
 | Imperial formula | Section 16 + MCR-016/017 | Verified |
 | Metric constant 0.233 | First-principles conversion from verified imperial (shown above) | **Corrected & verified 16 July 2026** |
-| Tables | Direct calculation from corrected formulas | Derived |
-| ±1 N shifts vs earlier draft table | Rounding refinement using the precise 0.2327 constant | Not a second correction |
+| Tables | Direct calculation; round-half-up regeneration (Claude F-04) | Derived |
+| Orifice vs known-flow examples | Separated per AUDIT-007 | Corrected |
 | Three additive controls | MCR-016 + MCR-054 | Verified |
 | Red zone definition | MCR-016 absolute 250 N | Verified |
 

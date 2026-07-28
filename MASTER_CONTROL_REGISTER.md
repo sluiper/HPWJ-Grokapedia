@@ -18,10 +18,11 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 - **Added** = New in current version
 - **Priority** = High RPN item from FMEA requiring focused attention
 
-## High-Priority Controls (FMEA RPN > 150 — Immediate Focus)
+## High-Priority Controls (FMEA RPN ≥ 180 — Immediate Focus)
 - Inadequate Pre-Use Inspection (RPN 210) — MCR-023
 - Flex Lance Back-Out / Loss of Control (RPN 200) — MCR-020
 - Poor SIMOPS Coordination (RPN 200) — MCR-028
+- Cavitation Damage (RPN 192) — MCR-012 / 013 (NPSH / filtration)
 - Quick-Connect Disconnection Under Pressure (RPN 180) — MCR-007
 - Loss of Control Due to Excessive Reaction Force (RPN 180) — MCR-016
 
@@ -74,11 +75,11 @@ Every named rule, numeric threshold, procedural requirement, and control from al
 | MCR-043 | Medical Alert Card | All operators engaged in HPWJ tasks shall carry an immediately accessible waterproof Medical Alert Card (Anabeeb form OPS0080804 or equivalent). | SABIC 2.3.7; OPS-P-019; Ch10 | Visible | Extended underwater by MCR-058. |
 | MCR-044 | Lance / Gun Length | Lances minimum 1.2 m (48 in) from trigger/butt to nozzle tip. Shorter only with double trigger + extra hand protection + special RA. Flexible hoses require rigid leader/stinger. | SABIC; OPS-P-019 §9; Ch8 | Visible | |
 | MCR-045 | Safety Shroud / Burst Sleeve at Connection | Safety shroud / Burst Protection Sleeve minimum 6 ft at hose-to-gun/lance connection, tested and verified. Required for UHP. | SABIC Checklist; OPS-P-019 §9; Awareness PPT | Visible | |
-| MCR-046 | Maximum System Pressure | Maximum allowable pressure for any Anabeeb HPWJ activity = 40 000 psi (2 759 bar). No work above this. | OPS-P-019 §3.8 | Visible | Absolute ceiling. |
+| MCR-046 | Maximum System Pressure | Maximum allowable pressure for any Anabeeb HPWJ activity = **40 000 psi** (**≈ 2 758 bar**). No work above this. | OPS-P-019 §3.8 (psi primary); bar derived: 40 000 × 0.0689475729 ≈ 2 757.9 → **2 758** | Visible | Absolute ceiling. Bar parenthetical is unit conversion of the psi limit — confirm if controlled OPS states an independent bar figure (GAP-004 / Claude F-05). |
 | MCR-047 | Anabeeb Minimum Team Size | Anabeeb HPWJ teams shall consist of minimum **three** competent persons. One dedicated to emergency stop/dump when line of sight between lance and pump is lost. | OPS-P-019 §6.4 | Visible | Stricter than SABIC 2-person baseline. Higher manning expected for wet work. |
 | MCR-048 | Rupture Disc Rating Factor | Rupture disc shall be rated **no greater than 1.2 times** the MAWP of the lowest-rated component in the system. | OPS-P-019 §6.2 | Visible | |
 | MCR-049 | Manual Operator Experience | Manual HPWJ operators shall have minimum **two years continuous** relevant experience, recorded on training card, in addition to method-specific certification. Management approval required before manual lancing/gun work. | OPS-P-019 §9 | Visible | |
-| MCR-050 | Shotgun Pressure / Orifice Limit | Hand-held shotgunning shall not be performed above **10 000 psi (680 bar)** with nozzle orifice larger than **1.6 mm**. Reaction force ≤250 N absolute. | OPS-P-019 §9 | Visible | |
+| MCR-050 | Shotgun Pressure / Orifice Limit | Hand-held shotgunning shall not be performed above **10 000 psi (≈ 690 bar)** with nozzle orifice larger than **1.6 mm**. Reaction force ≤250 N absolute. | OPS-P-019 §9 (psi primary); bar derived: 10 000 × 0.0689475729 ≈ 689.5 → **≈ 690** (was 680 — inconsistent conversion, Claude F-01 / AUDIT-005) | Visible | Aligns Ch3/Ch5 ≈690 bar. Confirm if controlled OPS states an independent **680 bar** figure (GAP-004). |
 | MCR-051 | Unauthorised Person Exclusion | No unauthorised person within **10 metres** of operating Anabeeb HPWJ equipment. System shall be depressurised on breach. | OPS-P-019 §9 | Visible | |
 | MCR-052 | Lance Tip Marking | Lance/hose shall be clearly marked with paint or tape **no closer than 600 mm** from the nozzle tip to warn of impending exit. | OPS-P-019 §9 | Visible | |
 | MCR-053 | Diver HPWJ Authorisation | Only divers trained and certified for underwater HP/UHP jetting per IMCA D049 (or equivalent company standard) may operate. Surface support must hold concurrent competence. | IMCA D049 Rev 1.2; Anabeeb OPS-P-019 principle; Sec23 | Visible | Priority for any marine work. |

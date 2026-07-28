@@ -9,7 +9,8 @@
 
 ## Core Principles (Non-Negotiable)
 
-1. **Truth over speed.** A wrong number can injure or kill. Every numeric claim requires full derivation or primary citation + stated assumptions.
+1. **Truth over speed.** A wrong number can injure or kill. Every numeric claim requires full derivation or primary citation + stated assumptions.  
+   **Standing T1 unit-pair sweep (28 July 2026):** After any threshold edit, recompute every `X unit (Y unit)` pair against the repo’s stated conversion constants. Restatement-consistency alone cannot catch a value that is wrong in every file.
 2. **MCR is absolute SSOT.** No control exists until it has a row in MASTER_CONTROL_REGISTER.md.
 3. **Human remains the final gate** on anything that changes operational rules or promotes Drafting → Visible. Two AI models agreeing is necessary but never sufficient.
 4. **No self-grading** — not of the encyclopedia content, and not of the workflow itself. Rule 8 in AGENTS.md applies to process assessments too.

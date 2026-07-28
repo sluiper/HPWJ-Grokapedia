@@ -131,13 +131,25 @@ $$ F_r(N) = 0.052 \times (Q_{L/min}/3.785411784) \times (\sqrt{P_{bar}}/0.26258)
 
 **Historical note:** The previous constant 0.745 was correct only when pressure is expressed in **MPa**. It was incorrectly paired with bar. This is the same class of √10-scale unit conversion error previously fixed in the jet velocity calculations. The error was conservative (over-estimated force).
 
-**Consistent worked example:**
+**Consistent worked example (orifice → flow → force):**  
 0.040-inch (1.016 mm) orifice at 15 000 psi.
-- Theoretical velocity ≈ 455 m/s
-- Using Cd ≈ 0.85 and correct area gives flow in the range **≈ 5–6 GPM**
-- Using 6 GPM: Fr ≈ 0.052 × 6 × √15 000 ≈ 0.052 × 6 × 122.47 ≈ **38.2 lbf ≈ 170 N**
 
-This is within the common 250 N handheld guideline for many operators but still requires the three additive controls. Higher flows or larger orifices rapidly exceed safe handheld limits.
+1. Ideal jet velocity (Bernoulli, ρ = 1000 kg/m³): v ≈ **455 m/s** (matches §16.4 table).  
+2. Orifice area: A = π (d/2)² with d = 1.016 mm → A ≈ **8.107 × 10⁻⁷ m²**.  
+3. Discharge coefficient **Cd ≈ 0.85** (typical sharp orifice, range often 0.8–0.9):  
+   Q = Cd × A × v ≈ 0.85 × 8.107e-7 × 455 ≈ **4.0 × 10⁻⁴ m³/s** ≈ **4.97 GPM** (≈ **18.8 L/min**).  
+4. Reaction force from **MCR-017** imperial form:  
+   Fr ≈ 0.052 × 4.97 × √15 000 ≈ 0.052 × 4.97 × 122.47 ≈ **31.6 lbf ≈ 141 N**.
+
+| Cd | Q (GPM) | Fr (N) via MCR-017 imperial |
+|----|---------|------------------------------|
+| 0.80 | ≈ 4.68 | ≈ 133 |
+| **0.85** | **≈ 4.97** | **≈ 141** |
+| 0.90 | ≈ 5.26 | ≈ 149 |
+
+**Note:** A separate App C table cell at **6 GPM** / 15 000 psi gives Fr ≈ 38.2 lbf ≈ 170 N. That is a **known flow**, not the Cd-consistent flow for this orifice. Using 6 GPM for a 0.040″ orifice would imply Cd ≈ 1.03, which is not physical. Do not mix the two cases.
+
+The Cd-consistent result (~141 N) is still below the 250 N absolute control but still requires all three additive controls (MCR-016).
 
 **Three Additive Controls (industry practice – MCR-016):**
 1. Absolute ≤ 250 N
@@ -188,7 +200,9 @@ The cleaning / cutting power of the jet is related to the rate of momentum trans
 
 $$ F_{\text{impact}} \approx \dot{m} \cdot v = \rho Q v $$
 
-This is the physical basis of both cleaning effectiveness and the reaction force felt by the operator (action-reaction). Higher velocity and mass-flow rate increase both cleaning power and reaction force.
+This is the same physical basis as the **ideal** reaction force on the nozzle (action-reaction) used to derive the industry Fr formulas.  
+
+**Caveat (Wright 2013 public PDF):** measured **impact** force on a plate at short standoff (~50 orifice diameters) was **20–35 % greater** than the calculated reaction-force Eq. 1. Impact (cleaning) and reaction (operator load) are therefore related but not always numerically identical in real jets — use MCR-017 for operator reaction control, and treat plate impact as separately measured when optimising cleaning.
 
 ---
 
@@ -214,7 +228,9 @@ This is the theoretical hydraulic power delivered by the pump. Actual shaft powe
 Bulk modulus of water K ≈ 2.2 GPa.
 
 At 40 000 psi (≈ 276 MPa):
-Fractional volume change ≈ ΔP / K ≈ 276 / 2200 ≈ **0.125 (12.5 %)**. 
+Fractional volume change ≈ ΔP / K ≈ 276 / 2200 ≈ **0.125 (12.5 %)**.  
+
+**Caveat:** This is the **linear** ΔP/K estimate using a constant bulk modulus. Real water **stiffens** under high pressure (K increases), so 12.5 % is an **upper-bound / overestimate** of the true volumetric change. It is useful as a magnitude check, not a high-precision compressible-flow correction.
 
 Thus compressibility is no longer negligible at true UHP. For most industrial calculations up to ~25 000 psi the incompressible assumption remains acceptable. Above 30–40 kpsi, velocity and energy calculations should note the correction or use compressible-flow adjustments if high precision is required.
 
@@ -276,7 +292,7 @@ High jet velocity (hundreds of m/s) + small orifice area explains skin penetrati
 | Jet velocity formula & 10/20/40k psi values | First-principles derivation + arithmetic | Bernoulli; independent check V ≈ 44.721√P(MPa) | **Verified** |
 | Reaction force formula Fr = 0.052 × Q × √P (imperial) | Confirmed against published equation | WJTA-IMCA conference paper | **Verified** |
 | Metric reaction force constant 0.233 | First-principles unit conversion from verified imperial | Shown in full above | **Corrected & Verified (v8.5.1 / v8.6.1)** |
-| Reaction force worked example (0.040" / 15k psi) | Re-derived flow from orifice equation with Cd 0.8–0.9 | Consistent with nozzle flow tables | **Corrected & Verified** |
+| Reaction force worked example (0.040" / 15k psi) | Cd 0.85 → Q ≈ 4.97 GPM → Fr ≈ 141 N (full steps shown); 6 GPM case separated as known-flow App C cell | Claude F-03 / AUDIT-007 | **Corrected (shown work reproduces)** |
 | Reynolds number worked example (1" hose, 80 L/min) | First-principles calculation | Standard fluid mechanics | **Restored & Verified** |
 | Water compressibility ≈12.5 % at 40k psi | Bulk modulus calculation | Standard bulk modulus of water (~2.2 GPa) | **Verified magnitude** |
 | Efficiency 70–85 % | Synthesis of manufacturer ranges | Pump performance literature | **Typical range – not hard constant** |
