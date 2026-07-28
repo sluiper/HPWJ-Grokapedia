@@ -135,3 +135,9 @@
 - PR #1 merged: https://github.com/sluiper/HPWJ-Grokapedia/pull/1  
 - Merge commit on main: `afdcbc3`  
 - Training freeze treated as **authorized for pilot use on main** by human merge decision.
+
+### 28 July 2026 — Full stack audit + keep building
+- PR #3 (UHP/Sec21) + PR #4 (Claude F-fixes) merged to main.
+- Full-stack audit written; unit-pair sweep tool; section health sheet.
+- AUTO/LTC training scaffold; residual LP bar pair fixed.
+- Top human gap remains **GAP-004** (controlled OPS-P-019).

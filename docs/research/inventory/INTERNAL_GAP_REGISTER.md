@@ -2,7 +2,7 @@
 
 **Purpose:** Honest list of material that requires human / member / non-public sources.  
 **Rule:** Do not invent clause numbers or incident details to fill these. Tag content `[INTERNAL GAP – human source required]`.  
-**Last updated:** 28 July 2026  
+**Last updated:** 28 July 2026 (full-stack audit)  
 
 ---
 

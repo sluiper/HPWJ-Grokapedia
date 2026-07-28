@@ -16,7 +16,7 @@ This is Anabeeb’s own controlled procedure. Where it is stricter than SABIC OM
 Ensure all HPWJ activities are conducted with safe operating practices, safeguard users, and achieve consistent results. Covers automatic, semi-automatic and manual methods. Prior evaluation of alternatives to HPWJ is required. Flow: Evaluate → Plan → Prepare → Risk Assessment → Site Prep → Set-up → Pre-Job Checklist → Execute → Restore.
 
 **Pressure Definitions (OPS-P-019 §3.8)**
-- LP: < 3 000 psi (200 bar)
+- LP: < 3 000 psi (≈ **207 bar**; was 200 — unit-pair sweep 28 Jul 2026)
 - HP: 3 000 – 20 000 psi (1 380 bar)
 - UHP: up to 36 250 psi (2 500 bar) in definition text; **maximum allowable for any HPWJ activity = 40 000 psi (≈ 2 758 bar)**. No work above this.
 - General water jetting term covers up to 25 000 psi; above that is UHP.

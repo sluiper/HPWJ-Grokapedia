@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## draft/full-stack-audit-build – 28 July 2026
+
+### Full-stack audit + continued build
+- `docs/audit/campaign/FULL_STACK_AUDIT_2026-07-28.md` — layers, closed audits, prioritised gaps, freeze map.
+- `docs/research/inventory/SECTION_HEALTH_SHEET.md` — section inventory.
+- `tools/audit/unit_pair_sweep.py` — standing T1 unit-pair automation.
+- Residual unit pair: LP **3 000 psi (200 bar) → ≈207 bar** in OPS summary.
+- `training/ATC-HPWJ-AUTO/` overview + **LTC 1-day endorsement** scaffold.
+
 ## draft/claude-p1-fixes – 28 July 2026 (Claude Verification F-01–F-08)
 
 ### P1
