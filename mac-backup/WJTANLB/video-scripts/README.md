@@ -37,6 +37,12 @@ That file is not on GitHub (100 MB limit). These markdown files are the reviewab
 | 15 | 136 | [15-slide-136-smash-plate.md](15-slide-136-smash-plate.md) | 0:13 | silent-demo | Smash plate / anti-withdrawal on pipe end (trash-can AWD) |
 | 16 | 163 | [16-slide-163-automated-tube-cleaning.md](16-slide-163-automated-tube-cleaning.md) | 7:36 | spoken | Automated exchanger tube-cleaning setup (2024 AE generic) |
 
+## Pressure-up and shutdown (step by step)
+
+From engine start to working pressure, then dump to pump off — two-person sequence with the three WJTA hand signals:
+
+**[PRESSURE-UP-AND-SHUTDOWN.md](PRESSURE-UP-AND-SHUTDOWN.md)**
+
 ## The four talking videos (use these as procedures)
 
 These are the only clips with a real spoken script:
