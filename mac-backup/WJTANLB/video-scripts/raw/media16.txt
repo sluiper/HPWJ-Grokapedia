@@ -1,0 +1,39 @@
+ Welcome to the automated tube cleaning training video, where we'll guide you through the steps for using typical automated equipment for exchanger tube cleaning. Let's dive into the process.
+ Begin by visually inspecting the area around the item to be cleaned to determine where the operator will stand and where the safety barricade will be located.
+ Before starting the job, inspect all hoses, tooling, fittings, and equipment to be used on the job for signs of damage or wear, as described in the training section on equipment inspection.
+ Replace any components that do not pass inspection. Make sure that all hoses, fittings, nozzles, and equipment are rated for the maximum intended working pressure.
+ Once the equipment has been inspected, begin the setup by connecting the supply hose to the high pressure water jetting pump.
+ Then, attach the whip check from the pump to the supply hose to secure it.
+ Extend the supply hose to the workpiece that is to be cleaned.
+ Now you can start setting up the automated cleaning equipment. Assess the exchanger to determine the optimal mounting location for the equipment.
+ Choose a spot where the indexing rail can access the tube sheet without being obstructed.
+ Securely attach the mounting bracket.
+ For this style of equipment, we'll be cleaning with a single lance. The indexing equipment features components that move from tube to tube along two axes, rotary and linear.
+ Attach the rotary gearbox, ensuring the air motor is positioned farthest from the tube sheet. This allows the linear drive to have a greater range of motion and also helps protect the air motor from effluent.
+ Secure the gearbox.
+ Install the indexing rail. Ensure that the rail slots face outward.
+ Tighten the adjustment handles on the side of the rotary drive to lock the rail in place securely.
+ Next, install the linear drive. Pull the locking pin and move the drive into the unlocked position. This retracts the gear so the drive can be slid onto the rail without requiring an air hookup.
+ Once the drive is on the rail, move it into the engaged position to engage the gear teeth with the slots on the rail. Secure the drive in the engaged position.
+ Install rail stops to prevent the linear drive from driving off the rail, ensuring safety and stability during operation.
+ Based on the size of the tubes being cleaned, select the appropriate banshee and lance required for the job, and then choose the guide tube size that matches these tools.
+ Insert the guide tube into the front guide assembly anti-withdrawal device and secure it.
+ Slide the guide tube assembly into the linear drive until the end of the guide tube is one half to one inch, or 13 to 25 millimeters away from the tube sheet face.
+ Then, lock the front guide assembly in place. Attach the lance drive tractor onto the front guide assembly using the provided pins, ensuring a secure connection.
+ Check the filter regulator lubricator on the system and make sure the air tool oil container is properly filled. Safely purge the air supply hose to remove debris, then connect it to the system's inlet.
+ Connect the air hoses and other cables, if applicable, to the control box or power hub, depending on the equipment being used.
+ Connect the power cable to the power hub, if applicable.
+ Use system controls to purge the air lines. Enlist the help of another crew member, if needed. This will prevent dirt and debris from getting into the air motors and help ensure proper functionality.
+ After clearing the lines, connect the air hoses and other cables, if applicable, to the indexing motors and the lance drive tractor, ensuring proper connections for smooth operation. Connect the high pressure water supply hose to the dump.
+ Connect the lance to the dump. Ensure that the connections are secure and leak free. Tighten and tape the whip check for safety and security.
+ Connect the air line to the pneumatic dump. The size of the lance determines the matching collet anti-withdrawal device and hose stop. Use the printed guide or the reference plate on the side of the tractor to find the correct match.
+ Now we will flush the system with water to remove debris. Insert the lance into the tractor and install the collet anti-withdrawal device to secure it.
+ Pull back on the lance to ensure that it stops on the collet and does not exit the tractor.
+ Signal the pump operator for low pressure water and engage the dump button on the controller to flush water through the system.
+ Verify water flow for debris removal. After flushing the system, signal the pump operator to shut down the pump and hit the E-Stop button to kill power to the system, if applicable.
+ After flushing the system, remove the lance from the tractor and apply anti-seize to the lance threads and cone. Attach the Banshee to the lance and secure it in place. Confirm proper installation before proceeding.
+ Install the lance in the tractor and insert the collet. Pull back on the lance to make sure it stops on the collet and does not exit the tractor.
+ Hand feed the lance through the bundle until the Banshee exits one half inch or 13 millimeters past the rear tube sheet face.
+ Install the hose stop to keep the lance from traveling any further.
+ Use the controller to begin system operation. Refer to the operation training videos for detailed instructions on utilizing the equipment effectively.
+ Congratulations! You've completed the automated tube cleaning training video. Thank you for watching and remember, safety first in all your operations.

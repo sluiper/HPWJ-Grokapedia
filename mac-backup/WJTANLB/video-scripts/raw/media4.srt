@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:19,000
+ Welcome to our common high pressure componentry training. In this section, we'll cover a few commonly used items and their proper terminology, characteristics, visual inspection, and areas of installation and use.
+
+2
+00:00:19,000 --> 00:00:26,000
+ Before we begin inspection on our first component, let's take a look at the four categories of high pressure hose used for water jetting.
+
+3
+00:00:26,000 --> 00:00:32,000
+ The first category is the high pressure supply hose, which conveys water from the pump's discharge up to the work area.
+
+4
+00:00:32,000 --> 00:00:37,000
+ High pressure supply hose features a recommended expiration date of four years from receipt.
+
+5
+00:00:37,000 --> 00:00:47,000
+ Receipt may be interpreted by the user, where some treat the starting point of two years from the certification date present on the hose, or more practically from its initial in-service date.
+
+6
+00:00:47,000 --> 00:00:57,000
+ The second category is a lance hose, which is used inside pipes and tubes. High pressure lance hose features a recommended expiration date of two years from receipt.
+
+7
+00:00:57,000 --> 00:01:05,000
+ The third category is the shotgun whip hose, which is used on the inlet of the shotgun assembly and is covered by a burst shroud.
+
+8
+00:01:05,000 --> 00:01:10,000
+ The shotgun whip hose features a recommended expiration date of two years from receipt.
+
+9
+00:01:10,000 --> 00:01:27,000
+ The fourth and final category is a pump hose, which is found on some, but not all, pump units as a hose that remains installed on the pump unit and typically connects to a permanent accessory manifold or system valve upstream of the discharge that the high pressure supply hose is connected to.
+
+10
+00:01:27,000 --> 00:01:32,000
+ The pump hose features a recommended expiration date of four years from date of fabrication.
+
+11
+00:01:32,000 --> 00:01:40,000
+ This means that the expiration recommendation should be based on the date found on the hose and not the in-service date.
+
+12
+00:01:40,000 --> 00:01:44,000
+ The first category of hose we will begin with is usually the first hose in the high pressure system, the supply hose.
+
+13
+00:01:44,000 --> 00:01:52,000
+ The supply hose refers to the high pressure hose that routes water from the high pressure water jet pump unit to the equipment at the work area.
+
+14
+00:01:52,000 --> 00:02:07,000
+ Supply hoses typically feature an abrasion cover that assists in protecting from unwanted cuts, wear, and deterioration caused by the fast pulsating movement that hoses in a high pressure system endure under pressure during operation.
+
+15
+00:02:07,000 --> 00:02:13,000
+ For demonstration purposes, we'll be using a 10 foot or 3 meter length of hose.
+
+16
+00:02:13,000 --> 00:02:21,000
+ Supply hoses are usually supplied in 50 foot or 15 meter sections, but any length may be purchased through your provider.
+
+17
+00:02:21,000 --> 00:02:27,000
+ Beginning at one end of this particular supply hose, we're going to note some key characteristics.
+
+18
+00:02:27,000 --> 00:02:30,000
+ The first item that we'll see is a type M swivel.
+
+19
+00:02:30,000 --> 00:02:40,000
+ This connection features a swivel hex nut, a weep hole on one of the wrench flats, and a male cone found within the hex nut that creates a mechanical seal.
+
+20
+00:02:40,000 --> 00:02:48,000
+ There's no corrosion, damaged threads, damaged seat, visible damage to the pressure containing crimp, or damage to the abrasion cover crimp.
+
+21
+00:02:48,000 --> 00:02:53,000
+ As the end of the supply hose appears acceptable, we'll move along the length of the hose.
+
+22
+00:02:53,000 --> 00:03:00,000
+ The first item we'll encounter is the manufacturer's tag, which contains many points of information.
+
+23
+00:03:00,000 --> 00:03:05,000
+ The first number represents the inside diameter of the hose in millimeters.
+
+24
+00:03:05,000 --> 00:03:10,000
+ The second number represents the number of spiralized layers of reinforcement.
+
+25
+00:03:10,000 --> 00:03:18,000
+ The letter following the second number may or may not be present. In this case, it is H, designating that this is a reinforced version of the hose type.
+
+26
+00:03:18,000 --> 00:03:23,000
+ And this characteristic is used to achieve a desired pressure rating of the hose.
+
+27
+00:03:23,000 --> 00:03:27,000
+ To the right of the hose type, you'll find length.
+
+28
+00:03:27,000 --> 00:03:32,000
+ The next item found will be MAWP, which stands for Maximum Allowable Working Pressure.
+
+29
+00:03:32,000 --> 00:03:38,000
+ The color coding of the overall assembly should represent the value found next to MAWP.
+
+30
+00:03:38,000 --> 00:03:48,000
+ There may be additional information present on the tag, relating to end fitting identifications, that are critical to the water jet crew assembling the system.
+
+31
+00:03:48,000 --> 00:03:58,000
+ Please note, the tag and its associated information that we just reviewed will typically become lost or naturally removed from the hose during operation.
+
+32
+00:03:58,000 --> 00:04:08,000
+ Measures should be in place to retain this information on any hose in service, such as a metal tag or band that can be used to trace the serial number and the date from the tag.
+
+33
+00:04:08,000 --> 00:04:22,000
+ Important. If no identification can be found on any high pressure hose assembly, it cannot safely be used in the system and must be removed from service, or sent off to the hose manufacturer for a recertification.
+
+34
+00:04:22,000 --> 00:04:25,000
+ Let's move on with the visual inspection for integrity.
+
+35
+00:04:25,000 --> 00:04:37,000
+ Before we begin inspecting the supply hose, we note that we're actually looking through the translucent PVC abrasion cover, as we want to see the integrity of the actual high pressure hose underneath.
+
+36
+00:04:37,000 --> 00:04:43,000
+ We see that there's no evidence of separation of the outer high pressure hose cover and the pressure containing crimp.
+
+37
+00:04:43,000 --> 00:04:51,000
+ As we move along the hose length, we see that the hose is still taking its original curved shape, also known as its cast.
+
+38
+00:04:51,000 --> 00:04:58,000
+ This is important to note as we're looking for any evidence of kinks which will appear as an interruption to this curved shape.
+
+39
+00:04:58,000 --> 00:05:13,000
+ We did not encounter any kinks, nor did we see any evidence of bubbling, exposed wire braids or cuts in the abrasion cover that could have allowed debris or other matter to become entrapped between the abrasion cover and the actual high pressure supply hose.
+
+40
+00:05:13,000 --> 00:05:20,000
+ Now that we've covered areas of construction and key characteristics associated with high pressure hose, let's take a look at color coding.
+
+41
+00:05:20,000 --> 00:05:25,000
+ The following chart represents the common working ranges indicated by color codes.
+
+42
+00:05:25,000 --> 00:05:32,000
+ Yellow, which represents maximum allowable working pressure up to 10,000 PSI or 700 bar.
+
+43
+00:05:32,000 --> 00:05:39,000
+ Green, which represents maximum allowable working pressure up to 15,000 PSI or 1,000 bar.
+
+44
+00:05:39,000 --> 00:05:46,000
+ Blue, which represents maximum allowable working pressure up to 20,000 PSI or 1,400 bar.
+
+45
+00:05:46,000 --> 00:05:55,000
+ Orange, which represents maximum allowable working pressure up to 40,000 PSI or 2,750 bar.
+
+46
+00:05:55,000 --> 00:06:07,000
+ You will notice that most of the componentry that we will be preparing for our jobs is blue, representing maximum allowable working pressure up to 20,000 PSI or 1,400 bar.
+
+47
+00:06:07,000 --> 00:06:16,000
+ We'll now move on to inspecting another high pressure hose, this time the lance hose category. Remember, a lance hose is used inside pipes and tubes.
+
+48
+00:06:16,000 --> 00:06:23,000
+ It is a hose that is being used within the system in areas that endure more stress than supply hoses.
+
+49
+00:06:23,000 --> 00:06:33,000
+ You'll notice that the inspection again begins at one end of the hose, where the technician identifies the type M swivel nut and notes details on the tag next to this end fitting.
+
+50
+00:06:33,000 --> 00:06:41,000
+ We're looking for the same criteria as noted previously. Kinks, exposed wire braid and damaged end fittings are crimps.
+
+51
+00:06:41,000 --> 00:06:46,000
+ As the technician moves along the length, he has discovered an area of exposed wire braids.
+
+52
+00:06:46,000 --> 00:06:52,000
+ The lance has been red tagged, implying that it must be taken out of service and properly disposed of.
+
+53
+00:06:52,000 --> 00:07:06,000
+ A damaged hose must be removed from service because once the wire braids become exposed to the elements, factors such as oxidation, corrosion, separation and breakage compromise their ability to reinforce the core and fulfill their intended function.
+
+54
+00:07:06,000 --> 00:07:15,000
+ While this hose is out of service for the reason stated, it's never a bad practice to inspect the remainder of the piece of equipment as all areas tell a story.
+
+55
+00:07:15,000 --> 00:07:29,000
+ We'll look at the other end of this lance hose, the end that connects to the tool or nozzle. You can see wear caused by repeated contact against the anti-withdrawal device collet that begins to deteriorate or shape the crimp from repeated impact.
+
+56
+00:07:29,000 --> 00:07:36,000
+ This is a high risk area, as hose crimps and anti-withdrawal device collets will both wear over time.
+
+57
+00:07:36,000 --> 00:07:41,000
+ Gauges and specifications are available to check the integrity of both components if needed.
+
+58
+00:07:41,000 --> 00:07:46,000
+ Lance hoses have a two-year replacement recommendation for a good reason.
+
+59
+00:07:46,000 --> 00:07:55,000
+ They often don't last that long in active service due to deterioration from use, sometimes evident after just one job as seen in our recent review.
+
+60
+00:07:55,000 --> 00:08:06,000
+ For this reason, it is good practice for operators to have spares available, with the expectation that the hose selected for the job may not remain suitable for use throughout the job's duration.
+
+61
+00:08:06,000 --> 00:08:12,000
+ We'll now select an identically specified hose that passes inspection in all areas.
+
+62
+00:08:12,000 --> 00:08:20,000
+ After reviewing the hoses selected for our applications, we'll examine our tools, or nozzles, and identify common areas of inspection.
+
+63
+00:08:20,000 --> 00:08:27,000
+ We'll also discuss important areas to note related to the connections present when assembling the system components.
+
+64
+00:08:27,000 --> 00:08:32,000
+ The tool we're choosing to use with our lance hose is a self-rotary tube cleaning nozzle.
+
+65
+00:08:32,000 --> 00:08:38,000
+ It provides the standoff distance we desire for the size of the heat exchanger tubes we intend to clean,
+
+66
+00:08:38,000 --> 00:08:45,000
+ and is compatible with the desired working pressure of the system and its inlet connection, which is an MP6R.
+
+67
+00:08:45,000 --> 00:08:58,000
+ MP6R translates to MP equals medium pressure, where a mechanical seal is created between a male cone and a female seat, joined together by the appropriate thread direction and form shown.
+
+68
+00:08:58,000 --> 00:09:08,000
+ Also note that the opposing side of the inlet nut will feature the MAWP, or maximum allowable working pressure of the tool in both PSI and BAR.
+
+69
+00:09:08,000 --> 00:09:20,000
+ Ensure that the tool intended for use does not have signs of damage, such as damaged threads, excessively worn parts, or, in this case, marks from hand tools with teeth like pipe wrenches or pliers.
+
+70
+00:09:20,000 --> 00:09:25,000
+ These marks can lead to severe internal damage that can cause failure during operation.
+
+71
+00:09:25,000 --> 00:09:34,000
+ Use only appropriately sized open-end wrenches for both the flats provided on the tool and the lance hose, or use an adjustable wrench without teeth in the jaws.
+
+72
+00:09:34,000 --> 00:09:42,000
+ Some specialty tools are very useful in this area, as these are smaller parts that are difficult to access properly without appropriate tools.
+
+73
+00:09:42,000 --> 00:09:51,000
+ It's critical to check that the actual jet orifices on any tool assembly are sized appropriately for the system's desired operating pressure and flow.
+
+74
+00:09:51,000 --> 00:09:58,000
+ The jet orifices also need to be clear and not plugged with debris and free from excessive erosion or damage from use.
+
+75
+00:09:58,000 --> 00:10:01,000
+ This concludes our high pressure component training.
+
+76
+00:10:01,000 --> 00:10:06,000
+ Remember, attention to detail during pre-operation inspection leads to safety and efficiency.
+
+77
+00:10:06,000 --> 00:10:08,000
+ Thank you for watching.
+

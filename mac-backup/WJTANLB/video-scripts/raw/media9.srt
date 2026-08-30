@@ -1,0 +1,228 @@
+1
+00:00:00,000 --> 00:00:08,000
+ Music
+
+2
+00:00:08,000 --> 00:00:19,000
+ Welcome to our manual shotgunning training, where we'll cover the essential procedures and safety checks for hand-held surface preparation in industrial cleaning.
+
+3
+00:00:19,000 --> 00:00:29,000
+ Begin by visually inspecting the area around the item to be cleaned to determine where the operator will stand and where the safety barricade will be located.
+
+4
+00:00:29,000 --> 00:00:40,000
+ Before starting the job, inspect all hoses, tooling, fittings, and equipment to be used on the job for signs of damage or wear, as described in the training section on equipment inspection.
+
+5
+00:00:40,000 --> 00:00:51,000
+ Replace any components that do not pass inspection. Make sure that all hoses, fittings, nozzles, and equipment are rated for the maximum intended working pressure.
+
+6
+00:00:51,000 --> 00:01:07,000
+ Once the equipment has been inspected, begin the setup by connecting the supply hose to the high pressure water jetting pump.
+
+7
+00:01:07,000 --> 00:01:22,000
+ Then, attach the whip check from the pump to the supply hose to secure it.
+
+8
+00:01:22,000 --> 00:01:28,000
+ Extend the supply hose to the workpiece that is to be cleaned.
+
+9
+00:01:28,000 --> 00:01:36,000
+ Connect the shotgun whip hose to the supply hose.
+
+10
+00:01:36,000 --> 00:01:58,000
+ Secure the connection with a whip check.
+
+11
+00:01:58,000 --> 00:02:09,000
+ Disconnect the burst shroud on the shotgun device assembly and check the shotgun whip hose connections underneath. Ensure that the connection fittings are secure and that the shotgun whip hose passes inspection.
+
+12
+00:02:09,000 --> 00:02:17,000
+ Then, re-secure the protective shroud in place.
+
+13
+00:02:17,000 --> 00:02:31,000
+ Carefully examine the components of the shotgun assembly, including the trigger guard and trigger interlock, to make sure they are functioning properly.
+
+14
+00:02:31,000 --> 00:02:48,000
+ Remove and examine the cartridge for wear and ensure that it is in working order. Configure the support handle in a comfortable position.
+
+15
+00:02:48,000 --> 00:02:56,000
+ It is important to confirm that the shotgun length meets regulatory standards whenever performing a surface prep job.
+
+16
+00:02:56,000 --> 00:03:01,000
+ Measure your equipment to ensure compliance.
+
+17
+00:03:01,000 --> 00:03:07,000
+ Now, let's move on to setting up the barricade, an essential step to ensure safety in the operational area.
+
+18
+00:03:07,000 --> 00:03:18,000
+ The crew sets up red chain or red barricade tape to construct a temporary barricaded zone at least 15 feet, or 4.5 meters, from each side of the workpiece and any pressure bearing component.
+
+19
+00:03:18,000 --> 00:03:23,000
+ They fill out barricade tags with essential details and place them around the perimeter.
+
+20
+00:03:23,000 --> 00:03:31,000
+ Additionally, warning signs stating danger, hydroblasting in progress are placed to alert all personnel on site.
+
+21
+00:03:31,000 --> 00:03:40,000
+ Before operating a shotgun, all crew members must understand and practice the proper stance and handling of equipment for optimal performance and safety.
+
+22
+00:03:40,000 --> 00:03:50,000
+ Practice with another operator before running high pressure water to get a feel for the body position and weight distribution needed to counteract the back thrust of the equipment.
+
+23
+00:03:50,000 --> 00:03:55,000
+ The operator should place their feet shoulder width apart and slightly staggered.
+
+24
+00:03:55,000 --> 00:03:59,000
+ The shoulder stock should be placed comfortably at the shoulder.
+
+25
+00:03:59,000 --> 00:04:03,000
+ Control the gun using torso mass and the large muscles in the lower body.
+
+26
+00:04:03,000 --> 00:04:06,000
+ Use body weight to counteract the back thrust of the gun.
+
+27
+00:04:06,000 --> 00:04:12,000
+ Lean into the gun as thrust increases. Lean back off the gun as thrust decreases.
+
+28
+00:04:12,000 --> 00:04:18,000
+ The back thrust of the equipment should be calculated and known among the crew of task performers.
+
+29
+00:04:18,000 --> 00:04:28,000
+ To meet safety regulations, the thrust of the equipment should not exceed one third of the operator's body weight, 60 pounds of force, or 250 newtons of force.
+
+30
+00:04:28,000 --> 00:04:33,000
+ Adjust the pressure and flow to generate thrust within the proper range for the operator.
+
+31
+00:04:33,000 --> 00:04:38,000
+ Before starting the job, it is important to flush the system with water to remove debris.
+
+32
+00:04:38,000 --> 00:04:45,000
+ Position the shotgun barrel with a nozzle removed on the workpiece, a beam, or surrounding structure to support the weight.
+
+33
+00:04:45,000 --> 00:04:51,000
+ Signal the pump operator for low pressure water and engage the dump to flush water through the system.
+
+34
+00:04:51,000 --> 00:04:54,000
+ Verify water flow for debris removal.
+
+35
+00:04:54,000 --> 00:05:02,000
+ After flushing the system, signal the pump operator to shut down the pump.
+
+36
+00:05:02,000 --> 00:05:08,000
+ Apply anti-seize and attach the shotgun nozzle to the end of the lance.
+
+37
+00:05:08,000 --> 00:05:12,000
+ Securely tighten the nozzle in place.
+
+38
+00:05:12,000 --> 00:05:20,000
+ Ensure that the operator is wearing the required personal protective equipment, or PPE, for working with high pressure water manually.
+
+39
+00:05:20,000 --> 00:05:29,000
+ A hard hat, safety glasses, face shield, hearing protection, slicker suit, task appropriate PVC gloves, and metatarsal protection.
+
+40
+00:05:29,000 --> 00:05:33,000
+ With these preparations complete, you are ready to start the job.
+
+41
+00:05:33,000 --> 00:05:38,000
+ The operator uses established hand signals to signal for low pressure water.
+
+42
+00:05:38,000 --> 00:05:53,000
+ If possible, position the shotgun so that it is supported by the workpiece, a beam, or surrounding structure to assist in taking the weight of the shotgun device assembly off of the nozzle operator while they are performing the pressure up procedure.
+
+43
+00:05:53,000 --> 00:05:59,000
+ With the nozzle pointed away from the workpiece, engage the trigger and inspect the equipment for proper actuation.
+
+44
+00:05:59,000 --> 00:06:03,000
+ Make sure the dump valve is closing off and the water is rerouting.
+
+45
+00:06:03,000 --> 00:06:12,000
+ If the equipment is functioning properly, disengage the trigger and signal to the pump operator to increase to half the desired system operating pressure.
+
+46
+00:06:12,000 --> 00:06:21,000
+ Re-engage the trigger and wait for the pump operator's signal designating half system pressure.
+
+47
+00:06:21,000 --> 00:06:26,000
+ Inspect for leaks and test the dump function.
+
+48
+00:06:26,000 --> 00:06:47,000
+ If the equipment is functioning properly, disengage the trigger and signal to bring the system to full operating pressure.
+
+49
+00:06:47,000 --> 00:06:58,000
+ With the shotgun pointed away from the workpiece, assume the proper stance and engage the trigger to get a feel for the thrust. Disengage the trigger and reposition the shotgun to aim at the workpiece.
+
+50
+00:06:58,000 --> 00:07:05,000
+ Engage the trigger to begin cleaning. Maintain standoff distance and jet angle to effectively remove the material.
+
+51
+00:07:05,000 --> 00:07:13,000
+ Clean the surface in small sections, approximately 1 x 12 x 18 inch or 300 x 450 mm square at a time.
+
+52
+00:07:13,000 --> 00:07:16,000
+ Release the trigger to dump pressure when needed.
+
+53
+00:07:16,000 --> 00:07:23,000
+ When ready to stop the job, signal the pump operator to shut down the pump. Maintain control of the gun.
+
+54
+00:07:23,000 --> 00:07:28,000
+ Do not leave the gun unattended until the pump is completely shut down.
+
+55
+00:07:28,000 --> 00:07:31,000
+ That concludes our manual shotgunning training.
+
+56
+00:07:31,000 --> 00:07:38,000
+ Remember, following these procedures and safety checks is crucial for a successful and safe surface preparation operation.
+
+57
+00:07:38,000 --> 00:07:41,000
+ Stay safe and efficient out there.
+

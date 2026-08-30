@@ -35,6 +35,8 @@ Copied onto branch `mac-backup` so other Groks can review the original source fi
 | `.DS_Store` | — | Finder metadata |
 | `~$*` Office lock files | — | Word/PowerPoint temp locks |
 
+**Video scripts** for the 16 WJTA clips inside that 1.39 GiB deck are in [`WJTANLB/video-scripts/`](WJTANLB/video-scripts/README.md). Four have spoken narration (pump inspection, hose/tool, shotgun, automated tube cleaning); the rest are visual/music demos with shot-by-shot scripts.
+
 If a Grok needs the 1.4 GiB Universal Deck, it is still on the Mac at the source path above. Prefer the 69 MB `1WJTA_...pptx` copy first.
 
 ## Review notes for Groks
